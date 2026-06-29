@@ -5,12 +5,12 @@ As movimentações e gráficos interativos começarão a rodar a partir do próx
 
 ### 📋 Prévia do Top 10 Atual:
 1º. **Dai Dai (feat. Burna Boy)** — *Shakira*
-2º. **Ji Ji Ji** — *Patricio Rey y Sus Redonditos de Ricota*
-3º. **Viejo** — *Las Pastillas del Abuelo*
+2º. **Muchachos, Ahora Nos Volvimos a Ilusionar** — *La Mosca Tsé-Tsé*
+3º. **Un Ángel Para Tu Soledad** — *Patricio Rey y Sus Redonditos de Ricota*
 4º. **Zamba Para Olvidarte** — *Daniel Toro*
-5º. **Un Ángel Para Tu Soledad** — *Patricio Rey y Sus Redonditos de Ricota*
-6º. **Himno Nacional Uruguayo (part. Orquesta Sinfónica del Sodre)** — *Francisco Acuña de Figueroa*
-7º. **Juguetes Perdidos** — *Patricio Rey y Sus Redonditos de Ricota*
-8º. **Mi Genio Amor** — *Patricio Rey y Sus Redonditos de Ricota*
+5º. **Ji Ji Ji** — *Patricio Rey y Sus Redonditos de Ricota*
+6º. **Mi Genio Amor** — *Patricio Rey y Sus Redonditos de Ricota*
+7º. **Creep** — *Radiohead*
+8º. **Juguetes Perdidos** — *Patricio Rey y Sus Redonditos de Ricota*
 9º. **Life Goes On** — *Oliver Tree*
-10º. **Muchachos, Ahora Nos Volvimos a Ilusionar** — *La Mosca Tsé-Tsé*
+10º. **honeybee** — *Olivia Rodrigo*
