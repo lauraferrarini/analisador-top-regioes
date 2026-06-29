@@ -1,0 +1,252 @@
+{
+    "the cure - Olivia Rodrigo": {
+        "posicao": 1,
+        "nome": "the cure",
+        "artista": "Olivia Rodrigo"
+    },
+    "Zamba Para Olvidarte - Daniel Toro": {
+        "posicao": 2,
+        "nome": "Zamba Para Olvidarte",
+        "artista": "Daniel Toro"
+    },
+    "Stop Crying Your Heart Out - Oasis": {
+        "posicao": 3,
+        "nome": "Stop Crying Your Heart Out",
+        "artista": "Oasis"
+    },
+    "Creep - Radiohead": {
+        "posicao": 4,
+        "nome": "Creep",
+        "artista": "Radiohead"
+    },
+    "Mi Genio Amor - Patricio Rey y Sus Redonditos de Ricota": {
+        "posicao": 5,
+        "nome": "Mi Genio Amor",
+        "artista": "Patricio Rey y Sus Redonditos de Ricota"
+    },
+    "Reptiles - AIRBAG": {
+        "posicao": 6,
+        "nome": "Reptiles",
+        "artista": "AIRBAG"
+    },
+    "La Noche Sin Ti - Los Huayra": {
+        "posicao": 7,
+        "nome": "La Noche Sin Ti",
+        "artista": "Los Huayra"
+    },
+    "To Beef Or Not To Beef - Indio Solari": {
+        "posicao": 8,
+        "nome": "To Beef Or Not To Beef",
+        "artista": "Indio Solari"
+    },
+    "Eterno Amor - Los Manseros Santiagueños": {
+        "posicao": 9,
+        "nome": "Eterno Amor",
+        "artista": "Los Manseros Santiagueños"
+    },
+    "Desde El Puente Carretero - Peteco Carabajal": {
+        "posicao": 10,
+        "nome": "Desde El Puente Carretero",
+        "artista": "Peteco Carabajal"
+    },
+    "El Sol Del 25 - Carlos Gardel": {
+        "posicao": 11,
+        "nome": "El Sol Del 25",
+        "artista": "Carlos Gardel"
+    },
+    "El Olvidao - Néstor Garnica": {
+        "posicao": 12,
+        "nome": "El Olvidao",
+        "artista": "Nestor Garnica"
+    },
+    "Dai Dai (feat. Burna Boy) - Shakira": {
+        "posicao": 13,
+        "nome": "Dai Dai (feat. Burna Boy)",
+        "artista": "Shakira"
+    },
+    "Qué Hubiera Sido - Lázaro Caballero": {
+        "posicao": 14,
+        "nome": "Qué Hubiera Sido",
+        "artista": "Lázaro Caballero"
+    },
+    "Billie Jean - Michael Jackson": {
+        "posicao": 15,
+        "nome": "Billie Jean",
+        "artista": "Michael Jackson"
+    },
+    "De Estos Polvos Futuros Lodos - Patricio Rey y Sus Redonditos de Ricota": {
+        "posicao": 16,
+        "nome": "De Estos Polvos Futuros Lodos",
+        "artista": "Patricio Rey y Sus Redonditos de Ricota"
+    },
+    "Ji Ji Ji - Patricio Rey y Sus Redonditos de Ricota": {
+        "posicao": 17,
+        "nome": "Ji Ji Ji",
+        "artista": "Patricio Rey y Sus Redonditos de Ricota"
+    },
+    "Thriller - Michael Jackson": {
+        "posicao": 18,
+        "nome": "Thriller",
+        "artista": "Michael Jackson"
+    },
+    "Do I Wanna Know? - Arctic Monkeys": {
+        "posicao": 19,
+        "nome": "Do I Wanna Know?",
+        "artista": "Arctic Monkeys"
+    },
+    "Hasta La Raíz - Natalia Lafourcade": {
+        "posicao": 20,
+        "nome": "Hasta La Raíz",
+        "artista": "Natalia Lafourcade"
+    },
+    "Lindo Adorno Pa' Mi Apero - Lázaro Caballero": {
+        "posicao": 21,
+        "nome": "Lindo Adorno Pa' Mi Apero",
+        "artista": "Lázaro Caballero"
+    },
+    "Juguetes Perdidos - Patricio Rey y Sus Redonditos de Ricota": {
+        "posicao": 22,
+        "nome": "Juguetes Perdidos",
+        "artista": "Patricio Rey y Sus Redonditos de Ricota"
+    },
+    "Nunca Quise - Intoxicados": {
+        "posicao": 23,
+        "nome": "Nunca Quise",
+        "artista": "Intoxicados"
+    },
+    "Todo Un Palo - Patricio Rey y Sus Redonditos de Ricota": {
+        "posicao": 24,
+        "nome": "Todo Un Palo",
+        "artista": "Patricio Rey y Sus Redonditos de Ricota"
+    },
+    "Me Gusta - Ciro y los Persas": {
+        "posicao": 25,
+        "nome": "Me Gusta",
+        "artista": "Ciro y los Persas"
+    },
+    "Todos Los Domingos a La Tarde - River Plate": {
+        "posicao": 26,
+        "nome": "Todos Los Domingos a La Tarde",
+        "artista": "River Plate"
+    },
+    "Iris - Goo Goo Dolls": {
+        "posicao": 27,
+        "nome": "Iris",
+        "artista": "Goo Goo Dolls"
+    },
+    "Beat It - Michael Jackson": {
+        "posicao": 28,
+        "nome": "Beat It",
+        "artista": "Michael Jackson"
+    },
+    "Babydoll - Dominic Fike": {
+        "posicao": 29,
+        "nome": "Babydoll",
+        "artista": "Dominic Fike"
+    },
+    "Photograph - Ed Sheeran": {
+        "posicao": 30,
+        "nome": "Photograph",
+        "artista": "Ed Sheeran"
+    },
+    "Canto a Monte Quemado - Los Manseros Santiagueños": {
+        "posicao": 31,
+        "nome": "Canto a Monte Quemado",
+        "artista": "Los Manseros Santiagueños"
+    },
+    "Entre a Mi Pago Sin Golpear - Los Manseros Santiagueños": {
+        "posicao": 32,
+        "nome": "Entre a Mi Pago Sin Golpear",
+        "artista": "Los Manseros Santiagueños"
+    },
+    "FINGÍA (part. Angela Torres) - La Joaqui": {
+        "posicao": 33,
+        "nome": "FINGÍA (part. Angela Torres)",
+        "artista": "La Joaqui"
+    },
+    "Sweet Child O' Mine - Guns N' Roses": {
+        "posicao": 34,
+        "nome": "Sweet Child O' Mine",
+        "artista": "Guns N' Roses"
+    },
+    "Have You Ever Seen The Rain - Creedence Clearwater Revival": {
+        "posicao": 35,
+        "nome": "Have You Ever Seen The Rain",
+        "artista": "Creedence Clearwater Revival"
+    },
+    "Día de Enero - Shakira": {
+        "posicao": 36,
+        "nome": "Día de Enero",
+        "artista": "Shakira"
+    },
+    "El Pastor - Miguel Aceves Mejia": {
+        "posicao": 37,
+        "nome": "El Pastor",
+        "artista": "Miguel Aceves Mejia"
+    },
+    "Baby (feat. Ludacris) - Justin Bieber": {
+        "posicao": 38,
+        "nome": "Baby (feat. Ludacris)",
+        "artista": "Justin Bieber"
+    },
+    "Sign of the Times - Harry Styles": {
+        "posicao": 39,
+        "nome": "Sign of the Times",
+        "artista": "Harry Styles"
+    },
+    "Tan Solo - Los Piojos": {
+        "posicao": 40,
+        "nome": "Tan Solo",
+        "artista": "Los Piojos"
+    },
+    "What's Up? - 4 Non Blondes": {
+        "posicao": 41,
+        "nome": "What's Up?",
+        "artista": "4 Non Blondes"
+    },
+    "Si Te Vas 2.0 (part. Paulo Londra, KHEA y Ramma) - LIT killah": {
+        "posicao": 42,
+        "nome": "Si Te Vas 2.0 (part. Paulo Londra, KHEA y Ramma)",
+        "artista": "LIT killah"
+    },
+    "Yeshua: Quiero Conocer a Jesús - Llévame de Vuelta": {
+        "posicao": 43,
+        "nome": "Yeshua: Quiero Conocer a Jesús",
+        "artista": "Llévame de Vuelta"
+    },
+    "La Culpa - Abel Pintos": {
+        "posicao": 44,
+        "nome": "La Culpa",
+        "artista": "Abel Pintos"
+    },
+    "Wonderwall - Oasis": {
+        "posicao": 45,
+        "nome": "Wonderwall",
+        "artista": "Oasis"
+    },
+    "Señores, Yo Soy Del Gallinero - River Plate": {
+        "posicao": 46,
+        "nome": "Señores, Yo Soy Del Gallinero",
+        "artista": "River Plate"
+    },
+    "Del Chúcaro - Horacio Guarany": {
+        "posicao": 47,
+        "nome": "Del Chúcaro",
+        "artista": "Horacio Guarany"
+    },
+    "El Problema - Ricardo Arjona": {
+        "posicao": 48,
+        "nome": "El Problema",
+        "artista": "Ricardo Arjona"
+    },
+    "Dueles - Jesse & Joy": {
+        "posicao": 49,
+        "nome": "Dueles",
+        "artista": "Jesse & Joy"
+    },
+    "Chicago - Michael Jackson": {
+        "posicao": 50,
+        "nome": "Chicago",
+        "artista": "Michael Jackson"
+    }
+}
