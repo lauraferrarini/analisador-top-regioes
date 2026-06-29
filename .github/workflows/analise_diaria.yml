@@ -2,8 +2,8 @@ name: Analisador Diário de Músicas
 
 on:
   schedule:
-    # Roda todos os dias às 09:00 UTC (06:00 no Horário de Brasília)
-    - cron: '0 9 * * *'
+    # Roda todos os dias às 12:00 UTC (09:00 no Horário de Brasília)
+    - cron: '0 12 * * *'
   workflow_dispatch: # Permite o botão de início manual
 
 jobs:
@@ -38,7 +38,7 @@ jobs:
           git add historico_dados/ historico_relatorios/ relatorio_diario_*.md dados_dashboard_*.json || true
           
           if ! git diff --cached --quiet; then
-            git commit -m "📊 Histórico, relatórios e dados do painel atualizados (Multi-regiões)"
+            git commit -m "📊 Histórico, relatórios e dados do painel updated (Multi-regiões)"
             git pull origin main --rebase
             git push origin main
           else
