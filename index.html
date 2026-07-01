@@ -339,17 +339,14 @@
                 dadosGlobais = data;
                 if (!data.datas || data.datas.length === 0) return;
 
-                // Configura limites dos calendários dinamicamente baseados nas datas reais do JSON
+                // Configura limites iniciais mínimos baseados nas datas reais do JSON
                 const primeiraData = data.datas[0];
-                const ultimaData = data.datas[data.datas.length - 1];
                 
                 const inputIni = document.getElementById('data-inicial');
                 const inputFim = document.getElementById('data-final');
                 
                 inputIni.min = primeiraData;
-                inputIni.max = ultimaData;
                 inputFim.min = primeiraData;
-                inputFim.max = ultimaData;
 
                 processarEMontarTabelaCorrida();
                 inicializarMecanismoBusca();
@@ -558,7 +555,6 @@
         
         if (dataIni) {
             inputFim.min = dataIni; // Impede término menor que início
-            // Abre o calendário do campo final automaticamente se suportado pelo navegador
             if (typeof inputFim.showPicker === 'function') {
                 inputFim.showPicker();
             } else {
@@ -598,19 +594,26 @@
             const dataFim = document.getElementById('data-final').value;
             
             if (dataIni && dataFim) {
-                const idxIni = datasOriginais.indexOf(dataIni);
-                const idxFim = datasOriginais.indexOf(dataFim);
+                let idxIni = datasOriginais.indexOf(dataIni);
+                let idxFim = datasOriginais.indexOf(dataFim);
                 
-                if (idxIni !== -1 && idxFim !== -1) {
+                // 🛑 CORREÇÃO DA ZIKA DO FUSO HORÁRIO:
+                // Se a data inicial selecionada for menor que o histórico, fixa no início.
+                if (idxIni === -1 && dataIni < datasOriginais[0]) idxIni = 0;
+                
+                // Se o dia final selecionado for maior ou igual ao último registro no JSON,
+                // força o gráfico a ir até o fim dos dados reais mapeados, ignorando travas do navegador!
+                if (idxFim === -1 && dataFim >= datasOriginais[datasOriginais.length - 1]) {
+                    idxFim = datasOriginais.length - 1;
+                }
+                
+                if (idxIni !== -1 && idxFim !== -1 && idxIni <= idxFim) {
                     datasFiltradas = datasOriginais.slice(idxIni, idxFim + 1);
                     pontosFiltrados = datasFiltradas.map(data => historicoPosis[data] || null);
                 }
             }
         }
 
-        // PULO DO GATO: Se a seleção for de poucos itens, preserva o alinhamento linear fixo 
-        // adicionando um preenchimento vazio à direita para evitar que os pontos estiquem artificialmente.
-        // Se houver muitos itens, eles se espremerão proporcionalmente na largura total disponível.
         const limiteMinimoItens = 14; 
         let labelsGrafico = datasFiltradas.map(d => d.split('-').reverse().join('/'));
         let dadosGrafico = [...pontosFiltrados];
@@ -640,7 +643,6 @@
                     pointBorderColor: '#1a1a1a',
                     pointBorderWidth: 1.5,
                     pointRadius: function(context) {
-                        // Oculta as bolinhas dos pontos fantasmas de preenchimento
                         return context.chart.data.labels[context.dataIndex] === "" ? 0 : 4;
                     },
                     spanGaps: true
