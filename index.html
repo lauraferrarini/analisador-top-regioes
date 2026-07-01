@@ -117,7 +117,7 @@
             background-color: #fdfdfd;
             padding: 15px;
             margin-bottom: 30px;
-            height: 345px;
+            height: 320px;
             position: relative;
         }
         .no-data { text-align: center; color: var(--text-muted); font-style: italic; padding-top: 130px; }
@@ -131,34 +131,6 @@
         .period-selector span { margin-left: 15px; color: var(--text-muted); cursor: pointer; font-weight: 500; transition: color 0.2s; }
         .period-selector span:hover { color: #000; }
         .period-selector .current { color: #000; font-weight: 800; text-decoration: underline; }
-
-        /* FILTRO CUSTOMIZADO DE CALENDÁRIO */
-        .custom-date-container {
-            display: none;
-            text-align: right;
-            font-size: 11px;
-            margin-bottom: 12px;
-            margin-top: -5px;
-        }
-        .custom-date-container label {
-            color: var(--text-muted);
-            font-weight: 500;
-            margin-left: 10px;
-        }
-        .custom-date-container input[type="date"] {
-            font-family: 'Inter', sans-serif;
-            font-size: 11px;
-            border: 1px solid var(--border-light);
-            border-radius: 4px;
-            padding: 3px 6px;
-            background: #fdfdfd;
-            color: var(--text-main);
-            outline: none;
-            margin-left: 4px;
-        }
-        .custom-date-container input[type="date"]:focus {
-            border-color: #999;
-        }
 
         /* BUSCA RÁPIDA E DROPDOWN DE SELEÇÃO */
         .search-container { margin-bottom: 25px; display: flex; gap: 10px; align-items: center; }
@@ -174,6 +146,7 @@
             max-height: 180px;
             overflow-y: auto;
             width: 250px;
+            z-index: 1000;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
         .search-match-item {
@@ -252,13 +225,7 @@
             <span onclick="filtrarPeriodo(90, this)">3 Meses</span>
             <span onclick="filtrarPeriodo(180, this)">6 Meses</span>
         </div>
-        
-        <div class="custom-date-container" id="container-calendario">
-            <label>De: <input type="date" id="data-inicial" onchange="aoMudarDataInicial()"></label>
-            <label>Até: <input type="date" id="data-final" onchange="aoMudarDataFinal()"></label>
-        </div>
-
-        <div style="position: relative; height: calc(100% - 45px); width: 100%;">
+        <div style="position: relative; height: calc(100% - 25px); width: 100%;">
             <canvas id="historicoChart" style="display:none;"></canvas>
             <div id="msg-inicial" class="no-data">📊 Selecione uma música na listagem corrida abaixo para analisar o histórico de posições.</div>
         </div>
@@ -317,15 +284,11 @@
         faixaSelecionadaAtualmente = null;
         document.getElementById('msg-inicial').style.display = 'block';
         document.getElementById('menu-periodo').style.display = 'none';
-        document.getElementById('container-calendario').style.display = 'none';
         document.getElementById('historicoChart').style.display = 'none';
         document.getElementById('musica-input').value = '';
         document.getElementById('search-matches').innerHTML = '';
         document.getElementById('search-matches').style.display = 'none';
         document.getElementById('error-banner').style.display = 'none';
-        
-        document.getElementById('data-inicial').value = '';
-        document.getElementById('data-final').value = '';
         
         document.getElementById('chk-todas').checked = true;
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
@@ -338,15 +301,6 @@
             .then(data => {
                 dadosGlobais = data;
                 if (!data.datas || data.datas.length === 0) return;
-
-                // Configura limites iniciais mínimos baseados nas datas reais do JSON
-                const primeiraData = data.datas[0];
-                
-                const inputIni = document.getElementById('data-inicial');
-                const inputFim = document.getElementById('data-final');
-                
-                inputIni.min = primeiraData;
-                inputFim.min = primeiraData;
 
                 processarEMontarTabelaCorrida();
                 inicializarMecanismoBusca();
@@ -529,7 +483,6 @@
 
         document.getElementById('msg-inicial').style.display = 'none';
         document.getElementById('menu-periodo').style.display = 'block';
-        document.getElementById('container-calendario').style.display = 'block';
         document.getElementById('historicoChart').style.display = 'block';
         gerarGrafico();
     }
@@ -538,92 +491,17 @@
         diasFiltroAtivo = dias;
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
         elementoClicado.classList.add('current');
-        
-        // Limpa a seleção do calendário customizado ao usar filtro rápido
-        document.getElementById('data-inicial').value = '';
-        document.getElementById('data-final').value = '';
-        
         if (faixaSelecionadaAtualmente) gerarGrafico();
     }
 
-    function aoMudarDataInicial() {
-        diasFiltroAtivo = -1; // Desativa filtro rápido
-        document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
-        
-        const dataIni = document.getElementById('data-inicial').value;
-        const inputFim = document.getElementById('data-final');
-        
-        if (dataIni) {
-            inputFim.min = dataIni; // Impede término menor que início
-            if (typeof inputFim.showPicker === 'function') {
-                inputFim.showPicker();
-            } else {
-                inputFim.focus();
-            }
-        }
-        if (faixaSelecionadaAtualmente && dataIni && inputFim.value) gerarGrafico();
-    }
-
-    function aoMudarDataFinal() {
-        diasFiltroAtivo = -1; // Desativa filtro rápido
-        document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
-        
-        const dataIni = document.getElementById('data-inicial').value;
-        const dataFim = document.getElementById('data-final').value;
-        
-        if (faixaSelecionadaAtualmente && dataIni && dataFim) {
-            gerarGrafico();
-        }
-    }
-
     function gerarGrafico() {
-        let datasOriginais = dadosGlobais.datas;
+        let datas = dadosGlobais.datas;
         const historicoPosis = dadosGlobais.musicas[faixaSelecionadaAtualmente];
-        
-        let datasFiltradas = [...datasOriginais];
-        let pontosFiltrados = datasFiltradas.map(data => historicoPosis[data] || null);
+        let pontos = datas.map(data => historicoPosis[data] || null);
 
-        // Aplica o filtro de período rápido
         if (diasFiltroAtivo > 0) {
-            datasFiltradas = datasFiltradas.slice(-diasFiltroAtivo);
-            pontosFiltrados = pontosFiltrados.slice(-diasFiltroAtivo);
-        } 
-        // Aplica o filtro customizado de calendário
-        else if (diasFiltroAtivo === -1) {
-            const dataIni = document.getElementById('data-inicial').value;
-            const dataFim = document.getElementById('data-final').value;
-            
-            if (dataIni && dataFim) {
-                let idxIni = datasOriginais.indexOf(dataIni);
-                let idxFim = datasOriginais.indexOf(dataFim);
-                
-                // 🛑 CORREÇÃO DA ZIKA DO FUSO HORÁRIO:
-                // Se a data inicial selecionada for menor que o histórico, fixa no início.
-                if (idxIni === -1 && dataIni < datasOriginais[0]) idxIni = 0;
-                
-                // Se o dia final selecionado for maior ou igual ao último registro no JSON,
-                // força o gráfico a ir até o fim dos dados reais mapeados, ignorando travas do navegador!
-                if (idxFim === -1 && dataFim >= datasOriginais[datasOriginais.length - 1]) {
-                    idxFim = datasOriginais.length - 1;
-                }
-                
-                if (idxIni !== -1 && idxFim !== -1 && idxIni <= idxFim) {
-                    datasFiltradas = datasOriginais.slice(idxIni, idxFim + 1);
-                    pontosFiltrados = datasFiltradas.map(data => historicoPosis[data] || null);
-                }
-            }
-        }
-
-        const limiteMinimoItens = 14; 
-        let labelsGrafico = datasFiltradas.map(d => d.split('-').reverse().join('/'));
-        let dadosGrafico = [...pontosFiltrados];
-
-        if (labelsGrafico.length < limiteMinimoItens) {
-            const diferencaPadd = limiteMinimoItens - labelsGrafico.length;
-            for (let i = 0; i < diferencaPadd; i++) {
-                labelsGrafico.push(""); // Sobra espaço em branco linear à direita
-                dadosGrafico.push(null);
-            }
+            datas = datas.slice(-diasFiltroAtivo);
+            pontos = pontos.slice(-diasFiltroAtivo);
         }
 
         if (chartInstance) { chartInstance.destroy(); }
@@ -632,19 +510,17 @@
         chartInstance = new Chart(ctx, {
             type: 'line',
             data: {
-                labels: labelsGrafico,
+                labels: datas.map(d => d.split('-').reverse().join('/')),
                 datasets: [{
                     label: `Histórico de Posição`,
-                    data: dadosGrafico,
+                    data: pontos,
                     borderColor: '#1a1a1a',
                     backgroundColor: 'transparent',
                     borderWidth: 2,
                     pointBackgroundColor: '#d8df00',
                     pointBorderColor: '#1a1a1a',
                     pointBorderWidth: 1.5,
-                    pointRadius: function(context) {
-                        return context.chart.data.labels[context.dataIndex] === "" ? 0 : 4;
-                    },
+                    pointRadius: 4,
                     spanGaps: true
                 }]
             },
@@ -667,14 +543,7 @@
                         },
                         title: { display: true, text: 'POSIÇÃO (TOP 1000)', font: { size: 9, weight: 700 } }
                     },
-                    x: { 
-                        grid: { display: false },
-                        ticks: {
-                            autoSkip: false,
-                            maxRotation: 45,
-                            minRotation: 45
-                        }
-                    }
+                    x: { grid: { display: false } }
                 }
             }
         });
