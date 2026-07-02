@@ -180,6 +180,18 @@
         .badge-pos { background: #1a1a1a; color: #fff; padding: 2px 5px; border-radius: 3px; font-weight: 600; font-size: 10px; }
         
         #error-banner { display: none; background-color: #fadbd8; color: #c0392b; border: 1px solid #f5b7b1; padding: 15px; margin-bottom: 20px; font-weight: bold; border-radius: 4px; }
+        
+        /* Estilo sutil para o hiperlink do título */
+        .track-hyperlink {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px dashed #999;
+            transition: color 0.15s;
+        }
+        .track-hyperlink:hover {
+            color: #000;
+            border-bottom-style: solid;
+        }
     </style>
 </head>
 <body>
@@ -219,13 +231,16 @@
     </div>
 
     <div class="chart-box">
-        <div class="period-selector" id="menu-periodo">
-            <span class="current" onclick="filtrarPeriodo(0, this)">Tudo</span>
-            <span onclick="filtrarPeriodo(28, this)">4 Semanas</span>
-            <span onclick="filtrarPeriodo(90, this)">3 Meses</span>
-            <span onclick="filtrarPeriodo(180, this)">6 Meses</span>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; width: 100%;">
+            <div id="chart-dynamic-title" style="display: none; font-size: 13px; font-weight: 700; max-width: 65%; word-break: break-word; line-height: 1.3;"></div>
+            <div class="period-selector" id="menu-periodo" style="margin-bottom: 0; white-space: nowrap;">
+                <span class="current" onclick="filtrarPeriodo(0, this)">Tudo</span>
+                <span onclick="filtrarPeriodo(28, this)">4 Semanas</span>
+                <span onclick="filtrarPeriodo(90, this)">3 Meses</span>
+                <span onclick="filtrarPeriodo(180, this)">6 Meses</span>
+            </div>
         </div>
-        <div style="position: relative; height: calc(100% - 25px); width: 100%;">
+        <div id="canvas-container-wrapper" style="position: relative; height: calc(100% - 35px); width: 100%;">
             <canvas id="historicoChart" style="display:none;"></canvas>
             <div id="msg-inicial" class="no-data">📊 Selecione uma música na listagem corrida abaixo para analisar o histórico de posições.</div>
         </div>
@@ -284,11 +299,15 @@
         faixaSelecionadaAtualmente = null;
         document.getElementById('msg-inicial').style.display = 'block';
         document.getElementById('menu-periodo').style.display = 'none';
+        document.getElementById('chart-dynamic-title').style.display = 'none';
+        document.getElementById('chart-dynamic-title').innerHTML = '';
         document.getElementById('historicoChart').style.display = 'none';
         document.getElementById('musica-input').value = '';
         document.getElementById('search-matches').innerHTML = '';
         document.getElementById('search-matches').style.display = 'none';
         document.getElementById('error-banner').style.display = 'none';
+        
+        document.querySelectorAll('.persistent-tooltip').forEach(el => el.remove());
         
         document.getElementById('chk-todas').checked = true;
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
@@ -328,7 +347,7 @@
             if (!historico[hoje]) return; 
 
             let posAtual = historico[hoje];
-            let item = { nome: nomeChave, atual: posAtual, estado: 'normal', emojiHTML: '' };
+            let item = { nome: nomeChave, atual: posAtual, estado: 'normal', emojiHTML: '', url: historico.url || '#' };
 
             if (!ontem || !historico[ontem]) {
                 item.estado = 'novas';
@@ -384,7 +403,9 @@
 
             tr.innerHTML = `
                 <td><span class="badge-pos">${item.atual}º</span></td>
-                <td class="text-left" style="font-weight: 600; color: #000;">${tituloMusica}${item.emojiHTML}</td>
+                <td class="text-left" style="font-weight: 600; color: #000;">
+                    <a href="${item.url}" target="_blank" class="track-hyperlink" onclick="event.stopPropagation();">${tituloMusica}</a>${item.emojiHTML}
+                </td>
                 <td class="text-left" style="color: #555;">${artistaMusica}</td>
             `;
             tbody.appendChild(tr);
@@ -395,7 +416,7 @@
 
     function inicializarMecanismoBusca() {
         if (window.buscaInicializada) return;
-        window.buscaInicializada = true;
+        window.buscaInitialized = true;
 
         const inputBusca = document.getElementById('musica-input');
         const containerMatches = document.getElementById('search-matches');
@@ -484,6 +505,20 @@
         document.getElementById('msg-inicial').style.display = 'none';
         document.getElementById('menu-periodo').style.display = 'block';
         document.getElementById('historicoChart').style.display = 'block';
+        
+        // Renderiza o título dinâmico com link oficial acima da linha do 1° lugar
+        const trackData = dadosGlobais.musicas[faixaSelecionadaAtualmente];
+        const trackUrl = trackData ? (trackData.url || '#') : '#';
+        
+        let lastHyphenIdx = faixaSelecionadaAtualmente.lastIndexOf("-");
+        let tituloClean = lastHyphenIdx !== -1 ? faixaSelecionadaAtualmente.substring(0, lastHyphenIdx).trim() : faixaSelecionadaAtualmente;
+        if (tituloClean.endsWith(" -")) tituloClean = tituloClean.substring(0, tituloClean.length - 2).trim();
+        let artistaClean = lastHyphenIdx !== -1 ? faixaSelecionadaAtualmente.substring(lastHyphenIdx + 1).trim() : "Desconhecido";
+
+        const titleBox = document.getElementById('chart-dynamic-title');
+        titleBox.style.display = 'block';
+        titleBox.innerHTML = `<a href="${trackUrl}" target="_blank" class="track-hyperlink">${tituloClean}</a> <span style="color: var(--text-muted); font-size: 11px; font-weight: 500;">— ${artistaClean}</span>`;
+
         gerarGrafico();
     }
 
@@ -492,6 +527,33 @@
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
         elementoClicado.classList.add('current');
         if (faixaSelecionadaAtualmente) gerarGrafico();
+    }
+
+    function criarPopupPersistente(date, position, x, y) {
+        const container = document.getElementById('canvas-container-wrapper');
+        const popup = document.createElement('div');
+        popup.className = 'persistent-tooltip';
+        
+        // Estilização idêntica ao design limpo do ChartJS
+        popup.style.position = 'absolute';
+        popup.style.left = (x + 8) + 'px';
+        popup.style.top = (y - 25) + 'px';
+        popup.style.backgroundColor = 'rgba(26, 26, 26, 0.85)';
+        popup.style.color = '#fff';
+        popup.style.padding = '6px 10px';
+        popup.style.borderRadius = '4px';
+        popup.style.fontSize = '10px';
+        popup.style.fontFamily = "'Inter', sans-serif";
+        popup.style.zIndex = '100';
+        popup.style.boxShadow = '0 2px 6px rgba(0,0,0,0.15)';
+        popup.style.pointerEvents = 'auto';
+        
+        popup.innerHTML = `
+            <span style="color: #d8df00; font-weight: 800; cursor: pointer; float: right; margin-left: 12px; font-size: 11px; line-height: 1;" onclick="this.parentElement.remove();">×</span>
+            <div style="font-weight: 600;">${date}</div>
+            <div style="margin-top: 2px;">Posição: <span style="color: #d8df00; font-weight: 700;">${position}º</span></div>
+        `;
+        container.appendChild(popup);
     }
 
     function gerarGrafico() {
@@ -503,6 +565,9 @@
             datas = datas.slice(-diasFiltroAtivo);
             pontos = pontos.slice(-diasFiltroAtivo);
         }
+
+        // Limpa os popups da música anterior ou período antigo antes de redesenhar
+        document.querySelectorAll('.persistent-tooltip').forEach(el => el.remove());
 
         if (chartInstance) { chartInstance.destroy(); }
 
@@ -528,6 +593,22 @@
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: { legend: { display: false } },
+                // Interceptador de clique para gerar os balões persistentes sem desligar o hover nativo
+                onClick: function(e, elements) {
+                    if (elements.length > 0) {
+                        const element = elements[0];
+                        const datasetIndex = element.datasetIndex;
+                        const index = element.index;
+                        
+                        const label = e.chart.data.labels[index];
+                        const value = e.chart.data.datasets[datasetIndex].data[index];
+                        
+                        if (value === null) return;
+
+                        const position = element.element;
+                        criarPopupPersistente(label, value, position.x, position.y);
+                    }
+                },
                 scales: {
                     y: {
                         reverse: true,
