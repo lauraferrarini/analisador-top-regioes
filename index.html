@@ -232,7 +232,7 @@
 
     <div class="chart-box">
         <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; width: 100%;">
-            <div id="chart-dynamic-title" style="display: none; font-size: 13px; font-weight: 700; max-width: 65%; word-break: break-word; line-height: 1.3;"></div>
+            <div id="chart-dynamic-title" style="display: none; font-size: 13px; font-weight: 700; max-width: 65%; word-break: break-word; line-height: 1.3; margin-left: 45px;"></div>
             <div class="period-selector" id="menu-periodo" style="margin-bottom: 0; white-space: nowrap;">
                 <span class="current" onclick="filtrarPeriodo(0, this)">Tudo</span>
                 <span onclick="filtrarPeriodo(28, this)">4 Semanas</span>
@@ -416,7 +416,7 @@
 
     function inicializarMecanismoBusca() {
         if (window.buscaInicializada) return;
-        window.buscaInitialized = true;
+        window.buscaInicializada = true;
 
         const inputBusca = document.getElementById('musica-input');
         const containerMatches = document.getElementById('search-matches');
@@ -506,7 +506,6 @@
         document.getElementById('menu-periodo').style.display = 'block';
         document.getElementById('historicoChart').style.display = 'block';
         
-        // Renderiza o título dinâmico com link oficial acima da linha do 1° lugar
         const trackData = dadosGlobais.musicas[faixaSelecionadaAtualmente];
         const trackUrl = trackData ? (trackData.url || '#') : '#';
         
@@ -534,7 +533,6 @@
         const popup = document.createElement('div');
         popup.className = 'persistent-tooltip';
         
-        // Estilização idêntica ao design limpo do ChartJS
         popup.style.position = 'absolute';
         popup.style.left = (x + 8) + 'px';
         popup.style.top = (y - 25) + 'px';
@@ -566,7 +564,6 @@
             pontos = pontos.slice(-diasFiltroAtivo);
         }
 
-        // Limpa os popups da música anterior ou período antigo antes de redesenhar
         document.querySelectorAll('.persistent-tooltip').forEach(el => el.remove());
 
         if (chartInstance) { chartInstance.destroy(); }
@@ -593,7 +590,6 @@
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: { legend: { display: false } },
-                // Interceptador de clique para gerar os balões persistentes sem desligar o hover nativo
                 onClick: function(e, elements) {
                     if (elements.length > 0) {
                         const element = elements[0];
