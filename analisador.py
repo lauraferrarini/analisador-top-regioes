@@ -6,6 +6,7 @@ import glob
 import sys
 import traceback
 from datetime import datetime
+from urllib.parse import urljoin
 
 # Configurações Gerais
 PASTA_DADOS = "historico_dados"
@@ -38,15 +39,21 @@ def extrair_musicas(url, cookies):
     for rank, item in enumerate(itens, start=1):
         tag_nome = item.find('b')
         tag_artista = item.find('span')
+        tag_a = item.find('a')
         
         nome = tag_nome.text.strip() if tag_nome else "Desconhecido"
         artista = tag_artista.text.strip() if tag_artista else "Desconhecido"
+        
+        # Captura o link relativo e transforma em URL absoluta funcional
+        href = tag_a['href'] if tag_a and tag_a.has_attr('href') else ""
+        link_absoluto = urljoin(url, href) if href else ""
         
         chave = f"{nome} - {artista}"
         musicas_atuais[chave] = {
             "posicao": rank,
             "nome": nome,
-            "artista": artista
+            "artista": artista,
+            "url": link_absoluto
         }
             
     return musicas_atuais
@@ -83,6 +90,9 @@ def atualizar_dados_dashboard(regiao):
         for chave, info in dados_dia.items():
             if chave not in historico_global:
                 historico_global[chave] = {}
+            # Preserva a URL estável da música dentro da estrutura estruturada do Dashboard
+            if "url" in info and "url" not in historico_global[chave]:
+                historico_global[chave]["url"] = info["url"]
             historico_global[chave][data_str] = info["posicao"]
             
     dados_finais = {
