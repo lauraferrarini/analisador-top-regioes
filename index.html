@@ -551,7 +551,39 @@
             <div style="font-weight: 600;">${date}</div>
             <div style="margin-top: 2px;">Posição: <span style="color: #d8df00; font-weight: 700;">${position}º</span></div>
         `;
+        
         container.appendChild(popup);
+
+        // ⚡ ALGORITMO ANTICOLISÃO (STACKING LOGIC)
+        // Move o popup dinamicamente para cima se ele colidir com um balão vizinho
+        let detectandoSobreposicao = true;
+        let ajusteTop = parseFloat(popup.style.top);
+        
+        while (detectandoSobreposicao) {
+            detectandoSobreposicao = false;
+            let novoEstiloRect = popup.getBoundingClientRect();
+            
+            const baloesExistentes = document.querySelectorAll('.persistent-tooltip');
+            for (let balao of baloesExistentes) {
+                if (balao === popup) continue;
+                
+                let balaoRect = balao.getBoundingClientRect();
+                
+                // Verifica a colisão de coordenadas (AABB Intersection check)
+                const colidindo = !(novoEstiloRect.right < balaoRect.left || 
+                                    novoEstiloRect.left > balaoRect.right || 
+                                    novoEstiloRect.bottom < balaoRect.top || 
+                                    novoEstiloRect.top > balaoRect.bottom);
+                                    
+                if (colidindo) {
+                    // Se houver sobreposição, joga o novo popup para cima do popup existente
+                    ajusteTop -= (balaoRect.bottom - balaoRect.top) + 4; // Altura total + Margem de segurança de 4px
+                    popup.style.top = ajusteTop + 'px';
+                    detectandoSobreposicao = true; 
+                    break; // Recomeça o laço de testes com a nova coordenada Top ajustada
+                }
+            }
+        }
     }
 
     function gerarGrafico() {
