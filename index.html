@@ -403,10 +403,15 @@
             tr.setAttribute('data-fullname', item.nome);
             tr.onclick = function() { selecionarFaixa(nomeEscapado, this); };
 
+            // ⚡ TRAVA DE ESTILO: Se não houver link funcional, remove a tag <a> e a classe track-hyperlink
+            let linkHTML = (item.url && item.url !== '#')
+                ? `<a href="${item.url}" target="_blank" class="track-hyperlink" onclick="event.stopPropagation();">${tituloMusica}</a>`
+                : `<span>${tituloMusica}</span>`;
+
             tr.innerHTML = `
                 <td><span class="badge-pos">${item.atual}º</span></td>
                 <td class="text-left" style="font-weight: 600; color: #000;">
-                    <a href="${item.url}" target="_blank" class="track-hyperlink" onclick="event.stopPropagation();">${tituloMusica}</a>${item.emojiHTML}
+                    ${linkHTML}${item.emojiHTML}
                 </td>
                 <td class="text-left" style="color: #555;">${artistaMusica}</td>
             `;
@@ -516,9 +521,14 @@
         if (tituloClean.endsWith(" -")) tituloClean = tituloClean.substring(0, tituloClean.length - 2).trim();
         let artistaClean = lastHyphenIdx !== -1 ? faixaSelecionadaAtualmente.substring(lastHyphenIdx + 1).trim() : "Desconhecido";
 
+        // ⚡ TRAVA DE ESTILO: Também remove o formato de link do título acima do gráfico se a música não tiver URL
+        let dynamicLinkHTML = (trackUrl && trackUrl !== '#')
+            ? `<a href="${trackUrl}" target="_blank" class="track-hyperlink">${tituloClean}</a>`
+            : `<span>${tituloClean}</span>`;
+
         const titleBox = document.getElementById('chart-dynamic-title');
         titleBox.style.display = 'block';
-        titleBox.innerHTML = `<a href="${trackUrl}" target="_blank" class="track-hyperlink">${tituloClean}</a> <span style="color: var(--text-muted); font-size: 11px; font-weight: 500;">— ${artistaClean}</span>`;
+        titleBox.innerHTML = `${dynamicLinkHTML} <span style="color: var(--text-muted); font-size: 11px; font-weight: 500;">— ${artistaClean}</span>`;
 
         gerarGrafico();
     }
@@ -533,7 +543,6 @@
     function criarPopupPersistente(date, position, x, y) {
         const container = document.getElementById('canvas-container-wrapper');
         
-        // Garante a existência de uma camada de vetor SVG sobreposta limpa para as linhas de conexão
         let svgOverlay = document.getElementById('popups-svg-overlay');
         if (!svgOverlay) {
             svgOverlay = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -548,7 +557,6 @@
             container.appendChild(svgOverlay);
         }
 
-        // Desenha a linha de conexão elástica ligada à bolinha do gráfico
         const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
         line.setAttribute('x1', x);
         line.setAttribute('y1', y);
@@ -585,21 +593,18 @@
         
         container.appendChild(popup);
 
-        // Ajusta a linha inicialmente com o centro aproximado da caixa do popup
         const atualizarCoordenadasLinha = (left, top) => {
             line.setAttribute('x2', left + 25);
             line.setAttribute('y2', top + 15);
         };
         atualizarCoordenadasLinha(x + 8, y - 25);
 
-        // Fecha o popup e remove sua respectiva linha de conexão
         popup.querySelector('.close-btn').onclick = function(e) {
             e.stopPropagation();
             line.remove();
             popup.remove();
         };
 
-        // ⚡ MECANISMO DRAG-AND-DROP (ARRASTAR E SOLTAR VANILLA JS)
         let isDragging = false;
         let startX, startY, initialLeft, initialTop;
 
@@ -625,7 +630,6 @@
             popup.style.left = currentLeft + 'px';
             popup.style.top = currentTop + 'px';
             
-            // Recalcula dinamicamente a extremidade final da linha acompanhando o arrasto
             atualizarCoordenadasLinha(currentLeft, currentTop);
         });
 
