@@ -207,7 +207,6 @@
 - **Lover, You Should've Come Over** (Jeff Buckley): 631º → **612º** (+19)
 - **Paparazzi** (Lady Gaga): 718º → **699º** (+19)
 - **Digno (Worthy)** (Elevation Worship): 767º → **748º** (+19)
-- **Un Día a La Vez** (Los Tigres del Norte): 847º → **828º** (+19)
 - **Happier Than Ever** (Billie Eilish): 916º → **897º** (+19)
 - **Todo Pasa** (Carla Morrison): 965º → **946º** (+19)
 - **Sin Él** (Marisela): 103º → **85º** (+18)
@@ -428,9 +427,15 @@
 - **Evergreen (You Didn't Deserve Me At All)** (Omar Apollo): 836º → **833º** (+3)
 
 ## 🚀 Novas Entradas no Top
+- **Rosita De Olivo** (Los Tigres Del Norte) - Apareceu direto na posição **350º**
+- **La Banda Del Carro Rojo** (Los Tigres Del Norte) - Apareceu direto na posição **381º**
+- **Prisión De Amor** (Los Tigres Del Norte) - Apareceu direto na posição **455º**
+- **Ni Parientes Somos** (Los Tigres Del Norte) - Apareceu direto na posição **625º**
 - **Im Sorry Mom** (Marino) - Apareceu direto na posição **681º**
 - **Moon (feat. Don Toliver & Kid Cudi)** (Kanye West) - Apareceu direto na posição **689º**
 - **SIEMPRE SIEMPRE** (Eslabon Armado) - Apareceu direto na posição **707º**
+- **Un Día A La Vez** (Los Tigres Del Norte) - Apareceu direto na posição **828º**
+- **La Mesa Del Rincón** (Los Tigres Del Norte) - Apareceu direto na posição **849º**
 - **Dichavate (part. Rey Tony, Dj Honda y Helabusador) [explícita]** (Ya Ice Dilan) - Apareceu direto na posição **896º**
 - **Wildest Dreams** (Taylor Swift) - Apareceu direto na posição **906º**
 - **golden hour** (JVKE) - Apareceu direto na posição **916º**
