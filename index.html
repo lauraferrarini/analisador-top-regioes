@@ -322,7 +322,6 @@
         document.getElementById('chk-todas').checked = true;
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
 
-        // Reset visual preventivo: Garante que "Tudo" volte a ser o botão ativo ao carregar nova região
         diasFiltroAtivo = 0;
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
         const btnTudo = document.querySelector('.period-selector span[onclick^="filtrarPeriodo(0"]');
@@ -727,6 +726,7 @@
                 datasets: [{
                     label: `Histórico de Posição`,
                     data: pontos,
+                    clip: false, // 🔍 AJUSTE CRÍTICO AQUI: Impede o corte das bolinhas nos limites superior e inferior (0 e 1000)
                     borderColor: '#1a1a1a',
                     backgroundColor: 'transparent',
                     borderWidth: 2,
