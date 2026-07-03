@@ -417,7 +417,9 @@
             tr.className = "clickable-row";
             tr.setAttribute('data-categoria', item.estado);
             tr.setAttribute('data-fullname', item.nome);
-            tr.onclick = function() { selecionarFaixa(nomeEscapado, this); };
+            
+            // 🛠️ FIX CIRÚRGICO: Passa o 'item.nome' limpo da closure. Sem barras invertidas fantasmas!
+            tr.onclick = function() { selecionarFaixa(item.nome, this); };
 
             let linkHTML = (item.url && item.url !== '#')
                 ? `<a href="${item.url}" target="_blank" class="track-hyperlink" onclick="event.stopPropagation();">${tituloMusica}</a>`
@@ -726,7 +728,7 @@
                 datasets: [{
                     label: `Histórico de Posição`,
                     data: pontos,
-                    clip: false, // 🔍 AJUSTE CRÍTICO AQUI: Impede o corte das bolinhas nos limites superior e inferior (0 e 1000)
+                    clip: false, 
                     borderColor: '#1a1a1a',
                     backgroundColor: 'transparent',
                     borderWidth: 2,
