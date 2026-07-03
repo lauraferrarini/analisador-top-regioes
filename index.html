@@ -296,12 +296,10 @@
     function carregarDados(regiao) {
         regiaoAtiva = regiao;
         
-        // Atualiza estilo negrito do menu superior
         document.querySelectorAll('.nav-menu .nav-item').forEach(el => el.classList.remove('active-region'));
         const navEl = document.getElementById(`nav-${regiao}`);
         if (navEl) navEl.classList.add('active-region');
 
-        // Reseta estados visuais do gráfico, buscas e filtros
         if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
         faixaSelecionadaAtualmente = null;
         document.getElementById('msg-inicial').style.display = 'block';
@@ -322,6 +320,12 @@
         
         document.getElementById('chk-todas').checked = true;
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
+
+        // Reset visual preventivo: Garante que "Tudo" volte a ser o botão ativo ao carregar nova região
+        diasFiltroAtivo = 0;
+        document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
+        const btnTudo = document.querySelector('.period-selector span[onclick^="filtrarPeriodo(0"]');
+        if (btnTudo) btnTudo.classList.add('current');
 
         Promise.all(listaRegioes.map(r => {
             if (window.todosDadosRegioes[r]) return Promise.resolve(window.todosDadosRegioes[r]);
@@ -434,7 +438,7 @@
 
     function inicializarMecanismoBusca() {
         if (window.buscaInicializada) return;
-        window.buscaInicializada = true;
+        window.buscaInitialized = true;
 
         const inputBusca = document.getElementById('musica-input');
         const containerMatches = document.getElementById('search-matches');
@@ -570,7 +574,6 @@
         gerarGrafico();
     }
 
-    // ⚡ SELEÇÃO DIRETA DO GRÁFICO REGIONAL (Sem redirecionar rolando a tabela)
     function alternarParaRegiaoETrack(novaRegiao, nomeMusica) {
         regiaoAtiva = novaRegiao;
         
@@ -588,7 +591,6 @@
         faixaSelecionadaAtualmente = nomeMusica;
         let seletorLinha = document.querySelector(`#tbody-corrido .clickable-row[data-fullname="${nomeMusica.replace(/"/g, '\\"')}"]`);
         
-        // Carrega o gráfico e as dependências regionais de forma instantânea sem dar o scrollIntoView
         selecionarFaixa(nomeMusica, seletorLinha);
     }
 
@@ -693,6 +695,13 @@
         });
     }
 
+    function filtrarPeriodo(dias, elementoClicado) {
+        diasFiltroAtivo = dias;
+        document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
+        elementoClicado.classList.add('current');
+        if (faixaSelecionadaAtualmente) gerarGrafico();
+    }
+
     function gerarGrafico() {
         let datas = dadosGlobais.datas;
         const historicoPosis = dadosGlobais.musicas[faixaSelecionadaAtualmente];
@@ -769,6 +778,5 @@
 
     carregarDados('br');
 </script>
-
 </body>
 </html>
