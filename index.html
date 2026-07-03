@@ -243,9 +243,6 @@
             </div>
             <div id="cross-region-presence" style="display: none; font-size: 11px; margin-top: 4px; margin-left: 45px; color: var(--text-muted); font-weight: 500;"></div>
         </div>
-        
-        <div id="btn-prev-region" style="display: none; position: absolute; left: 15px; top: 55%; transform: translateY(-50%); background: rgba(26, 26, 26, 0.75); color: #fff; width: 24px; height: 32px; line-height: 30px; text-align: center; border-radius: 4px; cursor: pointer; user-select: none; font-size: 14px; z-index: 102;" onclick="ciclarRegiao(-1)">◄</div>
-        <div id="btn-next-region" style="display: none; position: absolute; right: 15px; top: 55%; transform: translateY(-50%); background: rgba(26, 26, 26, 0.75); color: #fff; width: 24px; height: 32px; line-height: 30px; text-align: center; border-radius: 4px; cursor: pointer; user-select: none; font-size: 14px; z-index: 102;" onclick="ciclarRegiao(1)">►</div>
 
         <div id="canvas-container-wrapper" style="position: relative; height: calc(100% - 45px); width: 100%;">
             <canvas id="historicoChart" style="display:none;"></canvas>
@@ -293,7 +290,6 @@
         'mx': 'México'
     };
 
-    // Estruturas globais para controle e cache cruzado de dados internacionais
     if (!window.todosDadosRegioes) window.todosDadosRegioes = {};
     const listaRegioes = ['br', 'ar', 'co', 'sp', 'es', 'mx'];
 
@@ -301,7 +297,7 @@
         regiaoAtiva = regiao;
         
         // Atualiza estilo negrito do menu superior
-        document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active-region'));
+        document.querySelectorAll('.nav-menu .nav-item').forEach(el => el.classList.remove('active-region'));
         const navEl = document.getElementById(`nav-${regiao}`);
         if (navEl) navEl.classList.add('active-region');
 
@@ -314,8 +310,6 @@
         document.getElementById('chart-dynamic-title').innerHTML = '';
         document.getElementById('cross-region-presence').style.display = 'none';
         document.getElementById('cross-region-presence').innerHTML = '';
-        document.getElementById('btn-prev-region').style.display = 'none';
-        document.getElementById('btn-next-region').style.display = 'none';
         document.getElementById('historicoChart').style.display = 'none';
         document.getElementById('musica-input').value = '';
         document.getElementById('search-matches').innerHTML = '';
@@ -329,7 +323,6 @@
         document.getElementById('chk-todas').checked = true;
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
 
-        // Varre e pré-carrega todas as tabelas regionais em paralelo para viabilizar o cruzamento instantâneo
         Promise.all(listaRegioes.map(r => {
             if (window.todosDadosRegioes[r]) return Promise.resolve(window.todosDadosRegioes[r]);
             return fetch(`dados_dashboard_${r}.json`)
@@ -547,15 +540,13 @@
         titleBox.style.display = 'block';
         titleBox.innerHTML = `${dynamicLinkHTML} <span style="color: var(--text-muted); font-size: 11px; font-weight: 500;">— ${artistaClean}</span>`;
 
-        // ⚡ ALGORITMO DE AUDITORIA CROSS-REGION IN LINE
-        // Avalia em tempo real a presença da música no topo vigente de todos os outros países mapeados
         let presencias = [];
         listaRegioes.forEach(r => {
-            if (r === regiaoAtiva) return; // ignora a região onde você já está olhando
+            if (r === regiaoAtiva) return; 
             const dataRegiao = window.todosDadosRegioes[r];
             if (dataRegiao && dataRegiao.musicas && dataRegiao.musicas[faixaSelecionadaAtualmente]) {
                 const datasObj = dataRegiao.datas;
-                const ultimaData = datasObj[datasObj.length - 1]; // pega a data mais recente daquele país específico
+                const ultimaData = datasObj[datasObj.length - 1]; 
                 const pos = dataRegiao.musicas[faixaSelecionadaAtualmente][ultimaData];
                 if (pos) {
                     presencias.push({ regiao: r, nome: nomesRegioes[r], posicao: pos });
@@ -563,7 +554,6 @@
             }
         });
 
-        // Montagem e renderização do hiperlink de texto regional abaixo do título
         const crossEl = document.getElementById('cross-region-presence');
         if (presencias.length > 0) {
             crossEl.style.display = 'block';
@@ -577,30 +567,14 @@
             crossEl.innerHTML = '';
         }
 
-        // Estruturação da esteira de rotação e exibição das setas direcionais preenchidas
-        let regioesComTrack = [regiaoAtiva];
-        presencias.forEach(p => regioesComTrack.push(p.regiao));
-        window.regioesCicloAtual = regioesComTrack; // mapeia a trilha de países da música
-
-        const btnNext = document.getElementById('btn-next-region');
-        const btnPrev = document.getElementById('btn-prev-region');
-        if (regioesComTrack.length > 1) {
-            btnNext.style.display = 'block';
-            btnPrev.style.display = 'block';
-        } else {
-            btnNext.style.display = 'none';
-            btnPrev.style.display = 'none';
-        }
-
         gerarGrafico();
     }
 
-    // ⚡ ROTAS INTERNACIONAIS DINÂMICAS (Navegação Cruzada)
-    // Força a mudança global do dashboard e reposiciona o foco gráfico na música correspondente
+    // ⚡ SELEÇÃO DIRETA DO GRÁFICO REGIONAL (Sem redirecionar rolando a tabela)
     function alternarParaRegiaoETrack(novaRegiao, nomeMusica) {
         regiaoAtiva = novaRegiao;
         
-        document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active-region'));
+        document.querySelectorAll('.nav-menu .nav-item').forEach(el => el.classList.remove('active-region'));
         const navEl = document.getElementById(`nav-${novaRegiao}`);
         if (navEl) navEl.classList.add('active-region');
         
@@ -613,27 +587,9 @@
         
         faixaSelecionadaAtualmente = nomeMusica;
         let seletorLinha = document.querySelector(`#tbody-corrido .clickable-row[data-fullname="${nomeMusica.replace(/"/g, '\\"')}"]`);
-        selecionarFaixa(nomeMusica, seletorLinha);
         
-        if (seletorLinha) {
-            seletorLinha.scrollIntoView({ block: 'center', behavior: 'smooth' });
-        }
-    }
-
-    // Gerencia o deslocamento sequencial (ciclagem infinita em loop pelas setas)
-    function ciclarRegiao(direcao) {
-        if (!window.regioesCicloAtual || window.regioesCicloAtual.length <= 1) return;
-        let idx = window.regioesCicloAtual.indexOf(regiaoAtiva);
-        if (idx === -1) idx = 0;
-        let novoIdx = (idx + direcao + window.regioesCicloAtual.length) % window.regioesCicloAtual.length;
-        alternarParaRegiaoETrack(window.regioesCicloAtual[novoIdx], faixaSelecionadaAtualmente);
-    }
-
-    function filtrarPeriodo(dias, elementoClicado) {
-        diasFiltroAtivo = dias;
-        document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
-        elementoClicado.classList.add('current');
-        if (faixaSelecionadaAtualmente) gerarGrafico();
+        // Carrega o gráfico e as dependências regionais de forma instantânea sem dar o scrollIntoView
+        selecionarFaixa(nomeMusica, seletorLinha);
     }
 
     function criarPopupPersistente(date, position, x, y) {
@@ -689,7 +645,7 @@
         
         container.appendChild(popup);
 
-        const actualizarCoordenadasLinha = (left, top) => {
+        const atualizarCoordenadasLinha = (left, top) => {
             line.setAttribute('x2', left + 25);
             line.setAttribute('y2', top + 15);
         };
@@ -811,7 +767,6 @@
         });
     }
 
-    // Inicialização padrão carregando os dados do Brasil
     carregarDados('br');
 </script>
 
