@@ -179,6 +179,8 @@
 
         .badge-pos { background: #1a1a1a; color: #fff; padding: 2px 5px; border-radius: 3px; font-weight: 600; font-size: 10px; }
         
+        #error-banner { display: none; background-color: #fadbd8; color: #c0392b; border: 1px solid #f5b7b1; padding: 15px; margin-bottom: 20px; font-weight: bold; border-radius: 4px; }
+        
         /* Estilo sutil para o hiperlink do título */
         .track-hyperlink {
             color: inherit;
@@ -240,14 +242,7 @@
                     <span onclick="filtrarPeriodo(180, this)">6 Meses</span>
                 </div>
             </div>
-            
-            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 6px;">
-                <div id="cross-region-presence" style="display: none; font-size: 11px; margin-left: 45px; color: var(--text-muted); font-weight: 500;"></div>
-                <div id="custom-period-box" style="display: none; align-items: center; gap: 6px; font-size: 10px; color: var(--text-muted); margin-left: auto;">
-                    De: <input type="date" id="data-inicial" onchange="aplicarPeriodoCustomizado(); const dIni = this.value; const dFim = document.getElementById('data-final'); dFim.value = dIni; dFim.focus(); try{dFim.showPicker();}catch(e){}" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
-                    Até: <input type="date" id="data-final" onchange="aplicarPeriodoCustomizado()" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
-                </div>
-            </div>
+            <div id="cross-region-presence" style="display: none; font-size: 11px; margin-top: 4px; margin-left: 45px; color: var(--text-muted); font-weight: 500;"></div>
         </div>
 
         <div id="canvas-container-wrapper" style="position: relative; height: calc(100% - 45px); width: 100%;">
@@ -310,7 +305,6 @@
         faixaSelecionadaAtualmente = null;
         document.getElementById('msg-inicial').style.display = 'block';
         document.getElementById('menu-periodo').style.display = 'none';
-        document.getElementById('custom-period-box').style.display = 'none';
         document.getElementById('chart-dynamic-title').style.display = 'none';
         document.getElementById('chart-dynamic-title').innerHTML = '';
         document.getElementById('cross-region-presence').style.display = 'none';
@@ -329,8 +323,6 @@
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
 
         diasFiltroAtivo = 0;
-        document.getElementById('data-inicial').value = '';
-        document.getElementById('data-final').value = '';
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
         const btnTudo = document.querySelector('.period-selector span[onclick^="filtrarPeriodo(0"]');
         if (btnTudo) btnTudo.classList.add('current');
@@ -437,6 +429,7 @@
                 ? `<a href="${item.url}" target="_blank" class="track-hyperlink" onclick="event.stopPropagation();">${tituloMusica}</a>`
                 : `<span>${tituloMusica}</span>`;
 
+            // ⚡ AJUSTE DE ALINHAMENTO: Modificado para float: right para mandar o jornalzinho pro extremo direito da célula
             let newsSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(item.nome)}&tbm=nws`;
             let newsIconHTML = ` <a href="${newsSearchUrl}" target="_blank" title="Pesquisar notícias" onclick="event.stopPropagation();" style="text-decoration: none; float: right;">📰</a>`;
 
@@ -469,8 +462,7 @@
                 return;
             }
 
-            let chavesGlobais = Object.keys(dadosGlobals.musicas);
-            if (!chavesGlobais) chavesGlobais = Object.keys(dadosGlobais.musicas);
+            let chavesGlobais = Object.keys(dadosGlobais.musicas);
             let filtradas = chavesGlobais.filter(m => m.toLowerCase().includes(valorInput));
 
             if (filtradas.length > 0) {
@@ -544,7 +536,6 @@
 
         document.getElementById('msg-inicial').style.display = 'none';
         document.getElementById('menu-periodo').style.display = 'block';
-        document.getElementById('custom-period-box').style.display = 'flex';
         document.getElementById('historicoChart').style.display = 'block';
         
         const trackData = dadosGlobais.musicas[faixaSelecionadaAtualmente];
@@ -717,19 +708,7 @@
     function filtrarPeriodo(dias, elementoClicado) {
         diasFiltroAtivo = dias;
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
-        if (elementoClicado) elementoClicado.classList.add('current');
-        
-        if (dias !== 'custom') {
-            document.getElementById('data-inicial').value = '';
-            document.getElementById('data-final').value = '';
-        }
-        
-        if (faixaSelecionadaAtualmente) gerarGrafico();
-    }
-
-    function aplicarPeriodoCustomizado() {
-        diasFiltroAtivo = 'custom';
-        document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
+        elementoClicado.classList.add('current');
         if (faixaSelecionadaAtualmente) gerarGrafico();
     }
 
@@ -741,22 +720,6 @@
         if (diasFiltroAtivo > 0) {
             datas = datas.slice(-diasFiltroAtivo);
             pontos = pontos.slice(-diasFiltroAtivo);
-        } 
-        else if (diasFiltroAtivo === 'custom') {
-            const dataIni = document.getElementById('data-inicial').value;
-            const dataFim = document.getElementById('data-final').value;
-            
-            let datasFiltradas = [];
-            let pontosFiltrados = [];
-            
-            for (let i = 0; i < datas.length; i++) {
-                if ((!dataIni || datas[i] >= dataIni) && (!dataFim || datas[i] <= dataFim)) {
-                    datasFiltradas.push(datas[i]);
-                    pontosFiltrados.push(pontos[i]);
-                }
-            }
-            datas = datasFiltradas;
-            pontos = pontosFiltrados;
         }
 
         document.querySelectorAll('.persistent-tooltip').forEach(el => el.remove());
