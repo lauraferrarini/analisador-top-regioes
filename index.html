@@ -655,16 +655,56 @@
         titleBox.style.display = 'block';
         titleBox.innerHTML = `${dynamicLinkHTML} <span style="color: var(--text-muted); font-size: 11px; font-weight: 500;">— ${artistaClean}</span>`;
 
+        // ⚡ AUDITORIA CROSS-REGION EM TEMPO REAL COM IDENTIFICAÇÃO DE EMOJIS DE MOVIMENTAÇÃO
         let presencias = [];
         listaRegioes.forEach(r => {
             if (r === regiaoAtiva) return; 
             const dataRegiao = window.todosDadosRegioes[r];
             if (dataRegiao && dataRegiao.musicas && dataRegiao.musicas[faixaSelecionadaAtualmente]) {
                 const datasObj = dataRegiao.datas;
-                const ultimaData = datasObj[datasObj.length - 1]; 
-                const pos = dataRegiao.musicas[faixaSelecionadaAtualmente][ultimaData];
-                if (pos) {
-                    presencias.push({ regiao: r, nome: nomesRegioes[r], posicao: pos });
+                const hojeR = datasObj[datasObj.length - 1]; 
+                let ontemR = datasObj.length > 1 ? datasObj[datasObj.length - 2] : null;
+
+                // Executa o mesmo alinhamento de final de semana para calcular os emojis internacionais
+                const considerarFds = document.getElementById('chk-fds').checked;
+                if (!considerarFds && hojeR) {
+                    const partesHoje = hojeR.split('-');
+                    const dataHojeObj = new Date(partesHoje[0], partesHoje[1] - 1, partesHoje[2]);
+                    if (dataHojeObj.getDay() === 1) { 
+                        for (let idx = datasObj.length - 2; idx >= 0; idx--) {
+                            const dStr = datasObj[idx];
+                            const p = dStr.split('-');
+                            const dCheck = new Date(p[0], p[1] - 1, p[2]);
+                            if (dCheck.getDay() === 5) { 
+                                ontemR = dStr;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                const posAtualR = dataRegiao.musicas[faixaSelecionadaAtualmente][hojeR];
+                if (posAtualR) {
+                    const posAnteriorR = ontemR ? dataRegiao.musicas[faixaSelecionadaAtualmente][ontemR] : null;
+                    let emojiR = '';
+                    
+                    if (!posAnteriorR) {
+                        emojiR = ' 🚀';
+                        let ganhoSimuladoR = 1000 - posAtualR;
+                        if (ganhoSimuladoR > 400) emojiR += '🚨';
+                        else if (ganhoSimuladoR > 200) emojiR += '🔥';
+                        else if (ganhoSimuladoR >= 100) emojiR += '📈';
+                        else if (ganhoSimuladoR > 2) emojiR += '🌱';
+                    } else {
+                        let ganhoR = posAnteriorR - posAtualR;
+                        if (ganhoR > 0) {
+                            if (ganhoR > 400) emojiR = ' 🚨';
+                            else if (ganhoR > 200) emojiR = ' 🔥';
+                            else if (ganhoR >= 100) emojiR = ' 📈';
+                            else if (ganhoR > 2) emojiR = ' 🌱';
+                        }
+                    }
+                    presencias.push({ regiao: r, nome: nomesRegioes[r], posicao: posAtualR, emoji: emojiR });
                 }
             }
         });
@@ -674,7 +714,7 @@
             crossEl.style.display = 'block';
             let links = presencias.map(p => {
                 let mscEscapada = faixaSelecionadaAtualmente.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-                return `<a href="#" class="track-hyperlink" onclick="event.preventDefault(); alternarParaRegiaoETrack('${p.regiao}', '${mscEscapada}')">${p.nome} (${p.posicao}º)</a>`;
+                return `<a href="#" class="track-hyperlink" onclick="event.preventDefault(); alternarParaRegiaoETrack('${p.regiao}', '${mscEscapada}')">${p.nome} (${p.posicao}º${p.emoji})</a>`;
             }).join(', ');
             crossEl.innerHTML = `Também aparece em: ${links}`;
         } else {
