@@ -238,14 +238,16 @@
                     <span onclick="filtrarPeriodo(28, this)">4 Semanas</span>
                     <span onclick="filtrarPeriodo(90, this)">3 Meses</span>
                     <span onclick="filtrarPeriodo(180, this)">6 Meses</span>
-                    
-                    <div id="custom-period-box" style="margin-top: 6px; display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-size: 10px; color: var(--text-muted);">
-                        De: <input type="date" id="data-inicial" onchange="aplicarPeriodoCustomizado(); const dIni = this.value; const dFim = document.getElementById('data-final'); dFim.value = dIni; dFim.focus(); try{dFim.showPicker();}catch(e){}" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
-                        Até: <input type="date" id="data-final" onchange="aplicarPeriodoCustomizado()" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
-                    </div>
                 </div>
             </div>
-            <div id="cross-region-presence" style="display: none; font-size: 11px; margin-top: 4px; margin-left: 45px; color: var(--text-muted); font-weight: 500;"></div>
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 6px;">
+                <div id="cross-region-presence" style="display: none; font-size: 11px; margin-left: 45px; color: var(--text-muted); font-weight: 500;"></div>
+                <div id="custom-period-box" style="display: none; align-items: center; gap: 6px; font-size: 10px; color: var(--text-muted); margin-left: auto;">
+                    De: <input type="date" id="data-inicial" onchange="aplicarPeriodoCustomizado(); const dIni = this.value; const dFim = document.getElementById('data-final'); dFim.value = dIni; dFim.focus(); try{dFim.showPicker();}catch(e){}" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
+                    Até: <input type="date" id="data-final" onchange="aplicarPeriodoCustomizado()" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
+                </div>
+            </div>
         </div>
 
         <div id="canvas-container-wrapper" style="position: relative; height: calc(100% - 45px); width: 100%;">
@@ -308,6 +310,7 @@
         faixaSelecionadaAtualmente = null;
         document.getElementById('msg-inicial').style.display = 'block';
         document.getElementById('menu-periodo').style.display = 'none';
+        document.getElementById('custom-period-box').style.display = 'none';
         document.getElementById('chart-dynamic-title').style.display = 'none';
         document.getElementById('chart-dynamic-title').innerHTML = '';
         document.getElementById('cross-region-presence').style.display = 'none';
@@ -466,7 +469,8 @@
                 return;
             }
 
-            let chavesGlobais = Object.keys(dadosGlobais.musicas);
+            let chavesGlobais = Object.keys(dadosGlobals.musicas);
+            if (!chavesGlobais) chavesGlobais = Object.keys(dadosGlobais.musicas);
             let filtradas = chavesGlobais.filter(m => m.toLowerCase().includes(valorInput));
 
             if (filtradas.length > 0) {
@@ -540,6 +544,7 @@
 
         document.getElementById('msg-inicial').style.display = 'none';
         document.getElementById('menu-periodo').style.display = 'block';
+        document.getElementById('custom-period-box').style.display = 'flex';
         document.getElementById('historicoChart').style.display = 'block';
         
         const trackData = dadosGlobais.musicas[faixaSelecionadaAtualmente];
