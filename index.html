@@ -416,7 +416,6 @@
             tr.setAttribute('data-categoria', item.estado);
             tr.setAttribute('data-fullname', item.nome);
             
-            // 🛠️ AJUSTE CIRÚRGICO DA ROLAGEM: Executa a seleção e rola para o topo apenas se o clique for no TR ou TD puro
             tr.onclick = function(e) { 
                 selecionarFaixa(item.nome, this); 
                 if (e.target.tagName === 'TD' || e.target.tagName === 'TR') {
@@ -428,10 +427,14 @@
                 ? `<a href="${item.url}" target="_blank" class="track-hyperlink" onclick="event.stopPropagation();">${tituloMusica}</a>`
                 : `<span>${tituloMusica}</span>`;
 
+            // ⚡ ENDEREÇO DE BUSCA DE NOTÍCIAS DO GOOGLE + EVENTO DE PROPAGAÇÃO TRAVADO
+            let newsSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(item.nome)}&tbm=nws`;
+            let newsIconHTML = ` <a href="${newsSearchUrl}" target="_blank" title="Pesquisar notícias" onclick="event.stopPropagation();" style="text-decoration: none; margin-left: 6px;">📰</a>`;
+
             tr.innerHTML = `
                 <td><span class="badge-pos">${item.atual}º</span></td>
                 <td class="text-left" style="font-weight: 600; color: #000;">
-                    ${linkHTML}${item.emojiHTML}
+                    ${linkHTML}${item.emojiHTML}${newsIconHTML}
                 </td>
                 <td class="text-left" style="color: #555;">${artistaMusica}</td>
             `;
