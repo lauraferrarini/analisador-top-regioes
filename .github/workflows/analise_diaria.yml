@@ -2,8 +2,8 @@ name: Analisador Diário de Músicas
 
 on:
   schedule:
-# Roda todos os dias às 12:11 UTC (09:11 no Horário de Brasília)
-    - cron: '11 12 * * *'
+# Roda todos os dias às 11:11 UTC (08:11 no Horário de Brasília)
+    - cron: '11 11 * * *'
   workflow_dispatch: # Permite o botão de início manual
 
 jobs:
