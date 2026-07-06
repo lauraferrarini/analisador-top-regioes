@@ -451,7 +451,7 @@
             let posAtual = historico[hoje];
             let item = { nome: nomeChave, atual: posAtual, estado: 'normal', emojiHTML: '', url: historico.url || '#' };
 
-            // ⚡ COMPORTAMENTO DE DUAS TAGS: Novas entradas calculam ganho simulado a partir de 1000
+            // ⚡ COMPORTAMENTO DE DUAS TAGS CORRIGIDO: Omitida a tag de pequenas subidas (<100) para novidades
             if (!ontem || !historico[ontem]) {
                 item.estado = 'novas';
                 item.emojiHTML = ' <span style="font-weight: normal; color: #27ae60; margin-left: 6px;">🚀 Novidade</span>';
@@ -462,7 +462,6 @@
                     if (ganhoSimulado > 400) { item.estado += ' absurda'; item.emojiHTML += ` <span style="font-weight: normal; color: #c0392b; margin-left: 6px;">🚨 +${ganhoSimulado}</span>`; cAbsurda++; }
                     else if (ganhoSimulado > 200) { item.estado += ' grandes'; item.emojiHTML += ` <span style="font-weight: normal; color: #7b1fa2; margin-left: 6px;">🔥 +${ganhoSimulado}</span>`; cGrandes++; }
                     else if (ganhoSimulado >= 100) { item.estado += ' moderadas'; item.emojiHTML += ` <span style="font-weight: normal; color: #1976d2; margin-left: 6px;">📈 +${ganhoSimulado}</span>`; cModeradas++; }
-                    else if (ganhoSimulado > 2) { item.estado += ' pequenas'; item.emojiHTML += ` <span style="font-weight: normal; color: #27ae60; margin-left: 6px;">🌱 +${ganhoSimulado}</span>`; }
                 }
             } else {
                 let posAnterior = historico[ontem];
@@ -655,56 +654,51 @@
         titleBox.style.display = 'block';
         titleBox.innerHTML = `${dynamicLinkHTML} <span style="color: var(--text-muted); font-size: 11px; font-weight: 500;">— ${artistaClean}</span>`;
 
-        // ⚡ AUDITORIA CROSS-REGION EM TEMPO REAL COM IDENTIFICAÇÃO DE EMOJIS DE MOVIMENTAÇÃO
+        // ⚡ ENGENHARIA DE VERIFICAÇÃO CRUZADA COM INJEÇÃO DE STATUS REGIONAIS EM TEMPO REAL
         let presencias = [];
         listaRegioes.forEach(r => {
             if (r === regiaoAtiva) return; 
             const dataRegiao = window.todosDadosRegioes[r];
             if (dataRegiao && dataRegiao.musicas && dataRegiao.musicas[faixaSelecionadaAtualmente]) {
                 const datasObj = dataRegiao.datas;
-                const hojeR = datasObj[datasObj.length - 1]; 
-                let ontemR = datasObj.length > 1 ? datasObj[datasObj.length - 2] : null;
+                const ultimaData = datasObj[datasObj.length - 1]; 
+                const pos = dataRegiao.musicas[faixaSelecionadaAtualmente][ultimaData];
+                
+                if (pos) {
+                    let ontemRegiao = datasObj.length > 1 ? datasObj[datasObj.length - 2] : null;
 
-                // Executa o mesmo alinhamento de final de semana para calcular os emojis internacionais
-                const considerarFds = document.getElementById('chk-fds').checked;
-                if (!considerarFds && hojeR) {
-                    const partesHoje = hojeR.split('-');
-                    const dataHojeObj = new Date(partesHoje[0], partesHoje[1] - 1, partesHoje[2]);
-                    if (dataHojeObj.getDay() === 1) { 
-                        for (let idx = datasObj.length - 2; idx >= 0; idx--) {
-                            const dStr = datasObj[idx];
-                            const p = dStr.split('-');
-                            const dCheck = new Date(p[0], p[1] - 1, p[2]);
-                            if (dCheck.getDay() === 5) { 
-                                ontemR = dStr;
-                                break;
+                    const considerarFds = document.getElementById('chk-fds').checked;
+                    if (!considerarFds && ultimaData) {
+                        const partesHoje = ultimaData.split('-');
+                        const dataHojeObj = new Date(partesHoje[0], partesHoje[1] - 1, partesHoje[2]);
+                        if (dataHojeObj.getDay() === 1) {
+                            for (let idx = datasObj.length - 2; idx >= 0; idx--) {
+                                const dStr = datasObj[idx];
+                                const p = dStr.split('-');
+                                const dCheck = new Date(p[0], p[1] - 1, p[2]);
+                                if (dCheck.getDay() === 5) {
+                                    ontemRegiao = dStr;
+                                    break;
+                                }
                             }
                         }
                     }
-                }
 
-                const posAtualR = dataRegiao.musicas[faixaSelecionadaAtualmente][hojeR];
-                if (posAtualR) {
-                    const posAnteriorR = ontemR ? dataRegiao.musicas[faixaSelecionadaAtualmente][ontemR] : null;
-                    let emojiR = '';
-                    
-                    if (!posAnteriorR) {
-                        emojiR = ' 🚀';
-                        let ganhoSimuladoR = 1000 - posAtualR;
-                        if (ganhoSimuladoR > 400) emojiR += '🚨';
-                        else if (ganhoSimuladoR > 200) emojiR += '🔥';
-                        else if (ganhoSimuladoR >= 100) emojiR += '📈';
-                        else if (ganhoSimuladoR > 2) emojiR += '🌱';
+                    let emojiRegiao = '';
+                    if (!ontemRegiao || !dataRegiao.musicas[faixaSelecionadaAtualmente][ontemRegiao]) {
+                        emojiRegiao = ' 🚀';
                     } else {
-                        let ganhoR = posAnteriorR - posAtualR;
-                        if (ganhoR > 0) {
-                            if (ganhoR > 400) emojiR = ' 🚨';
-                            else if (ganhoR > 200) emojiR = ' 🔥';
-                            else if (ganhoR >= 100) emojiR = ' 📈';
-                            else if (ganhoR > 2) emojiR = ' 🌱';
+                        let posAnteriorRegiao = dataRegiao.musicas[faixaSelecionadaAtualmente][ontemRegiao];
+                        let ganhoRegiao = posAnteriorRegiao - pos;
+                        if (ganhoRegiao > 0) {
+                            if (ganhoRegiao > 400) emojiRegiao = ' 🚨';
+                            else if (ganhoRegiao > 200) emojiRegiao = ' 🔥';
+                            else if (ganhoRegiao >= 100) emojiRegiao = ' 📈';
+                            else if (ganhoRegiao > 2) emojiRegiao = ' 🌱';
                         }
                     }
-                    presencias.push({ regiao: r, nome: nomesRegioes[r], posicao: posAtualR, emoji: emojiR });
+
+                    presencias.push({ regiao: r, nome: nomesRegioes[r], posicao: pos, emoji: emojiRegiao });
                 }
             }
         });
