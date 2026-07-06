@@ -850,7 +850,12 @@
     function gerarGrafico() {
         let datas = dadosGlobais.datas;
         const historicoPosis = dadosGlobais.musicas[faixaSelecionadaAtualmente];
-        let pontos = datas.map(data => historicoPosis[data] || null);
+        
+        // ⚡ MAPA DINÂMICO INTERNO: Valores vazios se tornam 1030 para mergulhar por baixo da grade
+        let pontos = datas.map(data => {
+            let p = historicoPosis[data];
+            return (p !== undefined && p !== null) ? p : 1030;
+        });
 
         if (diasFiltroAtivo > 0) {
             datas = datas.slice(-diasFiltroAtivo);
@@ -878,7 +883,13 @@
                     pointBackgroundColor: '#d8df00',
                     pointBorderColor: '#1a1a1a',
                     pointBorderWidth: 1.5,
-                    pointRadius: 4,
+                    // Oculta visualmente as bolinhas que estão na posição 1030 (fora do mapa)
+                    pointRadius: function(context) {
+                        return context.raw === 1030 ? 0 : 4;
+                    },
+                    pointHoverRadius: function(context) {
+                        return context.raw === 1030 ? 0 : 6;
+                    },
                     spanGaps: true
                 }]
             },
@@ -895,7 +906,8 @@
                         const label = e.chart.data.labels[index];
                         const value = e.chart.data.datasets[datasetIndex].data[index];
                         
-                        if (value === null) return;
+                        // Trava a criação de popups persistentes para pontos fora do Top 1000
+                        if (value === null || value === 1030) return;
 
                         const position = element.element;
                         criarPopupPersistente(label, value, position.x, position.y);
