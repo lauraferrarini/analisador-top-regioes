@@ -179,8 +179,6 @@
 
         .badge-pos { background: #1a1a1a; color: #fff; padding: 2px 5px; border-radius: 3px; font-weight: 600; font-size: 10px; }
         
-        #error-banner { display: none; background-color: #fadbd8; color: #c0392b; border: 1px solid #f5b7b1; padding: 15px; margin-bottom: 20px; font-weight: bold; border-radius: 4px; }
-        
         /* Estilo sutil para o hiperlink do título */
         .track-hyperlink {
             color: inherit;
@@ -242,7 +240,7 @@
                     <span onclick="filtrarPeriodo(180, this)">6 Meses</span>
                     
                     <div id="custom-period-box" style="margin-top: 6px; display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-size: 10px; color: var(--text-muted);">
-                        De: <input type="date" id="data-inicial" onchange="aplicarPeriodoCustomizado(); document.getElementById('data-final').focus(); try{document.getElementById('data-final').showPicker();}catch(e){}" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
+                        De: <input type="date" id="data-inicial" onchange="aplicarPeriodoCustomizado(); const dIni = this.value; const dFim = document.getElementById('data-final'); dFim.value = dIni; dFim.focus(); try{dFim.showPicker();}catch(e){}" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
                         Até: <input type="date" id="data-final" onchange="aplicarPeriodoCustomizado()" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
                     </div>
                 </div>
@@ -327,7 +325,6 @@
         document.getElementById('chk-todas').checked = true;
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
 
-        // Limpa as caixas de data ao mudar de região
         diasFiltroAtivo = 0;
         document.getElementById('data-inicial').value = '';
         document.getElementById('data-final').value = '';
@@ -717,7 +714,6 @@
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
         if (elementoClicado) elementoClicado.classList.add('current');
         
-        // Se clicar em um período fixo, limpa os inputs de data
         if (dias !== 'custom') {
             document.getElementById('data-inicial').value = '';
             document.getElementById('data-final').value = '';
@@ -726,7 +722,6 @@
         if (faixaSelecionadaAtualmente) gerarGrafico();
     }
 
-    // ⚡ NOVA FUNÇÃO: Aplica a lógica do range customizado e remove o destaque dos botões fixos
     function aplicarPeriodoCustomizado() {
         diasFiltroAtivo = 'custom';
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
@@ -742,7 +737,6 @@
             datas = datas.slice(-diasFiltroAtivo);
             pontos = pontos.slice(-diasFiltroAtivo);
         } 
-        // ⚡ NOVA CONDICIONAL: Filtra o array de datas e pontos mantendo o sincronismo de índices intacto
         else if (diasFiltroAtivo === 'custom') {
             const dataIni = document.getElementById('data-inicial').value;
             const dataFim = document.getElementById('data-final').value;
