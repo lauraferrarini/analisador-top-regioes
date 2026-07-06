@@ -179,8 +179,6 @@
 
         .badge-pos { background: #1a1a1a; color: #fff; padding: 2px 5px; border-radius: 3px; font-weight: 600; font-size: 10px; }
         
-        #error-banner { display: none; background-color: #fadbd8; color: #c0392b; border: 1px solid #f5b7b1; padding: 15px; margin-bottom: 20px; font-weight: bold; border-radius: 4px; }
-        
         /* Estilo sutil para o hiperlink do título */
         .track-hyperlink {
             color: inherit;
@@ -418,8 +416,13 @@
             tr.setAttribute('data-categoria', item.estado);
             tr.setAttribute('data-fullname', item.nome);
             
-            // 🛠️ FIX CIRÚRGICO: Passa o 'item.nome' limpo da closure. Sem barras invertidas fantasmas!
-            tr.onclick = function() { selecionarFaixa(item.nome, this); };
+            // 🛠️ AJUSTE CIRÚRGICO DA ROLAGEM: Executa a seleção e rola para o topo apenas se o clique for no TR ou TD puro
+            tr.onclick = function(e) { 
+                selecionarFaixa(item.nome, this); 
+                if (e.target.tagName === 'TD' || e.target.tagName === 'TR') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            };
 
             let linkHTML = (item.url && item.url !== '#')
                 ? `<a href="${item.url}" target="_blank" class="track-hyperlink" onclick="event.stopPropagation();">${tituloMusica}</a>`
