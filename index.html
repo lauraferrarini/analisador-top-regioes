@@ -240,6 +240,11 @@
                     <span onclick="filtrarPeriodo(28, this)">4 Semanas</span>
                     <span onclick="filtrarPeriodo(90, this)">3 Meses</span>
                     <span onclick="filtrarPeriodo(180, this)">6 Meses</span>
+                    
+                    <div id="custom-period-box" style="margin-top: 6px; display: flex; justify-content: flex-end; align-items: center; gap: 6px; font-size: 10px; color: var(--text-muted);">
+                        De: <input type="date" id="data-inicial" onchange="aplicarPeriodoCustomizado()" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
+                        Até: <input type="date" id="data-final" onchange="aplicarPeriodoCustomizado()" style="font-family: inherit; font-size: 10px; padding: 1px 4px; border: 1px solid var(--border-light); border-radius: 4px; color: var(--text-main); outline: none;">
+                    </div>
                 </div>
             </div>
             <div id="cross-region-presence" style="display: none; font-size: 11px; margin-top: 4px; margin-left: 45px; color: var(--text-muted); font-weight: 500;"></div>
@@ -322,7 +327,10 @@
         document.getElementById('chk-todas').checked = true;
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
 
+        // Limpa as caixas de data ao mudar de região
         diasFiltroAtivo = 0;
+        document.getElementById('data-inicial').value = '';
+        document.getElementById('data-final').value = '';
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
         const btnTudo = document.querySelector('.period-selector span[onclick^="filtrarPeriodo(0"]');
         if (btnTudo) btnTudo.classList.add('current');
@@ -429,7 +437,6 @@
                 ? `<a href="${item.url}" target="_blank" class="track-hyperlink" onclick="event.stopPropagation();">${tituloMusica}</a>`
                 : `<span>${tituloMusica}</span>`;
 
-            // ⚡ AJUSTE DE ALINHAMENTO: Modificado para float: right para mandar o jornalzinho pro extremo direito da célula
             let newsSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(item.nome)}&tbm=nws`;
             let newsIconHTML = ` <a href="${newsSearchUrl}" target="_blank" title="Pesquisar notícias" onclick="event.stopPropagation();" style="text-decoration: none; float: right;">📰</a>`;
 
@@ -708,7 +715,21 @@
     function filtrarPeriodo(dias, elementoClicado) {
         diasFiltroAtivo = dias;
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
-        elementoClicado.classList.add('current');
+        if (elementoClicado) elementoClicado.classList.add('current');
+        
+        // Se clicar em um período fixo, limpa os inputs de data
+        if (dias !== 'custom') {
+            document.getElementById('data-inicial').value = '';
+            document.getElementById('data-final').value = '';
+        }
+        
+        if (faixaSelecionadaAtualmente) gerarGrafico();
+    }
+
+    // ⚡ NOVA FUNÇÃO: Aplica a lógica do range customizado e remove o destaque dos botões fixos
+    function aplicarPeriodoCustomizado() {
+        diasFiltroAtivo = 'custom';
+        document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
         if (faixaSelecionadaAtualmente) gerarGrafico();
     }
 
@@ -720,6 +741,23 @@
         if (diasFiltroAtivo > 0) {
             datas = datas.slice(-diasFiltroAtivo);
             pontos = pontos.slice(-diasFiltroAtivo);
+        } 
+        // ⚡ NOVA CONDICIONAL: Filtra o array de datas e pontos mantendo o sincronismo de índices intacto
+        else if (diasFiltroAtivo === 'custom') {
+            const dataIni = document.getElementById('data-inicial').value;
+            const dataFim = document.getElementById('data-final').value;
+            
+            let datasFiltradas = [];
+            let pontosFiltrados = [];
+            
+            for (let i = 0; i < datas.length; i++) {
+                if ((!dataIni || datas[i] >= dataIni) && (!dataFim || datas[i] <= dataFim)) {
+                    datasFiltradas.push(datas[i]);
+                    pontosFiltrados.push(pontos[i]);
+                }
+            }
+            datas = datasFiltradas;
+            pontos = pontosFiltrados;
         }
 
         document.querySelectorAll('.persistent-tooltip').forEach(el => el.remove());
