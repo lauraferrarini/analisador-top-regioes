@@ -220,6 +220,13 @@
         <div class="kpi-card kpi-novas"><div class="kpi-title">🚀 Novas Entradas</div><div class="kpi-value" id="count-novas">0</div></div>
     </div>
 
+    <div style="margin-bottom: 25px; display: flex; align-items: center; gap: 6px;">
+        <label class="filter-label" style="font-weight: 600; margin-bottom: 0;">
+            <input type="checkbox" id="chk-fds" checked onchange="processarEMontarTabelaCorrida()"> Considerar fim de semana
+        </label>
+        <span title="Quando desativado, as movimentações de segunda-feira serão calculadas comparando o ranking atual com o de sexta-feira, ignorando as oscilações de sábado e domingo." style="cursor: help; color: var(--text-muted); font-weight: bold; font-size: 11px;">(?)</span>
+    </div>
+
     <div class="filter-checkbox-container">
         <span class="filter-title">Filtrar por Estado:</span>
         <label class="filter-label" style="color: #000; font-weight: 800;"><input type="checkbox" id="chk-todas" checked onchange="aoClicarTodas()"> Todas</label>
@@ -322,6 +329,9 @@
         document.getElementById('chk-todas').checked = true;
         categoriesLista.forEach(cat => document.getElementById(`chk-${cat}`).checked = false);
 
+        // Reseta o seletor de fim de semana para o estado padrão ativado ao alternar regiões
+        document.getElementById('chk-fds').checked = true;
+
         diasFiltroAtivo = 0;
         document.querySelectorAll('.period-selector span').forEach(el => el.classList.remove('current'));
         const btnTudo = document.querySelector('.period-selector span[onclick^="filtrarPeriodo(0"]');
@@ -354,7 +364,25 @@
     function processarEMontarTabelaCorrida() {
         const datas = dadosGlobais.datas;
         const hoje = datas[datas.length - 1];
-        const ontem = datas.length > 1 ? datas[datas.length - 2] : null;
+        let ontem = datas.length > 1 ? datas[datas.length - 2] : null;
+
+        // ⚡ AUDITORIA DE FIM DE SEMANA NA SEGUNDA-FEIRA: Puxa os dados de sexta se desmarcado
+        const considerarFds = document.getElementById('chk-fds').checked;
+        if (!considerarFds && hoje) {
+            const partesHoje = hoje.split('-');
+            const dataHojeObj = new Date(partesHoje[0], partesHoje[1] - 1, partesHoje[2]);
+            if (dataHojeObj.getDay() === 1) { // 1 = Segunda-feira
+                for (let idx = datas.length - 2; idx >= 0; idx--) {
+                    const dStr = datas[idx];
+                    const p = dStr.split('-');
+                    const dCheck = new Date(p[0], p[1] - 1, p[2]);
+                    if (dCheck.getDay() === 5) { // 5 = Sexta-feira
+                        ontem = dStr;
+                        break;
+                    }
+                }
+            }
+        }
 
         document.getElementById('report-date').innerText = `Relatório Diário Top 1000 ${nomesRegioes[regiaoAtiva]} — ${hoje.split('-').reverse().join('/')}`;
 
