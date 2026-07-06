@@ -1,0 +1,490 @@
+# 📊 Relatório Letras - Espanha - 06/07/2026
+
+## 🚨 🚨 EXPLOSÃO NO TOP: SUBIDAS ABSURDAS (+400 posições) 🚨 🚨
+> ### 💥 **Himno Nacional de Paraguay** — *Himnos de Países*
+> 🛑 **Subida histórica!** Saltou de 797º direto para **104º** (🔼 **+693** posições)
+
+> ### 💥 **Entre Sobras y Sobras Me Faltas** — *Antonio Orozco*
+> 🛑 **Subida histórica!** Saltou de 899º direto para **250º** (🔼 **+649** posições)
+
+> ### 💥 **One Step Away** — *Madonna*
+> 🛑 **Subida histórica!** Saltou de 810º direto para **268º** (🔼 **+542** posições)
+
+> ### 💥 **Good For The Soul** — *Madonna*
+> 🛑 **Subida histórica!** Saltou de 936º direto para **400º** (🔼 **+536** posições)
+
+> ### 💥 **L.E.S. Girl** — *Madonna*
+> 🛑 **Subida histórica!** Saltou de 766º direto para **256º** (🔼 **+510** posições)
+
+> ### 💥 **Sugar** — *Maroon 5*
+> 🛑 **Subida histórica!** Saltou de 780º direto para **307º** (🔼 **+473** posições)
+
+> ### 💥 **Hino do Marrocos (Hymne Chérifien)** — *Hinos de Países*
+> 🛑 **Subida histórica!** Saltou de 613º direto para **196º** (🔼 **+417** posições)
+
+## 🔥 Grandes Saltos (+200 a 400 posições)
+- **Memories** (Maroon 5): Subiu de 819º para **432º** (🔥 +387 posições)
+- **Fear Of The Dark** (Iron Maiden): Subiu de 886º para **513º** (🔥 +373 posições)
+- **La Bilirrubina** (Juan Luis Guerra 4.40): Subiu de 982º para **613º** (🔥 +369 posições)
+- **Fragile** (Madonna): Subiu de 504º para **138º** (🔥 +366 posições)
+- **Never Enough** (O Rei do Show (The Greatest Showman)): Subiu de 951º para **602º** (🔥 +349 posições)
+- **Las mas bonitas son p#tas** (Anuel AA): Subiu de 776º para **435º** (🔥 +341 posições)
+- **Hino Nacional Brasileiro** (Ayu Brazil): Subiu de 616º para **278º** (🔥 +338 posições)
+- **Best Of You** (Foo Fighters): Subiu de 960º para **632º** (🔥 +328 posições)
+- **Cheque Al Portamor** (Melendi): Subiu de 803º para **476º** (🔥 +327 posições)
+- **Don't tell your dreams (feat. STOSLIV)** (LOVIXX): Subiu de 509º para **209º** (🔥 +300 posições)
+- **Pretty Fly (For A White Guy)** (The Offspring): Subiu de 730º para **437º** (🔥 +293 posições)
+- **Read My Lips (feat. Feid)** (Madonna): Subiu de 576º para **296º** (🔥 +280 posições)
+- **Hace Calor** (Los Rodríguez): Subiu de 800º para **527º** (🔥 +273 posições)
+- **13 Tuyuti** (Emiliano R Fernadez): Subiu de 650º para **380º** (🔥 +270 posições)
+- **This Love** (Maroon 5): Subiu de 959º para **709º** (🔥 +250 posições)
+- **Bizarre (feat. Martin Garrix)** (Madonna): Subiu de 351º para **103º** (🔥 +248 posições)
+- **Locomia** (Loco Mía): Subiu de 760º para **516º** (🔥 +244 posições)
+- **Ojalá Que Llueva Café** (Juan Luis Guerra 4.40): Subiu de 731º para **488º** (🔥 +243 posições)
+- **Girl On Fire** (Alicia Keys): Subiu de 631º para **391º** (🔥 +240 posições)
+- **Tu Falta de Querer** (Mon Laferte): Subiu de 825º para **594º** (🔥 +231 posições)
+- **SCANDIC** (Quevedo): Subiu de 974º para **746º** (🔥 +228 posições)
+- **Memória (part. Carminho)** (ROSALÍA): Subiu de 601º para **379º** (🔥 +222 posições)
+- **Llença't** (Lax'n'Busto): Subiu de 907º para **692º** (🔥 +215 posições)
+- **Escuchen, Corran La Bola** (FERRO DE LA PAMPA): Subiu de 289º para **76º** (🔥 +213 posições)
+
+## 📈 Subidas Significativas (100 a 200 posições)
+- **Sencillamente** (Hakuna Group Music): Subiu de 971º para **774º** (📈 +197 posições)
+- **Danceteria** (Madonna): Subiu de 269º para **77º** (📈 +192 posições)
+- **Payphone (feat. Wiz Khalifa)** (Maroon 5): Subiu de 779º para **588º** (📈 +191 posições)
+- **I Love You, I'm Sorry** (Gracie Abrams): Subiu de 965º para **775º** (📈 +190 posições)
+- **Im Sorry Mom** (Marino): Subiu de 527º para **339º** (📈 +188 posições)
+- **Love Story** (Taylor Swift): Subiu de 543º para **358º** (📈 +185 posições)
+- **Venimos Del Dembow** (La Reina del Flow): Subiu de 972º para **788º** (📈 +184 posições)
+- **After** (Conep): Subiu de 262º para **79º** (📈 +183 posições)
+- **BESITO** (Judeline): Subiu de 323º para **146º** (📈 +177 posições)
+- **i love you** (Billie Eilish): Subiu de 644º para **469º** (📈 +175 posições)
+- **Alma** (La Reina del Flow): Subiu de 840º para **666º** (📈 +174 posições)
+- **un x100to (part. Bad Bunny)** (Grupo Frontera): Subiu de 748º para **576º** (📈 +172 posições)
+- **Stand by Me** (Oasis): Subiu de 749º para **579º** (📈 +170 posições)
+- **La Tortura (part. Alejandro Sanz)** (Shakira): Subiu de 981º para **816º** (📈 +165 posições)
+- **GUANTÁNAMO** (Yapi): Subiu de 955º para **791º** (📈 +164 posições)
+- **Galtzaile** (Kaparrak): Subiu de 883º para **720º** (📈 +163 posições)
+- **99 Luftballons** (NENA): Subiu de 911º para **748º** (📈 +163 posições)
+- **QUE LOUCURA (part. CACAU CHUU) [explícita]** (DJ EXE): Subiu de 928º para **768º** (📈 +160 posições)
+- **The Lazy Song** (Bruno Mars): Subiu de 415º para **258º** (📈 +157 posições)
+- **Behind Blue Eyes** (Limp Bizkit): Subiu de 844º para **687º** (📈 +157 posições)
+- **Te Juro Que No Hay Un Segundo Que No Piense En Ti** (Antonio Orozco): Subiu de 785º para **629º** (📈 +156 posições)
+- **Don't Speak** (No Doubt): Subiu de 980º para **824º** (📈 +156 posições)
+- **Como Camarón** (Estopa): Subiu de 648º para **494º** (📈 +154 posições)
+- **Gracia Sublime Es** (En Espiritu Y En Verdad): Subiu de 939º para **785º** (📈 +154 posições)
+- **Break Free (feat. Zedd)** (Ariana Grande): Subiu de 581º para **428º** (📈 +153 posições)
+- **My Hero** (Foo Fighters): Subiu de 628º para **481º** (📈 +147 posições)
+- **Stolen Dance** (Milky Chance): Subiu de 988º para **841º** (📈 +147 posições)
+- **Animals** (Maroon 5): Subiu de 736º para **590º** (📈 +146 posições)
+- **Базовый минимум (bazovyj minimum) (feat. SABI)** (Mia Boyka): Subiu de 934º para **792º** (📈 +142 posições)
+- **Stairway To Heaven** (Led Zeppelin): Subiu de 561º para **420º** (📈 +141 posições)
+- **MELODRAMMATICA (part. Cristina Lora)** (LUK3): Subiu de 434º para **295º** (📈 +139 posições)
+- **Caruso** (Lucio Dalla): Subiu de 621º para **482º** (📈 +139 posições)
+- **Fénix** (La Reina del Flow): Subiu de 762º para **624º** (📈 +138 posições)
+- **Hino de Cabo Verde** (Hinos): Subiu de 792º para **662º** (📈 +130 posições)
+- **Rosa Maria** (Camarón de La Isla): Subiu de 985º para **855º** (📈 +130 posições)
+- **Una Vez En Diciembre (España)** (Anastasia): Subiu de 898º para **772º** (📈 +126 posições)
+- **balaclava** (Balvclava): Subiu de 966º para **843º** (📈 +123 posições)
+- **Killing Me Softly With His Song** (Fugees): Subiu de 684º para **563º** (📈 +121 posições)
+- **Sex On Fire** (Kings Of Leon): Subiu de 721º para **600º** (📈 +121 posições)
+- **Sarri, Sarri** (Kortatu): Subiu de 984º para **866º** (📈 +118 posições)
+- **Q U E V A S H A C E R H O Y ? (part. De La Rose) [explícita]** (Omar Courtz): Subiu de 664º para **547º** (📈 +117 posições)
+- **La Ramona** (Fernando Esteso): Subiu de 814º para **697º** (📈 +117 posições)
+- **Where Is The Love?** (Black Eyed Peas): Subiu de 846º para **729º** (📈 +117 posições)
+- **Break Stuff (Explicit Version)** (Limp Bizkit): Subiu de 382º para **266º** (📈 +116 posições)
+- **Shake It Off** (Taylor Swift): Subiu de 723º para **608º** (📈 +115 posições)
+- **Bachata Rosa** (Juan Luis Guerra 4.40): Subiu de 489º para **375º** (📈 +114 posições)
+- **Alaba a Dios** (Danny Berrios): Subiu de 801º para **688º** (📈 +113 posições)
+- **The Nights** (Avicii): Subiu de 963º para **850º** (📈 +113 posições)
+- **Llevo Tu Luz y Tu Aroma En Mi Piel** (José Luis Armenteros): Subiu de 990º para **878º** (📈 +112 posições)
+- **Touch** (KATSEYE): Subiu de 809º para **698º** (📈 +111 posições)
+- **Let It Go** (Frozen): Subiu de 938º para **828º** (📈 +110 posições)
+- **Take Me Home, Country Roads** (John Denver): Subiu de 614º para **507º** (📈 +107 posições)
+- **L'Italiano** (Toto Cutugno): Subiu de 706º para **599º** (📈 +107 posições)
+- **Candy** (Plan B): Subiu de 761º para **654º** (📈 +107 posições)
+- **Just a Girl** (No Doubt): Subiu de 943º para **840º** (📈 +103 posições)
+- **Burbujas de Amor** (Juan Luis Guerra 4.40): Subiu de 672º para **571º** (📈 +101 posições)
+- **My Girl** (The Temptations): Subiu de 740º para **639º** (📈 +101 posições)
+- **God's Plan** (Drake): Subiu de 931º para **830º** (📈 +101 posições)
+
+## 🌱 Pequenas Subidas (Abaixo de 100 posições)
+> Omitindo oscilações menores ou iguais a 2 posições.
+
+- **Opalite** (Taylor Swift): 669º → **573º** (+96)
+- **The House Of The Rising Sun** (The Animals): 710º → **614º** (+96)
+- **Si Tu No Estas** (Rosana Arbelo): 845º → **749º** (+96)
+- **Be My Baby** (The Ronettes): 249º → **156º** (+93)
+- **EVERYTHING HALLELUJAH** (Justin Bieber): 882º → **789º** (+93)
+- **Faded** (Alan Walker): 466º → **376º** (+90)
+- **Fiera Inquieta** (Pasión de Gavilanes): 712º → **622º** (+90)
+- **Du Hast** (Rammstein): 830º → **741º** (+89)
+- **Tobogan** (ZOO Posse): 891º → **802º** (+89)
+- **La Revolucion Sexual** (La Casa Azul): 555º → **467º** (+88)
+- **Young And Beautiful** (Lana Del Rey): 431º → **345º** (+86)
+- **Ela Ké Cavucadinha (part. CACAU CHUU)** (Gordinho Bolado): 660º → **577º** (+83)
+- **Go** (The Chemical Brothers): 940º → **857º** (+83)
+- **I Miss You** (blink-182): 958º → **876º** (+82)
+- **COACHELLA** (Juseph): 726º → **645º** (+81)
+- **Espresso** (Sabrina Carpenter): 867º → **786º** (+81)
+- **a la freSka** (Figa Flawas): 405º → **325º** (+80)
+- **Todos Los Besos** (Los Rebujitos): 557º → **477º** (+80)
+- **She Will Be Loved** (Maroon 5): 184º → **105º** (+79)
+- **I Will Always Love You** (Whitney Houston): 629º → **550º** (+79)
+- **Hay Que Venir Al Sur (Tanti Auguri)** (Raffaella Carrà): 905º → **826º** (+79)
+- **How Deep Is Your Love** (Bee Gees): 378º → **303º** (+75)
+- **EL BACHATÓN DE LA L (part. Lucho RK)** (Lola Indigo): 196º → **123º** (+73)
+- **In My Life** (The Beatles): 598º → **525º** (+73)
+- **La Chica De Ayer** (Nacha Pop): 612º → **539º** (+73)
+- **I'll Be There For You** (The Rembrandts): 912º → **839º** (+73)
+- **I Just Might** (Bruno Mars): 306º → **235º** (+71)
+- **En Mi Corazón Vivirás** (Tarzan): 440º → **369º** (+71)
+- **The Final Countdown** (Europe): 975º → **905º** (+70)
+- **Love Me Like You Do** (Ellie Goulding): 781º → **712º** (+69)
+- **Djadja** (Aya Nakamura): 826º → **757º** (+69)
+- **Beggin'** (Måneskin): 969º → **900º** (+69)
+- **Earrings** (Malcolm Todd): 353º → **285º** (+68)
+- **bloodstream** (Alyssa Grace): 584º → **518º** (+66)
+- **Love Story** (Indila): 689º → **623º** (+66)
+- **Dog Days Are Over** (Florence + The Machine): 605º → **540º** (+65)
+- **Whatever Will Be, Will Be (Que Sera, Sera)** (Pixies): 674º → **609º** (+65)
+- **Tu Calorro** (Estopa): 732º → **667º** (+65)
+- **Many Men (Wish Death)** (50 Cent): 802º → **737º** (+65)
+- **NIÑA** (Ogcale): 765º → **701º** (+64)
+- **Dreams** (Fleetwood Mac): 787º → **723º** (+64)
+- **Wind Of Change** (Scorpions): 356º → **293º** (+63)
+- **La Última Vez (part. Bad Bunny)** (Anuel AA): 392º → **329º** (+63)
+- **Marry You** (Bruno Mars): 521º → **458º** (+63)
+- **Le Petit Pêcheur** (Manon Lisa): 568º → **505º** (+63)
+- **Human** (Rag'n'Bone Man): 782º → **719º** (+63)
+- **Rude** (MAGIC!): 793º → **730º** (+63)
+- **Ramenez La Coupe À La Maison** (Vegedream): 242º → **180º** (+62)
+- **Lo Siento Mi Amor** (Rocío Jurado): 823º → **761º** (+62)
+- **Voy a Ser El Rey León** (El Rey León): 952º → **890º** (+62)
+- **Erika** (Soldatenlieder Der Wehrmacht): 964º → **902º** (+62)
+- **Somewhere Only We Know** (Keane): 255º → **194º** (+61)
+- **The Scientist** (Coldplay): 352º → **291º** (+61)
+- **Búfalo** (Siloé): 460º → **399º** (+61)
+- **Happier Than Ever** (Billie Eilish): 997º → **936º** (+61)
+- **Cups (When I'm Gone)** (Anna Kendrick): 593º → **533º** (+60)
+- **I Really Want To Stay At Your House (feat. Hallie Coggins)** (Rosa Walton): 919º → **859º** (+60)
+- **Sopa de Caracol** (Banda Blanca): 191º → **134º** (+57)
+- **Beretta (De Los Cerros La Escuela)** (El de Las R's): 311º → **254º** (+57)
+- **Die For You** (The Weeknd): 632º → **575º** (+57)
+- **Tattoo** (Loreen): 795º → **738º** (+57)
+- **Cha Cha Cha** (Bruno Mars): 526º → **470º** (+56)
+- **Gnarly** (KATSEYE): 737º → **681º** (+56)
+- **Eres Mía** (Romeo Santos): 500º → **445º** (+55)
+- **What About Us** (P!nk): 696º → **641º** (+55)
+- **LET ME BE** (The Second Voice): 370º → **317º** (+53)
+- **La Flaca** (Jarabe de Palo): 362º → **310º** (+52)
+- **Sign of the Times** (Harry Styles): 118º → **67º** (+51)
+- **Eenie Meenie (feat. Sean Kingston)** (Justin Bieber): 849º → **798º** (+51)
+- **Rollin' (Air Raid Vehicle)** (Limp Bizkit): 551º → **501º** (+50)
+- **Your Song** (Elton John): 739º → **689º** (+50)
+- **Sweet Caroline** (Neil Diamond): 197º → **148º** (+49)
+- **La Vaca Lola** (La Granja de Zenón): 881º → **832º** (+49)
+- **Que tinguem sort** (Lluís Llach): 379º → **331º** (+48)
+- **Torn** (Natalie Imbruglia): 499º → **451º** (+48)
+- **Marta Tiene Un Marcapasos** (Hombres G): 790º → **742º** (+48)
+- **El Patio (part. Delaossa)** (Pepe y Vizio): 271º → **224º** (+47)
+- **Océanos (Donde Mis Pies Pueden Fallar)** (Hillsong UNITED): 991º → **944º** (+47)
+- **Red Lights (강박) (Bang Chan & Hyunjin)** (Stray Kids): 992º → **945º** (+47)
+- **NUEVAYoL** (Bad Bunny): 87º → **41º** (+46)
+- **Don't Stop Me Now** (Queen): 599º → **553º** (+46)
+- **Still Loving You** (Scorpions): 610º → **564º** (+46)
+- **Flower Man (feat. Camellia)** (Toby Fox): 857º → **811º** (+46)
+- **YUKON** (Justin Bieber): 715º → **670º** (+45)
+- **Grenade** (Bruno Mars): 987º → **942º** (+45)
+- **Locked Out Of Heaven** (Bruno Mars): 185º → **141º** (+44)
+- **Always Remember Us This Way** (Lady Gaga): 327º → **283º** (+44)
+- **Messy** (Lola Young): 400º → **356º** (+44)
+- **Midnight Sun** (Zara Larsson): 364º → **321º** (+43)
+- **To Build a Home (feat. Patrick Watson)** (The Cinematic Orchestra): 571º → **528º** (+43)
+- **WHERE IS MY HUSBAND!** (RAYE): 154º → **112º** (+42)
+- **WO OH OH (part. ROA)** (Omar Courtz): 513º → **471º** (+42)
+- **Story Of My Life** (One Direction): 483º → **442º** (+41)
+- **L a k e n o s h i** (Omar Courtz): 545º → **504º** (+41)
+- **Love On The Brain** (Rihanna): 681º → **640º** (+41)
+- **Bad Dreams** (Teddy Swims): 998º → **957º** (+41)
+- **American Pie** (Don McLean): 233º → **193º** (+40)
+- **DADDY YANKEE (BZRP Music Sessions #0/66)** (Bizarrap): 260º → **220º** (+40)
+- **Days Like This** (Van Morrison): 288º → **248º** (+40)
+- **Cinnamon Girl** (Lana Del Rey): 668º → **628º** (+40)
+- **La Canción Del Cola Cao** (3+2): 673º → **633º** (+40)
+- **Olvidame y Pega La Vuelta** (Pimpinela): 354º → **315º** (+39)
+- **HOOKAH Y CALOR** (Quevedo): 670º → **631º** (+39)
+- **Your Love** (The Outfield): 707º → **668º** (+39)
+- **Dernière Danse** (Indila): 104º → **66º** (+38)
+- **Like a Prayer** (Madonna): 448º → **410º** (+38)
+- **Ain't No Mountain High Enough (feat. Tammi Terrell)** (Marvin Gaye): 355º → **318º** (+37)
+- **Baby Now That I Found You** (Ella Bright): 515º → **478º** (+37)
+- **DAISIES** (Justin Bieber): 572º → **535º** (+37)
+- **Uno Más Uno Son 7 (part. Despistaos)** (Fran Perea): 687º → **650º** (+37)
+- **Todos Los Besos** (Siloé): 129º → **93º** (+36)
+- **Reflejo (Versión de Charly Flow)** (La Reina del Flow): 198º → **162º** (+36)
+- **Felicità** (Al Bano and Romina Power): 553º → **517º** (+36)
+- **Stay With Me** (Sam Smith): 625º → **589º** (+36)
+- **Canción Del Mariachi (part. Los Lobos)** (Antonio Banderas): 641º → **605º** (+36)
+- **Issues** (Julia Michaels): 949º → **913º** (+36)
+- **Bring Me To Life** (Evanescence): 110º → **75º** (+35)
+- **Amor Infinito** (Siloé): 192º → **157º** (+35)
+- **Carolina** (M-Clan): 694º → **659º** (+35)
+- **Mirrors** (Justin Timberlake): 340º → **306º** (+34)
+- **The First Time** (Damiano David): 429º → **395º** (+34)
+- **Raindance (feat. Tems)** (Dave): 473º → **439º** (+34)
+- **When We Were Young** (Adele): 518º → **484º** (+34)
+- **Radio Ga Ga** (Queen): 789º → **755º** (+34)
+- **You Are The Reason** (Calum Scott): 989º → **955º** (+34)
+- **Hijo de La Luna** (Mecano (ES)): 603º → **570º** (+33)
+- **La Niña Futbolista** (Julieta Venegas): 636º → **603º** (+33)
+- **S&M** (Rihanna): 850º → **817º** (+33)
+- **The Fate of Ophelia** (Taylor Swift): 145º → **113º** (+32)
+- **Linger** (The Cranberries): 624º → **592º** (+32)
+- **WHAT U NEED? (SexPlaylist 2) (part. Myke Towers) [explícita]** (Omar Courtz): 852º → **820º** (+32)
+- **Like A Rolling Stone** (The Rolling Stones): 479º → **448º** (+31)
+- **Decidí** (Extremoduro): 843º → **812º** (+31)
+- **Muchachos, Ahora Nos Volvimos a Ilusionar** (La Mosca Tsé-Tsé): 119º → **89º** (+30)
+- **La Roja Baila (part. Niña Pastori)** (Sergio Ramos): 178º → **149º** (+29)
+- **Porque Tú y Yo (Versión Charly Flow)** (La Reina del Flow): 305º → **276º** (+29)
+- **Mio Cristo Piange Diamanti** (ROSALÍA): 541º → **512º** (+29)
+- **Just The Way You Are** (Bruno Mars): 163º → **135º** (+28)
+- **Eye In The Sky** (The Alan Parsons Project): 165º → **137º** (+28)
+- **Nothing Else Matters** (Metallica): 193º → **165º** (+28)
+- **Imagine** (John Lennon): 298º → **270º** (+28)
+- **The Climb** (Miley Cyrus): 482º → **454º** (+28)
+- **Qui sait? (feat. ElGrandeToto)** (ElGrandeToto): 433º → **406º** (+27)
+- **Try** (P!nk): 556º → **529º** (+27)
+- **Unwritten** (Natasha Bedingfield): 718º → **691º** (+27)
+- **Highway To Hell** (AC/DC): 148º → **122º** (+26)
+- **Summer** (Calvin Harris): 307º → **281º** (+26)
+- **真夜中のドア (Stay With Me)** (Miki Matsubara): 451º → **425º** (+26)
+- **​lacy** (Olivia Rodrigo): 512º → **486º** (+26)
+- **La Plena (W Sound 05) (part. Beéle y Ovy On The Drums)** (W Sound): 646º → **620º** (+26)
+- **I'm Still Standing** (Elton John): 679º → **653º** (+26)
+- **Lapsus** (Ultraligera): 816º → **790º** (+26)
+- **Chasing Cars** (Snow Patrol): 175º → **150º** (+25)
+- **Devuélveme a Mi Chica** (Hombres G): 183º → **158º** (+25)
+- **505** (Arctic Monkeys): 339º → **314º** (+25)
+- **Livin' On a Prayer** (Bon Jovi): 388º → **363º** (+25)
+- **Here Comes The Sun** (The Beatles): 671º → **646º** (+25)
+- **Danza Kuduro (part. Lucenzo)** (Don Omar): 824º → **799º** (+25)
+- **Radioactive** (Imagine Dragons): 38º → **14º** (+24)
+- **Cuica (part. Quevedo)** (Ptazeta): 48º → **24º** (+24)
+- **La Sirenita - Bajo Del Mar** (Disney): 304º → **280º** (+24)
+- **Dancing In The Moonlight** (Toploader): 407º → **383º** (+24)
+- **Home** (Edith Whiskers): 833º → **809º** (+24)
+- **Reflections** (The Neighbourhood): 263º → **240º** (+23)
+- **Where Is My Mind?** (Pixies): 371º → **348º** (+23)
+- **The sundays (part. Evar)** (Rojuu): 446º → **423º** (+23)
+- **Je veux** (Zaz): 132º → **110º** (+22)
+- **City Of Stars** (La La Land): 230º → **208º** (+22)
+- **Pocahontas - Colores En El Viento** (Disney): 245º → **223º** (+22)
+- **Angels (Spanish Version)** (Robbie Williams): 554º → **532º** (+22)
+- **Only Love Can Hurt Like This** (Paloma Faith): 615º → **593º** (+22)
+- **Perdóname (Versión de Charly)** (La Reina del Flow): 617º → **595º** (+22)
+- **Black Or White** (Michael Jackson): 817º → **795º** (+22)
+- **La Vida Sigue Igual** (Julio Iglesias): 983º → **961º** (+22)
+- **Loca (part. El Cata)** (Shakira): 478º → **457º** (+21)
+- **Smells Like Teen Spirit** (Nirvana): 487º → **466º** (+21)
+- **Smack That (feat. Eminem)** (Akon): 906º → **885º** (+21)
+- **Thunder** (Imagine Dragons): 917º → **896º** (+21)
+- **I Gotta Feeling** (Black Eyed Peas): 946º → **925º** (+21)
+- **Gut Genug (mit Blumengarten & Shirin David)** (KitschKrieg): 66º → **46º** (+20)
+- **Another Day In Paradise** (Phil Collins): 232º → **212º** (+20)
+- **Pile** (Ceca Velichkovic): 102º → **83º** (+19)
+- **Girls Just Want To Have Fun** (Cyndi Lauper): 128º → **109º** (+19)
+- **Un Beso y Una Flor** (Nino Bravo): 134º → **115º** (+19)
+- **Seven (feat. Latto) (Explicit Version)** (Jungkook): 675º → **656º** (+19)
+- **Count On Me** (Bruno Mars): 162º → **144º** (+18)
+- **Can't Help Falling In Love** (Elvis Presley): 194º → **176º** (+18)
+- **In This Shirt** (The Irrepressibles): 213º → **195º** (+18)
+- **Believer** (Imagine Dragons): 426º → **408º** (+18)
+- **Volare (Nel Blu Dipinto Di Blu)** (Domenico Modugno): 604º → **586º** (+18)
+- **DUELE EL CORAZÓN (part. Wisin)** (Enrique Iglesias): 855º → **837º** (+18)
+- **I Knew It, I Knew You** (Taylor Swift): 398º → **381º** (+17)
+- **Rata de Dos Patas** (Paquita La Del Barrio): 677º → **660º** (+17)
+- **Or Nah (feat. Ty Dolla $ign & Wiz Khalifa)** (The Weeknd): 77º → **61º** (+16)
+- **Shallow (feat. Bradley Cooper)** (Lady Gaga): 124º → **108º** (+16)
+- **Contigo Aprendí** (Armando Manzanero): 221º → **205º** (+16)
+- **Die On This Hill** (SIENNA SPIRO): 419º → **403º** (+16)
+- **Casanova (remix) (part. Lola Indigo et Rvfv)** (Soolking): 774º → **758º** (+16)
+- **Punto de Partida** (Rocío Jurado): 176º → **161º** (+15)
+- **Limón y Sal** (Julieta Venegas): 243º → **228º** (+15)
+- **Si Antes Te Hubiera Conocido** (KAROL G): 144º → **130º** (+14)
+- **Papaoutai** (Stromae): 187º → **173º** (+14)
+- **Noitada (part. Baiuca)** (Carlos Ares): 211º → **197º** (+14)
+- **Chiquitita (Spanish Version)** (ABBA): 216º → **202º** (+14)
+- **Whatever Will Be, Will Be (Que Sera, Sera) (feat. Frank DeVol & His Orchestra)** (Doris Day): 266º → **252º** (+14)
+- **Summer of '69** (Bryan Adams): 384º → **370º** (+14)
+- **Boys Don't Cry** (The Cure): 836º → **822º** (+14)
+- **Ordinary** (Alex Warren): 56º → **43º** (+13)
+- **Treat You Better** (Shawn Mendes): 58º → **45º** (+13)
+- **With Or Without You** (U2): 64º → **51º** (+13)
+- **Someone Like You** (Adele): 138º → **125º** (+13)
+- **Dancing On My Own** (Robyn): 153º → **140º** (+13)
+- **Losing My Religion** (R.E.M.): 256º → **243º** (+13)
+- **Mediterráneo** (Joan Manuel Serrat): 662º → **649º** (+13)
+- **Under Pressure (feat. David Bowie)** (Queen): 859º → **846º** (+13)
+- **YMCA** (Village People): 71º → **59º** (+12)
+- **Every Breath You Take** (The Police): 72º → **60º** (+12)
+- **Die With A Smile (feat. Bruno Mars)** (Lady Gaga): 80º → **68º** (+12)
+- **Riptide** (Vance Joy): 301º → **289º** (+12)
+- **Huracán** (Hakuna Group Music): 421º → **409º** (+12)
+- **MERO TOTE (part. De La Rose y Los Money Makers)** (Blessd): 683º → **671º** (+12)
+- **Suéltalo** (Gisela): 923º → **911º** (+12)
+- **When I Was Your Man** (Bruno Mars): 91º → **80º** (+11)
+- **Dreams** (The Cranberries): 166º → **155º** (+11)
+- **Aladdín - Un Mundo Ideal** (Disney): 195º → **184º** (+11)
+- **Será Porque Te Amo** (Ricchi e Poveri): 217º → **206º** (+11)
+- **See You Again (feat. Kali Uchis)** (Tyler, The Creator): 293º → **282º** (+11)
+- **Everybody Wants To Rule The World** (Tears For Fears): 357º → **346º** (+11)
+- **Counting Stars** (OneRepublic): 522º → **511º** (+11)
+- **Rasputin** (Boney M.): 716º → **705º** (+11)
+- **Niño** (Milo j): 872º → **861º** (+11)
+- **Caminando Por La Vida** (Melendi): 37º → **27º** (+10)
+- **Love Yourself** (Justin Bieber): 39º → **29º** (+10)
+- **Angels** (Robbie Williams): 52º → **42º** (+10)
+- **El Taxi (part. Osmani Garcia, Sensato y Dayami La Musa)** (Pitbull): 188º → **178º** (+10)
+- **Son ilusiones** (Los Chichos): 246º → **236º** (+10)
+- **Balada** (Gusttavo Lima): 422º → **412º** (+10)
+- **Noche** (Hakuna Group Music): 470º → **460º** (+10)
+- **Show You Off (Unreleased) (feat. Eric Bellinger & Epidemyk)** (Justin Bieber): 818º → **808º** (+10)
+- **The Winner Takes It All** (ABBA): 35º → **26º** (+9)
+- **I Want You Back** (The Jackson 5): 103º → **94º** (+9)
+- **Me Quedo Contigo** (Los Chunguitos): 108º → **99º** (+9)
+- **Yesterday** (The Beatles): 141º → **132º** (+9)
+- **Dracula** (Tame Impala): 341º → **332º** (+9)
+- **The Best** (Tina Turner): 461º → **452º** (+9)
+- **La Perla (part. Yahritza Y Su Esencia)** (ROSALÍA): 44º → **36º** (+8)
+- **La Llorona** (Chavela Vargas): 189º → **181º** (+8)
+- **A Thousand Years** (Christina Perri): 208º → **200º** (+8)
+- **Love Me Not** (Ravyn Lenae): 659º → **651º** (+8)
+- **A La Niña Que Fui** (Kany García): 691º → **683º** (+8)
+- **Rolling In The Deep** (Adele): 42º → **35º** (+7)
+- **Lose Yourself** (Eminem): 45º → **38º** (+7)
+- **Without Me** (Eminem): 69º → **62º** (+7)
+- **Wish You Were Here** (Pink Floyd): 81º → **74º** (+7)
+- **cigarette smoke** (Olivia Rodrigo): 131º → **124º** (+7)
+- **Guerrero** (Robe): 404º → **397º** (+7)
+- **Lonely** (Akon): 414º → **407º** (+7)
+- **Do For Love** (2Pac): 481º → **474º** (+7)
+- **What Do You Mean?** (Justin Bieber): 643º → **636º** (+7)
+- **Voyage Voyage** (Desireless): 754º → **747º** (+7)
+- **Don't Look Back In Anger** (Oasis): 55º → **49º** (+6)
+- **Sweater Weather** (The Neighbourhood): 265º → **259º** (+6)
+- **Don't Dream It's Over** (Crowded House): 827º → **821º** (+6)
+- **¿Y Como Es Él?** (José Luis Perales): 831º → **825º** (+6)
+- **What's Up?** (4 Non Blondes): 15º → **10º** (+5)
+- **Sweet Child O' Mine** (Guns N' Roses): 30º → **25º** (+5)
+- **Beauty And a Beat (feat. Nicki Minaj)** (Justin Bieber): 57º → **52º** (+5)
+- **Perfect** (Ed Sheeran): 63º → **58º** (+5)
+- **...Baby One More Time** (Britney Spears): 96º → **91º** (+5)
+- **Wannabe** (Spice Girls): 101º → **96º** (+5)
+- **back to friends** (sombr): 224º → **219º** (+5)
+- **Freed From Desire** (GALA): 270º → **265º** (+5)
+- **19 Días y 500 Noches** (Joaquín Sabina): 272º → **267º** (+5)
+- **Shape Of My Heart** (Sting): 477º → **472º** (+5)
+- **Baby (feat. Ludacris)** (Justin Bieber): 21º → **17º** (+4)
+- **Risk It All** (Bruno Mars): 26º → **22º** (+4)
+- **The One That Got Away** (Katy Perry): 54º → **50º** (+4)
+- **Purple Rain** (Prince): 158º → **154º** (+4)
+- **Chicago** (Michael Jackson): 172º → **168º** (+4)
+- **Someone You Loved** (Lewis Capaldi): 186º → **182º** (+4)
+- **Lose Control** (Teddy Swims): 215º → **211º** (+4)
+- **Cinco Lobitos Tiene La Loba** (Canciones Infantiles): 283º → **279º** (+4)
+- **I Was Made For Lovin' You** (KISS): 348º → **344º** (+4)
+- **Take Me To Church** (Hozier): 363º → **359º** (+4)
+- **Hungry Eyes** (Eric Carmen): 798º → **794º** (+4)
+- **Uptown Funk (feat. Mark Ronson)** (Bruno Mars): 22º → **19º** (+3)
+- **My Way** (Frank Sinatra): 36º → **33º** (+3)
+- **Fix You** (Coldplay): 73º → **70º** (+3)
+- **ICONIC BY MISTAKE (feat. ILLIT & KATSEYE)** (LE SSERAFIM): 89º → **86º** (+3)
+- **Mírame (part. Jime)** (Al Safir): 167º → **164º** (+3)
+- **Call Me Maybe** (Carly Rae Jepsen): 169º → **166º** (+3)
+- **Cherry Pie** (Warrant): 180º → **177º** (+3)
+- **Feel** (Robbie Williams): 236º → **233º** (+3)
+- **Talking To The Moon** (Bruno Mars): 237º → **234º** (+3)
+- **Zombie** (The Cranberries): 314º → **311º** (+3)
+- **Runaway** (AURORA): 746º → **743º** (+3)
+
+## 🚀 Novas Entradas no Top
+- **Fourth Of July** (Sufjan Stevens) - Apareceu direto na posição **92º**
+- **Two Ghosts** (Harry Styles) - Apareceu direto na posição **232º**
+- **The Test (feat. Lola Leon)** (Madonna) - Apareceu direto na posição **257º**
+- **ALCOBA (part. Clarent)** (Cris MJ) - Apareceu direto na posição **288º**
+- **Betrayal** (Madonna) - Apareceu direto na posição **347º**
+- **School** (Madonna) - Apareceu direto na posição **349º**
+- **A Tu Merced** (Bad Bunny) - Apareceu direto na posição **393º**
+- **In The Army Now** (Status Quo) - Apareceu direto na posição **404º**
+- **Brown Sugar** (The Rolling Stones) - Apareceu direto na posição **415º**
+- **Ne Partez Pas Sans Moi** (Céline Dion) - Apareceu direto na posição **462º**
+- **Pure** (SIENNA SPIRO) - Apareceu direto na posição **479º**
+- **A Thousand Miles** (Vanessa Carlton) - Apareceu direto na posição **522º**
+- **Milionària** (ROSALÍA) - Apareceu direto na posição **546º**
+- **Everything** (Madonna) - Apareceu direto na posição **549º**
+- **My Sins Are My Savior (feat. Stromae)** (Madonna) - Apareceu direto na posição **582º**
+- **Confieso** (Kany García) - Apareceu direto na posição **591º**
+- **For Youth** (BTS) - Apareceu direto na posição **625º**
+- **Hino da Noruega (Ja, vi elsker dette landet)** (Hinos de Países) - Apareceu direto na posição **635º**
+- **Las Muñequitas (remix) (part. Maluma y El Americano 4KT)** (Mr Plata) - Apareceu direto na posição **672º**
+- **24/7 (part. Chanela Clicka)** (Lia Kali) - Apareceu direto na posição **674º**
+- **Bring Your Love (feat. Sabrina Carpenter)** (Madonna) - Apareceu direto na posição **684º**
+- **Todo De Mí** (Marta Santos) - Apareceu direto na posição **708º**
+- **Everlong** (Foo Fighters) - Apareceu direto na posição **724º**
+- **Daylight** (Taylor Swift) - Apareceu direto na posição **731º**
+- **Por Debajo de La Mesa** (Luis Miguel) - Apareceu direto na posição **782º**
+- **Me Quedaré Solo** (Amistades Peligrosas) - Apareceu direto na posição **784º**
+- **UNA TÓMBOLA (part. JC Reyes)** (Fronti) - Apareceu direto na posição **793º**
+- **Phineas And Ferb (Theme Song)** (Phineas & Ferb) - Apareceu direto na posição **797º**
+- **A Canção** (Carminho) - Apareceu direto na posição **800º**
+- **Quijote** (Julio Iglesias) - Apareceu direto na posição **804º**
+- **The Prophecy** (Taylor Swift) - Apareceu direto na posição **833º**
+- **Wonderful Life** (Black (UK)) - Apareceu direto na posição **834º**
+- **UNA NA MAS** (Myke Towers) - Apareceu direto na posição **838º**
+- **Blank Space** (Taylor Swift) - Apareceu direto na posição **851º**
+- **No Stress** (Wizkid) - Apareceu direto na posição **860º**
+- **Danzando (part. Christine D'Clario, Travy Joe y Daniel Calveti)** (Gateway Worship Español) - Apareceu direto na posição **870º**
+- **End Of The World (feat. Claudia Arenas)** (Cris Lora) - Apareceu direto na posição **871º**
+- **Love Without Words** (Madonna) - Apareceu direto na posição **880º**
+- **Historia de Un Amor** (Luis Miguel) - Apareceu direto na posição **882º**
+- **The Kids Aren't Alright** (The Offspring) - Apareceu direto na posição **883º**
+- **7 Years** (Lukas Graham) - Apareceu direto na posição **887º**
+- **Him & I (feat. Halsey)** (G-Eazy) - Apareceu direto na posição **897º**
+- **SONRÍE ᐸ3** (Rels B) - Apareceu direto na posição **903º**
+- **The Trooper** (Iron Maiden) - Apareceu direto na posição **906º**
+- **It's a Heartache** (Bonnie Tyler) - Apareceu direto na posição **907º**
+- **Before You Go** (Lewis Capaldi) - Apareceu direto na posição **914º**
+- **I Feel So Free** (Madonna) - Apareceu direto na posição **918º**
+- **EL MUNDO X TI** (Rels B) - Apareceu direto na posição **919º**
+- **Lay All Your Love On Me** (ABBA) - Apareceu direto na posição **921º**
+- **PLAN A, PLAN B, PLAN C (part. Tote y Lauta)** (RUGGERO) - Apareceu direto na posição **928º**
+- **24K Magic** (Bruno Mars) - Apareceu direto na posição **933º**
+- **La Felicidad** (Al Bano and Romina Power) - Apareceu direto na posição **934º**
+- **Colgando En Tus Manos (part. Marta Sánchez)** (Carlos Baute) - Apareceu direto na posição **941º**
+- **Vaiana - De Nada (version castellana)** (Disney) - Apareceu direto na posição **943º**
+- **NO LE DIGO QUE NO (part. Los Buyer)** (Pikeras) - Apareceu direto na posição **949º**
+- **The Phantom of the Opera** (Fantasma da Ópera) - Apareceu direto na posição **951º**
+- **All Too Well (10 Minute Version)** (Taylor Swift) - Apareceu direto na posição **956º**
+- **I'm Yours** (Jason Mraz) - Apareceu direto na posição **962º**
+- **Innerbloom** (RÜFÜS DU SOL) - Apareceu direto na posição **964º**
+- **Great Expectation** (SIENNA SPIRO) - Apareceu direto na posição **966º**
+- **Garota de Ipanema** (Tom Jobim) - Apareceu direto na posição **967º**
+- **Lonely Day** (System Of A Down) - Apareceu direto na posição **969º**
+- **Ama, ama, ama y ensancha el alma** (Extremoduro) - Apareceu direto na posição **970º**
+- **Amor de San Juan** (Niña Pastori) - Apareceu direto na posição **971º**
+- **Can't Remember To Forget You (feat. Rihanna)** (Shakira) - Apareceu direto na posição **973º**
+- **Depredador** (La Reina del Flow) - Apareceu direto na posição **975º**
+- **I WANNA BE YOUR SLAVE** (Måneskin) - Apareceu direto na posição **976º**
+- **Cuando En Marcha Voy** (Bob Esponja (Spongebob Squarepants)) - Apareceu direto na posição **977º**
+- **Si Me Necesitas, Llámame** (Siloé) - Apareceu direto na posição **978º**
+- **Sonne** (Rammstein) - Apareceu direto na posição **979º**
+- **Illusion** (Dua Lipa) - Apareceu direto na posição **986º**
+- **Starman** (David Bowie) - Apareceu direto na posição **989º**
+- **Blowin' in the Wind** (Bob Dylan) - Apareceu direto na posição **990º**
+- **Fade To Black** (Metallica) - Apareceu direto na posição **991º**
+- **Eye of the Tiger** (Survivor) - Apareceu direto na posição **994º**
+- **Roar** (Katy Perry) - Apareceu direto na posição **996º**
+- **Glorioso Día** (Passion) - Apareceu direto na posição **997º**
+- **Vaitimbora** (Polyana Resende) - Apareceu direto na posição **998º**
+- **El Último Día de Nuestras Vidas** (Dani Martín) - Apareceu direto na posição **999º**
