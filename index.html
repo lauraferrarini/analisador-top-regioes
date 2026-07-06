@@ -110,6 +110,59 @@
             height: 14px;
         }
 
+        /* ⚡ ENGENHARIA DO TOOLTIP INSTANTÂNEO EM CSS PURO */
+        .tooltip-container {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            margin-left: -12px;
+        }
+        .tooltip-icon {
+            color: var(--text-muted);
+            font-weight: bold;
+            font-size: 12px;
+            transition: color 0.15s;
+        }
+        .tooltip-icon:hover {
+            color: #000;
+        }
+        .tooltip-box {
+            visibility: hidden;
+            width: 240px;
+            background-color: rgba(26, 26, 26, 0.92);
+            color: #fff;
+            text-align: left;
+            border-radius: 4px;
+            padding: 8px 10px;
+            position: absolute;
+            z-index: 1000;
+            bottom: 135%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.15s ease, visibility 0.15s ease;
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 1.4;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            pointer-events: none;
+            white-space: normal;
+        }
+        .tooltip-box::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: rgba(26, 26, 26, 0.92) transparent transparent transparent;
+        }
+        .tooltip-container:hover .tooltip-box {
+            visibility: visible;
+            opacity: 1;
+        }
+
         /* BOX DO GRÁFICO */
         .chart-box {
             border: 1px solid var(--border-light);
@@ -220,13 +273,6 @@
         <div class="kpi-card kpi-novas"><div class="kpi-title">🚀 Novas Entradas</div><div class="kpi-value" id="count-novas">0</div></div>
     </div>
 
-    <div style="margin-bottom: 25px; display: flex; align-items: center; gap: 6px;">
-        <label class="filter-label" style="font-weight: 600; margin-bottom: 0;">
-            <input type="checkbox" id="chk-fds" checked onchange="processarEMontarTabelaCorrida()"> Considerar fim de semana
-        </label>
-        <span title="Quando desativado, as movimentações de segunda-feira serão calculadas comparando o ranking atual com o de sexta-feira, ignorando as oscilações de sábado e domingo." style="cursor: help; color: var(--text-muted); font-weight: bold; font-size: 11px;">(?)</span>
-    </div>
-
     <div class="filter-checkbox-container">
         <span class="filter-title">Filtrar por Estado:</span>
         <label class="filter-label" style="color: #000; font-weight: 800;"><input type="checkbox" id="chk-todas" checked onchange="aoClicarTodas()"> Todas</label>
@@ -235,6 +281,16 @@
         <label class="filter-label"><input type="checkbox" id="chk-moderadas" onchange="aoClicarIndividual()"> 📈 Subidas Significativas</label>
         <label class="filter-label"><input type="checkbox" id="chk-pequenas" onchange="aoClicarIndividual()"> 🌱 Pequenas Subidas</label>
         <label class="filter-label"><input type="checkbox" id="chk-novas" onchange="aoClicarIndividual()"> 🚀 Novas Entradas</label>
+        
+        <span style="color: var(--border-light); margin: 0 2px;">|</span>
+        
+        <label class="filter-label" style="font-weight: 600; color: var(--text-main);">
+            <input type="checkbox" id="chk-fds" checked onchange="processarEMontarTabelaCorrida()"> Considerar fim de semana
+        </label>
+        <div class="tooltip-container">
+            <span class="tooltip-icon">ⓘ</span>
+            <div class="tooltip-box">Quando desativado, as movimentações de segunda-feira serão calculadas comparando o ranking atual com o de sexta-feira, ignorando as oscilações de sábado e domingo.</div>
+        </div>
     </div>
 
     <div class="chart-box">
