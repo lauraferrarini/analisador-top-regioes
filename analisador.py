@@ -5,16 +5,13 @@ import os
 import glob
 import sys
 import traceback
-import time
 from datetime import datetime
 from urllib.parse import urljoin
-from zoneinfo import ZoneInfo
 
 # Configurações Gerais
 PASTA_DADOS = "historico_dados"
 PASTA_RELATORIOS = "historico_relatorios"
 MARGEM_OSCILACAO = 2 
-FUSO_BR = ZoneInfo("America/Sao_Paulo")
 
 # Mapeamento de Regiões, URLs e seus respectivos Cookies de controle
 REGIOES = {
@@ -27,52 +24,10 @@ REGIOES = {
 }
 
 def extrair_musicas(url, cookies):
-    session = requests.Session()
-    
-    # 🕵️‍♂️ IP FALSO LATINO: Simulamos um IP residencial do México/Colômbia (186.154.201.42)
-    # Isso engana os balanceadores de carga e proxies do Letras, fazendo-os ignorar o cache de servidor dos EUA.
-    ip_latam = "186.154.201.42"
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1', # Mudado para Mobile para abrir outra rota de cache
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-        'Pragma': 'no-cache',
-        'Expires': '0',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'es-419,es;q=0.9',
-        # 🔥 Headers de Spoofing de IP para burlar o bloqueio geográfico de Data Center do GitHub
-        'X-Forwarded-For': ip_latam,
-        'X-Real-IP': ip_latam,
-        'Client-IP': ip_latam,
-        'X-Cluster-Client-IP': ip_latam,
-        'X-Target-URI': 'https://www.letras.com',
-        'Connection': 'keep-alive'
-    }
-    
-    session.headers.update(headers)
-    
-    # Cookies humanos + região
-    cookies_humanos = {
-        '_ga': 'GA1.1.555555555.1710000000',
-        '_gid': 'GA1.1.666666666.1710000000',
-        'letras_edition': 'es' if cookies and cookies.get('content') == 'es' else 'br'
-    }
-    
-    if cookies:
-        cookies_humanos.update(cookies)
-        
-    session.cookies.update(cookies_humanos)
-    
-    url_limpa = url.rstrip('/')
-    # Cache buster agressivo gerando um parâmetro randômico novo
-    url_com_cb = f"{url_limpa}/?update={int(time.time())}"
-    
-    response = session.get(url_com_cb, timeout=15)
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    response = requests.get(url, headers=headers, cookies=cookies, timeout=15)
     response.raise_for_status()
     
-    if response.url != url_com_cb:
-        print(f"🔗 [Aviso] Redirecionamento detectado: {url_com_cb} -> {response.url}")
-        
     soup = BeautifulSoup(response.text, 'html.parser')
     musicas_atuais = {}
     lista_top = soup.find('ol', class_='top-list_mus')
@@ -89,21 +44,22 @@ def extrair_musicas(url, cookies):
         nome = tag_nome.text.strip() if tag_nome else "Desconhecido"
         artista = tag_artista.text.strip() if tag_artista else "Desconhecido"
         
+        # Captura o link relativo e transforma em URL absoluta funcional
         href = tag_a['href'] if tag_a and tag_a.has_attr('href') else ""
-        link_absolute = urljoin(url, href) if href else ""
+        link_absoluto = urljoin(url, href) if href else ""
         
         chave = f"{nome} - {artista}"
         musicas_atuais[chave] = {
             "posicao": rank,
             "nome": nome,
             "artista": artista,
-            "url": link_absolute
+            "url": link_absoluto
         }
             
     return musicas_atuais
 
 def buscar_dados_anteriores(regiao):
-    data_hoje_iso = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
+    data_hoje_iso = datetime.now().strftime("%Y-%m-%d")
     pasta_regiao = os.path.join(PASTA_DADOS, regiao)
     
     if os.path.exists(pasta_regiao):
@@ -134,6 +90,7 @@ def atualizar_dados_dashboard(regiao):
         for chave, info in dados_dia.items():
             if chave not in historico_global:
                 historico_global[chave] = {}
+            # Preserva a URL estável da música dentro da estrutura estruturada do Dashboard
             if "url" in info and "url" not in historico_global[chave]:
                 historico_global[chave]["url"] = info["url"]
             historico_global[chave][data_str] = info["posicao"]
@@ -149,6 +106,7 @@ def atualizar_dados_dashboard(regiao):
 def processar_regiao(regiao, config):
     print(f"🌍 Coletando dados da região: {config['nome']} ({regiao})...")
     
+    # Garante as subpastas específicas da região
     pasta_dados_regiao = os.path.join(PASTA_DADOS, regiao)
     pasta_relatorios_regiao = os.path.join(PASTA_RELATORIOS, regiao)
     os.makedirs(pasta_dados_regiao, exist_ok=True)
@@ -161,8 +119,8 @@ def processar_regiao(regiao, config):
         
     anteriores = buscar_dados_anteriores(regiao)
     
-    data_hoje_iso = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
-    data_hoje_br = datetime.now(FUSO_BR).strftime("%d/%m/%Y")
+    data_hoje_iso = datetime.now().strftime("%Y-%m-%d")
+    data_hoje_br = datetime.now().strftime("%d/%m/%Y")
 
     novas_entradas = []
     subidas_absurdas = []   
@@ -246,12 +204,15 @@ def processar_regiao(regiao, config):
         else:
             conteudo_md += "- Nenhuma música inédita detectada hoje.\n"
 
+    # Salva os relatórios específicos da região
     with open(os.path.join(pasta_relatorios_regiao, f"relatorio_{data_hoje_iso}.md"), 'w', encoding='utf-8') as f:
         f.write(conteudo_md)
         
+    # Relatório raiz específico da região (ex: relatorio_diario_ar.md)
     with open(f"relatorio_diario_{regiao}.md", 'w', encoding='utf-8') as f:
         f.write(conteudo_md)
         
+    # Salva o JSON na subpasta correspondente
     with open(os.path.join(pasta_dados_regiao, f"dados_{data_hoje_iso}.json"), 'w', encoding='utf-8') as f:
         json.dump(atuais, f, ensure_ascii=False, indent=4)
         
