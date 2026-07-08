@@ -8,11 +8,13 @@ import traceback
 import time
 from datetime import datetime
 from urllib.parse import urljoin
+from zoneinfo import ZoneInfo  # Nativo do Python 3.9+, perfeito para o ambiente do GitHub
 
 # Configurações Gerais
 PASTA_DADOS = "historico_dados"
 PASTA_RELATORIOS = "historico_relatorios"
 MARGEM_OSCILACAO = 2 
+FUSO_BR = ZoneInfo("America/Sao_Paulo")
 
 # Mapeamento de Regiões, URLs e seus respectivos Cookies de controle
 REGIOES = {
@@ -25,19 +27,36 @@ REGIOES = {
 }
 
 def extrair_musicas(url, cookies):
-    # ⚡ HEADERS ANTI-CACHE: Força a requisição a não aceitar dados armazenados localmente
+    # ⚡ USANDO SESSION: Garante que os cookies persistam mesmo se houver REDIRECIONAMENTOS
+    session = requests.Session()
+    
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Cache-Control': 'no-cache',
-        'Pragma': 'no-cache'
+        'Pragma': 'no-cache',
+        # 🌐 Ajuda a forçar o idioma correto e a evitar bloqueios secos em IPs de Data Center do GitHub
+        'Accept-Language': 'es-419,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6'
     }
     
-    # ⚡ CACHE BUSTER: Modifica a URL dinamicamente a cada segundo para furar o bloqueio de cache do Cloudflare
+    session.headers.update(headers)
+    
+    # Injeta os cookies diretamente na sessão
+    if cookies:
+        session.cookies.update(cookies)
+    
+    # ⚡ CACHE BUSTER: Modifica a URL dinamicamente a cada segundo
     url_limpa = url.rstrip('/')
     url_com_cb = f"{url_limpa}/?cb={int(time.time())}"
     
-    response = requests.get(url_com_cb, headers=headers, cookies=cookies, timeout=15)
+    response = session.get(url_com_cb, timeout=15)
     response.raise_for_status()
+    
+    # 🕵️‍♂️ LOGS DE RASTREAMENTO NO GITHUB ACTIONS
+    if response.url != url_com_cb:
+        print(f"🔗 [Aviso] Redirecionamento detectado: {url_com_cb} -> {response.url}")
+    
+    cf_cache = response.headers.get('cf-cache-status', 'N/A')
+    print(f"📡 [DEBUG {url}] Status do Cache Cloudflare: {cf_cache}")
     
     soup = BeautifulSoup(response.text, 'html.parser')
     musicas_atuais = {}
@@ -70,7 +89,8 @@ def extrair_musicas(url, cookies):
     return musicas_atuais
 
 def buscar_dados_anteriores(regiao):
-    data_hoje_iso = datetime.now().strftime("%Y-%m-%d")
+    # Força o fuso horário correto antes de gerar a string de data
+    data_hoje_iso = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
     pasta_regiao = os.path.join(PASTA_DADOS, regiao)
     
     if os.path.exists(pasta_regiao):
@@ -130,8 +150,9 @@ def processar_regiao(regiao, config):
         
     anteriores = buscar_dados_anteriores(regiao)
     
-    data_hoje_iso = datetime.now().strftime("%Y-%m-%d")
-    data_hoje_br = datetime.now().strftime("%d/%m/%Y")
+    # Datas travadas no Horário de Brasília
+    data_hoje_iso = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
+    data_hoje_br = datetime.now(FUSO_BR).strftime("%d/%m/%Y")
 
     novas_entradas = []
     subidas_absurdas = []   
@@ -215,7 +236,7 @@ def processar_regiao(regiao, config):
         else:
             conteudo_md += "- Nenhuma música inédita detectada hoje.\n"
 
-    # Salva os relatórios específicos da região
+    # Salva os relatórios específicos da região nas subpastas
     with open(os.path.join(pasta_relatorios_regiao, f"relatorio_{data_hoje_iso}.md"), 'w', encoding='utf-8') as f:
         f.write(conteudo_md)
         
