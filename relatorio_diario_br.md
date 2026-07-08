@@ -347,9 +347,9 @@
 
 ## 🚀 Novas Entradas no Top
 - **Ralando o Tchan** (É o Tchan) - Apareceu direto na posição **359º**
-- **Faraó** (Margareth Menezes) - Apareceu direto na posição **569º**
+- **Faraó Divindade do Egito (Natureza Egípcia)** (Margareth Menezes) - Apareceu direto na posição **569º**
 - **Brasil Decime Que Se Siente** (El Retutu) - Apareceu direto na posição **771º**
-- **Licença Para o Milagre** (Samuel Mariano) - Apareceu direto na posição **865º**
+- **Licença Para o Milagre (part. Eliã Oliveira)** (Samuel Mariano) - Apareceu direto na posição **865º**
 - **おれが正義だ ! ジャスピオン (ore ga seigi da! Juspion) (Come On Boy)** (Jaspion) - Apareceu direto na posição **903º**
 - **Olharei Para o Alto** (Midian Lima) - Apareceu direto na posição **929º**
 - **Pra Melhorar (part. Seu Jorge e Flor)** (Marisa Monte) - Apareceu direto na posição **932º**
