@@ -1,4 +1,4 @@
-# 📊 Relatório Letras - Hispanoamérica - 07/07/2026
+# 📊 Relatório Letras - Hispanoamérica - 08/07/2026
 
 ## 🔥 Grandes Saltos (+200 a 400 posições)
 - Nenhuma música com grande salto nesta faixa hoje.
