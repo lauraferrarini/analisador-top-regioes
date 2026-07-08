@@ -5,6 +5,7 @@ import os
 import glob
 import sys
 import traceback
+import time
 from datetime import datetime
 from urllib.parse import urljoin
 
@@ -24,8 +25,18 @@ REGIOES = {
 }
 
 def extrair_musicas(url, cookies):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-    response = requests.get(url, headers=headers, cookies=cookies, timeout=15)
+    # ⚡ HEADERS ANTI-CACHE: Força a requisição a não aceitar dados armazenados localmente
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache'
+    }
+    
+    # ⚡ CACHE BUSTER: Modifica a URL dinamicamente a cada segundo para furar o bloqueio de cache do Cloudflare
+    url_limpa = url.rstrip('/')
+    url_com_cb = f"{url_limpa}/?cb={int(time.time())}"
+    
+    response = requests.get(url_com_cb, headers=headers, cookies=cookies, timeout=15)
     response.raise_for_status()
     
     soup = BeautifulSoup(response.text, 'html.parser')
