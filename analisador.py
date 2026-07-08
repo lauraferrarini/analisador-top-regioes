@@ -8,7 +8,7 @@ import traceback
 import time
 from datetime import datetime
 from urllib.parse import urljoin
-from zoneinfo import ZoneInfo  # Nativo do Python 3.9+, perfeito para o ambiente do GitHub
+from zoneinfo import ZoneInfo
 
 # Configurações Gerais
 PASTA_DADOS = "historico_dados"
@@ -27,56 +27,52 @@ REGIOES = {
 }
 
 def extrair_musicas(url, cookies):
-    # ⚡ USANDO SESSION: Garante que os cookies persistam mesmo se houver REDIRECIONAMENTOS
     session = requests.Session()
     
-    # 🌐 Headers modernos completos imitando um clique real do Google Chrome para forçar dados novos
+    # 🕵️‍♂️ IP FALSO LATINO: Simulamos um IP residencial do México/Colômbia (186.154.201.42)
+    # Isso engana os balanceadores de carga e proxies do Letras, fazendo-os ignorar o cache de servidor dos EUA.
+    ip_latam = "186.154.201.42"
+    
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Mobile/15E148 Safari/604.1', # Mudado para Mobile para abrir outra rota de cache
         'Cache-Control': 'no-cache, no-store, must-revalidate',
         'Pragma': 'no-cache',
         'Expires': '0',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-        'Accept-Language': 'es-419,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6',
-        'Sec-Ch-Ua': '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
-        'Sec-Ch-Ua-Mobile': '?0',
-        'Sec-Ch-Ua-Platform': '"Windows"',
-        'Sec-Fetch-Dest': 'document',
-        'Sec-Fetch-Mode': 'navigate',
-        'Sec-Fetch-Site': 'none',
-        'Sec-Fetch-User': '?1',
-        'Upgrade-Insecure-Requests': '1'
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'es-419,es;q=0.9',
+        # 🔥 Headers de Spoofing de IP para burlar o bloqueio geográfico de Data Center do GitHub
+        'X-Forwarded-For': ip_latam,
+        'X-Real-IP': ip_latam,
+        'Client-IP': ip_latam,
+        'X-Cluster-Client-IP': ip_latam,
+        'X-Target-URI': 'https://www.letras.com',
+        'Connection': 'keep-alive'
     }
     
     session.headers.update(headers)
     
-    # 🍪 Injeta cookies complementares de comportamento para enganar o cache interno do servidor do Letras
+    # Cookies humanos + região
     cookies_humanos = {
-        '__cf_bm': 'falsa_autenticacao_para_burlar_cache',
-        '_ga': 'GA1.1.123456789.1710000000',
-        '_gid': 'GA1.1.987654321.1710000000'
+        '_ga': 'GA1.1.555555555.1710000000',
+        '_gid': 'GA1.1.666666666.1710000000',
+        'letras_edition': 'es' if cookies and cookies.get('content') == 'es' else 'br'
     }
     
-    # Adiciona os cookies originais de região por cima
     if cookies:
         cookies_humanos.update(cookies)
         
     session.cookies.update(cookies_humanos)
     
-    # ⚡ CACHE BUSTER: Modifica a URL dinamicamente baseada no timestamp atual
     url_limpa = url.rstrip('/')
-    url_com_cb = f"{url_limpa}/?cb={int(time.time())}"
+    # Cache buster agressivo gerando um parâmetro randômico novo
+    url_com_cb = f"{url_limpa}/?update={int(time.time())}"
     
     response = session.get(url_com_cb, timeout=15)
     response.raise_for_status()
     
-    # 🕵️‍♂️ LOGS DE RASTREAMENTO NO GITHUB ACTIONS
     if response.url != url_com_cb:
         print(f"🔗 [Aviso] Redirecionamento detectado: {url_com_cb} -> {response.url}")
-    
-    cf_cache = response.headers.get('cf-cache-status', 'N/A')
-    print(f"📡 [DEBUG {url}] Status do Cache Cloudflare: {cf_cache}")
-    
+        
     soup = BeautifulSoup(response.text, 'html.parser')
     musicas_atuais = {}
     lista_top = soup.find('ol', class_='top-list_mus')
@@ -93,22 +89,20 @@ def extrair_musicas(url, cookies):
         nome = tag_nome.text.strip() if tag_nome else "Desconhecido"
         artista = tag_artista.text.strip() if tag_artista else "Desconhecido"
         
-        # Captura o link relativo e transforma em URL absoluta funcional
         href = tag_a['href'] if tag_a and tag_a.has_attr('href') else ""
-        link_absoluto = urljoin(url, href) if href else ""
+        link_absolute = urljoin(url, href) if href else ""
         
         chave = f"{nome} - {artista}"
         musicas_atuais[chave] = {
             "posicao": rank,
             "nome": nome,
             "artista": artista,
-            "url": link_absoluto
+            "url": link_absolute
         }
             
     return musicas_atuais
 
 def buscar_dados_anteriores(regiao):
-    # Força o fuso horário correto antes de verificar a string de data anterior
     data_hoje_iso = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
     pasta_regiao = os.path.join(PASTA_DADOS, regiao)
     
@@ -140,7 +134,6 @@ def atualizar_dados_dashboard(regiao):
         for chave, info in dados_dia.items():
             if chave not in historico_global:
                 historico_global[chave] = {}
-            # Preserva a URL estável da música dentro da estrutura do Dashboard
             if "url" in info and "url" not in historico_global[chave]:
                 historico_global[chave]["url"] = info["url"]
             historico_global[chave][data_str] = info["posicao"]
@@ -156,7 +149,6 @@ def atualizar_dados_dashboard(regiao):
 def processar_regiao(regiao, config):
     print(f"🌍 Coletando dados da região: {config['nome']} ({regiao})...")
     
-    # Garante as subpastas específicas da região
     pasta_dados_regiao = os.path.join(PASTA_DADOS, regiao)
     pasta_relatorios_regiao = os.path.join(PASTA_RELATORIOS, regiao)
     os.makedirs(pasta_dados_regiao, exist_ok=True)
@@ -169,7 +161,6 @@ def processar_regiao(regiao, config):
         
     anteriores = buscar_dados_anteriores(regiao)
     
-    # Datas travadas rigidamente no Horário de Brasília
     data_hoje_iso = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
     data_hoje_br = datetime.now(FUSO_BR).strftime("%d/%m/%Y")
 
@@ -255,15 +246,12 @@ def processar_regiao(regiao, config):
         else:
             conteudo_md += "- Nenhuma música inédita detectada hoje.\n"
 
-    # Salva os relatórios específicos da região nas subpastas dedicadas
     with open(os.path.join(pasta_relatorios_regiao, f"relatorio_{data_hoje_iso}.md"), 'w', encoding='utf-8') as f:
         f.write(conteudo_md)
         
-    # Relatório raiz específico da região (ex: relatorio_diario_es.md)
     with open(f"relatorio_diario_{regiao}.md", 'w', encoding='utf-8') as f:
         f.write(conteudo_md)
         
-    # Salva o JSON na subpasta correspondente
     with open(os.path.join(pasta_dados_regiao, f"dados_{data_hoje_iso}.json"), 'w', encoding='utf-8') as f:
         json.dump(atuais, f, ensure_ascii=False, indent=4)
         
