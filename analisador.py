@@ -30,21 +30,40 @@ def extrair_musicas(url, cookies):
     # ⚡ USANDO SESSION: Garante que os cookies persistam mesmo se houver REDIRECIONAMENTOS
     session = requests.Session()
     
+    # 🌐 Headers modernos completos imitando um clique real do Google Chrome para forçar dados novos
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Cache-Control': 'no-cache',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
         'Pragma': 'no-cache',
-        # 🌐 Ajuda a forçar o idioma correto e a evitar bloqueios secos em IPs de Data Center do GitHub
-        'Accept-Language': 'es-419,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6'
+        'Expires': '0',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'Accept-Language': 'es-419,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6',
+        'Sec-Ch-Ua': '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+        'Sec-Ch-Ua-Mobile': '?0',
+        'Sec-Ch-Ua-Platform': '"Windows"',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-User': '?1',
+        'Upgrade-Insecure-Requests': '1'
     }
     
     session.headers.update(headers)
     
-    # Injeta os cookies diretamente na sessão
-    if cookies:
-        session.cookies.update(cookies)
+    # 🍪 Injeta cookies complementares de comportamento para enganar o cache interno do servidor do Letras
+    cookies_humanos = {
+        '__cf_bm': 'falsa_autenticacao_para_burlar_cache',
+        '_ga': 'GA1.1.123456789.1710000000',
+        '_gid': 'GA1.1.987654321.1710000000'
+    }
     
-    # ⚡ CACHE BUSTER: Modifica a URL dinamicamente a cada segundo
+    # Adiciona os cookies originais de região por cima
+    if cookies:
+        cookies_humanos.update(cookies)
+        
+    session.cookies.update(cookies_humanos)
+    
+    # ⚡ CACHE BUSTER: Modifica a URL dinamicamente baseada no timestamp atual
     url_limpa = url.rstrip('/')
     url_com_cb = f"{url_limpa}/?cb={int(time.time())}"
     
@@ -89,7 +108,7 @@ def extrair_musicas(url, cookies):
     return musicas_atuais
 
 def buscar_dados_anteriores(regiao):
-    # Força o fuso horário correto antes de gerar a string de data
+    # Força o fuso horário correto antes de verificar a string de data anterior
     data_hoje_iso = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
     pasta_regiao = os.path.join(PASTA_DADOS, regiao)
     
@@ -121,7 +140,7 @@ def atualizar_dados_dashboard(regiao):
         for chave, info in dados_dia.items():
             if chave not in historico_global:
                 historico_global[chave] = {}
-            # Preserva a URL estável da música dentro da estrutura estruturada do Dashboard
+            # Preserva a URL estável da música dentro da estrutura do Dashboard
             if "url" in info and "url" not in historico_global[chave]:
                 historico_global[chave]["url"] = info["url"]
             historico_global[chave][data_str] = info["posicao"]
@@ -150,7 +169,7 @@ def processar_regiao(regiao, config):
         
     anteriores = buscar_dados_anteriores(regiao)
     
-    # Datas travadas no Horário de Brasília
+    # Datas travadas rigidamente no Horário de Brasília
     data_hoje_iso = datetime.now(FUSO_BR).strftime("%Y-%m-%d")
     data_hoje_br = datetime.now(FUSO_BR).strftime("%d/%m/%Y")
 
@@ -236,11 +255,11 @@ def processar_regiao(regiao, config):
         else:
             conteudo_md += "- Nenhuma música inédita detectada hoje.\n"
 
-    # Salva os relatórios específicos da região nas subpastas
+    # Salva os relatórios específicos da região nas subpastas dedicadas
     with open(os.path.join(pasta_relatorios_regiao, f"relatorio_{data_hoje_iso}.md"), 'w', encoding='utf-8') as f:
         f.write(conteudo_md)
         
-    # Relatório raiz específico da região (ex: relatorio_diario_ar.md)
+    # Relatório raiz específico da região (ex: relatorio_diario_es.md)
     with open(f"relatorio_diario_{regiao}.md", 'w', encoding='utf-8') as f:
         f.write(conteudo_md)
         
