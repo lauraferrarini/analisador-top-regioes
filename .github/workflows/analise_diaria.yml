@@ -2,7 +2,7 @@ name: Analisador Diário de Músicas
 
 on:
   schedule:
-# Roda todos os dias às 13:11 UTC (10:11 no Horário de Brasília)
+    # Roda todos os dias às 13:11 UTC (10:11 no Horário de Brasília)
     - cron: '11 13 * * *'
   workflow_dispatch: # Permite o botão de início manual
 
@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    
+    # ⚡ FORÇA O SERVIDOR DO GITHUB A USAR O HORÁRIO DO BRASIL
+    env:
+      TZ: "America/Sao_Paulo"
 
     steps:
       - name: Checkout do repositório
