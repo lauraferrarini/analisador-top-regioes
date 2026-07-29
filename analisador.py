@@ -39,7 +39,8 @@ def extrair_musicas(url, cookies):
     for rank, item in enumerate(itens, start=1):
         tag_nome = item.find('b')
         tag_artista = item.find('span')
-        tag_a = item.find('a')
+        # Busca direta pela tag <a> ou pelo elemento pai da tag <b> caso esteja aninhado
+        tag_a = item.find('a') or (tag_nome.find_parent('a') if tag_nome else None)
         
         nome = tag_nome.text.strip() if tag_nome else "Desconhecido"
         artista = tag_artista.text.strip() if tag_artista else "Desconhecido"
@@ -90,9 +91,11 @@ def atualizar_dados_dashboard(regiao):
         for chave, info in dados_dia.items():
             if chave not in historico_global:
                 historico_global[chave] = {}
-            # Preserva a URL estável da música dentro da estrutura estruturada do Dashboard
-            if "url" in info and "url" not in historico_global[chave]:
+            
+            # Atualiza e preserva a URL válida (não vazia) no histórico do Dashboard
+            if info.get("url"):
                 historico_global[chave]["url"] = info["url"]
+                
             historico_global[chave][data_str] = info["posicao"]
             
     dados_finais = {
