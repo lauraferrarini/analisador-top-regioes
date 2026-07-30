@@ -2,9 +2,17 @@ name: Analisador Diário de Músicas
 
 on:
   schedule:
-    # Roda todos os dias às 13:11 UTC (10:11 no Horário de Brasília)
+    # Roda às 11:30 UTC (08:30 no Horário de Brasília) para o Brasil
+    - cron: '30 11 * * *'
+    # Roda às 13:11 UTC (10:11 no Horário de Brasília) para as outras regiões
     - cron: '11 13 * * *'
-  workflow_dispatch: # Permite o botão de início manual
+  workflow_dispatch:
+    # Adicionamos uma opção para você escolher o que rodar se apertar o botão manual
+    inputs:
+      regiao:
+        description: 'Qual bloco processar? (br, latam, all)'
+        required: true
+        default: 'all'
 
 jobs:
   analisar_dados:
@@ -30,8 +38,23 @@ jobs:
       - name: Instalar dependências
         run: pip install requests beautifulsoup4
 
+      - name: Definir Alvo da Análise
+        id: set_target
+        run: |
+          # Checa qual foi o gatilho que iniciou o robô e define o alvo
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "TARGET=${{ github.event.inputs.regiao }}" >> $GITHUB_ENV
+          elif [[ "${{ github.event.schedule }}" == "30 11 * * *" ]]; then
+            echo "TARGET=br" >> $GITHUB_ENV
+          elif [[ "${{ github.event.schedule }}" == "11 13 * * *" ]]; then
+            echo "TARGET=latam" >> $GITHUB_ENV
+          else
+            echo "TARGET=all" >> $GITHUB_ENV
+          fi
+
       - name: Rodar script de análise
-        run: python analisador.py
+        # Repassa o alvo (br, latam ou all) para o Python
+        run: python analisador.py ${{ env.TARGET }}
 
       - name: Salvar alterações no GitHub (Git Puro)
         run: |
@@ -42,8 +65,8 @@ jobs:
           git add historico_dados/ historico_relatorios/ relatorio_diario_*.md dados_dashboard_*.json || true
           
           if ! git diff --cached --quiet; then
-            git commit -m "📊 Histórico, relatórios e dados do painel updated (Multi-regiões)"
-            git pull origin main --rebase
+            git commit -m "📊 Histórico, relatórios e dados do painel updated (${{ env.TARGET }})"
+            git pull origin main --rebase -X theirs
             git push origin main
           else
             echo "Nenhuma mudança nos dados estruturados detectada hoje."
