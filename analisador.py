@@ -223,8 +223,21 @@ def processar_regiao(regiao, config):
 
 if __name__ == "__main__":
     try:
+        # Define o alvo baseado no argumento do terminal (ex: "br", "latam", ou "all")
+        alvo = sys.argv[1].lower() if len(sys.argv) > 1 else "all"
+        
+        if alvo == "br":
+            regioes_para_processar = ["br"]
+        elif alvo == "latam":
+            regioes_para_processar = ["ar", "co", "sp", "es", "mx"]
+        else:
+            regioes_para_processar = list(REGIOES.keys())
+
+        print(f"🚀 Iniciando módulo de análise para o alvo: {alvo.upper()}")
+
         sucesso_geral = True
-        for regiao, config in REGIOES.items():
+        for regiao in regioes_para_processar:
+            config = REGIOES[regiao]
             try:
                 if processar_regiao(regiao, config):
                     atualizar_dados_dashboard(regiao)
@@ -237,7 +250,7 @@ if __name__ == "__main__":
                 sucesso_geral = False
         
         if sucesso_geral:
-            print("🚀 Módulo executado com sucesso total para todas as regiões!")
+            print(f"🚀 Módulo executado com sucesso total para as regiões ({alvo.upper()})!")
         else:
             print("⚠️ Execução concluída com falhas parciais em algumas regiões.")
             sys.exit(1)
