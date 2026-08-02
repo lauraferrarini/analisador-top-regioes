@@ -113,7 +113,6 @@
 - **Las Muñequitas (remix) (part. Maluma y El Americano 4KT)** (Mr Plata): 419º → **364º** (+55)
 - **(Everything I Do) I Do It For You** (Bryan Adams): 485º → **430º** (+55)
 - **GIRLS** (The Kid LAROI): 593º → **538º** (+55)
-- **Bienvenidos** (Miguel Rios): 845º → **790º** (+55)
 - **Tu Falta de Querer** (Mon Laferte): 690º → **636º** (+54)
 - **MARIMANDONA** (l0rna): 309º → **256º** (+53)
 - **GOUT** (La Pantera): 362º → **309º** (+53)
@@ -432,6 +431,7 @@
 - **Una Vez En Diciembre (versión en español)** (Anastasia) - Apareceu direto na posição **557º**
 - **Ni Más Ni Menos** (Los Chichos) - Apareceu direto na posição **662º**
 - **Falling Slowly** (Apenas Uma Vez / Once) - Apareceu direto na posição **768º**
+- **Bienvenidos** (Miguel Ríos) - Apareceu direto na posição **790º**
 - **Heartless** (Kanye West) - Apareceu direto na posição **796º**
 - **Veo En Ti La Luz (part. Chayanne)** (DANNA) - Apareceu direto na posição **797º**
 - **BAD** (ATEEZ) - Apareceu direto na posição **818º**
