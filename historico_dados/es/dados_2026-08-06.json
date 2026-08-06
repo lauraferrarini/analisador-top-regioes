@@ -1,0 +1,5002 @@
+{
+    "august - Taylor Swift": {
+        "posicao": 1,
+        "nome": "august",
+        "artista": "Taylor Swift"
+    },
+    "La Bondad de Dios - StayInFaith": {
+        "posicao": 2,
+        "nome": "La Bondad de Dios",
+        "artista": "StayInFaith"
+    },
+    "Creep - Radiohead": {
+        "posicao": 3,
+        "nome": "Creep",
+        "artista": "Radiohead"
+    },
+    "Y Que Pasó - Orquesta La Bella Luz": {
+        "posicao": 4,
+        "nome": "Y Que Pasó",
+        "artista": "Orquesta La Bella Luz"
+    },
+    "Risk It All - Bruno Mars": {
+        "posicao": 5,
+        "nome": "Risk It All",
+        "artista": "Bruno Mars"
+    },
+    "Dai Dai (feat. Burna Boy) - Shakira": {
+        "posicao": 6,
+        "nome": "Dai Dai (feat. Burna Boy)",
+        "artista": "Shakira"
+    },
+    "Animal - KATSEYE": {
+        "posicao": 7,
+        "nome": "Animal",
+        "artista": "KATSEYE"
+    },
+    "Beretta (De Los Cerros La Escuela) - El de Las R's": {
+        "posicao": 8,
+        "nome": "Beretta (De Los Cerros La Escuela)",
+        "artista": "El de Las R's"
+    },
+    "Gracia Sublime Es - En Espiritu Y En Verdad": {
+        "posicao": 9,
+        "nome": "Gracia Sublime Es",
+        "artista": "En Espiritu Y En Verdad"
+    },
+    "Alaba a Dios - Danny Berrios": {
+        "posicao": 10,
+        "nome": "Alaba a Dios",
+        "artista": "Danny Berrios"
+    },
+    "Dichavate (part. Rey Tony, Dj Honda y Helabusador) [explícita] - Ya Ice Dilan": {
+        "posicao": 11,
+        "nome": "Dichavate (part. Rey Tony, Dj Honda y Helabusador) [explícita]",
+        "artista": "Ya Ice Dilan"
+    },
+    "Yeshua: Quiero Conocer a Jesús - Llévame de Vuelta": {
+        "posicao": 12,
+        "nome": "Yeshua: Quiero Conocer a Jesús",
+        "artista": "Llévame de Vuelta"
+    },
+    "Wonderwall - Oasis": {
+        "posicao": 13,
+        "nome": "Wonderwall",
+        "artista": "Oasis"
+    },
+    "Total Eclipse of the Heart - Bonnie Tyler": {
+        "posicao": 14,
+        "nome": "Total Eclipse of the Heart",
+        "artista": "Bonnie Tyler"
+    },
+    "Ela Ké Cavucadinha (part. CACAU CHUU) - Gordinho Bolado": {
+        "posicao": 15,
+        "nome": "Ela Ké Cavucadinha (part. CACAU CHUU)",
+        "artista": "Gordinho Bolado"
+    },
+    "Heaven - Bryan Adams": {
+        "posicao": 16,
+        "nome": "Heaven",
+        "artista": "Bryan Adams"
+    },
+    "petal - Ariana Grande": {
+        "posicao": 17,
+        "nome": "petal",
+        "artista": "Ariana Grande"
+    },
+    "Iris - Goo Goo Dolls": {
+        "posicao": 18,
+        "nome": "Iris",
+        "artista": "Goo Goo Dolls"
+    },
+    "Sign of the Times - Harry Styles": {
+        "posicao": 19,
+        "nome": "Sign of the Times",
+        "artista": "Harry Styles"
+    },
+    "Photograph - Ed Sheeran": {
+        "posicao": 20,
+        "nome": "Photograph",
+        "artista": "Ed Sheeran"
+    },
+    "Santo Por Siempre - Adoración La IBI": {
+        "posicao": 21,
+        "nome": "Santo Por Siempre",
+        "artista": "Adoración La IBI"
+    },
+    "In This Shirt - The Irrepressibles": {
+        "posicao": 22,
+        "nome": "In This Shirt",
+        "artista": "The Irrepressibles"
+    },
+    "Yellow - Coldplay": {
+        "posicao": 23,
+        "nome": "Yellow",
+        "artista": "Coldplay"
+    },
+    "Baby (feat. Ludacris) - Justin Bieber": {
+        "posicao": 24,
+        "nome": "Baby (feat. Ludacris)",
+        "artista": "Justin Bieber"
+    },
+    "Inexplicable - Denicher Pol": {
+        "posicao": 25,
+        "nome": "Inexplicable",
+        "artista": "Denicher Pol"
+    },
+    "Es Él (part. Marcos Brunet) - Felipe S. Santos": {
+        "posicao": 26,
+        "nome": "Es Él (part. Marcos Brunet)",
+        "artista": "Felipe S. Santos"
+    },
+    "honeybee - Olivia Rodrigo": {
+        "posicao": 27,
+        "nome": "honeybee",
+        "artista": "Olivia Rodrigo"
+    },
+    "Y Que Fue? - Don Miguelo": {
+        "posicao": 28,
+        "nome": "Y Que Fue?",
+        "artista": "Don Miguelo"
+    },
+    "Preciosa Sangre - Cesar Dario": {
+        "posicao": 29,
+        "nome": "Preciosa Sangre",
+        "artista": "Cesar Dario"
+    },
+    "Maladie (Gospel Version) - Gospelize": {
+        "posicao": 30,
+        "nome": "Maladie (Gospel Version)",
+        "artista": "Gospelize"
+    },
+    "Sunflower (feat. Swae Lee) - Post Malone": {
+        "posicao": 31,
+        "nome": "Sunflower (feat. Swae Lee)",
+        "artista": "Post Malone"
+    },
+    "Don't tell your dreams (feat. STOSLIV) - LOVIXX": {
+        "posicao": 32,
+        "nome": "Don't tell your dreams (feat. STOSLIV)",
+        "artista": "LOVIXX"
+    },
+    "No Hay Lugar Más Alto (part. Christine D'Clario) - Miel San Marcos": {
+        "posicao": 33,
+        "nome": "No Hay Lugar Más Alto (part. Christine D'Clario)",
+        "artista": "Miel San Marcos"
+    },
+    "The Winner Takes It All - ABBA": {
+        "posicao": 34,
+        "nome": "The Winner Takes It All",
+        "artista": "ABBA"
+    },
+    "hate that i made you love me - Ariana Grande": {
+        "posicao": 35,
+        "nome": "hate that i made you love me",
+        "artista": "Ariana Grande"
+    },
+    "Do I Wanna Know? - Arctic Monkeys": {
+        "posicao": 36,
+        "nome": "Do I Wanna Know?",
+        "artista": "Arctic Monkeys"
+    },
+    "Cuán Grande Es Él - Rojo": {
+        "posicao": 37,
+        "nome": "Cuán Grande Es Él",
+        "artista": "Rojo"
+    },
+    "Die With A Smile (feat. Bruno Mars) - Lady Gaga": {
+        "posicao": 38,
+        "nome": "Die With A Smile (feat. Bruno Mars)",
+        "artista": "Lady Gaga"
+    },
+    "Cuatro Babys (part. Trap Capos, Noriel, Bryant Myers y Juhn) - Maluma": {
+        "posicao": 39,
+        "nome": "Cuatro Babys (part. Trap Capos, Noriel, Bryant Myers y Juhn)",
+        "artista": "Maluma"
+    },
+    "Dancing Queen - ABBA": {
+        "posicao": 40,
+        "nome": "Dancing Queen",
+        "artista": "ABBA"
+    },
+    "Базовый минимум (bazovyj minimum) (feat. SABI) - Mia Boyka": {
+        "posicao": 41,
+        "nome": "Базовый минимум (bazovyj minimum) (feat. SABI)",
+        "artista": "Mia Boyka"
+    },
+    "La Cheyenne - El de Las R's": {
+        "posicao": 42,
+        "nome": "La Cheyenne",
+        "artista": "El de Las R's"
+    },
+    "Un Destello de Tu Gloria - Jesús Adrián Romero": {
+        "posicao": 43,
+        "nome": "Un Destello de Tu Gloria",
+        "artista": "Jesús Adrián Romero"
+    },
+    "What's Up? - 4 Non Blondes": {
+        "posicao": 44,
+        "nome": "What's Up?",
+        "artista": "4 Non Blondes"
+    },
+    "Por Amar a Ciegas - Arcángel": {
+        "posicao": 45,
+        "nome": "Por Amar a Ciegas",
+        "artista": "Arcángel"
+    },
+    "Sweet Child O' Mine - Guns N' Roses": {
+        "posicao": 46,
+        "nome": "Sweet Child O' Mine",
+        "artista": "Guns N' Roses"
+    },
+    "Tus Cuerdas de Amor (part. Lowsan Melgar) - Julio Melgar": {
+        "posicao": 47,
+        "nome": "Tus Cuerdas de Amor (part. Lowsan Melgar)",
+        "artista": "Julio Melgar"
+    },
+    "Aliens - BTS": {
+        "posicao": 48,
+        "nome": "Aliens",
+        "artista": "BTS"
+    },
+    "Amor - Emmanuel Cortes": {
+        "posicao": 49,
+        "nome": "Amor",
+        "artista": "Emmanuel Cortes"
+    },
+    "Cristo Jesús Eres Mi Plenitud (Si Te Tengo a Ti) - Marcos Brunet": {
+        "posicao": 50,
+        "nome": "Cristo Jesús Eres Mi Plenitud (Si Te Tengo a Ti)",
+        "artista": "Marcos Brunet"
+    },
+    "Cuán Grande Es Dios - En Espiritu Y En Verdad": {
+        "posicao": 51,
+        "nome": "Cuán Grande Es Dios",
+        "artista": "En Espiritu Y En Verdad"
+    },
+    "Way Maker (Versión En Español) - Priscilla & Luis Bueno": {
+        "posicao": 52,
+        "nome": "Way Maker (Versión En Español)",
+        "artista": "Priscilla & Luis Bueno"
+    },
+    "Billie Jean - Michael Jackson": {
+        "posicao": 53,
+        "nome": "Billie Jean",
+        "artista": "Michael Jackson"
+    },
+    "Loser - Tame Impala": {
+        "posicao": 54,
+        "nome": "Loser",
+        "artista": "Tame Impala"
+    },
+    "kiss me - Ariana Grande": {
+        "posicao": 55,
+        "nome": "kiss me",
+        "artista": "Ariana Grande"
+    },
+    "Mi Amor Es Pobre (part. Ken-Y y Arcángel) - Tony Dize": {
+        "posicao": 56,
+        "nome": "Mi Amor Es Pobre (part. Ken-Y y Arcángel)",
+        "artista": "Tony Dize"
+    },
+    "Hay Libertad - Art Aguilera": {
+        "posicao": 57,
+        "nome": "Hay Libertad",
+        "artista": "Art Aguilera"
+    },
+    "Have You Ever Seen The Rain - Creedence Clearwater Revival": {
+        "posicao": 58,
+        "nome": "Have You Ever Seen The Rain",
+        "artista": "Creedence Clearwater Revival"
+    },
+    "Abre Mis Ojos - Danilo Montero": {
+        "posicao": 59,
+        "nome": "Abre Mis Ojos",
+        "artista": "Danilo Montero"
+    },
+    "Himno de Victoria - Danny Berrios": {
+        "posicao": 60,
+        "nome": "Himno de Victoria",
+        "artista": "Danny Berrios"
+    },
+    "La Casa de Dios - Danilo Montero": {
+        "posicao": 61,
+        "nome": "La Casa de Dios",
+        "artista": "Danilo Montero"
+    },
+    "El Borde de Su Manto - Juan Carlos Alvarado": {
+        "posicao": 62,
+        "nome": "El Borde de Su Manto",
+        "artista": "Juan Carlos Alvarado"
+    },
+    "Creo En Ti - Julio Melgar": {
+        "posicao": 63,
+        "nome": "Creo En Ti",
+        "artista": "Julio Melgar"
+    },
+    "Yo No Soy El Mismo - Alex Márquez": {
+        "posicao": 64,
+        "nome": "Yo No Soy El Mismo",
+        "artista": "Alex Márquez"
+    },
+    "Can't Help Falling In Love - Elvis Presley": {
+        "posicao": 65,
+        "nome": "Can't Help Falling In Love",
+        "artista": "Elvis Presley"
+    },
+    "the cure - Olivia Rodrigo": {
+        "posicao": 66,
+        "nome": "the cure",
+        "artista": "Olivia Rodrigo"
+    },
+    "like i do - Ariana Grande": {
+        "posicao": 67,
+        "nome": "like i do",
+        "artista": "Ariana Grande"
+    },
+    "Tu Falta de Querer - Mon Laferte": {
+        "posicao": 68,
+        "nome": "Tu Falta de Querer",
+        "artista": "Mon Laferte"
+    },
+    "Golden - HUNTR/X": {
+        "posicao": 69,
+        "nome": "Golden",
+        "artista": "HUNTR/X"
+    },
+    "Perfect - Ed Sheeran": {
+        "posicao": 70,
+        "nome": "Perfect",
+        "artista": "Ed Sheeran"
+    },
+    "Self Aware - Temper City": {
+        "posicao": 71,
+        "nome": "Self Aware",
+        "artista": "Temper City"
+    },
+    "Stand By Me - Ben E. King": {
+        "posicao": 72,
+        "nome": "Stand By Me",
+        "artista": "Ben E. King"
+    },
+    "Those Eyes - New West": {
+        "posicao": 73,
+        "nome": "Those Eyes",
+        "artista": "New West"
+    },
+    "Training Season - Dua Lipa": {
+        "posicao": 74,
+        "nome": "Training Season",
+        "artista": "Dua Lipa"
+    },
+    "How Deep Is Your Love - Bee Gees": {
+        "posicao": 75,
+        "nome": "How Deep Is Your Love",
+        "artista": "Bee Gees"
+    },
+    "EVERYTHING HALLELUJAH - Justin Bieber": {
+        "posicao": 76,
+        "nome": "EVERYTHING HALLELUJAH",
+        "artista": "Justin Bieber"
+    },
+    "Maladie - Mauvais djo": {
+        "posicao": 77,
+        "nome": "Maladie",
+        "artista": "Mauvais djo"
+    },
+    "Viva La Vida - Coldplay": {
+        "posicao": 78,
+        "nome": "Viva La Vida",
+        "artista": "Coldplay"
+    },
+    "Cupid's Chokehold (feat. Patrick Stump) - Gym Class Heroes": {
+        "posicao": 79,
+        "nome": "Cupid's Chokehold (feat. Patrick Stump)",
+        "artista": "Gym Class Heroes"
+    },
+    "Ordinary - Alex Warren": {
+        "posicao": 80,
+        "nome": "Ordinary",
+        "artista": "Alex Warren"
+    },
+    "Without Me - Eminem": {
+        "posicao": 81,
+        "nome": "Without Me",
+        "artista": "Eminem"
+    },
+    "Virgen - Adolescent's Orquesta (Los Adolescentes)": {
+        "posicao": 82,
+        "nome": "Virgen",
+        "artista": "Adolescent's Orquesta (Los Adolescentes)"
+    },
+    "Love Songs - Kaash Paige": {
+        "posicao": 83,
+        "nome": "Love Songs",
+        "artista": "Kaash Paige"
+    },
+    "Ta Ki Seni Görene Kadar - Tuana Tetik": {
+        "posicao": 84,
+        "nome": "Ta Ki Seni Görene Kadar",
+        "artista": "Tuana Tetik"
+    },
+    "Bring Me To Life - Evanescence": {
+        "posicao": 85,
+        "nome": "Bring Me To Life",
+        "artista": "Evanescence"
+    },
+    "Quiero Levantar Mis Manos - Marcos Witt": {
+        "posicao": 86,
+        "nome": "Quiero Levantar Mis Manos",
+        "artista": "Marcos Witt"
+    },
+    "Las Mañanitas - Vicente Fernández": {
+        "posicao": 87,
+        "nome": "Las Mañanitas",
+        "artista": "Vicente Fernández"
+    },
+    "Fix You - Coldplay": {
+        "posicao": 88,
+        "nome": "Fix You",
+        "artista": "Coldplay"
+    },
+    "I Wanna Be Yours - Arctic Monkeys": {
+        "posicao": 89,
+        "nome": "I Wanna Be Yours",
+        "artista": "Arctic Monkeys"
+    },
+    "Slipping Through My Fingers - ABBA": {
+        "posicao": 90,
+        "nome": "Slipping Through My Fingers",
+        "artista": "ABBA"
+    },
+    "Gone, Gone, Gone - Phillip Phillips": {
+        "posicao": 91,
+        "nome": "Gone, Gone, Gone",
+        "artista": "Phillip Phillips"
+    },
+    "stay - Ariana Grande": {
+        "posicao": 92,
+        "nome": "stay",
+        "artista": "Ariana Grande"
+    },
+    "Love Yourself - Justin Bieber": {
+        "posicao": 93,
+        "nome": "Love Yourself",
+        "artista": "Justin Bieber"
+    },
+    "POR SI MAÑANA NO ESTOY - Omar Courtz": {
+        "posicao": 94,
+        "nome": "POR SI MAÑANA NO ESTOY",
+        "artista": "Omar Courtz"
+    },
+    "Obsesión (part. Judy Santos) - Aventura": {
+        "posicao": 95,
+        "nome": "Obsesión (part. Judy Santos)",
+        "artista": "Aventura"
+    },
+    "Yahweh Se Manifestará - Oasis Ministry": {
+        "posicao": 96,
+        "nome": "Yahweh Se Manifestará",
+        "artista": "Oasis Ministry"
+    },
+    "My Way - Frank Sinatra": {
+        "posicao": 97,
+        "nome": "My Way",
+        "artista": "Frank Sinatra"
+    },
+    "Veo En Ti La Luz (part. Chayanne) - DANNA": {
+        "posicao": 98,
+        "nome": "Veo En Ti La Luz (part. Chayanne)",
+        "artista": "DANNA"
+    },
+    "SUPERESTRELLA - Aitana": {
+        "posicao": 99,
+        "nome": "SUPERESTRELLA",
+        "artista": "Aitana"
+    },
+    "Always - Bon Jovi": {
+        "posicao": 100,
+        "nome": "Always",
+        "artista": "Bon Jovi"
+    },
+    "Digno (Worthy) - Elevation Worship": {
+        "posicao": 101,
+        "nome": "Digno (Worthy)",
+        "artista": "Elevation Worship"
+    },
+    "Una Aventura - Banda El Recodo De Cruz Lizárraga": {
+        "posicao": 102,
+        "nome": "Una Aventura",
+        "artista": "Banda El Recodo De Cruz Lizárraga"
+    },
+    "Rolling In The Deep - Adele": {
+        "posicao": 103,
+        "nome": "Rolling In The Deep",
+        "artista": "Adele"
+    },
+    "Glorioso Día - Passion": {
+        "posicao": 104,
+        "nome": "Glorioso Día",
+        "artista": "Passion"
+    },
+    "Eres Todo Poderoso - Danilo Montero": {
+        "posicao": 105,
+        "nome": "Eres Todo Poderoso",
+        "artista": "Danilo Montero"
+    },
+    "Ayúdame - LOS DOS DE TAMAULIPAS": {
+        "posicao": 106,
+        "nome": "Ayúdame",
+        "artista": "LOS DOS DE TAMAULIPAS"
+    },
+    "Será Llena La Tierra - Marco Barrientos": {
+        "posicao": 107,
+        "nome": "Será Llena La Tierra",
+        "artista": "Marco Barrientos"
+    },
+    "Aleluya - Centro Mundial de Avivamiento": {
+        "posicao": 108,
+        "nome": "Aleluya",
+        "artista": "Centro Mundial de Avivamiento"
+    },
+    "The One That Got Away - Katy Perry": {
+        "posicao": 109,
+        "nome": "The One That Got Away",
+        "artista": "Katy Perry"
+    },
+    "White Keys - Dominic Fike": {
+        "posicao": 110,
+        "nome": "White Keys",
+        "artista": "Dominic Fike"
+    },
+    "Lose Yourself - Eminem": {
+        "posicao": 111,
+        "nome": "Lose Yourself",
+        "artista": "Eminem"
+    },
+    "Treat You Better - Shawn Mendes": {
+        "posicao": 112,
+        "nome": "Treat You Better",
+        "artista": "Shawn Mendes"
+    },
+    "The Reason - Hoobastank": {
+        "posicao": 113,
+        "nome": "The Reason",
+        "artista": "Hoobastank"
+    },
+    "Amado de Mi Alma - Alex Márquez": {
+        "posicao": 114,
+        "nome": "Amado de Mi Alma",
+        "artista": "Alex Márquez"
+    },
+    "Historia de Taxi - Ricardo Arjona": {
+        "posicao": 115,
+        "nome": "Historia de Taxi",
+        "artista": "Ricardo Arjona"
+    },
+    "Allá Voy - Soy Luna": {
+        "posicao": 116,
+        "nome": "Allá Voy",
+        "artista": "Soy Luna"
+    },
+    "Francia vs Japón (Blue Lock) - Mundial Sub 20 #2 - MegaR": {
+        "posicao": 117,
+        "nome": "Francia vs Japón (Blue Lock) - Mundial Sub 20 #2",
+        "artista": "MegaR"
+    },
+    "Black - Pearl Jam": {
+        "posicao": 118,
+        "nome": "Black",
+        "artista": "Pearl Jam"
+    },
+    "COOOK PARDON (feat. AKDO) - Lvbel C5": {
+        "posicao": 119,
+        "nome": "COOOK PARDON (feat. AKDO)",
+        "artista": "Lvbel C5"
+    },
+    "Que Se Mueran - Romeo Santos": {
+        "posicao": 120,
+        "nome": "Que Se Mueran",
+        "artista": "Romeo Santos"
+    },
+    "Estrellita, ¿Dónde Estás? - Canciones Infantiles": {
+        "posicao": 121,
+        "nome": "Estrellita, ¿Dónde Estás?",
+        "artista": "Canciones Infantiles"
+    },
+    "Count On Me - Bruno Mars": {
+        "posicao": 122,
+        "nome": "Count On Me",
+        "artista": "Bruno Mars"
+    },
+    "Chicago - Michael Jackson": {
+        "posicao": 123,
+        "nome": "Chicago",
+        "artista": "Michael Jackson"
+    },
+    "I Want It That Way - Backstreet Boys": {
+        "posicao": 124,
+        "nome": "I Want It That Way",
+        "artista": "Backstreet Boys"
+    },
+    "Or Nah (feat. Ty Dolla $ign & Wiz Khalifa) - The Weeknd": {
+        "posicao": 125,
+        "nome": "Or Nah (feat. Ty Dolla $ign & Wiz Khalifa)",
+        "artista": "The Weeknd"
+    },
+    "Every Breath You Take - The Police": {
+        "posicao": 126,
+        "nome": "Every Breath You Take",
+        "artista": "The Police"
+    },
+    "¿Qué nos pasó? - Karen Torres": {
+        "posicao": 127,
+        "nome": "¿Qué nos pasó?",
+        "artista": "Karen Torres"
+    },
+    "Moana - Cuán Lejos Voy - Disney": {
+        "posicao": 128,
+        "nome": "Moana - Cuán Lejos Voy",
+        "artista": "Disney"
+    },
+    "Yo Me Rindo a Él - Jesús Adrián Romero": {
+        "posicao": 129,
+        "nome": "Yo Me Rindo a Él",
+        "artista": "Jesús Adrián Romero"
+    },
+    "Love On The Brain - Rihanna": {
+        "posicao": 130,
+        "nome": "Love On The Brain",
+        "artista": "Rihanna"
+    },
+    "Maula Mere Maula - Roop Kumar Rathod": {
+        "posicao": 131,
+        "nome": "Maula Mere Maula",
+        "artista": "Roop Kumar Rathod"
+    },
+    "Solo Hay Uno (part. Enoc Parra) - Joel Rocco": {
+        "posicao": 132,
+        "nome": "Solo Hay Uno (part. Enoc Parra)",
+        "artista": "Joel Rocco"
+    },
+    "De Lejitos (remix) (part. Omar Courtz) - Jay Wheeler": {
+        "posicao": 133,
+        "nome": "De Lejitos (remix) (part. Omar Courtz)",
+        "artista": "Jay Wheeler"
+    },
+    "Hasta La Raíz - Natalia Lafourcade": {
+        "posicao": 134,
+        "nome": "Hasta La Raíz",
+        "artista": "Natalia Lafourcade"
+    },
+    "See You Again (feat. Kali Uchis) - Tyler, The Creator": {
+        "posicao": 135,
+        "nome": "See You Again (feat. Kali Uchis)",
+        "artista": "Tyler, The Creator"
+    },
+    "QUE LOUCURA (part. CACAU CHUU) [explícita] - DJ EXE": {
+        "posicao": 136,
+        "nome": "QUE LOUCURA (part. CACAU CHUU) [explícita]",
+        "artista": "DJ EXE"
+    },
+    "Dueles - Jesse & Joy": {
+        "posicao": 137,
+        "nome": "Dueles",
+        "artista": "Jesse & Joy"
+    },
+    "You And I (John Doe VS Jane Doe) - Forsaken Dev Team": {
+        "posicao": 138,
+        "nome": "You And I (John Doe VS Jane Doe)",
+        "artista": "Forsaken Dev Team"
+    },
+    "La Formula - El Rabbanito": {
+        "posicao": 139,
+        "nome": "La Formula",
+        "artista": "El Rabbanito"
+    },
+    "Cuando No Era Cantante (remix) (part. Anuel AA, Fuerza Regida y Yung Beef) - El Bogueto": {
+        "posicao": 140,
+        "nome": "Cuando No Era Cantante (remix) (part. Anuel AA, Fuerza Regida y Yung Beef)",
+        "artista": "El Bogueto"
+    },
+    "Fijord Moonlight - Draugr Beatz": {
+        "posicao": 141,
+        "nome": "Fijord Moonlight",
+        "artista": "Draugr Beatz"
+    },
+    "As It Was - Harry Styles": {
+        "posicao": 142,
+        "nome": "As It Was",
+        "artista": "Harry Styles"
+    },
+    "Hermoso Nombre - Hillsong en Español": {
+        "posicao": 143,
+        "nome": "Hermoso Nombre",
+        "artista": "Hillsong en Español"
+    },
+    "One Less Lonely Girl - Justin Bieber": {
+        "posicao": 144,
+        "nome": "One Less Lonely Girl",
+        "artista": "Justin Bieber"
+    },
+    "Quien Más (part. Waleska Morales y Miel San Marcos) - Gateway Worship Español": {
+        "posicao": 145,
+        "nome": "Quien Más (part. Waleska Morales y Miel San Marcos)",
+        "artista": "Gateway Worship Español"
+    },
+    "Just The Way You Are - Bruno Mars": {
+        "posicao": 146,
+        "nome": "Just The Way You Are",
+        "artista": "Bruno Mars"
+    },
+    "Beauty And a Beat (feat. Nicki Minaj) - Justin Bieber": {
+        "posicao": 147,
+        "nome": "Beauty And a Beat (feat. Nicki Minaj)",
+        "artista": "Justin Bieber"
+    },
+    "I Was Made For Lovin' You - KISS": {
+        "posicao": 148,
+        "nome": "I Was Made For Lovin' You",
+        "artista": "KISS"
+    },
+    "Gracias - Marcos Witt": {
+        "posicao": 149,
+        "nome": "Gracias",
+        "artista": "Marcos Witt"
+    },
+    "NORMAL [explicit version] - BTS": {
+        "posicao": 150,
+        "nome": "NORMAL [explicit version]",
+        "artista": "BTS"
+    },
+    "505 - Arctic Monkeys": {
+        "posicao": 151,
+        "nome": "505",
+        "artista": "Arctic Monkeys"
+    },
+    "bloodstream - Alyssa Grace": {
+        "posicao": 152,
+        "nome": "bloodstream",
+        "artista": "Alyssa Grace"
+    },
+    "El Dios Que Adoramos (part. Adoración La IBI) - Sovereign Grace Music": {
+        "posicao": 153,
+        "nome": "El Dios Que Adoramos (part. Adoración La IBI)",
+        "artista": "Sovereign Grace Music"
+    },
+    "Tú No Vive' Así (part. Arcángel, DJ Luian y Mambo Kingz) - Bad Bunny": {
+        "posicao": 154,
+        "nome": "Tú No Vive' Así (part. Arcángel, DJ Luian y Mambo Kingz)",
+        "artista": "Bad Bunny"
+    },
+    "Eso y Más - Joan Sebastian": {
+        "posicao": 155,
+        "nome": "Eso y Más",
+        "artista": "Joan Sebastian"
+    },
+    "When I Was Your Man - Bruno Mars": {
+        "posicao": 156,
+        "nome": "When I Was Your Man",
+        "artista": "Bruno Mars"
+    },
+    "En totalidad a ti - Alex Campos": {
+        "posicao": 157,
+        "nome": "En totalidad a ti",
+        "artista": "Alex Campos"
+    },
+    "Tu Fidelidad - Marcos Witt": {
+        "posicao": 158,
+        "nome": "Tu Fidelidad",
+        "artista": "Marcos Witt"
+    },
+    "Lo Harás Otra Vez - Elevation Worship": {
+        "posicao": 159,
+        "nome": "Lo Harás Otra Vez",
+        "artista": "Elevation Worship"
+    },
+    "De Tal Manera - Abel Zavala": {
+        "posicao": 160,
+        "nome": "De Tal Manera",
+        "artista": "Abel Zavala"
+    },
+    "NO TODO ES PARTE DE LA VIDA - Ed Maverick": {
+        "posicao": 161,
+        "nome": "NO TODO ES PARTE DE LA VIDA",
+        "artista": "Ed Maverick"
+    },
+    "Al Que Esta Sentado En El Trono (part. Lucas Conslie) - Marcos Brunet": {
+        "posicao": 162,
+        "nome": "Al Que Esta Sentado En El Trono (part. Lucas Conslie)",
+        "artista": "Marcos Brunet"
+    },
+    "Eres Digno de Adorar - Bethel Music": {
+        "posicao": 163,
+        "nome": "Eres Digno de Adorar",
+        "artista": "Bethel Music"
+    },
+    "Somewhere Only We Know - Keane": {
+        "posicao": 164,
+        "nome": "Somewhere Only We Know",
+        "artista": "Keane"
+    },
+    "Sweater Weather - The Neighbourhood": {
+        "posicao": 165,
+        "nome": "Sweater Weather",
+        "artista": "The Neighbourhood"
+    },
+    "Bueno Es Alabarte - Danilo Montero": {
+        "posicao": 166,
+        "nome": "Bueno Es Alabarte",
+        "artista": "Danilo Montero"
+    },
+    "El Problema - Ricardo Arjona": {
+        "posicao": 167,
+        "nome": "El Problema",
+        "artista": "Ricardo Arjona"
+    },
+    "ICONIC BY MISTAKE (feat. ILLIT & KATSEYE) - LE SSERAFIM": {
+        "posicao": 168,
+        "nome": "ICONIC BY MISTAKE (feat. ILLIT & KATSEYE)",
+        "artista": "LE SSERAFIM"
+    },
+    "Somebody That I Used To Know (feat. Kimbra) - Gotye": {
+        "posicao": 169,
+        "nome": "Somebody That I Used To Know (feat. Kimbra)",
+        "artista": "Gotye"
+    },
+    "Digno (part. Yvonne Muñoz y Marco Barrientos) - Marcos Brunet": {
+        "posicao": 170,
+        "nome": "Digno (part. Yvonne Muñoz y Marco Barrientos)",
+        "artista": "Marcos Brunet"
+    },
+    "Life Goes On - Oliver Tree": {
+        "posicao": 171,
+        "nome": "Life Goes On",
+        "artista": "Oliver Tree"
+    },
+    "Forever Young - Alphaville": {
+        "posicao": 172,
+        "nome": "Forever Young",
+        "artista": "Alphaville"
+    },
+    "Beat It - Michael Jackson": {
+        "posicao": 173,
+        "nome": "Beat It",
+        "artista": "Michael Jackson"
+    },
+    "Girls Just Want To Have Fun - Cyndi Lauper": {
+        "posicao": 174,
+        "nome": "Girls Just Want To Have Fun",
+        "artista": "Cyndi Lauper"
+    },
+    "Alma Misionera - Salve (Oswaldo y Arce)": {
+        "posicao": 175,
+        "nome": "Alma Misionera",
+        "artista": "Salve (Oswaldo y Arce)"
+    },
+    "Himno Nacional del Perú - José Bernardo Alcedo": {
+        "posicao": 176,
+        "nome": "Himno Nacional del Perú",
+        "artista": "José Bernardo Alcedo"
+    },
+    "Santo Es El Que Vive - Montesanto": {
+        "posicao": 177,
+        "nome": "Santo Es El Que Vive",
+        "artista": "Montesanto"
+    },
+    "Sparks - Coldplay": {
+        "posicao": 178,
+        "nome": "Sparks",
+        "artista": "Coldplay"
+    },
+    "A Thousand Years - Christina Perri": {
+        "posicao": 179,
+        "nome": "A Thousand Years",
+        "artista": "Christina Perri"
+    },
+    "Golden Days - Nerin": {
+        "posicao": 180,
+        "nome": "Golden Days",
+        "artista": "Nerin"
+    },
+    "Dreams - The Cranberries": {
+        "posicao": 181,
+        "nome": "Dreams",
+        "artista": "The Cranberries"
+    },
+    "Ya No Eres Pan Y Vino - Músicas Católicas": {
+        "posicao": 182,
+        "nome": "Ya No Eres Pan Y Vino",
+        "artista": "Músicas Católicas"
+    },
+    "De Ti Me Enamoré - Soy Luna": {
+        "posicao": 183,
+        "nome": "De Ti Me Enamoré",
+        "artista": "Soy Luna"
+    },
+    "Sarà Perché Ti Amo - Ricchi e Poveri": {
+        "posicao": 184,
+        "nome": "Sarà Perché Ti Amo",
+        "artista": "Ricchi e Poveri"
+    },
+    "Eres Mía - Romeo Santos": {
+        "posicao": 185,
+        "nome": "Eres Mía",
+        "artista": "Romeo Santos"
+    },
+    "nowhere, nobody - Ariana Grande": {
+        "posicao": 186,
+        "nome": "nowhere, nobody",
+        "artista": "Ariana Grande"
+    },
+    "Renuévame - Marcos Witt": {
+        "posicao": 187,
+        "nome": "Renuévame",
+        "artista": "Marcos Witt"
+    },
+    "The Night We Met - Lord Huron": {
+        "posicao": 188,
+        "nome": "The Night We Met",
+        "artista": "Lord Huron"
+    },
+    "Día de Enero - Shakira": {
+        "posicao": 189,
+        "nome": "Día de Enero",
+        "artista": "Shakira"
+    },
+    "Cinnamon Girl - Lana Del Rey": {
+        "posicao": 190,
+        "nome": "Cinnamon Girl",
+        "artista": "Lana Del Rey"
+    },
+    "Cuestiones - Milo j": {
+        "posicao": 191,
+        "nome": "Cuestiones",
+        "artista": "Milo j"
+    },
+    "La Bendición (The Blessing) - Elevation Worship": {
+        "posicao": 192,
+        "nome": "La Bendición (The Blessing)",
+        "artista": "Elevation Worship"
+    },
+    "Nadie Puede Detenerle (En Vivo) - Grace Rodríguez": {
+        "posicao": 193,
+        "nome": "Nadie Puede Detenerle (En Vivo)",
+        "artista": "Grace Rodríguez"
+    },
+    "Así Como David Danzaba - Iglesia de Cristo Ebenezer Honduras": {
+        "posicao": 194,
+        "nome": "Así Como David Danzaba",
+        "artista": "Iglesia de Cristo Ebenezer Honduras"
+    },
+    "Chiquitita (Spanish Version) - ABBA": {
+        "posicao": 195,
+        "nome": "Chiquitita (Spanish Version)",
+        "artista": "ABBA"
+    },
+    "Thriller - Michael Jackson": {
+        "posicao": 196,
+        "nome": "Thriller",
+        "artista": "Michael Jackson"
+    },
+    "Disfruto - Carla Morrison": {
+        "posicao": 197,
+        "nome": "Disfruto",
+        "artista": "Carla Morrison"
+    },
+    "Earrings - Malcolm Todd": {
+        "posicao": 198,
+        "nome": "Earrings",
+        "artista": "Malcolm Todd"
+    },
+    "En El Nombre de Jesús - Ingrid Rosario": {
+        "posicao": 199,
+        "nome": "En El Nombre de Jesús",
+        "artista": "Ingrid Rosario"
+    },
+    "Wish You Were Here - Pink Floyd": {
+        "posicao": 200,
+        "nome": "Wish You Were Here",
+        "artista": "Pink Floyd"
+    },
+    "Tumbas A Jardines (part. Brandon Lake) - Elevation Worship": {
+        "posicao": 201,
+        "nome": "Tumbas A Jardines (part. Brandon Lake)",
+        "artista": "Elevation Worship"
+    },
+    "Linger - The Cranberries": {
+        "posicao": 202,
+        "nome": "Linger",
+        "artista": "The Cranberries"
+    },
+    "Como Dijiste - Christine D'Clario": {
+        "posicao": 203,
+        "nome": "Como Dijiste",
+        "artista": "Christine D'Clario"
+    },
+    "Dos Botellas de Mezcal - Valentín Elizalde": {
+        "posicao": 204,
+        "nome": "Dos Botellas de Mezcal",
+        "artista": "Valentín Elizalde"
+    },
+    "Until I Found You - Stephen Sanchez": {
+        "posicao": 205,
+        "nome": "Until I Found You",
+        "artista": "Stephen Sanchez"
+    },
+    "BIRDS OF A FEATHER - Billie Eilish": {
+        "posicao": 206,
+        "nome": "BIRDS OF A FEATHER",
+        "artista": "Billie Eilish"
+    },
+    "Al Estar Aqui - Danilo Montero": {
+        "posicao": 207,
+        "nome": "Al Estar Aqui",
+        "artista": "Danilo Montero"
+    },
+    "Que Vuelva Lo Santo Al Altar (part. Montesanto) - Grupo Grace": {
+        "posicao": 208,
+        "nome": "Que Vuelva Lo Santo Al Altar (part. Montesanto)",
+        "artista": "Grupo Grace"
+    },
+    "BnB (part. Clarent) - Young Miko": {
+        "posicao": 209,
+        "nome": "BnB (part. Clarent)",
+        "artista": "Young Miko"
+    },
+    "Voy A Perder La compostura - Billy Bunster": {
+        "posicao": 210,
+        "nome": "Voy A Perder La compostura",
+        "artista": "Billy Bunster"
+    },
+    "...Baby One More Time - Britney Spears": {
+        "posicao": 211,
+        "nome": "...Baby One More Time",
+        "artista": "Britney Spears"
+    },
+    "Your Love - The Outfield": {
+        "posicao": 212,
+        "nome": "Your Love",
+        "artista": "The Outfield"
+    },
+    "El Amor - Ricardo Arjona": {
+        "posicao": 213,
+        "nome": "El Amor",
+        "artista": "Ricardo Arjona"
+    },
+    "Mirrors - Justin Timberlake": {
+        "posicao": 214,
+        "nome": "Mirrors",
+        "artista": "Justin Timberlake"
+    },
+    "Escalando Peldaños / Grandes y Maravillosas (medley) - Vida Real Worship": {
+        "posicao": 215,
+        "nome": "Escalando Peldaños / Grandes y Maravillosas (medley)",
+        "artista": "Vida Real Worship"
+    },
+    "never get over me - Ariana Grande": {
+        "posicao": 216,
+        "nome": "never get over me",
+        "artista": "Ariana Grande"
+    },
+    "KOKO - Omar Courtz": {
+        "posicao": 217,
+        "nome": "KOKO",
+        "artista": "Omar Courtz"
+    },
+    "Moonlight - XXXTENTACION": {
+        "posicao": 218,
+        "nome": "Moonlight",
+        "artista": "XXXTENTACION"
+    },
+    "Granito de Mostaza - Canciones Religiosas": {
+        "posicao": 219,
+        "nome": "Granito de Mostaza",
+        "artista": "Canciones Religiosas"
+    },
+    "Himno Virgen Los Angeles - Comunidad Misionera Mariana": {
+        "posicao": 220,
+        "nome": "Himno Virgen Los Angeles",
+        "artista": "Comunidad Misionera Mariana"
+    },
+    "Cante Al Señor - Ingrid Rosario": {
+        "posicao": 221,
+        "nome": "Cante Al Señor",
+        "artista": "Ingrid Rosario"
+    },
+    "stupid song - Olivia Rodrigo": {
+        "posicao": 222,
+        "nome": "stupid song",
+        "artista": "Olivia Rodrigo"
+    },
+    "Limón y Sal - Julieta Venegas": {
+        "posicao": 223,
+        "nome": "Limón y Sal",
+        "artista": "Julieta Venegas"
+    },
+    "Everybody Wants To Rule The World - Tears For Fears": {
+        "posicao": 224,
+        "nome": "Everybody Wants To Rule The World",
+        "artista": "Tears For Fears"
+    },
+    "Babydoll - Dominic Fike": {
+        "posicao": 225,
+        "nome": "Babydoll",
+        "artista": "Dominic Fike"
+    },
+    "big feelings - Ariana Grande": {
+        "posicao": 226,
+        "nome": "big feelings",
+        "artista": "Ariana Grande"
+    },
+    "Hosanna - Marco Barrientos": {
+        "posicao": 227,
+        "nome": "Hosanna",
+        "artista": "Marco Barrientos"
+    },
+    "Zombie - The Cranberries": {
+        "posicao": 228,
+        "nome": "Zombie",
+        "artista": "The Cranberries"
+    },
+    "Loco (Tu Forma de Ser) - Los Auténticos Decadentes": {
+        "posicao": 229,
+        "nome": "Loco (Tu Forma de Ser)",
+        "artista": "Los Auténticos Decadentes"
+    },
+    "Umbrella (feat. Jay-Z) - Rihanna": {
+        "posicao": 230,
+        "nome": "Umbrella (feat. Jay-Z)",
+        "artista": "Rihanna"
+    },
+    "Hermoso Momento (Sesión Acústica) - Kairo Worship": {
+        "posicao": 231,
+        "nome": "Hermoso Momento (Sesión Acústica)",
+        "artista": "Kairo Worship"
+    },
+    "Es Por Ti - Juanes": {
+        "posicao": 232,
+        "nome": "Es Por Ti",
+        "artista": "Juanes"
+    },
+    "Pilé - Mauvais djo": {
+        "posicao": 233,
+        "nome": "Pilé",
+        "artista": "Mauvais djo"
+    },
+    "يا حلو (ya helou) - Adam (آدم)": {
+        "posicao": 234,
+        "nome": "يا حلو (ya helou)",
+        "artista": "Adam (آدم)"
+    },
+    "The Climb - Miley Cyrus": {
+        "posicao": 235,
+        "nome": "The Climb",
+        "artista": "Miley Cyrus"
+    },
+    "No Hay Otro Nombre - Hillsong Worship": {
+        "posicao": 236,
+        "nome": "No Hay Otro Nombre",
+        "artista": "Hillsong Worship"
+    },
+    "Human Nature - Michael Jackson": {
+        "posicao": 237,
+        "nome": "Human Nature",
+        "artista": "Michael Jackson"
+    },
+    "Die For You - The Weeknd": {
+        "posicao": 238,
+        "nome": "Die For You",
+        "artista": "The Weeknd"
+    },
+    "Danzando (part. Christine D'Clario, Travy Joe y Daniel Calveti) - Gateway Worship Español": {
+        "posicao": 239,
+        "nome": "Danzando (part. Christine D'Clario, Travy Joe y Daniel Calveti)",
+        "artista": "Gateway Worship Español"
+    },
+    "Vienna - Billy Joel": {
+        "posicao": 240,
+        "nome": "Vienna",
+        "artista": "Billy Joel"
+    },
+    "Me Viene a Buscar - Horeb Collective": {
+        "posicao": 241,
+        "nome": "Me Viene a Buscar",
+        "artista": "Horeb Collective"
+    },
+    "Más linda - Soy Luna": {
+        "posicao": 242,
+        "nome": "Más linda",
+        "artista": "Soy Luna"
+    },
+    "Alabaré - Canciones Religiosas": {
+        "posicao": 243,
+        "nome": "Alabaré",
+        "artista": "Canciones Religiosas"
+    },
+    "Wind Of Change - Scorpions": {
+        "posicao": 244,
+        "nome": "Wind Of Change",
+        "artista": "Scorpions"
+    },
+    "Fiesta En El Desierto (La La La) - Montesanto": {
+        "posicao": 245,
+        "nome": "Fiesta En El Desierto (La La La)",
+        "artista": "Montesanto"
+    },
+    "Dernière Danse - Indila": {
+        "posicao": 246,
+        "nome": "Dernière Danse",
+        "artista": "Indila"
+    },
+    "Ven Espiritu Santo - Barak": {
+        "posicao": 247,
+        "nome": "Ven Espiritu Santo",
+        "artista": "Barak"
+    },
+    "The Fate of Ophelia - Taylor Swift": {
+        "posicao": 248,
+        "nome": "The Fate of Ophelia",
+        "artista": "Taylor Swift"
+    },
+    "Wicked Game - Chris Isaak": {
+        "posicao": 249,
+        "nome": "Wicked Game",
+        "artista": "Chris Isaak"
+    },
+    "Que Se Abra El Cielo (part. Marcos Brunet) - Christine D'Clario": {
+        "posicao": 250,
+        "nome": "Que Se Abra El Cielo (part. Marcos Brunet)",
+        "artista": "Christine D'Clario"
+    },
+    "Lonely - Akon": {
+        "posicao": 251,
+        "nome": "Lonely",
+        "artista": "Akon"
+    },
+    "Fiesta - Miel San Marcos": {
+        "posicao": 252,
+        "nome": "Fiesta",
+        "artista": "Miel San Marcos"
+    },
+    "Let Her Go - Passenger": {
+        "posicao": 253,
+        "nome": "Let Her Go",
+        "artista": "Passenger"
+    },
+    "Reflections - The Neighbourhood": {
+        "posicao": 254,
+        "nome": "Reflections",
+        "artista": "The Neighbourhood"
+    },
+    "Bohemian Rhapsody - Queen": {
+        "posicao": 255,
+        "nome": "Bohemian Rhapsody",
+        "artista": "Queen"
+    },
+    "Talking To The Moon - Bruno Mars": {
+        "posicao": 256,
+        "nome": "Talking To The Moon",
+        "artista": "Bruno Mars"
+    },
+    "Another Day In Paradise - Phil Collins": {
+        "posicao": 257,
+        "nome": "Another Day In Paradise",
+        "artista": "Phil Collins"
+    },
+    "Ya No Soy Esclavo - Julio Melgar": {
+        "posicao": 258,
+        "nome": "Ya No Soy Esclavo",
+        "artista": "Julio Melgar"
+    },
+    "Apocalypse - Cigarettes After Sex": {
+        "posicao": 259,
+        "nome": "Apocalypse",
+        "artista": "Cigarettes After Sex"
+    },
+    "Yo Te Extrañaré - Tercer Cielo": {
+        "posicao": 260,
+        "nome": "Yo Te Extrañaré",
+        "artista": "Tercer Cielo"
+    },
+    "WILDFLOWER - Billie Eilish": {
+        "posicao": 261,
+        "nome": "WILDFLOWER",
+        "artista": "Billie Eilish"
+    },
+    "Alaba (part. Intimidad Worship) - Evan Craft": {
+        "posicao": 262,
+        "nome": "Alaba (part. Intimidad Worship)",
+        "artista": "Evan Craft"
+    },
+    "Body to Body - BTS": {
+        "posicao": 263,
+        "nome": "Body to Body",
+        "artista": "BTS"
+    },
+    "All Of Me - John Legend": {
+        "posicao": 264,
+        "nome": "All Of Me",
+        "artista": "John Legend"
+    },
+    "Tú Has Venido a La Orilla (Pescador de Hombres) - Canciones Religiosas": {
+        "posicao": 265,
+        "nome": "Tú Has Venido a La Orilla (Pescador de Hombres)",
+        "artista": "Canciones Religiosas"
+    },
+    "I Don't Want To Miss a Thing - Aerosmith": {
+        "posicao": 266,
+        "nome": "I Don't Want To Miss a Thing",
+        "artista": "Aerosmith"
+    },
+    "Jet - Soy Luna": {
+        "posicao": 267,
+        "nome": "Jet",
+        "artista": "Soy Luna"
+    },
+    "Yo... El Aventurero - Pedro Fernández": {
+        "posicao": 268,
+        "nome": "Yo... El Aventurero",
+        "artista": "Pedro Fernández"
+    },
+    "Work (feat. Drake) - Rihanna": {
+        "posicao": 269,
+        "nome": "Work (feat. Drake)",
+        "artista": "Rihanna"
+    },
+    "Más Allá Del Sol - Manuel Bonilla": {
+        "posicao": 270,
+        "nome": "Más Allá Del Sol",
+        "artista": "Manuel Bonilla"
+    },
+    "Cuando Florezca el Chuño - Armonía 10": {
+        "posicao": 271,
+        "nome": "Cuando Florezca el Chuño",
+        "artista": "Armonía 10"
+    },
+    "Agnus Dei - Marco Barrientos": {
+        "posicao": 272,
+        "nome": "Agnus Dei",
+        "artista": "Marco Barrientos"
+    },
+    "El Poder de Tu Amor - Ingrid Rosario": {
+        "posicao": 273,
+        "nome": "El Poder de Tu Amor",
+        "artista": "Ingrid Rosario"
+    },
+    "Raindance (feat. Tems) - Dave": {
+        "posicao": 274,
+        "nome": "Raindance (feat. Tems)",
+        "artista": "Dave"
+    },
+    "Burn - Fulton Lee": {
+        "posicao": 275,
+        "nome": "Burn",
+        "artista": "Fulton Lee"
+    },
+    "Señor Eres Fiel - Coalo Zamorano": {
+        "posicao": 276,
+        "nome": "Señor Eres Fiel",
+        "artista": "Coalo Zamorano"
+    },
+    "Into the Sun - BTS": {
+        "posicao": 277,
+        "nome": "Into the Sun",
+        "artista": "BTS"
+    },
+    "Me Extrañaras - Caribeños de Guadalupe": {
+        "posicao": 278,
+        "nome": "Me Extrañaras",
+        "artista": "Caribeños de Guadalupe"
+    },
+    "Someone Like You - Adele": {
+        "posicao": 279,
+        "nome": "Someone Like You",
+        "artista": "Adele"
+    },
+    "With Or Without You - U2": {
+        "posicao": 280,
+        "nome": "With Or Without You",
+        "artista": "U2"
+    },
+    "Back To Black - Amy Winehouse": {
+        "posicao": 281,
+        "nome": "Back To Black",
+        "artista": "Amy Winehouse"
+    },
+    "Company - Justin Bieber": {
+        "posicao": 282,
+        "nome": "Company",
+        "artista": "Justin Bieber"
+    },
+    "they don't know 'bout us - BTS": {
+        "posicao": 283,
+        "nome": "they don't know 'bout us",
+        "artista": "BTS"
+    },
+    "Another Love - Tom Odell": {
+        "posicao": 284,
+        "nome": "Another Love",
+        "artista": "Tom Odell"
+    },
+    "En Mi Corazón Vivirás - Tarzan": {
+        "posicao": 285,
+        "nome": "En Mi Corazón Vivirás",
+        "artista": "Tarzan"
+    },
+    "Mix Tu Ausencia (A Través Del Vaso / Tu Ausencia / El Amor Se Pesa) - Son Del Duke": {
+        "posicao": 286,
+        "nome": "Mix Tu Ausencia (A Través Del Vaso / Tu Ausencia / El Amor Se Pesa)",
+        "artista": "Son Del Duke"
+    },
+    "RUBBERZ (feat. Shoreline Mafia & Purps) - Fenix Flexin": {
+        "posicao": 287,
+        "nome": "RUBBERZ (feat. Shoreline Mafia & Purps)",
+        "artista": "Fenix Flexin"
+    },
+    "Uptown Funk (feat. Mark Ronson) - Bruno Mars": {
+        "posicao": 288,
+        "nome": "Uptown Funk (feat. Mark Ronson)",
+        "artista": "Bruno Mars"
+    },
+    "Desierto En Paraiso - Hanna Ponce": {
+        "posicao": 289,
+        "nome": "Desierto En Paraiso",
+        "artista": "Hanna Ponce"
+    },
+    "Little Moments - Nerin": {
+        "posicao": 290,
+        "nome": "Little Moments",
+        "artista": "Nerin"
+    },
+    "Rude - MAGIC!": {
+        "posicao": 291,
+        "nome": "Rude",
+        "artista": "MAGIC!"
+    },
+    "Señora de Las Cuatro Décadas - Ricardo Arjona": {
+        "posicao": 292,
+        "nome": "Señora de Las Cuatro Décadas",
+        "artista": "Ricardo Arjona"
+    },
+    "Lo Único Que Quiero (part. Marco Barrientos) - Marcela Gándara": {
+        "posicao": 293,
+        "nome": "Lo Único Que Quiero (part. Marco Barrientos)",
+        "artista": "Marcela Gándara"
+    },
+    "Cico Buff - Cocteau Twins": {
+        "posicao": 294,
+        "nome": "Cico Buff",
+        "artista": "Cocteau Twins"
+    },
+    "Careless Whisper - George Michael": {
+        "posicao": 295,
+        "nome": "Careless Whisper",
+        "artista": "George Michael"
+    },
+    "I Want To Know What Love Is - Foreigner": {
+        "posicao": 296,
+        "nome": "I Want To Know What Love Is",
+        "artista": "Foreigner"
+    },
+    "Alas - Soy Luna": {
+        "posicao": 297,
+        "nome": "Alas",
+        "artista": "Soy Luna"
+    },
+    "Háblame Papá - Mayo Music": {
+        "posicao": 298,
+        "nome": "Háblame Papá",
+        "artista": "Mayo Music"
+    },
+    "I Denounce You Satan - Sheena Taylor": {
+        "posicao": 299,
+        "nome": "I Denounce You Satan",
+        "artista": "Sheena Taylor"
+    },
+    "Cuando Llora Mi Guitarra - Julio Jaramillo": {
+        "posicao": 300,
+        "nome": "Cuando Llora Mi Guitarra",
+        "artista": "Julio Jaramillo"
+    },
+    "SWIM - BTS": {
+        "posicao": 301,
+        "nome": "SWIM",
+        "artista": "BTS"
+    },
+    "bad thing (bunny hop) - Ariana Grande": {
+        "posicao": 302,
+        "nome": "bad thing (bunny hop)",
+        "artista": "Ariana Grande"
+    },
+    "真夜中のドア (Stay With Me) - Miki Matsubara": {
+        "posicao": 303,
+        "nome": "真夜中のドア (Stay With Me)",
+        "artista": "Miki Matsubara"
+    },
+    "Mockingbird - Eminem": {
+        "posicao": 304,
+        "nome": "Mockingbird",
+        "artista": "Eminem"
+    },
+    "Revelación (Digno Es El Cordero Santo) (part. Kari Jobe) - Danilo Montero": {
+        "posicao": 305,
+        "nome": "Revelación (Digno Es El Cordero Santo) (part. Kari Jobe)",
+        "artista": "Danilo Montero"
+    },
+    "See You Again (feat. Charlie Puth) - Wiz Khalifa": {
+        "posicao": 306,
+        "nome": "See You Again (feat. Charlie Puth)",
+        "artista": "Wiz Khalifa"
+    },
+    "Levanto Mis Manos - Samuel Hernandez": {
+        "posicao": 307,
+        "nome": "Levanto Mis Manos",
+        "artista": "Samuel Hernandez"
+    },
+    "Locked Out Of Heaven - Bruno Mars": {
+        "posicao": 308,
+        "nome": "Locked Out Of Heaven",
+        "artista": "Bruno Mars"
+    },
+    "Si Antes Te Hubiera Conocido - KAROL G": {
+        "posicao": 309,
+        "nome": "Si Antes Te Hubiera Conocido",
+        "artista": "KAROL G"
+    },
+    "Ven, Es Hora de Adorarle - Marco Barrientos": {
+        "posicao": 310,
+        "nome": "Ven, Es Hora de Adorarle",
+        "artista": "Marco Barrientos"
+    },
+    "Ya Me Enteré - Reik": {
+        "posicao": 311,
+        "nome": "Ya Me Enteré",
+        "artista": "Reik"
+    },
+    "Less than a Lover - JENNIE": {
+        "posicao": 312,
+        "nome": "Less than a Lover",
+        "artista": "JENNIE"
+    },
+    "Intruso - Enjambre": {
+        "posicao": 313,
+        "nome": "Intruso",
+        "artista": "Enjambre"
+    },
+    "Daylight - Taylor Swift": {
+        "posicao": 314,
+        "nome": "Daylight",
+        "artista": "Taylor Swift"
+    },
+    "Alaba - Elevation Worship": {
+        "posicao": 315,
+        "nome": "Alaba",
+        "artista": "Elevation Worship"
+    },
+    "Cantare Al Señor Por Siempre - Juan Carlos Alvarado": {
+        "posicao": 316,
+        "nome": "Cantare Al Señor Por Siempre",
+        "artista": "Juan Carlos Alvarado"
+    },
+    "That Should Be Me (feat. Rascal Flatts) - Justin Bieber": {
+        "posicao": 317,
+        "nome": "That Should Be Me (feat. Rascal Flatts)",
+        "artista": "Justin Bieber"
+    },
+    "Doma - Jósean Log": {
+        "posicao": 318,
+        "nome": "Doma",
+        "artista": "Jósean Log"
+    },
+    "444 (remix) (part. De La Rose, Hades66 y Ñengo Flow) - Yan Block": {
+        "posicao": 319,
+        "nome": "444 (remix) (part. De La Rose, Hades66 y Ñengo Flow)",
+        "artista": "Yan Block"
+    },
+    "Aladdín - Un Mundo Ideal - Disney": {
+        "posicao": 320,
+        "nome": "Aladdín - Un Mundo Ideal",
+        "artista": "Disney"
+    },
+    "Nothing Else Matters - Metallica": {
+        "posicao": 321,
+        "nome": "Nothing Else Matters",
+        "artista": "Metallica"
+    },
+    "Hey Jude - The Beatles": {
+        "posicao": 322,
+        "nome": "Hey Jude",
+        "artista": "The Beatles"
+    },
+    "Don't Look Back In Anger - Oasis": {
+        "posicao": 323,
+        "nome": "Don't Look Back In Anger",
+        "artista": "Oasis"
+    },
+    "Quiero Llenar Tu Trono de Alabanza - Grupo Inspiracion": {
+        "posicao": 324,
+        "nome": "Quiero Llenar Tu Trono de Alabanza",
+        "artista": "Grupo Inspiracion"
+    },
+    "Fade Into You - Mazzy Star": {
+        "posicao": 325,
+        "nome": "Fade Into You",
+        "artista": "Mazzy Star"
+    },
+    "La Voz de Mi Amado - Iglesia de Cristo Ebenezer Honduras": {
+        "posicao": 326,
+        "nome": "La Voz de Mi Amado",
+        "artista": "Iglesia de Cristo Ebenezer Honduras"
+    },
+    "Te Necesito - Grace Rodríguez": {
+        "posicao": 327,
+        "nome": "Te Necesito",
+        "artista": "Grace Rodríguez"
+    },
+    "Más Allá Del Horizonte - Virginia Brito": {
+        "posicao": 328,
+        "nome": "Más Allá Del Horizonte",
+        "artista": "Virginia Brito"
+    },
+    "Stop Crying Your Heart Out - Oasis": {
+        "posicao": 329,
+        "nome": "Stop Crying Your Heart Out",
+        "artista": "Oasis"
+    },
+    "MATADORA - KAROL G": {
+        "posicao": 330,
+        "nome": "MATADORA",
+        "artista": "KAROL G"
+    },
+    "Cien Años - Pedro Infante": {
+        "posicao": 331,
+        "nome": "Cien Años",
+        "artista": "Pedro Infante"
+    },
+    "Love Me Not - Ravyn Lenae": {
+        "posicao": 332,
+        "nome": "Love Me Not",
+        "artista": "Ravyn Lenae"
+    },
+    "Manchild - Sabrina Carpenter": {
+        "posicao": 333,
+        "nome": "Manchild",
+        "artista": "Sabrina Carpenter"
+    },
+    "Pocahontas - Colores En El Viento - Disney": {
+        "posicao": 334,
+        "nome": "Pocahontas - Colores En El Viento",
+        "artista": "Disney"
+    },
+    "Qué Locura Enamorarme de Ti - Eddie Santiago": {
+        "posicao": 335,
+        "nome": "Qué Locura Enamorarme de Ti",
+        "artista": "Eddie Santiago"
+    },
+    "Young And Beautiful - Lana Del Rey": {
+        "posicao": 336,
+        "nome": "Young And Beautiful",
+        "artista": "Lana Del Rey"
+    },
+    "Yo Quiero Más de Ti - Jaime Murrell": {
+        "posicao": 337,
+        "nome": "Yo Quiero Más de Ti",
+        "artista": "Jaime Murrell"
+    },
+    "Niño - Milo j": {
+        "posicao": 338,
+        "nome": "Niño",
+        "artista": "Milo j"
+    },
+    "Te Alabaré Mi Buen Jesús - Danilo Montero": {
+        "posicao": 339,
+        "nome": "Te Alabaré Mi Buen Jesús",
+        "artista": "Danilo Montero"
+    },
+    "Beso Tus Pies (part. Toma Tu Lugar) - Marcos Brunet": {
+        "posicao": 340,
+        "nome": "Beso Tus Pies (part. Toma Tu Lugar)",
+        "artista": "Marcos Brunet"
+    },
+    "Te Doy Gloria - En Espiritu Y En Verdad": {
+        "posicao": 341,
+        "nome": "Te Doy Gloria",
+        "artista": "En Espiritu Y En Verdad"
+    },
+    "Te Entiendo (remix) (part. Feid y Maluma) - Maisak": {
+        "posicao": 342,
+        "nome": "Te Entiendo (remix) (part. Feid y Maluma)",
+        "artista": "Maisak"
+    },
+    "KARMA - Alien Stage": {
+        "posicao": 343,
+        "nome": "KARMA",
+        "artista": "Alien Stage"
+    },
+    "Heal the World - Michael Jackson": {
+        "posicao": 344,
+        "nome": "Heal the World",
+        "artista": "Michael Jackson"
+    },
+    "Love The Way You Lie (feat. Rihanna) - Eminem": {
+        "posicao": 345,
+        "nome": "Love The Way You Lie (feat. Rihanna)",
+        "artista": "Eminem"
+    },
+    "Si Tu Presencia Conmigo No Va - Oasis Ministry": {
+        "posicao": 346,
+        "nome": "Si Tu Presencia Conmigo No Va",
+        "artista": "Oasis Ministry"
+    },
+    "Exáltate - Marcos Witt": {
+        "posicao": 347,
+        "nome": "Exáltate",
+        "artista": "Marcos Witt"
+    },
+    "Minutos - Ricardo Arjona": {
+        "posicao": 348,
+        "nome": "Minutos",
+        "artista": "Ricardo Arjona"
+    },
+    "Beautiful Things - Benson Boone": {
+        "posicao": 349,
+        "nome": "Beautiful Things",
+        "artista": "Benson Boone"
+    },
+    "Titanium (feat. Sia) - David Guetta": {
+        "posicao": 350,
+        "nome": "Titanium (feat. Sia)",
+        "artista": "David Guetta"
+    },
+    "Cambiaré Mis Tristezas - Israel Houghton": {
+        "posicao": 351,
+        "nome": "Cambiaré Mis Tristezas",
+        "artista": "Israel Houghton"
+    },
+    "Como En El Cielo - Elevation Worship": {
+        "posicao": 352,
+        "nome": "Como En El Cielo",
+        "artista": "Elevation Worship"
+    },
+    "Grateful Every Day - Daniel Sta": {
+        "posicao": 353,
+        "nome": "Grateful Every Day",
+        "artista": "Daniel Sta"
+    },
+    "He Decidido Seguir a Cristo - Himnario Adventista": {
+        "posicao": 354,
+        "nome": "He Decidido Seguir a Cristo",
+        "artista": "Himnario Adventista"
+    },
+    "Él Es El Rey - Danilo Montero": {
+        "posicao": 355,
+        "nome": "Él Es El Rey",
+        "artista": "Danilo Montero"
+    },
+    "Shape Of My Heart - Sting": {
+        "posicao": 356,
+        "nome": "Shape Of My Heart",
+        "artista": "Sting"
+    },
+    "Dios Está Aqui - Cindy Barrera": {
+        "posicao": 357,
+        "nome": "Dios Está Aqui",
+        "artista": "Cindy Barrera"
+    },
+    "Take On Me - a-ha": {
+        "posicao": 358,
+        "nome": "Take On Me",
+        "artista": "a-ha"
+    },
+    "Tu Estás Aqui - Marcela Gándara": {
+        "posicao": 359,
+        "nome": "Tu Estás Aqui",
+        "artista": "Marcela Gándara"
+    },
+    "Yesterday - The Beatles": {
+        "posicao": 360,
+        "nome": "Yesterday",
+        "artista": "The Beatles"
+    },
+    "I Want You Back - The Jackson 5": {
+        "posicao": 361,
+        "nome": "I Want You Back",
+        "artista": "The Jackson 5"
+    },
+    "Dame de Beber - Marco Barrientos": {
+        "posicao": 362,
+        "nome": "Dame de Beber",
+        "artista": "Marco Barrientos"
+    },
+    "Cuando Ella Me Amaba - Alessandra Rosaldo": {
+        "posicao": 363,
+        "nome": "Cuando Ella Me Amaba",
+        "artista": "Alessandra Rosaldo"
+    },
+    "El Nombre de Jesús - Elevation Worship": {
+        "posicao": 364,
+        "nome": "El Nombre de Jesús",
+        "artista": "Elevation Worship"
+    },
+    "Paparazzi - Lady Gaga": {
+        "posicao": 365,
+        "nome": "Paparazzi",
+        "artista": "Lady Gaga"
+    },
+    "Jesús En El Centro - Israel Houghton & New Breed": {
+        "posicao": 366,
+        "nome": "Jesús En El Centro",
+        "artista": "Israel Houghton & New Breed"
+    },
+    "A Sky Full Of Stars - Coldplay": {
+        "posicao": 367,
+        "nome": "A Sky Full Of Stars",
+        "artista": "Coldplay"
+    },
+    "Dancing with the Enemy - Descendentes (Disney)": {
+        "posicao": 368,
+        "nome": "Dancing with the Enemy",
+        "artista": "Descendentes (Disney)"
+    },
+    "oh well - Ariana Grande": {
+        "posicao": 369,
+        "nome": "oh well",
+        "artista": "Ariana Grande"
+    },
+    "Hosanna - Hillsong en Español": {
+        "posicao": 370,
+        "nome": "Hosanna",
+        "artista": "Hillsong en Español"
+    },
+    "Jane! - The Long Faces": {
+        "posicao": 371,
+        "nome": "Jane!",
+        "artista": "The Long Faces"
+    },
+    "Bueno Es Dios, Grita Canta Danza, Yo Tengo Gozo (En Vivo) (medley) - CCINT MUSIC": {
+        "posicao": 372,
+        "nome": "Bueno Es Dios, Grita Canta Danza, Yo Tengo Gozo (En Vivo) (medley)",
+        "artista": "CCINT MUSIC"
+    },
+    "Chachachá - Jósean Log": {
+        "posicao": 373,
+        "nome": "Chachachá",
+        "artista": "Jósean Log"
+    },
+    "Mi Historia Entre Tus Dedos - Gianluca Grignani": {
+        "posicao": 374,
+        "nome": "Mi Historia Entre Tus Dedos",
+        "artista": "Gianluca Grignani"
+    },
+    "Mala Racha (Losin' Streak) (versión en español latino) - Hazbin Hotel": {
+        "posicao": 375,
+        "nome": "Mala Racha (Losin' Streak) (versión en español latino)",
+        "artista": "Hazbin Hotel"
+    },
+    "No Batidão - ZXKAI": {
+        "posicao": 376,
+        "nome": "No Batidão",
+        "artista": "ZXKAI"
+    },
+    "The Hard Way - Cameron Whitcomb": {
+        "posicao": 377,
+        "nome": "The Hard Way",
+        "artista": "Cameron Whitcomb"
+    },
+    "Así (part. Maria Becerra y Big One) - Abraham Mateo": {
+        "posicao": 378,
+        "nome": "Así (part. Maria Becerra y Big One)",
+        "artista": "Abraham Mateo"
+    },
+    "A Dios Sea La Gloria - Danny Berrios": {
+        "posicao": 379,
+        "nome": "A Dios Sea La Gloria",
+        "artista": "Danny Berrios"
+    },
+    "November Rain - Guns N' Roses": {
+        "posicao": 380,
+        "nome": "November Rain",
+        "artista": "Guns N' Roses"
+    },
+    "Hotel California - Eagles": {
+        "posicao": 381,
+        "nome": "Hotel California",
+        "artista": "Eagles"
+    },
+    "De Gloria En Gloria - Marcos Witt": {
+        "posicao": 382,
+        "nome": "De Gloria En Gloria",
+        "artista": "Marcos Witt"
+    },
+    "un x100to (part. Bad Bunny) - Grupo Frontera": {
+        "posicao": 383,
+        "nome": "un x100to (part. Bad Bunny)",
+        "artista": "Grupo Frontera"
+    },
+    "Cosas Del Amor (part. Vikki Carr) - Ana Gabriel": {
+        "posicao": 384,
+        "nome": "Cosas Del Amor (part. Vikki Carr)",
+        "artista": "Ana Gabriel"
+    },
+    "Tan Enamorados - Ricardo Montaner": {
+        "posicao": 385,
+        "nome": "Tan Enamorados",
+        "artista": "Ricardo Montaner"
+    },
+    "La Tierra Canta - Barak": {
+        "posicao": 386,
+        "nome": "La Tierra Canta",
+        "artista": "Barak"
+    },
+    "Esta Cayendo - José Luis Reyes": {
+        "posicao": 387,
+        "nome": "Esta Cayendo",
+        "artista": "José Luis Reyes"
+    },
+    "less - Olivia Rodrigo": {
+        "posicao": 388,
+        "nome": "less",
+        "artista": "Olivia Rodrigo"
+    },
+    "Don't Cry - Guns N' Roses": {
+        "posicao": 389,
+        "nome": "Don't Cry",
+        "artista": "Guns N' Roses"
+    },
+    "Sunday Morning - Maroon 5": {
+        "posicao": 390,
+        "nome": "Sunday Morning",
+        "artista": "Maroon 5"
+    },
+    "Sorry - Justin Bieber": {
+        "posicao": 391,
+        "nome": "Sorry",
+        "artista": "Justin Bieber"
+    },
+    "Hooligan - BTS": {
+        "posicao": 392,
+        "nome": "Hooligan",
+        "artista": "BTS"
+    },
+    "Tu Mirada - Marcos Witt": {
+        "posicao": 393,
+        "nome": "Tu Mirada",
+        "artista": "Marcos Witt"
+    },
+    "Bachata Rosa - Juan Luis Guerra 4.40": {
+        "posicao": 394,
+        "nome": "Bachata Rosa",
+        "artista": "Juan Luis Guerra 4.40"
+    },
+    "ONLY - Lee Hi": {
+        "posicao": 395,
+        "nome": "ONLY",
+        "artista": "Lee Hi"
+    },
+    "Tiroteo (remix) (part. Rauw Alejandro y Pol Granch) - Marc Seguí": {
+        "posicao": 396,
+        "nome": "Tiroteo (remix) (part. Rauw Alejandro y Pol Granch)",
+        "artista": "Marc Seguí"
+    },
+    "Ebrio de Amor - Valentín Elizalde": {
+        "posicao": 397,
+        "nome": "Ebrio de Amor",
+        "artista": "Valentín Elizalde"
+    },
+    "No Other Heart - Mac DeMarco": {
+        "posicao": 398,
+        "nome": "No Other Heart",
+        "artista": "Mac DeMarco"
+    },
+    "Recuerdos - Adolescent's Orquesta (Los Adolescentes)": {
+        "posicao": 399,
+        "nome": "Recuerdos",
+        "artista": "Adolescent's Orquesta (Los Adolescentes)"
+    },
+    "Te Conozco - Ricardo Arjona": {
+        "posicao": 400,
+        "nome": "Te Conozco",
+        "artista": "Ricardo Arjona"
+    },
+    "She Will Be Loved - Maroon 5": {
+        "posicao": 401,
+        "nome": "She Will Be Loved",
+        "artista": "Maroon 5"
+    },
+    "Libre - Juan Carlos Alvarado": {
+        "posicao": 402,
+        "nome": "Libre",
+        "artista": "Juan Carlos Alvarado"
+    },
+    "DtMF - Bad Bunny": {
+        "posicao": 403,
+        "nome": "DtMF",
+        "artista": "Bad Bunny"
+    },
+    "Olvidame y Pega La Vuelta - Pimpinela": {
+        "posicao": 404,
+        "nome": "Olvidame y Pega La Vuelta",
+        "artista": "Pimpinela"
+    },
+    "El Pollito Pío - El Reino Infantil": {
+        "posicao": 405,
+        "nome": "El Pollito Pío",
+        "artista": "El Reino Infantil"
+    },
+    "L a k e n o s h i - Omar Courtz": {
+        "posicao": 406,
+        "nome": "L a k e n o s h i",
+        "artista": "Omar Courtz"
+    },
+    "Hay Libertad - Adoración La IBI": {
+        "posicao": 407,
+        "nome": "Hay Libertad",
+        "artista": "Adoración La IBI"
+    },
+    "Come As You Are - Nirvana": {
+        "posicao": 408,
+        "nome": "Come As You Are",
+        "artista": "Nirvana"
+    },
+    "Grande y Fuerte - Miel San Marcos": {
+        "posicao": 409,
+        "nome": "Grande y Fuerte",
+        "artista": "Miel San Marcos"
+    },
+    "Haz Un Milagro En Mí - Jonathan Giménez": {
+        "posicao": 410,
+        "nome": "Haz Un Milagro En Mí",
+        "artista": "Jonathan Giménez"
+    },
+    "One Of The Girls (feat. JENNIE & Lily-Rose Depp) - The Weeknd": {
+        "posicao": 411,
+        "nome": "One Of The Girls (feat. JENNIE & Lily-Rose Depp)",
+        "artista": "The Weeknd"
+    },
+    "The Scientist - Coldplay": {
+        "posicao": 412,
+        "nome": "The Scientist",
+        "artista": "Coldplay"
+    },
+    "Por Que Te Vas De Mí - Valentín Elizalde": {
+        "posicao": 413,
+        "nome": "Por Que Te Vas De Mí",
+        "artista": "Valentín Elizalde"
+    },
+    "Yahweh - Christine D'Clario": {
+        "posicao": 414,
+        "nome": "Yahweh",
+        "artista": "Christine D'Clario"
+    },
+    "So Easy (To Fall In Love) - Olivia Dean": {
+        "posicao": 415,
+        "nome": "So Easy (To Fall In Love)",
+        "artista": "Olivia Dean"
+    },
+    "Like Animals - BTS": {
+        "posicao": 416,
+        "nome": "Like Animals",
+        "artista": "BTS"
+    },
+    "Something About You (feat. Dent May) - Eyedress": {
+        "posicao": 417,
+        "nome": "Something About You (feat. Dent May)",
+        "artista": "Eyedress"
+    },
+    "Thinking Out Loud - Ed Sheeran": {
+        "posicao": 418,
+        "nome": "Thinking Out Loud",
+        "artista": "Ed Sheeran"
+    },
+    "La Bendición - Latinoamérica (The Blessing) - Canciones Religiosas": {
+        "posicao": 419,
+        "nome": "La Bendición - Latinoamérica (The Blessing)",
+        "artista": "Canciones Religiosas"
+    },
+    "VUELVE A ARDER - Coral La Luz": {
+        "posicao": 420,
+        "nome": "VUELVE A ARDER",
+        "artista": "Coral La Luz"
+    },
+    "Vivo Por Ella (part. Marta Sanchez) - Andrea Bocelli": {
+        "posicao": 421,
+        "nome": "Vivo Por Ella (part. Marta Sanchez)",
+        "artista": "Andrea Bocelli"
+    },
+    "Seven (feat. Latto) (Explicit Version) - Jung Kook": {
+        "posicao": 422,
+        "nome": "Seven (feat. Latto) (Explicit Version)",
+        "artista": "Jung Kook"
+    },
+    "Quítame Ese Hombre - Pilar Montenegro": {
+        "posicao": 423,
+        "nome": "Quítame Ese Hombre",
+        "artista": "Pilar Montenegro"
+    },
+    "El Mochomo - Los Canelos de Durango": {
+        "posicao": 424,
+        "nome": "El Mochomo",
+        "artista": "Los Canelos de Durango"
+    },
+    "El Poderoso de Israel - Juan Carlos Alvarado": {
+        "posicao": 425,
+        "nome": "El Poderoso de Israel",
+        "artista": "Juan Carlos Alvarado"
+    },
+    "Yo Llegaré - Impacto Uncion Y Poder": {
+        "posicao": 426,
+        "nome": "Yo Llegaré",
+        "artista": "Impacto Uncion Y Poder"
+    },
+    "Que Se Llene Tu Casa - Ingrid Rosario": {
+        "posicao": 427,
+        "nome": "Que Se Llene Tu Casa",
+        "artista": "Ingrid Rosario"
+    },
+    "Boys Don't Cry - The Cure": {
+        "posicao": 428,
+        "nome": "Boys Don't Cry",
+        "artista": "The Cure"
+    },
+    "7 rings - Ariana Grande": {
+        "posicao": 429,
+        "nome": "7 rings",
+        "artista": "Ariana Grande"
+    },
+    "Cinderella (feat. Ty Dolla $ign) - Mac Miller": {
+        "posicao": 430,
+        "nome": "Cinderella (feat. Ty Dolla $ign)",
+        "artista": "Mac Miller"
+    },
+    "21 Questions (feat. Nate Dogg) - 50 Cent": {
+        "posicao": 431,
+        "nome": "21 Questions (feat. Nate Dogg)",
+        "artista": "50 Cent"
+    },
+    "Demons - Imagine Dragons": {
+        "posicao": 432,
+        "nome": "Demons",
+        "artista": "Imagine Dragons"
+    },
+    "Dynamite - BTS": {
+        "posicao": 433,
+        "nome": "Dynamite",
+        "artista": "BTS"
+    },
+    "Who You Share It With - Layup": {
+        "posicao": 434,
+        "nome": "Who You Share It With",
+        "artista": "Layup"
+    },
+    "El Amar y el Querer - José José": {
+        "posicao": 435,
+        "nome": "El Amar y el Querer",
+        "artista": "José José"
+    },
+    "Yebba's Heartbreak (feat. Yebba) - Drake": {
+        "posicao": 436,
+        "nome": "Yebba's Heartbreak (feat. Yebba)",
+        "artista": "Drake"
+    },
+    "Contigo Na Más (remix) (part. Ozuna, Dei V, ROA, Jay Wheeler, Hades66 y Bryant Myers) - Luar La L": {
+        "posicao": 437,
+        "nome": "Contigo Na Más (remix) (part. Ozuna, Dei V, ROA, Jay Wheeler, Hades66 y Bryant Myers)",
+        "artista": "Luar La L"
+    },
+    "Me Gustas - Joan Sebastian": {
+        "posicao": 438,
+        "nome": "Me Gustas",
+        "artista": "Joan Sebastian"
+    },
+    "Come I'Arancio Amaro - Italian Atmosphere": {
+        "posicao": 439,
+        "nome": "Come I'Arancio Amaro",
+        "artista": "Italian Atmosphere"
+    },
+    "Making Love Out of Nothing at All - Air Supply": {
+        "posicao": 440,
+        "nome": "Making Love Out of Nothing at All",
+        "artista": "Air Supply"
+    },
+    "Ihtiyacım Var (Live) - ACIOĞLU-AI": {
+        "posicao": 441,
+        "nome": "Ihtiyacım Var (Live)",
+        "artista": "ACIOĞLU-AI"
+    },
+    "Lava (Español) - Disney": {
+        "posicao": 442,
+        "nome": "Lava (Español)",
+        "artista": "Disney"
+    },
+    "After - Conep": {
+        "posicao": 443,
+        "nome": "After",
+        "artista": "Conep"
+    },
+    "Tienes (remix) (part. Rey Tony, Helabusador y Dj Honda) - Ya Ice Dilan": {
+        "posicao": 444,
+        "nome": "Tienes (remix) (part. Rey Tony, Helabusador y Dj Honda)",
+        "artista": "Ya Ice Dilan"
+    },
+    "Feel - Robbie Williams": {
+        "posicao": 445,
+        "nome": "Feel",
+        "artista": "Robbie Williams"
+    },
+    "Congratulations (feat. Bilal) - Mac Miller": {
+        "posicao": 446,
+        "nome": "Congratulations (feat. Bilal)",
+        "artista": "Mac Miller"
+    },
+    "freak - Ariana Grande": {
+        "posicao": 447,
+        "nome": "freak",
+        "artista": "Ariana Grande"
+    },
+    "Océanos (Donde Mis Pies Pueden Fallar) - Hillsong UNITED": {
+        "posicao": 448,
+        "nome": "Océanos (Donde Mis Pies Pueden Fallar)",
+        "artista": "Hillsong UNITED"
+    },
+    "Pasión - Soy Luna": {
+        "posicao": 449,
+        "nome": "Pasión",
+        "artista": "Soy Luna"
+    },
+    "Lo Que Tiene - Morad": {
+        "posicao": 450,
+        "nome": "Lo Que Tiene",
+        "artista": "Morad"
+    },
+    "Solo Dejenme Adorarle - Henry Ulloa": {
+        "posicao": 451,
+        "nome": "Solo Dejenme Adorarle",
+        "artista": "Henry Ulloa"
+    },
+    "Let It Be - The Beatles": {
+        "posicao": 452,
+        "nome": "Let It Be",
+        "artista": "The Beatles"
+    },
+    "Un Osito Dormilón - Binomio de Oro de América": {
+        "posicao": 453,
+        "nome": "Un Osito Dormilón",
+        "artista": "Binomio de Oro de América"
+    },
+    "Magalenha - Sérgio Mendes": {
+        "posicao": 454,
+        "nome": "Magalenha",
+        "artista": "Sérgio Mendes"
+    },
+    "Amor Mío - Diego Barrera Requintista": {
+        "posicao": 455,
+        "nome": "Amor Mío",
+        "artista": "Diego Barrera Requintista"
+    },
+    "Mix Te Sueño - Corazón Serrano": {
+        "posicao": 456,
+        "nome": "Mix Te Sueño",
+        "artista": "Corazón Serrano"
+    },
+    "Don't Dream It's Over - Crowded House": {
+        "posicao": 457,
+        "nome": "Don't Dream It's Over",
+        "artista": "Crowded House"
+    },
+    "Lemon Tree - Fool's Garden": {
+        "posicao": 458,
+        "nome": "Lemon Tree",
+        "artista": "Fool's Garden"
+    },
+    "El Alfarero (part. Veronica Leal) - Alex Campos": {
+        "posicao": 459,
+        "nome": "El Alfarero (part. Veronica Leal)",
+        "artista": "Alex Campos"
+    },
+    "Creo En Ti - Canciones Religiosas": {
+        "posicao": 460,
+        "nome": "Creo En Ti",
+        "artista": "Canciones Religiosas"
+    },
+    "Luna de Xelajú - Paco Pérez": {
+        "posicao": 461,
+        "nome": "Luna de Xelajú",
+        "artista": "Paco Pérez"
+    },
+    "El Perfume - Caribeños de Guadalupe": {
+        "posicao": 462,
+        "nome": "El Perfume",
+        "artista": "Caribeños de Guadalupe"
+    },
+    "En La Cruz - Vox Dei": {
+        "posicao": 463,
+        "nome": "En La Cruz",
+        "artista": "Vox Dei"
+    },
+    "Six Seven (part. Dj Cabello e Dj Tchouzen) - Laurinha Costa": {
+        "posicao": 464,
+        "nome": "Six Seven (part. Dj Cabello e Dj Tchouzen)",
+        "artista": "Laurinha Costa"
+    },
+    "AY BONITA (part. Santiago Berrio) - Martinwhite": {
+        "posicao": 465,
+        "nome": "AY BONITA (part. Santiago Berrio)",
+        "artista": "Martinwhite"
+    },
+    "Apnea - Ricardo Arjona": {
+        "posicao": 466,
+        "nome": "Apnea",
+        "artista": "Ricardo Arjona"
+    },
+    "back to friends - sombr": {
+        "posicao": 467,
+        "nome": "back to friends",
+        "artista": "sombr"
+    },
+    "Knockin' On Heaven's Door - Guns N' Roses": {
+        "posicao": 468,
+        "nome": "Knockin' On Heaven's Door",
+        "artista": "Guns N' Roses"
+    },
+    "You're Still The One - Shania Twain": {
+        "posicao": 469,
+        "nome": "You're Still The One",
+        "artista": "Shania Twain"
+    },
+    "I Thought I Saw Your Face Today - She & Him": {
+        "posicao": 470,
+        "nome": "I Thought I Saw Your Face Today",
+        "artista": "She & Him"
+    },
+    "Clocks - Coldplay": {
+        "posicao": 471,
+        "nome": "Clocks",
+        "artista": "Coldplay"
+    },
+    "Puerto Montt - Los Iracundos": {
+        "posicao": 472,
+        "nome": "Puerto Montt",
+        "artista": "Los Iracundos"
+    },
+    "Así Fue - Juan Gabriel": {
+        "posicao": 473,
+        "nome": "Así Fue",
+        "artista": "Juan Gabriel"
+    },
+    "u + me = <3 - Olivia Rodrigo": {
+        "posicao": 474,
+        "nome": "u + me = <3",
+        "artista": "Olivia Rodrigo"
+    },
+    "Someone You Loved - Lewis Capaldi": {
+        "posicao": 475,
+        "nome": "Someone You Loved",
+        "artista": "Lewis Capaldi"
+    },
+    "Hay Poder - Marcos Witt": {
+        "posicao": 476,
+        "nome": "Hay Poder",
+        "artista": "Marcos Witt"
+    },
+    "Necesito Un Encuentro - New Wine": {
+        "posicao": 477,
+        "nome": "Necesito Un Encuentro",
+        "artista": "New Wine"
+    },
+    "Enchanted - Taylor Swift": {
+        "posicao": 478,
+        "nome": "Enchanted",
+        "artista": "Taylor Swift"
+    },
+    "La Isla Bonita - Madonna": {
+        "posicao": 479,
+        "nome": "La Isla Bonita",
+        "artista": "Madonna"
+    },
+    "TAKA LA DENTRO (part. Shonci e MC Gw) - SEKIMANE": {
+        "posicao": 480,
+        "nome": "TAKA LA DENTRO (part. Shonci e MC Gw)",
+        "artista": "SEKIMANE"
+    },
+    "Somewhere Over The Rainbow - Israel Kamakawiwo'ole": {
+        "posicao": 481,
+        "nome": "Somewhere Over The Rainbow",
+        "artista": "Israel Kamakawiwo'ole"
+    },
+    "CURE - Alien Stage": {
+        "posicao": 482,
+        "nome": "CURE",
+        "artista": "Alien Stage"
+    },
+    "Crazy - Aerosmith": {
+        "posicao": 483,
+        "nome": "Crazy",
+        "artista": "Aerosmith"
+    },
+    "In The End - Linkin Park": {
+        "posicao": 484,
+        "nome": "In The End",
+        "artista": "Linkin Park"
+    },
+    "We Are The People - Empire Of The Sun": {
+        "posicao": 485,
+        "nome": "We Are The People",
+        "artista": "Empire Of The Sun"
+    },
+    "Why'd You Only Call Me When You're High? - Arctic Monkeys": {
+        "posicao": 486,
+        "nome": "Why'd You Only Call Me When You're High?",
+        "artista": "Arctic Monkeys"
+    },
+    "Trae El Cielo Aquí - Barak": {
+        "posicao": 487,
+        "nome": "Trae El Cielo Aquí",
+        "artista": "Barak"
+    },
+    "Que Me Lleve El Diablo - Ramón Ayala Y Sus Bravos Del Norte": {
+        "posicao": 488,
+        "nome": "Que Me Lleve El Diablo",
+        "artista": "Ramón Ayala Y Sus Bravos Del Norte"
+    },
+    "Simplemente Amigos - Ana Gabriel": {
+        "posicao": 489,
+        "nome": "Simplemente Amigos",
+        "artista": "Ana Gabriel"
+    },
+    "Has Cambiado Mi Lamento - Marcos Witt": {
+        "posicao": 490,
+        "nome": "Has Cambiado Mi Lamento",
+        "artista": "Marcos Witt"
+    },
+    "Piano Man - Billy Joel": {
+        "posicao": 491,
+        "nome": "Piano Man",
+        "artista": "Billy Joel"
+    },
+    "Ela Quer Leitada [explícita] - MC GW": {
+        "posicao": 492,
+        "nome": "Ela Quer Leitada [explícita]",
+        "artista": "MC GW"
+    },
+    "La Llorona - Ángela Aguilar": {
+        "posicao": 493,
+        "nome": "La Llorona",
+        "artista": "Ángela Aguilar"
+    },
+    "La Mesa - Mario Rivera III": {
+        "posicao": 494,
+        "nome": "La Mesa",
+        "artista": "Mario Rivera III"
+    },
+    "Evergreen (You Didn't Deserve Me At All) - Omar Apollo": {
+        "posicao": 495,
+        "nome": "Evergreen (You Didn't Deserve Me At All)",
+        "artista": "Omar Apollo"
+    },
+    "Slide Away - Oasis": {
+        "posicao": 496,
+        "nome": "Slide Away",
+        "artista": "Oasis"
+    },
+    "Fuentes de Ortiz - Ed Maverick": {
+        "posicao": 497,
+        "nome": "Fuentes de Ortiz",
+        "artista": "Ed Maverick"
+    },
+    "Lose Control - Teddy Swims": {
+        "posicao": 498,
+        "nome": "Lose Control",
+        "artista": "Teddy Swims"
+    },
+    "Porque Él Vive - Elias Júnior": {
+        "posicao": 499,
+        "nome": "Porque Él Vive",
+        "artista": "Elias Júnior"
+    },
+    "Jesucristo Basta (Versión Acústica) (part. Living) - Un Corazón": {
+        "posicao": 500,
+        "nome": "Jesucristo Basta (Versión Acústica) (part. Living)",
+        "artista": "Un Corazón"
+    },
+    "Pure - SIENNA SPIRO": {
+        "posicao": 501,
+        "nome": "Pure",
+        "artista": "SIENNA SPIRO"
+    },
+    "More Than Words - Extreme": {
+        "posicao": 502,
+        "nome": "More Than Words",
+        "artista": "Extreme"
+    },
+    "El Espíritu de Dios Está En Este Lugar - Canciones Religiosas": {
+        "posicao": 503,
+        "nome": "El Espíritu de Dios Está En Este Lugar",
+        "artista": "Canciones Religiosas"
+    },
+    "Hopelessly Devoted To You - Grease": {
+        "posicao": 504,
+        "nome": "Hopelessly Devoted To You",
+        "artista": "Grease"
+    },
+    "O Melhor Dia Pra Casar - Quim Barreiros": {
+        "posicao": 505,
+        "nome": "O Melhor Dia Pra Casar",
+        "artista": "Quim Barreiros"
+    },
+    "Favorite Girl - Justin Bieber": {
+        "posicao": 506,
+        "nome": "Favorite Girl",
+        "artista": "Justin Bieber"
+    },
+    "Necio (part. Santana) - Romeo Santos": {
+        "posicao": 507,
+        "nome": "Necio (part. Santana)",
+        "artista": "Romeo Santos"
+    },
+    "La Leyenda Del Rey y El Mago (part. Kballero Rap) - BenderCat": {
+        "posicao": 508,
+        "nome": "La Leyenda Del Rey y El Mago (part. Kballero Rap)",
+        "artista": "BenderCat"
+    },
+    "Stan (feat. Eminem) - Dido": {
+        "posicao": 509,
+        "nome": "Stan (feat. Eminem)",
+        "artista": "Dido"
+    },
+    "Hay Poder En La Oración - Corridos Mujer de Dios": {
+        "posicao": 510,
+        "nome": "Hay Poder En La Oración",
+        "artista": "Corridos Mujer de Dios"
+    },
+    "Down Under - Men At Work": {
+        "posicao": 511,
+        "nome": "Down Under",
+        "artista": "Men At Work"
+    },
+    "Gangsta's Paradise - Coolio": {
+        "posicao": 512,
+        "nome": "Gangsta's Paradise",
+        "artista": "Coolio"
+    },
+    "Mira Niñita - Los Jaivas": {
+        "posicao": 513,
+        "nome": "Mira Niñita",
+        "artista": "Los Jaivas"
+    },
+    "Fuga - Jay Wheeler": {
+        "posicao": 514,
+        "nome": "Fuga",
+        "artista": "Jay Wheeler"
+    },
+    "Cherry Pie - Warrant": {
+        "posicao": 515,
+        "nome": "Cherry Pie",
+        "artista": "Warrant"
+    },
+    "Fiera Inquieta - Pasión de Gavilanes": {
+        "posicao": 516,
+        "nome": "Fiera Inquieta",
+        "artista": "Pasión de Gavilanes"
+    },
+    "Riptide - Vance Joy": {
+        "posicao": 517,
+        "nome": "Riptide",
+        "artista": "Vance Joy"
+    },
+    "Here Comes The Sun - The Beatles": {
+        "posicao": 518,
+        "nome": "Here Comes The Sun",
+        "artista": "The Beatles"
+    },
+    "Flor Que Da Fulgor - DANNA": {
+        "posicao": 519,
+        "nome": "Flor Que Da Fulgor",
+        "artista": "DANNA"
+    },
+    "444 - Yan Block": {
+        "posicao": 520,
+        "nome": "444",
+        "artista": "Yan Block"
+    },
+    "La Nave Del Olvido - José José": {
+        "posicao": 521,
+        "nome": "La Nave Del Olvido",
+        "artista": "José José"
+    },
+    "La Sunamita (part. Alex Marquez) - Montesanto": {
+        "posicao": 522,
+        "nome": "La Sunamita (part. Alex Marquez)",
+        "artista": "Montesanto"
+    },
+    "Porque te amo - Nino Segarra": {
+        "posicao": 523,
+        "nome": "Porque te amo",
+        "artista": "Nino Segarra"
+    },
+    "Deseándote - Frankie Ruiz": {
+        "posicao": 524,
+        "nome": "Deseándote",
+        "artista": "Frankie Ruiz"
+    },
+    "SLOW DANCING IN THE DARK - Joji": {
+        "posicao": 525,
+        "nome": "SLOW DANCING IN THE DARK",
+        "artista": "Joji"
+    },
+    "Little Moments - Hamenandiz": {
+        "posicao": 526,
+        "nome": "Little Moments",
+        "artista": "Hamenandiz"
+    },
+    "Después de ti (part. Greg Gonzalez) - KAROL G": {
+        "posicao": 527,
+        "nome": "Después de ti (part. Greg Gonzalez)",
+        "artista": "KAROL G"
+    },
+    "Set Fire To The Rain - Adele": {
+        "posicao": 528,
+        "nome": "Set Fire To The Rain",
+        "artista": "Adele"
+    },
+    "Love In The Dark - Adele": {
+        "posicao": 529,
+        "nome": "Love In The Dark",
+        "artista": "Adele"
+    },
+    "2.0 - BTS": {
+        "posicao": 530,
+        "nome": "2.0",
+        "artista": "BTS"
+    },
+    "REDRED - CORTIS": {
+        "posicao": 531,
+        "nome": "REDRED",
+        "artista": "CORTIS"
+    },
+    "El Próximo Viernes - Espinoza Paz": {
+        "posicao": 532,
+        "nome": "El Próximo Viernes",
+        "artista": "Espinoza Paz"
+    },
+    "Candy - Plan B": {
+        "posicao": 533,
+        "nome": "Candy",
+        "artista": "Plan B"
+    },
+    "Charlie's Inferno - That Handsome Devil": {
+        "posicao": 534,
+        "nome": "Charlie's Inferno",
+        "artista": "That Handsome Devil"
+    },
+    "Neoegoistas (Blue Lock) - Diamantes de Japón - BynMC": {
+        "posicao": 535,
+        "nome": "Neoegoistas (Blue Lock) - Diamantes de Japón",
+        "artista": "BynMC"
+    },
+    "Eyes Without a Face - Billy Idol": {
+        "posicao": 536,
+        "nome": "Eyes Without a Face",
+        "artista": "Billy Idol"
+    },
+    "Al Que Me Ciñe - Jesús Adrián Romero": {
+        "posicao": 537,
+        "nome": "Al Que Me Ciñe",
+        "artista": "Jesús Adrián Romero"
+    },
+    "Summertime Sadness - Lana Del Rey": {
+        "posicao": 538,
+        "nome": "Summertime Sadness",
+        "artista": "Lana Del Rey"
+    },
+    "Admirable - Christine D'Clario": {
+        "posicao": 539,
+        "nome": "Admirable",
+        "artista": "Christine D'Clario"
+    },
+    "Mix Palabritas - Son Del Duke": {
+        "posicao": 540,
+        "nome": "Mix Palabritas",
+        "artista": "Son Del Duke"
+    },
+    "El Hijo Desobediente - Antonio Aguilar": {
+        "posicao": 541,
+        "nome": "El Hijo Desobediente",
+        "artista": "Antonio Aguilar"
+    },
+    "SHAKIRA (BZRP Music Sessions #53/66) - Bizarrap": {
+        "posicao": 542,
+        "nome": "SHAKIRA (BZRP Music Sessions #53/66)",
+        "artista": "Bizarrap"
+    },
+    "Made In Japan - Buck Owens": {
+        "posicao": 543,
+        "nome": "Made In Japan",
+        "artista": "Buck Owens"
+    },
+    "Moana - De Nada - Disney": {
+        "posicao": 544,
+        "nome": "Moana - De Nada",
+        "artista": "Disney"
+    },
+    "Bad - Michael Jackson": {
+        "posicao": 545,
+        "nome": "Bad",
+        "artista": "Michael Jackson"
+    },
+    "Libre Soy - Barak": {
+        "posicao": 546,
+        "nome": "Libre Soy",
+        "artista": "Barak"
+    },
+    "Fiel - Majo y Dan": {
+        "posicao": 547,
+        "nome": "Fiel",
+        "artista": "Majo y Dan"
+    },
+    "Camino Al Cielo Yo Voy - Puerto Seguro": {
+        "posicao": 548,
+        "nome": "Camino Al Cielo Yo Voy",
+        "artista": "Puerto Seguro"
+    },
+    "Did You Hear About Them - Descendentes (Disney)": {
+        "posicao": 549,
+        "nome": "Did You Hear About Them",
+        "artista": "Descendentes (Disney)"
+    },
+    "The Nights - Avicii": {
+        "posicao": 550,
+        "nome": "The Nights",
+        "artista": "Avicii"
+    },
+    "Padre Nuestro - Marcos Brunet": {
+        "posicao": 551,
+        "nome": "Padre Nuestro",
+        "artista": "Marcos Brunet"
+    },
+    "Enjoy The Silence - Depeche Mode": {
+        "posicao": 552,
+        "nome": "Enjoy The Silence",
+        "artista": "Depeche Mode"
+    },
+    "Espíritu de Dios Llena Mi Vida - Ungidos Worship": {
+        "posicao": 553,
+        "nome": "Espíritu de Dios Llena Mi Vida",
+        "artista": "Ungidos Worship"
+    },
+    "UNETHICAL - Faouzia": {
+        "posicao": 554,
+        "nome": "UNETHICAL",
+        "artista": "Faouzia"
+    },
+    "All Too Well (10 Minute Version) - Taylor Swift": {
+        "posicao": 555,
+        "nome": "All Too Well (10 Minute Version)",
+        "artista": "Taylor Swift"
+    },
+    "we can't be friends (wait for your love) - Ariana Grande": {
+        "posicao": 556,
+        "nome": "we can't be friends (wait for your love)",
+        "artista": "Ariana Grande"
+    },
+    "Un Beso y Una Flor - Nino Bravo": {
+        "posicao": 557,
+        "nome": "Un Beso y Una Flor",
+        "artista": "Nino Bravo"
+    },
+    "Harvey - Her's": {
+        "posicao": 558,
+        "nome": "Harvey",
+        "artista": "Her's"
+    },
+    "Todo Lo Fue - Lenin Ramírez": {
+        "posicao": 559,
+        "nome": "Todo Lo Fue",
+        "artista": "Lenin Ramírez"
+    },
+    "La Quemona Parte 2 - Mishelle Master Boys": {
+        "posicao": 560,
+        "nome": "La Quemona Parte 2",
+        "artista": "Mishelle Master Boys"
+    },
+    "Le Llaman Guerrero (Popurrí Completo) - Juan Carlos Alvarado": {
+        "posicao": 561,
+        "nome": "Le Llaman Guerrero (Popurrí Completo)",
+        "artista": "Juan Carlos Alvarado"
+    },
+    "Believe - Cher": {
+        "posicao": 562,
+        "nome": "Believe",
+        "artista": "Cher"
+    },
+    "0 Sentimientos (remix) (part. Baby Rasta, Noriel, Lyan, Darkiel y Messiah) - Jon Z": {
+        "posicao": 563,
+        "nome": "0 Sentimientos (remix) (part. Baby Rasta, Noriel, Lyan, Darkiel y Messiah)",
+        "artista": "Jon Z"
+    },
+    "La Perla (part. Yahritza Y Su Esencia) - ROSALÍA": {
+        "posicao": 564,
+        "nome": "La Perla (part. Yahritza Y Su Esencia)",
+        "artista": "ROSALÍA"
+    },
+    "Run Rabbit - Mollie Elizabeth": {
+        "posicao": 565,
+        "nome": "Run Rabbit",
+        "artista": "Mollie Elizabeth"
+    },
+    "(Everything I Do) I Do It For You - Bryan Adams": {
+        "posicao": 566,
+        "nome": "(Everything I Do) I Do It For You",
+        "artista": "Bryan Adams"
+    },
+    "Touch You - Yarichin Bitch Club": {
+        "posicao": 567,
+        "nome": "Touch You",
+        "artista": "Yarichin Bitch Club"
+    },
+    "Bendito Jesus - Danilo Montero": {
+        "posicao": 568,
+        "nome": "Bendito Jesus",
+        "artista": "Danilo Montero"
+    },
+    "La Noche Más Linda - Adalberto Santiago": {
+        "posicao": 569,
+        "nome": "La Noche Más Linda",
+        "artista": "Adalberto Santiago"
+    },
+    "Cielito Lindo - Pedro Infante": {
+        "posicao": 570,
+        "nome": "Cielito Lindo",
+        "artista": "Pedro Infante"
+    },
+    "Colorblind (feat. GENIEPAK) - PERSES": {
+        "posicao": 571,
+        "nome": "Colorblind (feat. GENIEPAK)",
+        "artista": "PERSES"
+    },
+    "Dios El Más Grande - Juan Carlos Alvarado": {
+        "posicao": 572,
+        "nome": "Dios El Más Grande",
+        "artista": "Juan Carlos Alvarado"
+    },
+    "Unstoppable - Sia": {
+        "posicao": 573,
+        "nome": "Unstoppable",
+        "artista": "Sia"
+    },
+    "Mujeres - Ricardo Arjona": {
+        "posicao": 574,
+        "nome": "Mujeres",
+        "artista": "Ricardo Arjona"
+    },
+    "God's Plan - Drake": {
+        "posicao": 575,
+        "nome": "God's Plan",
+        "artista": "Drake"
+    },
+    "Candy Scar - VIVINOS": {
+        "posicao": 576,
+        "nome": "Candy Scar",
+        "artista": "VIVINOS"
+    },
+    "Desde Que Te Tengo - Carín León": {
+        "posicao": 577,
+        "nome": "Desde Que Te Tengo",
+        "artista": "Carín León"
+    },
+    "El Rey - Vicente Fernández": {
+        "posicao": 578,
+        "nome": "El Rey",
+        "artista": "Vicente Fernández"
+    },
+    "Sad Girl - Lana Del Rey": {
+        "posicao": 579,
+        "nome": "Sad Girl",
+        "artista": "Lana Del Rey"
+    },
+    "La Boda - Aventura": {
+        "posicao": 580,
+        "nome": "La Boda",
+        "artista": "Aventura"
+    },
+    "Love Me Harder (feat. The Weeknd) - Ariana Grande": {
+        "posicao": 581,
+        "nome": "Love Me Harder (feat. The Weeknd)",
+        "artista": "Ariana Grande"
+    },
+    "Amor y Control - Rubén Blades": {
+        "posicao": 582,
+        "nome": "Amor y Control",
+        "artista": "Rubén Blades"
+    },
+    "Y Se Llama Perú (part. Oscar Aviles) - Arturo Zambo Cavero": {
+        "posicao": 583,
+        "nome": "Y Se Llama Perú (part. Oscar Aviles)",
+        "artista": "Arturo Zambo Cavero"
+    },
+    "Don't Speak - No Doubt": {
+        "posicao": 584,
+        "nome": "Don't Speak",
+        "artista": "No Doubt"
+    },
+    "Te Daré Lo Mejor - Jesús Adrián Romero": {
+        "posicao": 585,
+        "nome": "Te Daré Lo Mejor",
+        "artista": "Jesús Adrián Romero"
+    },
+    "Runaway (feat. Pusha T) - Kanye West": {
+        "posicao": 586,
+        "nome": "Runaway (feat. Pusha T)",
+        "artista": "Kanye West"
+    },
+    "Dangerous Woman - Ariana Grande": {
+        "posicao": 587,
+        "nome": "Dangerous Woman",
+        "artista": "Ariana Grande"
+    },
+    "Give It Up to Me - Sean Paul": {
+        "posicao": 588,
+        "nome": "Give It Up to Me",
+        "artista": "Sean Paul"
+    },
+    "COQUETA (part. Fuerza Regida) - Grupo Frontera": {
+        "posicao": 589,
+        "nome": "COQUETA (part. Fuerza Regida)",
+        "artista": "Grupo Frontera"
+    },
+    "Heme Aquí - Iglesia de Cristo Ebenezer Honduras": {
+        "posicao": 590,
+        "nome": "Heme Aquí",
+        "artista": "Iglesia de Cristo Ebenezer Honduras"
+    },
+    "Choosin' Texas - Ella Langley": {
+        "posicao": 591,
+        "nome": "Choosin' Texas",
+        "artista": "Ella Langley"
+    },
+    "Smooth Criminal - Michael Jackson": {
+        "posicao": 592,
+        "nome": "Smooth Criminal",
+        "artista": "Michael Jackson"
+    },
+    "Livin' On a Prayer - Bon Jovi": {
+        "posicao": 593,
+        "nome": "Livin' On a Prayer",
+        "artista": "Bon Jovi"
+    },
+    "Con La Misma Piedra - Julio Iglesias": {
+        "posicao": 594,
+        "nome": "Con La Misma Piedra",
+        "artista": "Julio Iglesias"
+    },
+    "Oh yeah? - Steve Lacy": {
+        "posicao": 595,
+        "nome": "Oh yeah?",
+        "artista": "Steve Lacy"
+    },
+    "DAISIES - Justin Bieber": {
+        "posicao": 596,
+        "nome": "DAISIES",
+        "artista": "Justin Bieber"
+    },
+    "MESÍAS - Averly Morillo": {
+        "posicao": 597,
+        "nome": "MESÍAS",
+        "artista": "Averly Morillo"
+    },
+    "Luna - Zoé": {
+        "posicao": 598,
+        "nome": "Luna",
+        "artista": "Zoé"
+    },
+    "They Don't Care About Us - Michael Jackson": {
+        "posicao": 599,
+        "nome": "They Don't Care About Us",
+        "artista": "Michael Jackson"
+    },
+    "Locked Away (feat. Adam Levine) - R. City": {
+        "posicao": 600,
+        "nome": "Locked Away (feat. Adam Levine)",
+        "artista": "R. City"
+    },
+    "Comfortably Numb - Pink Floyd": {
+        "posicao": 601,
+        "nome": "Comfortably Numb",
+        "artista": "Pink Floyd"
+    },
+    "Diamonds - Rihanna": {
+        "posicao": 602,
+        "nome": "Diamonds",
+        "artista": "Rihanna"
+    },
+    "Eye In The Sky - The Alan Parsons Project": {
+        "posicao": 603,
+        "nome": "Eye In The Sky",
+        "artista": "The Alan Parsons Project"
+    },
+    "I Will Always Love You - Whitney Houston": {
+        "posicao": 604,
+        "nome": "I Will Always Love You",
+        "artista": "Whitney Houston"
+    },
+    "Mr. Brightside - The Killers": {
+        "posicao": 605,
+        "nome": "Mr. Brightside",
+        "artista": "The Killers"
+    },
+    "Eres - Café Tacvba": {
+        "posicao": 606,
+        "nome": "Eres",
+        "artista": "Café Tacvba"
+    },
+    "Secreto de Amor - Joan Sebastian": {
+        "posicao": 607,
+        "nome": "Secreto de Amor",
+        "artista": "Joan Sebastian"
+    },
+    "Memories - Maroon 5": {
+        "posicao": 608,
+        "nome": "Memories",
+        "artista": "Maroon 5"
+    },
+    "Coleccionando Heridas (part. Marco Antonio Solís) - KAROL G": {
+        "posicao": 609,
+        "nome": "Coleccionando Heridas (part. Marco Antonio Solís)",
+        "artista": "KAROL G"
+    },
+    "The Girl Is Mine (feat. Paul McCartney) - Michael Jackson": {
+        "posicao": 610,
+        "nome": "The Girl Is Mine (feat. Paul McCartney)",
+        "artista": "Michael Jackson"
+    },
+    "Te Metiste - Los Plebes Del Rancho de Ariel Camacho": {
+        "posicao": 611,
+        "nome": "Te Metiste",
+        "artista": "Los Plebes Del Rancho de Ariel Camacho"
+    },
+    "Sublime Gracia - Blest": {
+        "posicao": 612,
+        "nome": "Sublime Gracia",
+        "artista": "Blest"
+    },
+    "Contigo Aprendí - Armando Manzanero": {
+        "posicao": 613,
+        "nome": "Contigo Aprendí",
+        "artista": "Armando Manzanero"
+    },
+    "Hombres de Acción - Mulan": {
+        "posicao": 614,
+        "nome": "Hombres de Acción",
+        "artista": "Mulan"
+    },
+    "Agosto - Bad Bunny": {
+        "posicao": 615,
+        "nome": "Agosto",
+        "artista": "Bad Bunny"
+    },
+    "PXG Vs Bastard Munchen (Blue Lock) - Liga Neo Egoísta #4 - MegaR": {
+        "posicao": 616,
+        "nome": "PXG Vs Bastard Munchen (Blue Lock) - Liga Neo Egoísta #4",
+        "artista": "MegaR"
+    },
+    "Shallow (feat. Bradley Cooper) - Lady Gaga": {
+        "posicao": 617,
+        "nome": "Shallow (feat. Bradley Cooper)",
+        "artista": "Lady Gaga"
+    },
+    "Profetizo Vida - Sylvio Santana": {
+        "posicao": 618,
+        "nome": "Profetizo Vida",
+        "artista": "Sylvio Santana"
+    },
+    "Lover, You Should've Come Over - Jeff Buckley": {
+        "posicao": 619,
+        "nome": "Lover, You Should've Come Over",
+        "artista": "Jeff Buckley"
+    },
+    "Me Tengo Que Ir - Adolescent's Orquesta (Los Adolescentes)": {
+        "posicao": 620,
+        "nome": "Me Tengo Que Ir",
+        "artista": "Adolescent's Orquesta (Los Adolescentes)"
+    },
+    "YAMA - DYSTINCT": {
+        "posicao": 621,
+        "nome": "YAMA",
+        "artista": "DYSTINCT"
+    },
+    "Eu Tava Aqui Pensando - Nasac": {
+        "posicao": 622,
+        "nome": "Eu Tava Aqui Pensando",
+        "artista": "Nasac"
+    },
+    "Halo - Beyoncé": {
+        "posicao": 623,
+        "nome": "Halo",
+        "artista": "Beyoncé"
+    },
+    "You - Romeo Santos": {
+        "posicao": 624,
+        "nome": "You",
+        "artista": "Romeo Santos"
+    },
+    "Girl That I Am - Ella Bright": {
+        "posicao": 625,
+        "nome": "Girl That I Am",
+        "artista": "Ella Bright"
+    },
+    "Vivo - Gustavo Cerati": {
+        "posicao": 626,
+        "nome": "Vivo",
+        "artista": "Gustavo Cerati"
+    },
+    "Mil Horas - Andrés Calamaro": {
+        "posicao": 627,
+        "nome": "Mil Horas",
+        "artista": "Andrés Calamaro"
+    },
+    "Gabriela - KATSEYE": {
+        "posicao": 628,
+        "nome": "Gabriela",
+        "artista": "KATSEYE"
+    },
+    "Super Trouper - ABBA": {
+        "posicao": 629,
+        "nome": "Super Trouper",
+        "artista": "ABBA"
+    },
+    "Pon Aceite En Mi Lámpara - Scandinavian Metal Praise": {
+        "posicao": 630,
+        "nome": "Pon Aceite En Mi Lámpara",
+        "artista": "Scandinavian Metal Praise"
+    },
+    "Flowers - Miley Cyrus": {
+        "posicao": 631,
+        "nome": "Flowers",
+        "artista": "Miley Cyrus"
+    },
+    "BAILE INoLVIDABLE - Bad Bunny": {
+        "posicao": 632,
+        "nome": "BAILE INoLVIDABLE",
+        "artista": "Bad Bunny"
+    },
+    "Mal - Soy Luna": {
+        "posicao": 633,
+        "nome": "Mal",
+        "artista": "Soy Luna"
+    },
+    "Impostor Syndrome - Sidney Gish": {
+        "posicao": 634,
+        "nome": "Impostor Syndrome",
+        "artista": "Sidney Gish"
+    },
+    "Lover - Taylor Swift": {
+        "posicao": 635,
+        "nome": "Lover",
+        "artista": "Taylor Swift"
+    },
+    "Tu Y Yo - La Misma Gente": {
+        "posicao": 636,
+        "nome": "Tu Y Yo",
+        "artista": "La Misma Gente"
+    },
+    "Nothing's Gonna Hurt You Baby - Cigarettes After Sex": {
+        "posicao": 637,
+        "nome": "Nothing's Gonna Hurt You Baby",
+        "artista": "Cigarettes After Sex"
+    },
+    "Hay Momentos - Danilo Montero": {
+        "posicao": 638,
+        "nome": "Hay Momentos",
+        "artista": "Danilo Montero"
+    },
+    "El Amor - Tito El Bambino": {
+        "posicao": 639,
+        "nome": "El Amor",
+        "artista": "Tito El Bambino"
+    },
+    "Sugar - Maroon 5": {
+        "posicao": 640,
+        "nome": "Sugar",
+        "artista": "Maroon 5"
+    },
+    "There's Nothing Holdin' Me Back - Shawn Mendes": {
+        "posicao": 641,
+        "nome": "There's Nothing Holdin' Me Back",
+        "artista": "Shawn Mendes"
+    },
+    "Eran Cien Ovejas - Manuel Bonilla": {
+        "posicao": 642,
+        "nome": "Eran Cien Ovejas",
+        "artista": "Manuel Bonilla"
+    },
+    "Te Bote (remix) (part. Casper, Darell, Nicky Jam, Bad Bunny y Ozuna) - Nio García": {
+        "posicao": 643,
+        "nome": "Te Bote (remix) (part. Casper, Darell, Nicky Jam, Bad Bunny y Ozuna)",
+        "artista": "Nio García"
+    },
+    "La Gran Carrera - Pocoyó": {
+        "posicao": 644,
+        "nome": "La Gran Carrera",
+        "artista": "Pocoyó"
+    },
+    "Sure Thing - Miguel": {
+        "posicao": 645,
+        "nome": "Sure Thing",
+        "artista": "Miguel"
+    },
+    "Come Over - BTS": {
+        "posicao": 646,
+        "nome": "Come Over",
+        "artista": "BTS"
+    },
+    "After Hours - The Weeknd": {
+        "posicao": 647,
+        "nome": "After Hours",
+        "artista": "The Weeknd"
+    },
+    "Ya Borracho - Herencia De Grandes": {
+        "posicao": 648,
+        "nome": "Ya Borracho",
+        "artista": "Herencia De Grandes"
+    },
+    "Counting Stars - OneRepublic": {
+        "posicao": 649,
+        "nome": "Counting Stars",
+        "artista": "OneRepublic"
+    },
+    "I Wanna Love You (feat. Snoop Dogg) - Akon": {
+        "posicao": 650,
+        "nome": "I Wanna Love You (feat. Snoop Dogg)",
+        "artista": "Akon"
+    },
+    "Cuando Le Adoras - Sasha Rodriguez y Raymond Rodriguez": {
+        "posicao": 651,
+        "nome": "Cuando Le Adoras",
+        "artista": "Sasha Rodriguez y Raymond Rodriguez"
+    },
+    "El Señor Es Mi Rey (part. Tony Perez) - Miel San Marcos": {
+        "posicao": 652,
+        "nome": "El Señor Es Mi Rey (part. Tony Perez)",
+        "artista": "Miel San Marcos"
+    },
+    "YAPAQUE (part. Greeicy y Steve Aoki) - Farruko": {
+        "posicao": 653,
+        "nome": "YAPAQUE (part. Greeicy y Steve Aoki)",
+        "artista": "Farruko"
+    },
+    "Hold The Line - Toto": {
+        "posicao": 654,
+        "nome": "Hold The Line",
+        "artista": "Toto"
+    },
+    "Cuando Allá Se Pase Lista - Crystal Lewis": {
+        "posicao": 655,
+        "nome": "Cuando Allá Se Pase Lista",
+        "artista": "Crystal Lewis"
+    },
+    "MATCHA - Los Dareyes de La Sierra": {
+        "posicao": 656,
+        "nome": "MATCHA",
+        "artista": "Los Dareyes de La Sierra"
+    },
+    "Rosas - La Oreja de Van Gogh": {
+        "posicao": 657,
+        "nome": "Rosas",
+        "artista": "La Oreja de Van Gogh"
+    },
+    "Tu Eres Rey - Barak": {
+        "posicao": 658,
+        "nome": "Tu Eres Rey",
+        "artista": "Barak"
+    },
+    "Lonely Day - System Of A Down": {
+        "posicao": 659,
+        "nome": "Lonely Day",
+        "artista": "System Of A Down"
+    },
+    "Tu Amor No Tiene Fin (part. REDIMI2) - Generación 12": {
+        "posicao": 660,
+        "nome": "Tu Amor No Tiene Fin (part. REDIMI2)",
+        "artista": "Generación 12"
+    },
+    "Orbiter - Noah Kahan": {
+        "posicao": 661,
+        "nome": "Orbiter",
+        "artista": "Noah Kahan"
+    },
+    "Como La Flor - Selena": {
+        "posicao": 662,
+        "nome": "Como La Flor",
+        "artista": "Selena"
+    },
+    "K. - Cigarettes After Sex": {
+        "posicao": 663,
+        "nome": "K.",
+        "artista": "Cigarettes After Sex"
+    },
+    "Losing My Religion - R.E.M.": {
+        "posicao": 664,
+        "nome": "Losing My Religion",
+        "artista": "R.E.M."
+    },
+    "Torn - Natalie Imbruglia": {
+        "posicao": 665,
+        "nome": "Torn",
+        "artista": "Natalie Imbruglia"
+    },
+    "Hot Blooded - New Constellations": {
+        "posicao": 666,
+        "nome": "Hot Blooded",
+        "artista": "New Constellations"
+    },
+    "From The Start - Laufey": {
+        "posicao": 667,
+        "nome": "From The Start",
+        "artista": "Laufey"
+    },
+    "Gut Genug (mit Blumengarten & Shirin David) - KitschKrieg": {
+        "posicao": 668,
+        "nome": "Gut Genug (mit Blumengarten & Shirin David)",
+        "artista": "KitschKrieg"
+    },
+    "Devuélveme a Mi Chica - Hombres G": {
+        "posicao": 669,
+        "nome": "Devuélveme a Mi Chica",
+        "artista": "Hombres G"
+    },
+    "Faded - Alan Walker": {
+        "posicao": 670,
+        "nome": "Faded",
+        "artista": "Alan Walker"
+    },
+    "Mi Gran Noche - RAPHAEL": {
+        "posicao": 671,
+        "nome": "Mi Gran Noche",
+        "artista": "RAPHAEL"
+    },
+    "I Have Nothing - Whitney Houston": {
+        "posicao": 672,
+        "nome": "I Have Nothing",
+        "artista": "Whitney Houston"
+    },
+    "traitor - Olivia Rodrigo": {
+        "posicao": 673,
+        "nome": "traitor",
+        "artista": "Olivia Rodrigo"
+    },
+    "Flaco - Mon Laferte": {
+        "posicao": 674,
+        "nome": "Flaco",
+        "artista": "Mon Laferte"
+    },
+    "Ya Se Oye El Shofar - Billy Bunster": {
+        "posicao": 675,
+        "nome": "Ya Se Oye El Shofar",
+        "artista": "Billy Bunster"
+    },
+    "Rodeado (part. Tba Worship, Misael J y Carolina Ponciano) - Grupo Hope": {
+        "posicao": 676,
+        "nome": "Rodeado (part. Tba Worship, Misael J y Carolina Ponciano)",
+        "artista": "Grupo Hope"
+    },
+    "Dracula - Tame Impala": {
+        "posicao": 677,
+        "nome": "Dracula",
+        "artista": "Tame Impala"
+    },
+    "Oh! La La L'amour - Julio Iglesias": {
+        "posicao": 678,
+        "nome": "Oh! La La L'amour",
+        "artista": "Julio Iglesias"
+    },
+    "Let Down - Radiohead": {
+        "posicao": 679,
+        "nome": "Let Down",
+        "artista": "Radiohead"
+    },
+    "Do For Love - 2Pac": {
+        "posicao": 680,
+        "nome": "Do For Love",
+        "artista": "2Pac"
+    },
+    "Un Idiota - Joan Sebastian": {
+        "posicao": 681,
+        "nome": "Un Idiota",
+        "artista": "Joan Sebastian"
+    },
+    "DUELE EL CORAZÓN (part. Wisin) - Enrique Iglesias": {
+        "posicao": 682,
+        "nome": "DUELE EL CORAZÓN (part. Wisin)",
+        "artista": "Enrique Iglesias"
+    },
+    "Ven, Espíritu, Ven - Marco Barrientos": {
+        "posicao": 683,
+        "nome": "Ven, Espíritu, Ven",
+        "artista": "Marco Barrientos"
+    },
+    "Tu Eres Mi Respirar - Ingrid Rosario": {
+        "posicao": 684,
+        "nome": "Tu Eres Mi Respirar",
+        "artista": "Ingrid Rosario"
+    },
+    "Ai Se Eu Te Pego - Michel Teló": {
+        "posicao": 685,
+        "nome": "Ai Se Eu Te Pego",
+        "artista": "Michel Teló"
+    },
+    "El Rey Gobierna Todo - Barak": {
+        "posicao": 686,
+        "nome": "El Rey Gobierna Todo",
+        "artista": "Barak"
+    },
+    "Fuego - Billy Bunster": {
+        "posicao": 687,
+        "nome": "Fuego",
+        "artista": "Billy Bunster"
+    },
+    "Brooklyn Baby - Lana Del Rey": {
+        "posicao": 688,
+        "nome": "Brooklyn Baby",
+        "artista": "Lana Del Rey"
+    },
+    "My One And Only Love (feat. Natalia Lafourcade & Silvana Estrada) - Mon Laferte": {
+        "posicao": 689,
+        "nome": "My One And Only Love (feat. Natalia Lafourcade & Silvana Estrada)",
+        "artista": "Mon Laferte"
+    },
+    "Runaway - AURORA": {
+        "posicao": 690,
+        "nome": "Runaway",
+        "artista": "AURORA"
+    },
+    "Ruler Of My Heart - Alien Stage": {
+        "posicao": 691,
+        "nome": "Ruler Of My Heart",
+        "artista": "Alien Stage"
+    },
+    "Si No Te Hubieras Ido - Marco Antonio Solís": {
+        "posicao": 692,
+        "nome": "Si No Te Hubieras Ido",
+        "artista": "Marco Antonio Solís"
+    },
+    "Save Your Tears - The Weeknd": {
+        "posicao": 693,
+        "nome": "Save Your Tears",
+        "artista": "The Weeknd"
+    },
+    "Amor Sin Condición - Twice Música": {
+        "posicao": 694,
+        "nome": "Amor Sin Condición",
+        "artista": "Twice Música"
+    },
+    "Yo Entro Al Lugar Más Santo - Paul Wilbur": {
+        "posicao": 695,
+        "nome": "Yo Entro Al Lugar Más Santo",
+        "artista": "Paul Wilbur"
+    },
+    "En Algún Lugar - Duncan Dhu": {
+        "posicao": 696,
+        "nome": "En Algún Lugar",
+        "artista": "Duncan Dhu"
+    },
+    "Killing Me Softly With His Song - Fugees": {
+        "posicao": 697,
+        "nome": "Killing Me Softly With His Song",
+        "artista": "Fugees"
+    },
+    "No Crezcas Más - Tercer Cielo": {
+        "posicao": 698,
+        "nome": "No Crezcas Más",
+        "artista": "Tercer Cielo"
+    },
+    "Yo Navegaré - Dahaira": {
+        "posicao": 699,
+        "nome": "Yo Navegaré",
+        "artista": "Dahaira"
+    },
+    "Querida - Juan Gabriel": {
+        "posicao": 700,
+        "nome": "Querida",
+        "artista": "Juan Gabriel"
+    },
+    "drop dead - Olivia Rodrigo": {
+        "posicao": 701,
+        "nome": "drop dead",
+        "artista": "Olivia Rodrigo"
+    },
+    "It's Me - ILLIT": {
+        "posicao": 702,
+        "nome": "It's Me",
+        "artista": "ILLIT"
+    },
+    "Good Looking - Suki Waterhouse": {
+        "posicao": 703,
+        "nome": "Good Looking",
+        "artista": "Suki Waterhouse"
+    },
+    "Purple Rain - Prince": {
+        "posicao": 704,
+        "nome": "Purple Rain",
+        "artista": "Prince"
+    },
+    "Still Loving You - Scorpions": {
+        "posicao": 705,
+        "nome": "Still Loving You",
+        "artista": "Scorpions"
+    },
+    "Paramar - Los Prisioneros": {
+        "posicao": 706,
+        "nome": "Paramar",
+        "artista": "Los Prisioneros"
+    },
+    "El Che Y Los Rolling Stones - Los Rancheros": {
+        "posicao": 707,
+        "nome": "El Che Y Los Rolling Stones",
+        "artista": "Los Rancheros"
+    },
+    "Chandelier - Sia": {
+        "posicao": 708,
+        "nome": "Chandelier",
+        "artista": "Sia"
+    },
+    "De Gloria En Gloria - Marco Barrientos": {
+        "posicao": 709,
+        "nome": "De Gloria En Gloria",
+        "artista": "Marco Barrientos"
+    },
+    "No Puedo Parar de Alabarte - Erick Porta": {
+        "posicao": 710,
+        "nome": "No Puedo Parar de Alabarte",
+        "artista": "Erick Porta"
+    },
+    "Mr. Know It All - Teddy Swims": {
+        "posicao": 711,
+        "nome": "Mr. Know It All",
+        "artista": "Teddy Swims"
+    },
+    "Highway To Hell - AC/DC": {
+        "posicao": 712,
+        "nome": "Highway To Hell",
+        "artista": "AC/DC"
+    },
+    "Una Madre No Se Cansa de Esperar (Hoy He Vuelto) - Canciones Religiosas": {
+        "posicao": 713,
+        "nome": "Una Madre No Se Cansa de Esperar (Hoy He Vuelto)",
+        "artista": "Canciones Religiosas"
+    },
+    "Girasoles - Rozalén": {
+        "posicao": 714,
+        "nome": "Girasoles",
+        "artista": "Rozalén"
+    },
+    "QBELV (Qué bonita está la vida) - Oasis Ministry": {
+        "posicao": 715,
+        "nome": "QBELV (Qué bonita está la vida)",
+        "artista": "Oasis Ministry"
+    },
+    "Lavado - Elevation Worship": {
+        "posicao": 716,
+        "nome": "Lavado",
+        "artista": "Elevation Worship"
+    },
+    "Hollaback Girl - Gwen Stefani": {
+        "posicao": 717,
+        "nome": "Hollaback Girl",
+        "artista": "Gwen Stefani"
+    },
+    "MIX MI VECINA - LIZ GARAY": {
+        "posicao": 718,
+        "nome": "MIX MI VECINA",
+        "artista": "LIZ GARAY"
+    },
+    "La Vida Es Un Sueño - Soy Luna": {
+        "posicao": 719,
+        "nome": "La Vida Es Un Sueño",
+        "artista": "Soy Luna"
+    },
+    "Sola (remix) (part. Daddy Yankee, Wisin, Farruko, Zion y Lennox) - Anuel AA": {
+        "posicao": 720,
+        "nome": "Sola (remix) (part. Daddy Yankee, Wisin, Farruko, Zion y Lennox)",
+        "artista": "Anuel AA"
+    },
+    "Levántate Señor - Marcos Witt": {
+        "posicao": 721,
+        "nome": "Levántate Señor",
+        "artista": "Marcos Witt"
+    },
+    "13 Tuyuti - Emiliano R Fernadez": {
+        "posicao": 722,
+        "nome": "13 Tuyuti",
+        "artista": "Emiliano R Fernadez"
+    },
+    "Still With You - Jung Kook": {
+        "posicao": 723,
+        "nome": "Still With You",
+        "artista": "Jung Kook"
+    },
+    "El Fuego Que Me Quema / A Dónde Iré - Neway Music": {
+        "posicao": 724,
+        "nome": "El Fuego Que Me Quema / A Dónde Iré",
+        "artista": "Neway Music"
+    },
+    "Loverboy - A-Wall": {
+        "posicao": 725,
+        "nome": "Loverboy",
+        "artista": "A-Wall"
+    },
+    "LEMONADE - aespa": {
+        "posicao": 726,
+        "nome": "LEMONADE",
+        "artista": "aespa"
+    },
+    "That's Life - Frank Sinatra": {
+        "posicao": 727,
+        "nome": "That's Life",
+        "artista": "Frank Sinatra"
+    },
+    "Vasija Quebrantada - Felixis Falcón": {
+        "posicao": 728,
+        "nome": "Vasija Quebrantada",
+        "artista": "Felixis Falcón"
+    },
+    "Me Fui Sin Hacer Ruido - LINZAE LIR": {
+        "posicao": 729,
+        "nome": "Me Fui Sin Hacer Ruido",
+        "artista": "LINZAE LIR"
+    },
+    "Try - P!nk": {
+        "posicao": 730,
+        "nome": "Try",
+        "artista": "P!nk"
+    },
+    "In My Life - The Beatles": {
+        "posicao": 731,
+        "nome": "In My Life",
+        "artista": "The Beatles"
+    },
+    "Falling Slowly - Glen Hansard": {
+        "posicao": 732,
+        "nome": "Falling Slowly",
+        "artista": "Glen Hansard"
+    },
+    "Passionfruit - Drake": {
+        "posicao": 733,
+        "nome": "Passionfruit",
+        "artista": "Drake"
+    },
+    "Colapso - Kevin Kaarl": {
+        "posicao": 734,
+        "nome": "Colapso",
+        "artista": "Kevin Kaarl"
+    },
+    "Tu Carcel - Los Enanitos Verdes": {
+        "posicao": 735,
+        "nome": "Tu Carcel",
+        "artista": "Los Enanitos Verdes"
+    },
+    "Super Jon-Z (Residente Challenge) - Jon Z": {
+        "posicao": 736,
+        "nome": "Super Jon-Z (Residente Challenge)",
+        "artista": "Jon Z"
+    },
+    "Óleo de Alegria (part. Ovídio Barrios) - Miel San Marcos": {
+        "posicao": 737,
+        "nome": "Óleo de Alegria (part. Ovídio Barrios)",
+        "artista": "Miel San Marcos"
+    },
+    "Ma Chérie ~愛しい君へ~ (ma chérie ~ itoshii kimi e~) - Malice Mizer": {
+        "posicao": 738,
+        "nome": "Ma Chérie ~愛しい君へ~ (ma chérie ~ itoshii kimi e~)",
+        "artista": "Malice Mizer"
+    },
+    "Danza Kuduro (part. Lucenzo) - Don Omar": {
+        "posicao": 739,
+        "nome": "Danza Kuduro (part. Lucenzo)",
+        "artista": "Don Omar"
+    },
+    "Don't Stop Believin' - Journey": {
+        "posicao": 740,
+        "nome": "Don't Stop Believin'",
+        "artista": "Journey"
+    },
+    "El Triste - José José": {
+        "posicao": 741,
+        "nome": "El Triste",
+        "artista": "José José"
+    },
+    "Remolineando - Fernel Monroy": {
+        "posicao": 742,
+        "nome": "Remolineando",
+        "artista": "Fernel Monroy"
+    },
+    "As Long As You Love Me - Backstreet Boys": {
+        "posicao": 743,
+        "nome": "As Long As You Love Me",
+        "artista": "Backstreet Boys"
+    },
+    "thank u, next - Ariana Grande": {
+        "posicao": 744,
+        "nome": "thank u, next",
+        "artista": "Ariana Grande"
+    },
+    "Stand by Me - Oasis": {
+        "posicao": 745,
+        "nome": "Stand by Me",
+        "artista": "Oasis"
+    },
+    "Munasqechay - Los Kjarkas": {
+        "posicao": 746,
+        "nome": "Munasqechay",
+        "artista": "Los Kjarkas"
+    },
+    "Incomprensible Amor - New Wine": {
+        "posicao": 747,
+        "nome": "Incomprensible Amor",
+        "artista": "New Wine"
+    },
+    "LA GRACIOSA (part. Elvis Crespo) - Quevedo": {
+        "posicao": 748,
+        "nome": "LA GRACIOSA (part. Elvis Crespo)",
+        "artista": "Quevedo"
+    },
+    "Stuck On You - Lionel Richie": {
+        "posicao": 749,
+        "nome": "Stuck On You",
+        "artista": "Lionel Richie"
+    },
+    "Dorada (Golden - versión en español) - HUNTR/X": {
+        "posicao": 750,
+        "nome": "Dorada (Golden - versión en español)",
+        "artista": "HUNTR/X"
+    },
+    "Sweet Dreams (Are Made Of This) - Eurythmics": {
+        "posicao": 751,
+        "nome": "Sweet Dreams (Are Made Of This)",
+        "artista": "Eurythmics"
+    },
+    "Brillas - León Larregui": {
+        "posicao": 752,
+        "nome": "Brillas",
+        "artista": "León Larregui"
+    },
+    "Eres - Soy Luna": {
+        "posicao": 753,
+        "nome": "Eres",
+        "artista": "Soy Luna"
+    },
+    "Quiero Ser Feliz - Orquesta La Bella Luz": {
+        "posicao": 754,
+        "nome": "Quiero Ser Feliz",
+        "artista": "Orquesta La Bella Luz"
+    },
+    "WO OH OH (part. ROA) - Omar Courtz": {
+        "posicao": 755,
+        "nome": "WO OH OH (part. ROA)",
+        "artista": "Omar Courtz"
+    },
+    "Bella Ciao - Banda Bassotti": {
+        "posicao": 756,
+        "nome": "Bella Ciao",
+        "artista": "Banda Bassotti"
+    },
+    "Toy Story - Yo Soy Tu Amigo Fiel - Disney": {
+        "posicao": 757,
+        "nome": "Toy Story - Yo Soy Tu Amigo Fiel",
+        "artista": "Disney"
+    },
+    "A Thousand Miles - Vanessa Carlton": {
+        "posicao": 758,
+        "nome": "A Thousand Miles",
+        "artista": "Vanessa Carlton"
+    },
+    "Cristo Yo Te Amo - Vino Nuevo": {
+        "posicao": 759,
+        "nome": "Cristo Yo Te Amo",
+        "artista": "Vino Nuevo"
+    },
+    "Just a Girl - No Doubt": {
+        "posicao": 760,
+        "nome": "Just a Girl",
+        "artista": "No Doubt"
+    },
+    "Papaoutai - Stromae": {
+        "posicao": 761,
+        "nome": "Papaoutai",
+        "artista": "Stromae"
+    },
+    "Vine a Adorarte (part. Marcela Gándara) - Visión Juvenil": {
+        "posicao": 762,
+        "nome": "Vine a Adorarte (part. Marcela Gándara)",
+        "artista": "Visión Juvenil"
+    },
+    "El Rey Te Mandó a Llamar - Danny Berrios": {
+        "posicao": 763,
+        "nome": "El Rey Te Mandó a Llamar",
+        "artista": "Danny Berrios"
+    },
+    "El Fin Del Mundo (part. Axolotes Mexicanos) - La La Love You": {
+        "posicao": 764,
+        "nome": "El Fin Del Mundo (part. Axolotes Mexicanos)",
+        "artista": "La La Love You"
+    },
+    "M.A.I - Milo j": {
+        "posicao": 765,
+        "nome": "M.A.I",
+        "artista": "Milo j"
+    },
+    "Be My Baby - The Ronettes": {
+        "posicao": 766,
+        "nome": "Be My Baby",
+        "artista": "The Ronettes"
+    },
+    "Un Millón de Primaveras - Vicente Fernández": {
+        "posicao": 767,
+        "nome": "Un Millón de Primaveras",
+        "artista": "Vicente Fernández"
+    },
+    "Sit With Me Lord - Arthur Hayes": {
+        "posicao": 768,
+        "nome": "Sit With Me Lord",
+        "artista": "Arthur Hayes"
+    },
+    "No Fue Suerte, Fue Dios - Cristian Robles": {
+        "posicao": 769,
+        "nome": "No Fue Suerte, Fue Dios",
+        "artista": "Cristian Robles"
+    },
+    "Take Me To Church - Hozier": {
+        "posicao": 770,
+        "nome": "Take Me To Church",
+        "artista": "Hozier"
+    },
+    "Ante El Toque de Tu Gloria - Isabelle Valdez": {
+        "posicao": 771,
+        "nome": "Ante El Toque de Tu Gloria",
+        "artista": "Isabelle Valdez"
+    },
+    "Peão Todo Tatuado (part. Jeninho) - Mariana Fagundes": {
+        "posicao": 772,
+        "nome": "Peão Todo Tatuado (part. Jeninho)",
+        "artista": "Mariana Fagundes"
+    },
+    "Que Lloro - Sin Bandera": {
+        "posicao": 773,
+        "nome": "Que Lloro",
+        "artista": "Sin Bandera"
+    },
+    "Believer - Imagine Dragons": {
+        "posicao": 774,
+        "nome": "Believer",
+        "artista": "Imagine Dragons"
+    },
+    "Dancing On My Own - Calum Scott": {
+        "posicao": 775,
+        "nome": "Dancing On My Own",
+        "artista": "Calum Scott"
+    },
+    "Come l'arancio amaro sei - Italian Atmosphere": {
+        "posicao": 776,
+        "nome": "Come l'arancio amaro sei",
+        "artista": "Italian Atmosphere"
+    },
+    "Night Changes - One Direction": {
+        "posicao": 777,
+        "nome": "Night Changes",
+        "artista": "One Direction"
+    },
+    "Abres Camino (part. Joel Contreras) - Rojo": {
+        "posicao": 778,
+        "nome": "Abres Camino (part. Joel Contreras)",
+        "artista": "Rojo"
+    },
+    "La Sirenita - Parte de Tu Mundo - Disney": {
+        "posicao": 779,
+        "nome": "La Sirenita - Parte de Tu Mundo",
+        "artista": "Disney"
+    },
+    "Sebebi Yar - BLOK3": {
+        "posicao": 780,
+        "nome": "Sebebi Yar",
+        "artista": "BLOK3"
+    },
+    "Amores Como El Nuestro - Jerry Rivera": {
+        "posicao": 781,
+        "nome": "Amores Como El Nuestro",
+        "artista": "Jerry Rivera"
+    },
+    "47 (remix) (part. Ñengo Flow, Farruko, Casper Magico, Darell y Bad Bunny) - Anuel AA": {
+        "posicao": 782,
+        "nome": "47 (remix) (part. Ñengo Flow, Farruko, Casper Magico, Darell y Bad Bunny)",
+        "artista": "Anuel AA"
+    },
+    "Шадэ (Shade) (feat. Xcho & МОТ) - By India (By Индия)": {
+        "posicao": 783,
+        "nome": "Шадэ (Shade) (feat. Xcho & МОТ)",
+        "artista": "By India (By Индия)"
+    },
+    "Con Mi Dios - Jesús Adrián Romero": {
+        "posicao": 784,
+        "nome": "Con Mi Dios",
+        "artista": "Jesús Adrián Romero"
+    },
+    "My Moon My Man - Feist": {
+        "posicao": 785,
+        "nome": "My Moon My Man",
+        "artista": "Feist"
+    },
+    "For The First Time - Mac DeMarco": {
+        "posicao": 786,
+        "nome": "For The First Time",
+        "artista": "Mac DeMarco"
+    },
+    "Under The Bridge - Red Hot Chili Peppers": {
+        "posicao": 787,
+        "nome": "Under The Bridge",
+        "artista": "Red Hot Chili Peppers"
+    },
+    "Sola Con Mi Soledad - Marisela": {
+        "posicao": 788,
+        "nome": "Sola Con Mi Soledad",
+        "artista": "Marisela"
+    },
+    "Easy On Me - Adele": {
+        "posicao": 789,
+        "nome": "Easy On Me",
+        "artista": "Adele"
+    },
+    "Espresso - Sabrina Carpenter": {
+        "posicao": 790,
+        "nome": "Espresso",
+        "artista": "Sabrina Carpenter"
+    },
+    "Eres (versión 2026) - Soy Luna": {
+        "posicao": 791,
+        "nome": "Eres (versión 2026)",
+        "artista": "Soy Luna"
+    },
+    "Libre Soy - Frozen": {
+        "posicao": 792,
+        "nome": "Libre Soy",
+        "artista": "Frozen"
+    },
+    "Ojitos Lindos (part. Bomba Estéreo) - Bad Bunny": {
+        "posicao": 793,
+        "nome": "Ojitos Lindos (part. Bomba Estéreo)",
+        "artista": "Bad Bunny"
+    },
+    "Story Of My Life - One Direction": {
+        "posicao": 794,
+        "nome": "Story Of My Life",
+        "artista": "One Direction"
+    },
+    "Aleluya - Grupo Inspiracion": {
+        "posicao": 795,
+        "nome": "Aleluya",
+        "artista": "Grupo Inspiracion"
+    },
+    "Back Home (feat. Joji) - Yeat": {
+        "posicao": 796,
+        "nome": "Back Home (feat. Joji)",
+        "artista": "Yeat"
+    },
+    "Gata Negra de La Maldad - Miranda Flores": {
+        "posicao": 797,
+        "nome": "Gata Negra de La Maldad",
+        "artista": "Miranda Flores"
+    },
+    "Jamaican (Bam Bam) (feat. SOLTO) - HUGEL (FR)": {
+        "posicao": 798,
+        "nome": "Jamaican (Bam Bam) (feat. SOLTO)",
+        "artista": "HUGEL (FR)"
+    },
+    "PINKY UP - KATSEYE": {
+        "posicao": 799,
+        "nome": "PINKY UP",
+        "artista": "KATSEYE"
+    },
+    "GLASS BREAKER - FullyChop": {
+        "posicao": 800,
+        "nome": "GLASS BREAKER",
+        "artista": "FullyChop"
+    },
+    "Hallelujah - Leonard Cohen": {
+        "posicao": 801,
+        "nome": "Hallelujah",
+        "artista": "Leonard Cohen"
+    },
+    "El Toque de Su Gloria - Isabelle Valdez": {
+        "posicao": 802,
+        "nome": "El Toque de Su Gloria",
+        "artista": "Isabelle Valdez"
+    },
+    "Jehová Gibbor - Iglesia de Cristo Ebenezer Honduras": {
+        "posicao": 803,
+        "nome": "Jehová Gibbor",
+        "artista": "Iglesia de Cristo Ebenezer Honduras"
+    },
+    "Moana - Brillo - Disney": {
+        "posicao": 804,
+        "nome": "Moana - Brillo",
+        "artista": "Disney"
+    },
+    "Luciérnagas (part. Silvio Rodríguez) - Milo j": {
+        "posicao": 805,
+        "nome": "Luciérnagas (part. Silvio Rodríguez)",
+        "artista": "Milo j"
+    },
+    "Ceai lângă tine - Theo Rose": {
+        "posicao": 806,
+        "nome": "Ceai lângă tine",
+        "artista": "Theo Rose"
+    },
+    "Gritan Cantan - M'Kaddesh": {
+        "posicao": 807,
+        "nome": "Gritan Cantan",
+        "artista": "M'Kaddesh"
+    },
+    "Kiss It Better - Rihanna": {
+        "posicao": 808,
+        "nome": "Kiss It Better",
+        "artista": "Rihanna"
+    },
+    "We Don't Talk Anymore (feat. Selena Gomez) - Charlie Puth": {
+        "posicao": 809,
+        "nome": "We Don't Talk Anymore (feat. Selena Gomez)",
+        "artista": "Charlie Puth"
+    },
+    "Open Arms - Jorge Rivera-Herrans": {
+        "posicao": 810,
+        "nome": "Open Arms",
+        "artista": "Jorge Rivera-Herrans"
+    },
+    "Batman Ansak - Sherine": {
+        "posicao": 811,
+        "nome": "Batman Ansak",
+        "artista": "Sherine"
+    },
+    "Le Petit Pêcheur - Manon Lisa": {
+        "posicao": 812,
+        "nome": "Le Petit Pêcheur",
+        "artista": "Manon Lisa"
+    },
+    "Like a Stone - Audioslave": {
+        "posicao": 813,
+        "nome": "Like a Stone",
+        "artista": "Audioslave"
+    },
+    "Always Remember Us This Way - Lady Gaga": {
+        "posicao": 814,
+        "nome": "Always Remember Us This Way",
+        "artista": "Lady Gaga"
+    },
+    "The First Time - Damiano David": {
+        "posicao": 815,
+        "nome": "The First Time",
+        "artista": "Damiano David"
+    },
+    "Terapia - Risa Express": {
+        "posicao": 816,
+        "nome": "Terapia",
+        "artista": "Risa Express"
+    },
+    "Shape Of You - Ed Sheeran": {
+        "posicao": 817,
+        "nome": "Shape Of You",
+        "artista": "Ed Sheeran"
+    },
+    "No One Noticed - The Marias": {
+        "posicao": 818,
+        "nome": "No One Noticed",
+        "artista": "The Marias"
+    },
+    "I Will Survive - Gloria Gaynor": {
+        "posicao": 819,
+        "nome": "I Will Survive",
+        "artista": "Gloria Gaynor"
+    },
+    "My Kind of Woman - Mac DeMarco": {
+        "posicao": 820,
+        "nome": "My Kind of Woman",
+        "artista": "Mac DeMarco"
+    },
+    "Roar - Katy Perry": {
+        "posicao": 821,
+        "nome": "Roar",
+        "artista": "Katy Perry"
+    },
+    "WHERE IS MY HUSBAND! - RAYE": {
+        "posicao": 822,
+        "nome": "WHERE IS MY HUSBAND!",
+        "artista": "RAYE"
+    },
+    "MI BB (part. Omar Courtz) - Lunay": {
+        "posicao": 823,
+        "nome": "MI BB (part. Omar Courtz)",
+        "artista": "Lunay"
+    },
+    "Cuándo Empezaré a Vivir - DANNA": {
+        "posicao": 824,
+        "nome": "Cuándo Empezaré a Vivir",
+        "artista": "DANNA"
+    },
+    "Agradecimiento - Johana Galdamez": {
+        "posicao": 825,
+        "nome": "Agradecimiento",
+        "artista": "Johana Galdamez"
+    },
+    "Esteros de Los Tromplillos - Jorge Guerrero": {
+        "posicao": 826,
+        "nome": "Esteros de Los Tromplillos",
+        "artista": "Jorge Guerrero"
+    },
+    "De Música Ligera - Soda Stereo": {
+        "posicao": 827,
+        "nome": "De Música Ligera",
+        "artista": "Soda Stereo"
+    },
+    "Chatuba de Mesquita [explícita] - Furacão 2000": {
+        "posicao": 828,
+        "nome": "Chatuba de Mesquita [explícita]",
+        "artista": "Furacão 2000"
+    },
+    "Hey There Delilah - Plain White T's": {
+        "posicao": 829,
+        "nome": "Hey There Delilah",
+        "artista": "Plain White T's"
+    },
+    "Lover Is a Day - Cuco": {
+        "posicao": 830,
+        "nome": "Lover Is a Day",
+        "artista": "Cuco"
+    },
+    "Blink Gone - Alien Stage": {
+        "posicao": 831,
+        "nome": "Blink Gone",
+        "artista": "Alien Stage"
+    },
+    "El Teléfono - Grupo 5": {
+        "posicao": 832,
+        "nome": "El Teléfono",
+        "artista": "Grupo 5"
+    },
+    "Te Dejo En Libertad - Ha*Ash": {
+        "posicao": 833,
+        "nome": "Te Dejo En Libertad",
+        "artista": "Ha*Ash"
+    },
+    "Lavame En Tu Sangre Salvador - Marcos Vidal": {
+        "posicao": 834,
+        "nome": "Lavame En Tu Sangre Salvador",
+        "artista": "Marcos Vidal"
+    },
+    "Cha-La Head-Cha-La (versión latino) - Dragon Ball Z": {
+        "posicao": 835,
+        "nome": "Cha-La Head-Cha-La (versión latino)",
+        "artista": "Dragon Ball Z"
+    },
+    "MALASNOTICIAS. (part. LATIN MAFIA) - Alvaro Diaz": {
+        "posicao": 836,
+        "nome": "MALASNOTICIAS. (part. LATIN MAFIA)",
+        "artista": "Alvaro Diaz"
+    },
+    "Quiero Que Seas Mi Estrella - Binomio de Oro de América": {
+        "posicao": 837,
+        "nome": "Quiero Que Seas Mi Estrella",
+        "artista": "Binomio de Oro de América"
+    },
+    "Los Muros Caerán - Miel San Marcos": {
+        "posicao": 838,
+        "nome": "Los Muros Caerán",
+        "artista": "Miel San Marcos"
+    },
+    "Ven Devórame Otra Vez - Lalo Rodríguez": {
+        "posicao": 839,
+        "nome": "Ven Devórame Otra Vez",
+        "artista": "Lalo Rodríguez"
+    },
+    "Pose - Daddy Yankee": {
+        "posicao": 840,
+        "nome": "Pose",
+        "artista": "Daddy Yankee"
+    },
+    "Demos Gracias Al Señor - Canciones Religiosas": {
+        "posicao": 841,
+        "nome": "Demos Gracias Al Señor",
+        "artista": "Canciones Religiosas"
+    },
+    "Te Burlaste de Mí - Caribeños de Guadalupe": {
+        "posicao": 842,
+        "nome": "Te Burlaste de Mí",
+        "artista": "Caribeños de Guadalupe"
+    },
+    "Peace of Mind - Soy Luna": {
+        "posicao": 843,
+        "nome": "Peace of Mind",
+        "artista": "Soy Luna"
+    },
+    "I'm Yours - Jason Mraz": {
+        "posicao": 844,
+        "nome": "I'm Yours",
+        "artista": "Jason Mraz"
+    },
+    "I Gotta Feeling - Black Eyed Peas": {
+        "posicao": 845,
+        "nome": "I Gotta Feeling",
+        "artista": "Black Eyed Peas"
+    },
+    "Eva - Vintage": {
+        "posicao": 846,
+        "nome": "Eva",
+        "artista": "Vintage"
+    },
+    "Demente - Tercer Cielo": {
+        "posicao": 847,
+        "nome": "Demente",
+        "artista": "Tercer Cielo"
+    },
+    "Would You Fall In Love With Me Again (feat. Anna Lea) - Jorge Rivera-Herrans": {
+        "posicao": 848,
+        "nome": "Would You Fall In Love With Me Again (feat. Anna Lea)",
+        "artista": "Jorge Rivera-Herrans"
+    },
+    "Call Me Maybe - Carly Rae Jepsen": {
+        "posicao": 849,
+        "nome": "Call Me Maybe",
+        "artista": "Carly Rae Jepsen"
+    },
+    "Imagine - John Lennon": {
+        "posicao": 850,
+        "nome": "Imagine",
+        "artista": "John Lennon"
+    },
+    "Garota de Ipanema - Tom Jobim": {
+        "posicao": 851,
+        "nome": "Garota de Ipanema",
+        "artista": "Tom Jobim"
+    },
+    "Black Sorrow - Alien Stage": {
+        "posicao": 852,
+        "nome": "Black Sorrow",
+        "artista": "Alien Stage"
+    },
+    "Ella y Yo (part. Don Omar) - Aventura": {
+        "posicao": 853,
+        "nome": "Ella y Yo (part. Don Omar)",
+        "artista": "Aventura"
+    },
+    "Así No Te Amará Jamás - Amanda Miguel": {
+        "posicao": 854,
+        "nome": "Así No Te Amará Jamás",
+        "artista": "Amanda Miguel"
+    },
+    "Amar Como Tú - Steven Universo": {
+        "posicao": 855,
+        "nome": "Amar Como Tú",
+        "artista": "Steven Universo"
+    },
+    "misery. - pupsies": {
+        "posicao": 856,
+        "nome": "misery.",
+        "artista": "pupsies"
+    },
+    "Somebody To Love - Queen": {
+        "posicao": 857,
+        "nome": "Somebody To Love",
+        "artista": "Queen"
+    },
+    "Genie In a Bottle - Christina Aguilera": {
+        "posicao": 858,
+        "nome": "Genie In a Bottle",
+        "artista": "Christina Aguilera"
+    },
+    "Lovers Rock - TV Girl": {
+        "posicao": 859,
+        "nome": "Lovers Rock",
+        "artista": "TV Girl"
+    },
+    "Chaka Chak - Shreya Ghoshal": {
+        "posicao": 860,
+        "nome": "Chaka Chak",
+        "artista": "Shreya Ghoshal"
+    },
+    "Poderoso Dios - Marcos Witt": {
+        "posicao": 861,
+        "nome": "Poderoso Dios",
+        "artista": "Marcos Witt"
+    },
+    "Call Out My Name - The Weeknd": {
+        "posicao": 862,
+        "nome": "Call Out My Name",
+        "artista": "The Weeknd"
+    },
+    "Superman (feat. Dina Rae) - Eminem": {
+        "posicao": 863,
+        "nome": "Superman (feat. Dina Rae)",
+        "artista": "Eminem"
+    },
+    "Hay Momentos - Blest": {
+        "posicao": 864,
+        "nome": "Hay Momentos",
+        "artista": "Blest"
+    },
+    "Lost On You - LP": {
+        "posicao": 865,
+        "nome": "Lost On You",
+        "artista": "LP"
+    },
+    "Mystery Of Love - Sufjan Stevens": {
+        "posicao": 866,
+        "nome": "Mystery Of Love",
+        "artista": "Sufjan Stevens"
+    },
+    "¿Y Como Es Él? - José Luis Perales": {
+        "posicao": 867,
+        "nome": "¿Y Como Es Él?",
+        "artista": "José Luis Perales"
+    },
+    "Sex On Fire - Kings Of Leon": {
+        "posicao": 868,
+        "nome": "Sex On Fire",
+        "artista": "Kings Of Leon"
+    },
+    "Earned It - The Weeknd": {
+        "posicao": 869,
+        "nome": "Earned It",
+        "artista": "The Weeknd"
+    },
+    "Love Me Like You Do - Ellie Goulding": {
+        "posicao": 870,
+        "nome": "Love Me Like You Do",
+        "artista": "Ellie Goulding"
+    },
+    "Many Men (Wish Death) - 50 Cent": {
+        "posicao": 871,
+        "nome": "Many Men (Wish Death)",
+        "artista": "50 Cent"
+    },
+    "Encantadora (remix) (part. Farruko, Zion y Lennox) - Yandel": {
+        "posicao": 872,
+        "nome": "Encantadora (remix) (part. Farruko, Zion y Lennox)",
+        "artista": "Yandel"
+    },
+    "Chasing Cars - Snow Patrol": {
+        "posicao": 873,
+        "nome": "Chasing Cars",
+        "artista": "Snow Patrol"
+    },
+    "Ven Y Llena Esta Casa - Marcela Gándara": {
+        "posicao": 874,
+        "nome": "Ven Y Llena Esta Casa",
+        "artista": "Marcela Gándara"
+    },
+    "Como En El Cielo - Miel San Marcos": {
+        "posicao": 875,
+        "nome": "Como En El Cielo",
+        "artista": "Miel San Marcos"
+    },
+    "I'm Still In Love With You (feat. Sasha) - Sean Paul": {
+        "posicao": 876,
+        "nome": "I'm Still In Love With You (feat. Sasha)",
+        "artista": "Sean Paul"
+    },
+    "El Cigarrillo - Ana Gabriel": {
+        "posicao": 877,
+        "nome": "El Cigarrillo",
+        "artista": "Ana Gabriel"
+    },
+    "El Gran Varón - Willie Colón": {
+        "posicao": 878,
+        "nome": "El Gran Varón",
+        "artista": "Willie Colón"
+    },
+    "What Makes You Beautiful - One Direction": {
+        "posicao": 879,
+        "nome": "What Makes You Beautiful",
+        "artista": "One Direction"
+    },
+    "It Will Rain - Bruno Mars": {
+        "posicao": 880,
+        "nome": "It Will Rain",
+        "artista": "Bruno Mars"
+    },
+    "Toda (remix) (part. Rauw Alejandro, Cazzu, Lyanno y Lenny Tavárez) - Alex Rose": {
+        "posicao": 881,
+        "nome": "Toda (remix) (part. Rauw Alejandro, Cazzu, Lyanno y Lenny Tavárez)",
+        "artista": "Alex Rose"
+    },
+    "Con Tu Sangre - Marcos Witt": {
+        "posicao": 882,
+        "nome": "Con Tu Sangre",
+        "artista": "Marcos Witt"
+    },
+    "Que Ruja El León - Gabriela Ríos": {
+        "posicao": 883,
+        "nome": "Que Ruja El León",
+        "artista": "Gabriela Ríos"
+    },
+    "Complicated - Avril Lavigne": {
+        "posicao": 884,
+        "nome": "Complicated",
+        "artista": "Avril Lavigne"
+    },
+    "Los Dos Amigos - Los Cadetes de Linares": {
+        "posicao": 885,
+        "nome": "Los Dos Amigos",
+        "artista": "Los Cadetes de Linares"
+    },
+    "Smells Like Teen Spirit - Nirvana": {
+        "posicao": 886,
+        "nome": "Smells Like Teen Spirit",
+        "artista": "Nirvana"
+    },
+    "Where Is The Love? - Black Eyed Peas": {
+        "posicao": 887,
+        "nome": "Where Is The Love?",
+        "artista": "Black Eyed Peas"
+    },
+    "Nadie Es Eterno - Antonio Aguilar": {
+        "posicao": 888,
+        "nome": "Nadie Es Eterno",
+        "artista": "Antonio Aguilar"
+    },
+    "Perfume a Tus Pies - Marcela Gándara": {
+        "posicao": 889,
+        "nome": "Perfume a Tus Pies",
+        "artista": "Marcela Gándara"
+    },
+    "Qing Fei de Yi - Harlem Yu": {
+        "posicao": 890,
+        "nome": "Qing Fei de Yi",
+        "artista": "Harlem Yu"
+    },
+    "Bienvenido Espíritu Santo (part. Marco Barrientos) - Miel San Marcos": {
+        "posicao": 891,
+        "nome": "Bienvenido Espíritu Santo (part. Marco Barrientos)",
+        "artista": "Miel San Marcos"
+    },
+    "Él Es Santo - Raisa Diaz": {
+        "posicao": 892,
+        "nome": "Él Es Santo",
+        "artista": "Raisa Diaz"
+    },
+    "Não Me Cutuca (part. Alceu Valença) - Anitta": {
+        "posicao": 893,
+        "nome": "Não Me Cutuca (part. Alceu Valença)",
+        "artista": "Anitta"
+    },
+    "Three Little Birds - Bob Marley": {
+        "posicao": 894,
+        "nome": "Three Little Birds",
+        "artista": "Bob Marley"
+    },
+    "Thunder - Imagine Dragons": {
+        "posicao": 895,
+        "nome": "Thunder",
+        "artista": "Imagine Dragons"
+    },
+    "En El Monte Calvario - Tercer Cielo": {
+        "posicao": 896,
+        "nome": "En El Monte Calvario",
+        "artista": "Tercer Cielo"
+    },
+    "Te alabo - Coro Menap": {
+        "posicao": 897,
+        "nome": "Te alabo",
+        "artista": "Coro Menap"
+    },
+    "Dine N'Dash - The Strokes": {
+        "posicao": 898,
+        "nome": "Dine N'Dash",
+        "artista": "The Strokes"
+    },
+    "Superpowers - Daniel Caesar": {
+        "posicao": 899,
+        "nome": "Superpowers",
+        "artista": "Daniel Caesar"
+    },
+    "Siempre a Tiempo - Elevation Worship": {
+        "posicao": 900,
+        "nome": "Siempre a Tiempo",
+        "artista": "Elevation Worship"
+    },
+    "Movin' To The Sun (feat. Imael Angel & Ultra Naté) - HUGEL": {
+        "posicao": 901,
+        "nome": "Movin' To The Sun (feat. Imael Angel & Ultra Naté)",
+        "artista": "HUGEL"
+    },
+    "Mi Viejo - Piero": {
+        "posicao": 902,
+        "nome": "Mi Viejo",
+        "artista": "Piero"
+    },
+    "Only Girl (In The World) - Rihanna": {
+        "posicao": 903,
+        "nome": "Only Girl (In The World)",
+        "artista": "Rihanna"
+    },
+    "Arrorró Mi Niño - Canciones Infantiles": {
+        "posicao": 904,
+        "nome": "Arrorró Mi Niño",
+        "artista": "Canciones Infantiles"
+    },
+    "Pablo & Silas - Oasis Ministry": {
+        "posicao": 905,
+        "nome": "Pablo & Silas",
+        "artista": "Oasis Ministry"
+    },
+    "Im Sorry Mom - Marino": {
+        "posicao": 906,
+        "nome": "Im Sorry Mom",
+        "artista": "Marino"
+    },
+    "The Real Slim Shady - Eminem": {
+        "posicao": 907,
+        "nome": "The Real Slim Shady",
+        "artista": "Eminem"
+    },
+    "Entre Tú Y Mil Mares - Laura Pausini": {
+        "posicao": 908,
+        "nome": "Entre Tú Y Mil Mares",
+        "artista": "Laura Pausini"
+    },
+    "Love Story - Indila": {
+        "posicao": 909,
+        "nome": "Love Story",
+        "artista": "Indila"
+    },
+    "Te compro tu novia - Ramon Orlando": {
+        "posicao": 910,
+        "nome": "Te compro tu novia",
+        "artista": "Ramon Orlando"
+    },
+    "Space Between (feat. Sofia Carson) - Dove Cameron": {
+        "posicao": 911,
+        "nome": "Space Between (feat. Sofia Carson)",
+        "artista": "Dove Cameron"
+    },
+    "Confieso - Kany García": {
+        "posicao": 912,
+        "nome": "Confieso",
+        "artista": "Kany García"
+    },
+    "Solifican12 - Milo j": {
+        "posicao": 913,
+        "nome": "Solifican12",
+        "artista": "Milo j"
+    },
+    "Rein Me In (feat. Sam Fender) - Olivia Dean": {
+        "posicao": 914,
+        "nome": "Rein Me In (feat. Sam Fender)",
+        "artista": "Olivia Dean"
+    },
+    "Si Tú No Vuelves - Miguel Bosé": {
+        "posicao": 915,
+        "nome": "Si Tú No Vuelves",
+        "artista": "Miguel Bosé"
+    },
+    "lovely (feat. Khalid) - Billie Eilish": {
+        "posicao": 916,
+        "nome": "lovely (feat. Khalid)",
+        "artista": "Billie Eilish"
+    },
+    "Un Encuentro Contigo (El León Está Rugiendo) (part. Jordan Mateo) - Oasis Ministry": {
+        "posicao": 917,
+        "nome": "Un Encuentro Contigo (El León Está Rugiendo) (part. Jordan Mateo)",
+        "artista": "Oasis Ministry"
+    },
+    "suficiente. - Kosta": {
+        "posicao": 918,
+        "nome": "suficiente.",
+        "artista": "Kosta"
+    },
+    "You Being Mine - Émeric Chastain": {
+        "posicao": 919,
+        "nome": "You Being Mine",
+        "artista": "Émeric Chastain"
+    },
+    "The Only Exception - Paramore": {
+        "posicao": 920,
+        "nome": "The Only Exception",
+        "artista": "Paramore"
+    },
+    "Llegaste Tú (part. Juan Luis Guerra) - Luis Fonsi": {
+        "posicao": 921,
+        "nome": "Llegaste Tú (part. Juan Luis Guerra)",
+        "artista": "Luis Fonsi"
+    },
+    "I'm Still Standing - Elton John": {
+        "posicao": 922,
+        "nome": "I'm Still Standing",
+        "artista": "Elton John"
+    },
+    "Después de Ti - Alejandro Lerner": {
+        "posicao": 923,
+        "nome": "Después de Ti",
+        "artista": "Alejandro Lerner"
+    },
+    "Ayer Hablé Con Dios - Corridos Del Rey": {
+        "posicao": 924,
+        "nome": "Ayer Hablé Con Dios",
+        "artista": "Corridos Del Rey"
+    },
+    "Hacemos Hoy - Jesús Adrián Romero": {
+        "posicao": 925,
+        "nome": "Hacemos Hoy",
+        "artista": "Jesús Adrián Romero"
+    },
+    "Gloria Gloria A Dios En El Cielo - Canciones Religiosas": {
+        "posicao": 926,
+        "nome": "Gloria Gloria A Dios En El Cielo",
+        "artista": "Canciones Religiosas"
+    },
+    "Dardos (part. Prince Royce) - Romeo Santos": {
+        "posicao": 927,
+        "nome": "Dardos (part. Prince Royce)",
+        "artista": "Romeo Santos"
+    },
+    "Mix Quiero Ser Feliz (Tu Ausencia / Quiero Ser Feliz) - Orquesta La Bella Luz": {
+        "posicao": 928,
+        "nome": "Mix Quiero Ser Feliz (Tu Ausencia / Quiero Ser Feliz)",
+        "artista": "Orquesta La Bella Luz"
+    },
+    "Stitches - Shawn Mendes": {
+        "posicao": 929,
+        "nome": "Stitches",
+        "artista": "Shawn Mendes"
+    },
+    "Mujeres Divinas - Vicente Fernández": {
+        "posicao": 930,
+        "nome": "Mujeres Divinas",
+        "artista": "Vicente Fernández"
+    },
+    "Pumped Up Kicks - Foster The People": {
+        "posicao": 931,
+        "nome": "Pumped Up Kicks",
+        "artista": "Foster The People"
+    },
+    "I'm Not In Love - 10cc": {
+        "posicao": 932,
+        "nome": "I'm Not In Love",
+        "artista": "10cc"
+    },
+    "Espíritu & Verdad - Marco Barrientos": {
+        "posicao": 933,
+        "nome": "Espíritu & Verdad",
+        "artista": "Marco Barrientos"
+    },
+    "Desire (feat. Laura Pausini) - Robbie Williams": {
+        "posicao": 934,
+        "nome": "Desire (feat. Laura Pausini)",
+        "artista": "Robbie Williams"
+    },
+    "Me Gozaré - Billy Bunster": {
+        "posicao": 935,
+        "nome": "Me Gozaré",
+        "artista": "Billy Bunster"
+    },
+    "Socorro - Un Corazón": {
+        "posicao": 936,
+        "nome": "Socorro",
+        "artista": "Un Corazón"
+    },
+    "cigarette smoke - Olivia Rodrigo": {
+        "posicao": 937,
+        "nome": "cigarette smoke",
+        "artista": "Olivia Rodrigo"
+    },
+    "Opalite - Taylor Swift": {
+        "posicao": 938,
+        "nome": "Opalite",
+        "artista": "Taylor Swift"
+    },
+    "Merry Go Round - BTS": {
+        "posicao": 939,
+        "nome": "Merry Go Round",
+        "artista": "BTS"
+    },
+    "You Rock My World - Michael Jackson": {
+        "posicao": 940,
+        "nome": "You Rock My World",
+        "artista": "Michael Jackson"
+    },
+    "Molinos de Viento - Mägo de Oz": {
+        "posicao": 941,
+        "nome": "Molinos de Viento",
+        "artista": "Mägo de Oz"
+    },
+    "If I Ain't Got You - Alicia Keys": {
+        "posicao": 942,
+        "nome": "If I Ain't Got You",
+        "artista": "Alicia Keys"
+    },
+    "Mi Buen Amor (part. Enrique Bunbury) - Mon Laferte": {
+        "posicao": 943,
+        "nome": "Mi Buen Amor (part. Enrique Bunbury)",
+        "artista": "Mon Laferte"
+    },
+    "De La Vida Como Película, Tragedia, Comedia y Ficción - Canserbero": {
+        "posicao": 944,
+        "nome": "De La Vida Como Película, Tragedia, Comedia y Ficción",
+        "artista": "Canserbero"
+    },
+    "Jeremías 17-5 - Canserbero": {
+        "posicao": 945,
+        "nome": "Jeremías 17-5",
+        "artista": "Canserbero"
+    },
+    "Dream On - Aerosmith": {
+        "posicao": 946,
+        "nome": "Dream On",
+        "artista": "Aerosmith"
+    },
+    "You're Beautiful - James Blunt": {
+        "posicao": 947,
+        "nome": "You're Beautiful",
+        "artista": "James Blunt"
+    },
+    "Libre Soy - David Scarpeta": {
+        "posicao": 948,
+        "nome": "Libre Soy",
+        "artista": "David Scarpeta"
+    },
+    "Heartless - Descendentes (Disney)": {
+        "posicao": 949,
+        "nome": "Heartless",
+        "artista": "Descendentes (Disney)"
+    },
+    "Lo Que No Fue No Será - José José": {
+        "posicao": 950,
+        "nome": "Lo Que No Fue No Será",
+        "artista": "José José"
+    },
+    "Este Es Mi Deseo - Rey de Reyes": {
+        "posicao": 951,
+        "nome": "Este Es Mi Deseo",
+        "artista": "Rey de Reyes"
+    },
+    "Lover - Hyunjin (Stray Kids)": {
+        "posicao": 952,
+        "nome": "Lover",
+        "artista": "Hyunjin (Stray Kids)"
+    },
+    "¿Y Si Hacemos un Muñeco? - Frozen": {
+        "posicao": 953,
+        "nome": "¿Y Si Hacemos un Muñeco?",
+        "artista": "Frozen"
+    },
+    "Anhelo Conocerte - Luigi Castro": {
+        "posicao": 954,
+        "nome": "Anhelo Conocerte",
+        "artista": "Luigi Castro"
+    },
+    "No. 1 Party Anthem - Arctic Monkeys": {
+        "posicao": 955,
+        "nome": "No. 1 Party Anthem",
+        "artista": "Arctic Monkeys"
+    },
+    "¿Por Qué Me Haces Llorar? - Juan Gabriel": {
+        "posicao": 956,
+        "nome": "¿Por Qué Me Haces Llorar?",
+        "artista": "Juan Gabriel"
+    },
+    "Waka Waka (Esto Es África) (part. Freshlyground) - Shakira": {
+        "posicao": 957,
+        "nome": "Waka Waka (Esto Es África) (part. Freshlyground)",
+        "artista": "Shakira"
+    },
+    "Wake Me Up (feat. Aloe Blacc) - Avicii": {
+        "posicao": 958,
+        "nome": "Wake Me Up (feat. Aloe Blacc)",
+        "artista": "Avicii"
+    },
+    "Confident (feat. Chance The Rapper) - Justin Bieber": {
+        "posicao": 959,
+        "nome": "Confident (feat. Chance The Rapper)",
+        "artista": "Justin Bieber"
+    },
+    "Can't Remember To Forget You (feat. Rihanna) - Shakira": {
+        "posicao": 960,
+        "nome": "Can't Remember To Forget You (feat. Rihanna)",
+        "artista": "Shakira"
+    },
+    "Feliz Cumpleaños Cristiano - Emanuel Frias": {
+        "posicao": 961,
+        "nome": "Feliz Cumpleaños Cristiano",
+        "artista": "Emanuel Frias"
+    },
+    "Lamento Boliviano - Los Enanitos Verdes": {
+        "posicao": 962,
+        "nome": "Lamento Boliviano",
+        "artista": "Los Enanitos Verdes"
+    },
+    "Everlong - Foo Fighters": {
+        "posicao": 963,
+        "nome": "Everlong",
+        "artista": "Foo Fighters"
+    },
+    "El Ultimo Beso - Leo Dan": {
+        "posicao": 964,
+        "nome": "El Ultimo Beso",
+        "artista": "Leo Dan"
+    },
+    "Gózate Delante Del Señor - Inspiracion": {
+        "posicao": 965,
+        "nome": "Gózate Delante Del Señor",
+        "artista": "Inspiracion"
+    },
+    "RUN IT - Stray Kids": {
+        "posicao": 966,
+        "nome": "RUN IT",
+        "artista": "Stray Kids"
+    },
+    "Colgando En Tus Manos (part. Marta Sánchez) - Carlos Baute": {
+        "posicao": 967,
+        "nome": "Colgando En Tus Manos (part. Marta Sánchez)",
+        "artista": "Carlos Baute"
+    },
+    "Océanos (part. Carley Redpath) - Evan Craft": {
+        "posicao": 968,
+        "nome": "Océanos (part. Carley Redpath)",
+        "artista": "Evan Craft"
+    },
+    "La Playa - La Oreja de Van Gogh": {
+        "posicao": 969,
+        "nome": "La Playa",
+        "artista": "La Oreja de Van Gogh"
+    },
+    "Adventure Of a Lifetime - Coldplay": {
+        "posicao": 970,
+        "nome": "Adventure Of a Lifetime",
+        "artista": "Coldplay"
+    },
+    "Mary Es Mi Amor - Leo Dan": {
+        "posicao": 971,
+        "nome": "Mary Es Mi Amor",
+        "artista": "Leo Dan"
+    },
+    "Hay Una Uncion - Rey de Reyes": {
+        "posicao": 972,
+        "nome": "Hay Una Uncion",
+        "artista": "Rey de Reyes"
+    },
+    "Maneater - Daryl Hall & John Oates": {
+        "posicao": 973,
+        "nome": "Maneater",
+        "artista": "Daryl Hall & John Oates"
+    },
+    "Vamos a Cantar - En Espiritu Y En Verdad": {
+        "posicao": 974,
+        "nome": "Vamos a Cantar",
+        "artista": "En Espiritu Y En Verdad"
+    },
+    "Lamberto Quintero - Los Cadetes de Linares": {
+        "posicao": 975,
+        "nome": "Lamberto Quintero",
+        "artista": "Los Cadetes de Linares"
+    },
+    "End of Beginning - Djo": {
+        "posicao": 976,
+        "nome": "End of Beginning",
+        "artista": "Djo"
+    },
+    "EL AMOR DE SU VIDA (part. Grupo Firme) - Grupo Frontera": {
+        "posicao": 977,
+        "nome": "EL AMOR DE SU VIDA (part. Grupo Firme)",
+        "artista": "Grupo Frontera"
+    },
+    "Japón x Francia (Blue Lock) - Mecanismo de Cuervos - Kballero Rap": {
+        "posicao": 978,
+        "nome": "Japón x Francia (Blue Lock) - Mecanismo de Cuervos",
+        "artista": "Kballero Rap"
+    },
+    "Feel Good Inc. (feat. De La Soul) - Gorillaz": {
+        "posicao": 979,
+        "nome": "Feel Good Inc. (feat. De La Soul)",
+        "artista": "Gorillaz"
+    },
+    "Flor Hermosa - Banda MS de Sergio Lizárraga": {
+        "posicao": 980,
+        "nome": "Flor Hermosa",
+        "artista": "Banda MS de Sergio Lizárraga"
+    },
+    "Anaconda - Nicki Minaj": {
+        "posicao": 981,
+        "nome": "Anaconda",
+        "artista": "Nicki Minaj"
+    },
+    "M. - Anıl Emre Daldal": {
+        "posicao": 982,
+        "nome": "M.",
+        "artista": "Anıl Emre Daldal"
+    },
+    "Fuiste Tú (part. Gaby Moreno) - Ricardo Arjona": {
+        "posicao": 983,
+        "nome": "Fuiste Tú (part. Gaby Moreno)",
+        "artista": "Ricardo Arjona"
+    },
+    "Himno Colo Colo - Colo-Colo": {
+        "posicao": 984,
+        "nome": "Himno Colo Colo",
+        "artista": "Colo-Colo"
+    },
+    "Mi Jesús, Mi Amado - Jesús Adrián Romero": {
+        "posicao": 985,
+        "nome": "Mi Jesús, Mi Amado",
+        "artista": "Jesús Adrián Romero"
+    },
+    "Blank Space - Taylor Swift": {
+        "posicao": 986,
+        "nome": "Blank Space",
+        "artista": "Taylor Swift"
+    },
+    "Say Yes To Heaven - Lana Del Rey": {
+        "posicao": 987,
+        "nome": "Say Yes To Heaven",
+        "artista": "Lana Del Rey"
+    },
+    "Please - BTS": {
+        "posicao": 988,
+        "nome": "Please",
+        "artista": "BTS"
+    },
+    "In Aisles - Nero's Day At Disneyland": {
+        "posicao": 989,
+        "nome": "In Aisles",
+        "artista": "Nero's Day At Disneyland"
+    },
+    "warning signs (interlude) - Ariana Grande": {
+        "posicao": 990,
+        "nome": "warning signs (interlude)",
+        "artista": "Ariana Grande"
+    },
+    "Busca Por Dentro - Grupo Niche": {
+        "posicao": 991,
+        "nome": "Busca Por Dentro",
+        "artista": "Grupo Niche"
+    },
+    "Enviame a Mi - Jesús Adrián Romero": {
+        "posicao": 992,
+        "nome": "Enviame a Mi",
+        "artista": "Jesús Adrián Romero"
+    },
+    "Is This Love - Whitesnake": {
+        "posicao": 993,
+        "nome": "Is This Love",
+        "artista": "Whitesnake"
+    },
+    "Mi Chico (feat. Melody & DJ Goja) - Jason Derulo": {
+        "posicao": 994,
+        "nome": "Mi Chico (feat. Melody & DJ Goja)",
+        "artista": "Jason Derulo"
+    },
+    "I'm Not The Only One - Sam Smith": {
+        "posicao": 995,
+        "nome": "I'm Not The Only One",
+        "artista": "Sam Smith"
+    },
+    "¿Quién Podrá? - Averly Morillo": {
+        "posicao": 996,
+        "nome": "¿Quién Podrá?",
+        "artista": "Averly Morillo"
+    },
+    "BELLA DAVVERO - Ultimo": {
+        "posicao": 997,
+        "nome": "BELLA DAVVERO",
+        "artista": "Ultimo"
+    },
+    "Rojo, Amarillo y Verde - Juan Enrique Jurado": {
+        "posicao": 998,
+        "nome": "Rojo, Amarillo y Verde",
+        "artista": "Juan Enrique Jurado"
+    },
+    "Bonsai - Alan Sutton y las criaturitas de la ansiedad": {
+        "posicao": 999,
+        "nome": "Bonsai",
+        "artista": "Alan Sutton y las criaturitas de la ansiedad"
+    },
+    "Morfina - HUMBE": {
+        "posicao": 1000,
+        "nome": "Morfina",
+        "artista": "HUMBE"
+    }
+}
