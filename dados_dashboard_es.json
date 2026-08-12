@@ -224630,8 +224630,7 @@
             "2026-08-08": 113,
             "2026-08-09": 107,
             "2026-08-10": 107,
-            "2026-08-11": 116,
-            "2026-08-12": 116
+            "2026-08-11": 116
         },
         "https://www.letras.com/eminem/1695285/": {
             "url": "https://www.letras.com/eminem/1695285/",
@@ -253630,7 +253629,7 @@
         },
         "https://www.letras.com/fred-again/quiereme-part-latin-mafia/": {
             "url": "https://www.letras.com/fred-again/quiereme-part-latin-mafia/",
-            "nome": "Quiereme (part. LATIN MAFIA)",
+            "nome": "Quiereme (part. LATIN MAFIA y bby)",
             "artista": "Fred again..",
             "2026-08-11": 575,
             "2026-08-12": 575
@@ -253739,6 +253738,12 @@
             "artista": "Gen Rosso",
             "2026-08-11": 987,
             "2026-08-12": 987
+        },
+        "https://www.letras.com/zaro/you-and-i-john-doe-vs-jane-doe-2/": {
+            "url": "https://www.letras.com/zaro/you-and-i-john-doe-vs-jane-doe-2/",
+            "nome": "You And I, Forever (John Doe x Jane Doe)",
+            "artista": "Zaro",
+            "2026-08-12": 116
         }
     }
 }

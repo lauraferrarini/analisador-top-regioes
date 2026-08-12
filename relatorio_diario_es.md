@@ -12,4 +12,4 @@
 - Sem oscilações relevantes para cima hoje.
 
 ## 🚀 Novas Entradas no Top
-- Nenhuma música inédita detectada hoje.
+- **You And I, Forever (John Doe x Jane Doe)** (Zaro) - Apareceu direto na posição **116º**

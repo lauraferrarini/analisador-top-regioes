@@ -196,7 +196,7 @@
 - **Imagine** (John Lennon): 693º → **656º** (+37)
 - **White Flag** (Dido): 731º → **694º** (+37)
 - **Para Que Regreses** (El Chapo De Sinaloa): 831º → **794º** (+37)
-- **Quiereme (part. LATIN MAFIA)** (Fred again..): 74º → **38º** (+36)
+- **Quiereme (part. LATIN MAFIA y bby)** (Fred again..): 74º → **38º** (+36)
 - **Style** (Taylor Swift): 94º → **58º** (+36)
 - **Hotel California** (Eagles): 396º → **360º** (+36)
 - **Treat People With Kindness** (Harry Styles): 747º → **711º** (+36)

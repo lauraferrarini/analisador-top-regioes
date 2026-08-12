@@ -21,7 +21,7 @@
 - **The First Time** (Damiano David): Subiu de 606º para **488º** (📈 +118 posições)
 - **Tu Nombre** (Mokara): Subiu de 799º para **681º** (📈 +118 posições)
 - **Padre Nuestro** (Canciones Religiosas): Subiu de 886º para **768º** (📈 +118 posições)
-- **Quiereme (part. LATIN MAFIA)** (Fred again..): Subiu de 589º para **472º** (📈 +117 posições)
+- **Quiereme (part. LATIN MAFIA y bby)** (Fred again..): Subiu de 589º para **472º** (📈 +117 posições)
 - **Run Rabbit** (Mollie Elizabeth): Subiu de 920º para **806º** (📈 +114 posições)
 - **Contigo Maria** (Athenas): Subiu de 682º para **569º** (📈 +113 posições)
 - **Somebody To Love** (Queen): Subiu de 988º para **877º** (📈 +111 posições)
