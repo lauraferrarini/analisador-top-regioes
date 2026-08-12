@@ -794,7 +794,7 @@
 - **Love Me Not** (Ravyn Lenae) - Apareceu direto na posição **780º**
 - **Incomprensible Amor** (New Wine) - Apareceu direto na posição **781º**
 - **Chandelier** (Sia) - Apareceu direto na posição **782º**
-- **Bonnie & Clyde (feat. Beyoncé)** (JAY-Z) - Apareceu direto na posição **783º**
+- **03' Bonnie & Clyde (feat. Beyoncé)** (JAY-Z) - Apareceu direto na posição **783º**
 - **Ven Devórame Otra Vez** (Lalo Rodríguez) - Apareceu direto na posição **784º**
 - **Rata de Dos Patas** (Paquita La Del Barrio) - Apareceu direto na posição **785º**
 - **Gimme Tha Power** (Molotov) - Apareceu direto na posição **786º**
@@ -946,7 +946,7 @@
 - **Será Porque Te Amo** (Ricchi e Poveri) - Apareceu direto na posição **932º**
 - **The Show Must Go On** (Queen) - Apareceu direto na posição **933º**
 - **(Everything I Do) I Do It For You** (Bryan Adams) - Apareceu direto na posição **934º**
-- **Oh yeah?** (Steve Lacy) - Apareceu direto na posição **935º**
+- **oh yeah?** (Steve Lacy) - Apareceu direto na posição **935º**
 - **M.A.I** (Milo j) - Apareceu direto na posição **936º**
 - **Derramo El Perfume (part. Averly Morillo)** (Montesanto) - Apareceu direto na posição **937º**
 - **Pablo & Silas** (Oasis Ministry) - Apareceu direto na posição **938º**
