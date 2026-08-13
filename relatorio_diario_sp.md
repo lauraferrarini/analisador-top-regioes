@@ -185,7 +185,7 @@
 - **If The World Was Ending (feat. Julia Michaels)** (JP Saxe): 972º → **940º** (+32)
 - **Océanos (Donde Mis Pies Pueden Fallar)** (Hillsong UNITED): 973º → **941º** (+32)
 - **Halo** (Beyoncé): 167º → **136º** (+31)
-- **RUBBERZ (feat. Shoreline Mafia & Purps)** (Fenix Flexin): 231º → **200º** (+31)
+- **RUBBERZ (feat. Purps On The Beat)** (Fenix Flexin): 231º → **200º** (+31)
 - **El Pollito Pío** (El Reino Infantil): 314º → **283º** (+31)
 - **How To Save a Life** (The Fray): 321º → **290º** (+31)
 - **I Love You, I'm Sorry** (Gracie Abrams): 336º → **305º** (+31)
