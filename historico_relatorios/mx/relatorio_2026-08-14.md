@@ -222,7 +222,6 @@
 - **Stay With Me** (Sam Smith): 392º → **375º** (+17)
 - **Te Regalo** (Ulices Chaidez): 399º → **382º** (+17)
 - **El Problema** (Ricardo Arjona): 468º → **451º** (+17)
-- **En totalidad a ti** (Alex Campos): 489º → **472º** (+17)
 - **Las Mañanitas** (Cepillín): 490º → **473º** (+17)
 - **Mi Amigo** (Los Cadetes de Linares): 500º → **483º** (+17)
 - **Ondeado V2 (part. Tony Sucesión M)** (El Makabelico (El Comando Exclusivo)): 701º → **684º** (+17)
@@ -466,6 +465,7 @@
 - **I'm Still Standing** (Elton John): 939º → **936º** (+3)
 
 ## 🚀 Novas Entradas no Top
+- **En Totalidad a Ti** (Vino Nuevo) - Apareceu direto na posição **472º**
 - **Need You Now** (Lady A) - Apareceu direto na posição **886º**
 - **Mi Reflejo** (Mulan) - Apareceu direto na posição **917º**
 - **Pure** (SIENNA SPIRO) - Apareceu direto na posição **927º**
