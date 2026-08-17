@@ -49,7 +49,10 @@ def extrair_musicas(url, cookies):
         href = tag_a['href'] if tag_a and tag_a.has_attr('href') else ""
         link_absoluto = urljoin(url, href) if href else ""
         
-        chave = f"{nome} - {artista}"
+        # ⚡ ID ESTÁVEL: usa o link (que não muda) como chave, evitando duplicar o item
+        # quando o título/artista é reescrito no site. Cai no formato antigo só se não
+        # houver link disponível.
+        chave = link_absoluto if link_absoluto else f"{nome} - {artista}"
         musicas_atuais[chave] = {
             "posicao": rank,
             "nome": nome,
@@ -89,14 +92,25 @@ def atualizar_dados_dashboard(regiao):
             dados_dia = json.load(f)
             
         for chave, info in dados_dia.items():
-            if chave not in historico_global:
-                historico_global[chave] = {}
-            
-            # Atualiza e preserva a URL válida (não vazia) no histórico do Dashboard
+            # ⚡ AGRUPA PELO LINK, NÃO PELO NOME: arquivos antigos ainda usam "Título - Artista"
+            # como chave, mas o campo "url" dentro do item é o mesmo de sempre. Usar a URL
+            # como identificador (com fallback pra chave antiga se não houver URL) faz o
+            # histórico de uma mesma música se manter unificado mesmo quando o título/artista
+            # muda de um dia para o outro.
+            chave_efetiva = info.get("url") or chave
+
+            if chave_efetiva not in historico_global:
+                historico_global[chave_efetiva] = {}
+
+            # Atualiza e preserva a URL válida (não vazia), além do nome/artista mais recentes
             if info.get("url"):
-                historico_global[chave]["url"] = info["url"]
-                
-            historico_global[chave][data_str] = info["posicao"]
+                historico_global[chave_efetiva]["url"] = info["url"]
+            if info.get("nome"):
+                historico_global[chave_efetiva]["nome"] = info["nome"]
+            if info.get("artista"):
+                historico_global[chave_efetiva]["artista"] = info["artista"]
+
+            historico_global[chave_efetiva][data_str] = info["posicao"]
             
     dados_finais = {
         "datas": todas_datas,
