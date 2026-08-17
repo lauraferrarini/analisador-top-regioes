@@ -6,7 +6,7 @@ import glob
 import sys
 import traceback
 from datetime import datetime
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 # Configurações Gerais
 PASTA_DADOS = "historico_dados"
@@ -48,11 +48,18 @@ def extrair_musicas(url, cookies):
         # Captura o link relativo e transforma em URL absoluta funcional
         href = tag_a['href'] if tag_a and tag_a.has_attr('href') else ""
         link_absoluto = urljoin(url, href) if href else ""
-        
-        # ⚡ ID ESTÁVEL: usa o link (que não muda) como chave, evitando duplicar o item
-        # quando o título/artista é reescrito no site. Cai no formato antigo só se não
-        # houver link disponível.
-        chave = link_absoluto if link_absoluto else f"{nome} - {artista}"
+
+        # ⚡ ID ESTÁVEL: usa só o CAMINHO do link (sem domínio) como chave, e não
+        # a URL inteira. O Brasil usa letras.mus.br e as outras 5 regiões usam
+        # letras.com, mas pra mesma música o caminho é idêntico nos dois
+        # domínios (ex.: /radiohead/63485/) — é a mesma numeração/slug do
+        # catálogo. Usando só o caminho, uma música que aparece em várias
+        # regiões cai na MESMA chave em todas elas, o que é o que permite o
+        # cruzamento entre regiões (“Também aparece em”) no index.html
+        # encontrar o Brasil também, sem precisar de nenhuma lógica extra lá.
+        # Cai no formato antigo (Nome - Artista) só se não houver link.
+        caminho = urlparse(link_absoluto).path if link_absoluto else ""
+        chave = caminho if caminho else f"{nome} - {artista}"
         musicas_atuais[chave] = {
             "posicao": rank,
             "nome": nome,
@@ -77,46 +84,88 @@ def buscar_dados_anteriores(regiao):
                 return json.load(f)
     return {}
 
+def _texto_identidade(info):
+    """Par (nome, artista) normalizado — usado como identidade alternativa
+    quando não há URL (ex.: captura manual colada sem o link)."""
+    return (
+        (info.get("nome") or "").strip().casefold(),
+        (info.get("artista") or "").strip().casefold()
+    )
+
+def _caminho_identidade(info):
+    """Caminho da URL (sem domínio) — extraído sempre do campo 'url', não da
+    chave do dia — usado como identidade principal entre dias e regiões.
+    Isso é o que faz o cruzamento entre regiões funcionar (Brasil usa
+    letras.mus.br, as outras 5 usam letras.com, mas o caminho é igual pra
+    mesma música) e também une o histórico de uma região quando o próprio
+    site trocou de domínio no meio do caminho pra ela (aconteceu com
+    ar/co/sp/es/mx por volta de 07/2026: passaram de letras.mus.br pra
+    letras.com nos links, mesma música, mesmo caminho, domínio diferente)."""
+    url = info.get("url") or ""
+    return urlparse(url).path if url else ""
+
 def atualizar_dados_dashboard(regiao):
     pasta_regiao = os.path.join(PASTA_DADOS, regiao)
     arquivos = sorted(glob.glob(os.path.join(pasta_regiao, "dados_*.json")))
     historico_global = {}
     todas_datas = []
-    
+
+    # Índices vivos, atualizados dia a dia, que ligam uma música à sua "bucket"
+    # (chave definitiva dentro de historico_global) — pelo CAMINHO da URL (sem
+    # domínio) e por texto (nome+artista). Usar o caminho em vez da URL
+    # inteira é o que une o histórico mesmo quando o domínio muda com o tempo
+    # (ex.: ar/co/sp/es/mx passaram a receber links letras.com em vez de
+    # letras.mus.br a partir de certa altura) e é também o que faz essa
+    # música bater com a mesma música salva no dashboard de outra região.
+    # O texto (nome+artista) continua como último recurso pra capturas
+    # manuais sem link (gerador_json.py) ou pro formato bem antigo.
+    caminho_para_bucket = {}
+    texto_para_bucket = {}
+
     for arq in arquivos:
         nome_base = os.path.basename(arq)
         data_str = nome_base.replace("dados_", "").replace(".json", "")
         todas_datas.append(data_str)
-        
+
         with open(arq, 'r', encoding='utf-8') as f:
             dados_dia = json.load(f)
-            
-        for chave, info in dados_dia.items():
-            # ⚡ AGRUPA PELO LINK, NÃO PELO NOME: arquivos antigos ainda usam "Título - Artista"
-            # como chave, mas o campo "url" dentro do item é o mesmo de sempre. Usar a URL
-            # como identificador (com fallback pra chave antiga se não houver URL) faz o
-            # histórico de uma mesma música se manter unificado mesmo quando o título/artista
-            # muda de um dia para o outro.
-            chave_efetiva = info.get("url") or chave
 
-            if chave_efetiva not in historico_global:
-                historico_global[chave_efetiva] = {}
+        for chave, info in dados_dia.items():
+            caminho_info = _caminho_identidade(info)
+            texto_info = _texto_identidade(info)
+
+            if caminho_info and caminho_info in caminho_para_bucket:
+                bucket = caminho_para_bucket[caminho_info]
+            elif texto_info in texto_para_bucket:
+                bucket = texto_para_bucket[texto_info]
+            else:
+                # Bucket novo: prioriza o caminho como chave definitiva quando
+                # existe; cai para a própria chave do dia (formato antigo/manual)
+                # se não houver URL.
+                bucket = caminho_info or chave
+
+            if caminho_info:
+                caminho_para_bucket[caminho_info] = bucket
+            texto_para_bucket[texto_info] = bucket
+
+            if bucket not in historico_global:
+                historico_global[bucket] = {}
 
             # Atualiza e preserva a URL válida (não vazia), além do nome/artista mais recentes
             if info.get("url"):
-                historico_global[chave_efetiva]["url"] = info["url"]
+                historico_global[bucket]["url"] = info["url"]
             if info.get("nome"):
-                historico_global[chave_efetiva]["nome"] = info["nome"]
+                historico_global[bucket]["nome"] = info["nome"]
             if info.get("artista"):
-                historico_global[chave_efetiva]["artista"] = info["artista"]
+                historico_global[bucket]["artista"] = info["artista"]
 
-            historico_global[chave_efetiva][data_str] = info["posicao"]
-            
+            historico_global[bucket][data_str] = info["posicao"]
+
     dados_finais = {
         "datas": todas_datas,
         "musicas": historico_global
     }
-    
+
     with open(f"dados_dashboard_{regiao}.json", "w", encoding="utf-8") as f:
         json.dump(dados_finais, f, ensure_ascii=False, indent=4)
 
@@ -154,15 +203,43 @@ def processar_regiao(regiao, config):
             if i > 10: break
             conteudo_md += f"{i}º. **{m['nome']}** — *{m['artista']}*\n"
     else:
+        # Índices de apoio pra achar a versão de "ontem" de cada música mesmo
+        # quando o formato da chave difere entre os dois dias (ex.: ontem foi
+        # uma captura manual sem link — chave "Nome - Artista" — e hoje o
+        # robô trouxe a URL real, ou vice-versa; ou o domínio da URL mudou de
+        # um dia pro outro). Sem isso, toda música de um dia com identidade
+        # diferente do anterior aparece como "nova entrada" em vez de
+        # calcular a diferença de posição de verdade.
+        anteriores_por_caminho = {}
+        for info in anteriores.values():
+            caminho = _caminho_identidade(info)
+            if caminho:
+                anteriores_por_caminho.setdefault(caminho, info)
+        anteriores_por_texto = {}
+        for info in anteriores.values():
+            texto = _texto_identidade(info)
+            anteriores_por_texto.setdefault(texto, info)
+
         for chave, dados_atuais in atuais.items():
             pos_atual = dados_atuais['posicao']
-            
-            if chave not in anteriores:
+            caminho_atual = _caminho_identidade(dados_atuais)
+            texto_atual = _texto_identidade(dados_atuais)
+
+            if chave in anteriores:
+                info_anterior = anteriores[chave]
+            elif caminho_atual and caminho_atual in anteriores_por_caminho:
+                info_anterior = anteriores_por_caminho[caminho_atual]
+            elif texto_atual in anteriores_por_texto:
+                info_anterior = anteriores_por_texto[texto_atual]
+            else:
+                info_anterior = None
+
+            if info_anterior is None:
                 novas_entradas.append(dados_atuais)
             else:
-                pos_anterior = anteriores[chave]['posicao']
-                diferenca = pos_anterior - pos_atual 
-                
+                pos_anterior = info_anterior['posicao']
+                diferenca = pos_anterior - pos_atual
+
                 dados_item = {
                     "dados": dados_atuais,
                     "pos_anterior": pos_anterior,
