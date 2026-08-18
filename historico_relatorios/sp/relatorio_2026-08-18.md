@@ -79,7 +79,6 @@
 - **Save Your Tears** (The Weeknd): 824º → **762º** (+62)
 - **Money For Nothing** (Dire Straits): 985º → **923º** (+62)
 - **Freed From Desire** (GALA): 383º → **324º** (+59)
-- **One Beat Away** (Camp Rock): 242º → **185º** (+57)
 - **Madrid (part. Lola Flores)** (Agustín Lara): 679º → **622º** (+57)
 - **Te Estoy Correteando (part. LATIN MAFIA)** (Fred again..): 350º → **294º** (+56)
 - **Wrecking Ball** (Miley Cyrus): 359º → **303º** (+56)
@@ -224,7 +223,7 @@
 - **Paparazzi** (Lady Gaga): 534º → **512º** (+22)
 - **When We Were Young** (Adele): 538º → **516º** (+22)
 - **Ain't In LA** (ADÉLA): 641º → **619º** (+22)
-- **Seven (feat. Latto) (Explicit Version)** (Jung Kook): 651º → **629º** (+22)
+- **Seven (feat. Latto) (Explicit Version)** (Jung Kook ): 651º → **629º** (+22)
 - **The Door** (Teddy Swims): 652º → **630º** (+22)
 - **She's A Rainbow** (The Rolling Stones): 788º → **766º** (+22)
 - **The Show Must Go On** (Queen): 829º → **807º** (+22)
@@ -445,6 +444,7 @@
 - **Holiday** (Green Day): 895º → **892º** (+3)
 
 ## 🚀 Novas Entradas no Top
+- **One Beat Away** (Camp Rock 3) - Apareceu direto na posição **185º**
 - **Play It My Way** (Camp Rock 3) - Apareceu direto na posição **550º**
 - **Smack That (feat. Eminem)** (Akon) - Apareceu direto na posição **838º**
 - **La bohème** (Charles Aznavour) - Apareceu direto na posição **858º**

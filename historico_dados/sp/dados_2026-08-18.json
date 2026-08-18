@@ -686,7 +686,7 @@
     "/la-la-land/city-of-stars/": {
         "posicao": 115,
         "nome": "City Of Stars",
-        "artista": "La La Land",
+        "artista": "La La Land ",
         "url": "https://www.letras.com/la-la-land/city-of-stars/"
     },
     "/the-eagles/63266/": {
@@ -1103,11 +1103,11 @@
         "artista": "Bad Bunny",
         "url": "https://www.letras.com/bad-bunny/cafe-con-ron-part-los-pleneros-de-la-cresta/"
     },
-    "/camp-rock/one-beat-away-from-camp-rock-3/": {
+    "/camp-rock-3/one-beat-away-from-camp-rock-3/": {
         "posicao": 185,
         "nome": "One Beat Away",
-        "artista": "Camp Rock",
-        "url": "https://www.letras.com/camp-rock/one-beat-away-from-camp-rock-3/"
+        "artista": "Camp Rock 3",
+        "url": "https://www.letras.com/camp-rock-3/one-beat-away-from-camp-rock-3/"
     },
     "/arctic-monkeys/i-wanna-be-yours/": {
         "posicao": 186,
@@ -1562,7 +1562,7 @@
     "/stayinfaith/la-bondad-de-dios/": {
         "posicao": 261,
         "nome": "La Bondad de Dios",
-        "artista": "StayInFaith",
+        "artista": " StayInFaith",
         "url": "https://www.letras.com/stayinfaith/la-bondad-de-dios/"
     },
     "/akon/98337/": {
@@ -3770,7 +3770,7 @@
     "/jungkook/seven-feat-latto-explicit-version/": {
         "posicao": 629,
         "nome": "Seven (feat. Latto) (Explicit Version)",
-        "artista": "Jung Kook",
+        "artista": "Jung Kook ",
         "url": "https://www.letras.com/jungkook/seven-feat-latto-explicit-version/"
     },
     "/teddy-swims/the-door/": {
@@ -4652,7 +4652,7 @@
     "/ateez/bad/": {
         "posicao": 776,
         "nome": "BAD",
-        "artista": "ATEEZ",
+        "artista": "ATEEZ ",
         "url": "https://www.letras.com/ateez/bad/"
     },
     "/ryan-castro/mentira-part-feid/": {

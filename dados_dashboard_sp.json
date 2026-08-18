@@ -17065,7 +17065,7 @@
         "/stayinfaith/la-bondad-de-dios/": {
             "url": "https://www.letras.com/stayinfaith/la-bondad-de-dios/",
             "nome": "La Bondad de Dios",
-            "artista": "StayInFaith",
+            "artista": " StayInFaith",
             "2026-01-01": 100,
             "2026-01-02": 113,
             "2026-01-03": 130,
@@ -28059,7 +28059,7 @@
         "/la-la-land/city-of-stars/": {
             "url": "https://www.letras.com/la-la-land/city-of-stars/",
             "nome": "City Of Stars",
-            "artista": "La La Land",
+            "artista": "La La Land ",
             "2026-01-01": 163,
             "2026-01-02": 192,
             "2026-01-03": 203,
@@ -179410,7 +179410,7 @@
         "/jungkook/seven-feat-latto-explicit-version/": {
             "url": "https://www.letras.com/jungkook/seven-feat-latto-explicit-version/",
             "nome": "Seven (feat. Latto) (Explicit Version)",
-            "artista": "Jung Kook",
+            "artista": "Jung Kook ",
             "2026-01-26": 848,
             "2026-01-27": 765,
             "2026-01-28": 601,
@@ -243489,7 +243489,7 @@
         },
         "BAD - ATEEZ": {
             "nome": "BAD",
-            "artista": "ATEEZ",
+            "artista": "ATEEZ ",
             "2026-06-30": 736,
             "2026-07-01": 736,
             "url": "https://www.letras.com/ateez/bad/",
@@ -250624,8 +250624,7 @@
             "artista": "Camp Rock",
             "2026-08-15": 570,
             "2026-08-16": 570,
-            "2026-08-17": 242,
-            "2026-08-18": 185
+            "2026-08-17": 242
         },
         "/xoel-lopez/voa-himno-do-real-club-deportivo-da-coruna/": {
             "url": "https://www.letras.com/xoel-lopez/voa-himno-do-real-club-deportivo-da-coruna/",
@@ -250770,6 +250769,12 @@
             "artista": "Frankie Goes To Hollywood",
             "2026-08-17": 996,
             "2026-08-18": 982
+        },
+        "/camp-rock-3/one-beat-away-from-camp-rock-3/": {
+            "url": "https://www.letras.com/camp-rock-3/one-beat-away-from-camp-rock-3/",
+            "nome": "One Beat Away",
+            "artista": "Camp Rock 3",
+            "2026-08-18": 185
         },
         "/camp-rock-3/play-it-my-way/": {
             "url": "https://www.letras.com/camp-rock-3/play-it-my-way/",
