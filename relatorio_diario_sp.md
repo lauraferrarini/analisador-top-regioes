@@ -223,7 +223,7 @@
 - **Paparazzi** (Lady Gaga): 534º → **512º** (+22)
 - **When We Were Young** (Adele): 538º → **516º** (+22)
 - **Ain't In LA** (ADÉLA): 641º → **619º** (+22)
-- **Seven (feat. Latto) (Explicit Version)** (Jung Kook ): 651º → **629º** (+22)
+- **Seven (feat. Latto) (Explicit Version)** (Jung Kook): 651º → **629º** (+22)
 - **The Door** (Teddy Swims): 652º → **630º** (+22)
 - **She's A Rainbow** (The Rolling Stones): 788º → **766º** (+22)
 - **The Show Must Go On** (Queen): 829º → **807º** (+22)
