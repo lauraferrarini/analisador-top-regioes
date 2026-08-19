@@ -1,9 +1,9 @@
 import requests
+from bs4 import BeautifulSoup
 import json
 import os
 import glob
 import sys
-import time
 import traceback
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
@@ -11,72 +11,43 @@ from urllib.parse import urljoin, urlparse
 # Configurações Gerais
 PASTA_DADOS = "historico_dados"
 PASTA_RELATORIOS = "historico_relatorios"
-MARGEM_OSCILACAO = 2
+MARGEM_OSCILACAO = 2 
 
-# Endpoint oficial da API que alimenta o "mais acessadas" — usado no lugar do
-# scraping de HTML (que quebrava toda vez que a estrutura da página mudava).
-# A região é escolhida pelo header X-Region-SID, não pela URL/cookie como
-# antes; os valores abaixo foram confirmados manualmente via navegador
-# (ModHeader), batendo 1000 músicas em cada uma das 6 regiões.
-API_URL = "https://api.letras.mus.br/v3/top/songs/?json=1"
-
-# Mapeamento de Regiões: nome de exibição, código enviado no header
-# X-Region-SID da API, e o domínio "canônico" usado para montar a URL
-# absoluta de cada música (o Brasil usa letras.mus.br, as outras 5 usam
-# letras.com — mas o CAMINHO da música é idêntico nos dois domínios).
+# Mapeamento de Regiões, URLs e seus respectivos Cookies de controle
 REGIOES = {
-    "br": {"nome": "Brasil", "api_regiao": "pt", "dominio": "https://www.letras.mus.br/"},
-    "ar": {"nome": "Argentina", "api_regiao": "ar", "dominio": "https://www.letras.com/"},
-    "co": {"nome": "Colômbia", "api_regiao": "co", "dominio": "https://www.letras.com/"},
-    "sp": {"nome": "Espanha", "api_regiao": "sp", "dominio": "https://www.letras.com/"},
-    "es": {"nome": "Hispanoamérica", "api_regiao": "es", "dominio": "https://www.letras.com/"},
-    "mx": {"nome": "México", "api_regiao": "mx", "dominio": "https://www.letras.com/"}
+    "br": {"nome": "Brasil", "url": "https://www.letras.mus.br/mais-acessadas/", "cookies": {}},
+    "ar": {"nome": "Argentina", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "ar"}},
+    "co": {"nome": "Colômbia", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "co"}},
+    "sp": {"nome": "Espanha", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "sp"}},
+    "es": {"nome": "Hispanoamérica", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "es"}},
+    "mx": {"nome": "México", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "mx"}}
 }
 
-def extrair_musicas(api_regiao, dominio, tentativas=3, espera_entre_tentativas=8):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-        'X-Region-SID': api_regiao
-    }
-
-    # ⚡ RETRY CONTRA LIMITE DE TAXA: quando as 6 regiões são chamadas em
-    # sequência rápida, a API às vezes devolve HTTP 200 só que com "list"
-    # vazia pra última(s) região(ões) da fila — sintoma de rate limit, não
-    # de erro real (não levanta exceção nenhuma, só volta sem música). Se a
-    # lista vier vazia, espera um pouco e tenta de novo antes de desistir.
-    lista = []
-    for tentativa in range(1, tentativas + 1):
-        response = requests.get(API_URL, headers=headers, timeout=15)
-        response.raise_for_status()
-
-        dados = response.json()
-        lista = dados.get('list', [])
-
-        if lista:
-            break
-
-        if tentativa < tentativas:
-            print(
-                f"   ⏳ API devolveu lista vazia pra '{api_regiao}' "
-                f"(tentativa {tentativa}/{tentativas}) — possível limite de taxa. "
-                f"Aguardando {espera_entre_tentativas}s antes de tentar de novo..."
-            )
-            time.sleep(espera_entre_tentativas)
-
+def extrair_musicas(url, cookies):
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    response = requests.get(url, headers=headers, cookies=cookies, timeout=15)
+    response.raise_for_status()
+    
+    soup = BeautifulSoup(response.text, 'html.parser')
     musicas_atuais = {}
-    for rank, item in enumerate(lista, start=1):
-        nome = item.get('name') or "Desconhecido"
-        artista_info = item.get('artist') or {}
-        artista = artista_info.get('name') or "Desconhecido"
-        dns_artista = artista_info.get('dns') or ""
-        slug_musica = item.get('url') or ""
-
-        # Reconstrói o caminho relativo no MESMO formato que o scraping de
-        # HTML produzia (ex.: "/radiohead/63485/"), pra manter compatível
-        # tanto o histórico já salvo quanto a lógica de identidade entre
-        # regiões (_caminho_identidade), sem precisar mexer em mais nada.
-        caminho = f"/{dns_artista}/{slug_musica}/" if dns_artista and slug_musica else ""
-        link_absoluto = urljoin(dominio, caminho.lstrip("/")) if caminho else ""
+    lista_top = soup.find('ol', class_='top-list_mus')
+    
+    if not lista_top:
+        return musicas_atuais
+        
+    itens = lista_top.find_all('li')
+    for rank, item in enumerate(itens, start=1):
+        tag_nome = item.find('b')
+        tag_artista = item.find('span')
+        # Busca direta pela tag <a> ou pelo elemento pai da tag <b> caso esteja aninhado
+        tag_a = item.find('a') or (tag_nome.find_parent('a') if tag_nome else None)
+        
+        nome = tag_nome.text.strip() if tag_nome else "Desconhecido"
+        artista = tag_artista.text.strip() if tag_artista else "Desconhecido"
+        
+        # Captura o link relativo e transforma em URL absoluta funcional
+        href = tag_a['href'] if tag_a and tag_a.has_attr('href') else ""
+        link_absoluto = urljoin(url, href) if href else ""
 
         # ⚡ ID ESTÁVEL: usa só o CAMINHO do link (sem domínio) como chave, e não
         # a URL inteira. O Brasil usa letras.mus.br e as outras 5 regiões usam
@@ -87,6 +58,7 @@ def extrair_musicas(api_regiao, dominio, tentativas=3, espera_entre_tentativas=8
         # cruzamento entre regiões (“Também aparece em”) no index.html
         # encontrar o Brasil também, sem precisar de nenhuma lógica extra lá.
         # Cai no formato antigo (Nome - Artista) só se não houver link.
+        caminho = urlparse(link_absoluto).path if link_absoluto else ""
         chave = caminho if caminho else f"{nome} - {artista}"
         musicas_atuais[chave] = {
             "posicao": rank,
@@ -94,7 +66,7 @@ def extrair_musicas(api_regiao, dominio, tentativas=3, espera_entre_tentativas=8
             "artista": artista,
             "url": link_absoluto
         }
-
+            
     return musicas_atuais
 
 def buscar_dados_anteriores(regiao):
@@ -206,9 +178,9 @@ def processar_regiao(regiao, config):
     os.makedirs(pasta_dados_regiao, exist_ok=True)
     os.makedirs(pasta_relatorios_regiao, exist_ok=True)
     
-    atuais = extrair_musicas(config['api_regiao'], config['dominio'])
+    atuais = extrair_musicas(config['url'], config['cookies'])
     if not atuais:
-        print(f"⚠️ Alerta: Nenhuma música coletada para {config['nome']}. API mudou ou bloqueio.")
+        print(f"⚠️ Alerta: Nenhuma música coletada para {config['nome']}. Estrutura mudou ou bloqueio.")
         return False
         
     anteriores = buscar_dados_anteriores(regiao)
@@ -248,8 +220,6 @@ def processar_regiao(regiao, config):
             texto = _texto_identidade(info)
             anteriores_por_texto.setdefault(texto, info)
 
-        total_com_mudanca = 0
-
         for chave, dados_atuais in atuais.items():
             pos_atual = dados_atuais['posicao']
             caminho_atual = _caminho_identidade(dados_atuais)
@@ -270,9 +240,6 @@ def processar_regiao(regiao, config):
                 pos_anterior = info_anterior['posicao']
                 diferenca = pos_anterior - pos_atual
 
-                if diferenca != 0:
-                    total_com_mudanca += 1
-
                 dados_item = {
                     "dados": dados_atuais,
                     "pos_anterior": pos_anterior,
@@ -288,21 +255,6 @@ def processar_regiao(regiao, config):
                     subidas_moderadas.append(dados_item)
                 elif diferenca > MARGEM_OSCILACAO:
                     pequenas_subidas.append(dados_item)
-
-        # ⚡ GUARDA CONTRA CACHE/BUG DO SITE: se NENHUMA música mudou de posição
-        # em relação a ontem e apareceu no máximo 1 entrada nova, isso não é um
-        # dia real "parado" — é o sintoma do bug de cache/CDN do site de
-        # origem devolvendo a mesma resposta de ontem pro robô. Nesse caso não
-        # salva nada hoje (nem o JSON bruto, nem os relatórios): assim
-        # "buscar_dados_anteriores" continua enxergando o último dia bom de
-        # verdade, em vez de gravar por cima com um dado provavelmente velho.
-        if total_com_mudanca == 0 and len(novas_entradas) <= 1:
-            print(
-                f"⚠️ Suspeita de cache/bug do site para {config['nome']}: "
-                f"0 músicas mudaram de posição e {len(novas_entradas)} entrada(s) nova(s) hoje. "
-                f"Dados NÃO salvos — rode de novo mais tarde para tentar pegar dados reais."
-            )
-            return "ZERADO"
 
         subidas_absurdas.sort(key=lambda x: x['posicoes_ganhas'], reverse=True)
         grandes_saltos.sort(key=lambda x: x['posicoes_ganhas'], reverse=True)
@@ -375,33 +327,19 @@ if __name__ == "__main__":
         print(f"🚀 Iniciando módulo de análise para o alvo: {alvo.upper()}")
 
         sucesso_geral = True
-        for indice, regiao in enumerate(regioes_para_processar):
+        for regiao in regioes_para_processar:
             config = REGIOES[regiao]
             try:
-                resultado = processar_regiao(regiao, config)
-                if resultado is True:
+                if processar_regiao(regiao, config):
                     atualizar_dados_dashboard(regiao)
                     print(f"✅ Região {regiao.upper()} processada com sucesso.\n")
-                elif resultado == "ZERADO":
-                    # Não é uma falha do robô — é o site tendo devolvido dado
-                    # repetido/suspeito. Não conta como erro pra não disparar
-                    # alarme falso, mas fica registrado no log pra rodar de
-                    # novo depois.
-                    print(f"⏭️ Região {regiao.upper()} pulada hoje (dados suspeitos de cache). Rode de novo mais tarde.\n")
                 else:
                     sucesso_geral = False
             except Exception as e:
                 print(f"\n💥 Erro ao processar a região {regiao.upper()}:")
                 traceback.print_exc()
                 sucesso_geral = False
-
-            # ⚡ PAUSA ENTRE REGIÕES: sem isso, as 6 chamadas saem coladas uma
-            # na outra e a API pode limitar a taxa, devolvendo lista vazia pra
-            # última(s) região(ões) da fila (foi o caso do México). Uma pausa
-            # curta entre cada região reduz a chance de bater nesse limite.
-            if indice < len(regioes_para_processar) - 1:
-                time.sleep(5)
-
+        
         if sucesso_geral:
             print(f"🚀 Módulo executado com sucesso total para as regiões ({alvo.upper()})!")
         else:
