@@ -319,7 +319,7 @@
 - **Canción Del Mariachi (part. Los Lobos)** (Antonio Banderas): 717º → **705º** (+12)
 - **Teenage Dirtbag** (Wheatus): 915º → **903º** (+12)
 - **Contigo Aprendí** (Armando Manzanero): 228º → **217º** (+11)
-- **La Bondad de Dios** ( StayInFaith): 261º → **250º** (+11)
+- **La Bondad de Dios** (StayInFaith): 261º → **250º** (+11)
 - **Orbiter** (Noah Kahan): 267º → **256º** (+11)
 - **Sweet Dreams (Are Made Of This)** (Eurythmics): 276º → **265º** (+11)
 - **Young And Beautiful** (Lana Del Rey): 344º → **333º** (+11)

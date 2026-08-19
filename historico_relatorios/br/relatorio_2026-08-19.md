@@ -291,7 +291,7 @@
 - **Pai Nosso (Our Father)** (Pedras Vivas): 307º → **300º** (+7)
 - **Fale Com Jesus** (Shirley Carvalhaes): 345º → **338º** (+7)
 - **Lugar Secreto** (Gabriela Rocha): 364º → **357º** (+7)
-- **Seven (feat. Latto) (Explicit Version)** (Jung Kook ): 391º → **384º** (+7)
+- **Seven (feat. Latto) (Explicit Version)** (Jung Kook): 391º → **384º** (+7)
 - **Beautiful Girls** (Sean Kingston): 402º → **395º** (+7)
 - **Avante Eu Vou - 310** (Harpa Cristã): 518º → **511º** (+7)
 - **Vitória no Deserto** (Aline Barros): 527º → **520º** (+7)
