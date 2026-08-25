@@ -220,7 +220,7 @@
 - **Kiss It Better** (Rihanna): 994º → **970º** (+24)
 - **A Quién Le Importa** (Alaska y Dinarama): 405º → **382º** (+23)
 - **La Vie En Rose** (Édith Piaf): 409º → **386º** (+23)
-- **Blanca vs Elsa** (Cuentame Tu Helen&pri): 425º → **402º** (+23)
+- **Rap Elsa vs Blancanieves** (Cuentame Tu Helen&pri): 425º → **402º** (+23)
 - **maggots for brains** (Olivia Rodrigo): 455º → **432º** (+23)
 - **Mirrors** (Justin Timberlake): 206º → **184º** (+22)
 - **Take On Me** (a-ha): 257º → **235º** (+22)

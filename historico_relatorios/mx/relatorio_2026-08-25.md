@@ -35,7 +35,7 @@
 - **The First Time** (Damiano David): 864º → **794º** (+70)
 - **Constant Companion** (Sam Smith): 443º → **374º** (+69)
 - **Llévala a La Luna** (Julión Álvarez y Su Norteño Banda): 706º → **637º** (+69)
-- **Blanca vs Elsa** (Cuentame Tu Helen&pri): 730º → **661º** (+69)
+- **Rap Elsa vs Blancanieves** (Cuentame Tu Helen&pri): 730º → **661º** (+69)
 - **Lover, You Should've Come Over** (Jeff Buckley): 861º → **792º** (+69)
 - **Amor** (Emmanuel Cortes): 819º → **751º** (+68)
 - **Pa' Él (part. TINI)** (Los Ángeles Azules): 177º → **110º** (+67)
