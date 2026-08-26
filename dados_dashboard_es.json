@@ -120689,8 +120689,7 @@
             "2026-08-22": 883,
             "2026-08-23": 875,
             "2026-08-24": 929,
-            "2026-08-25": 948,
-            "2026-08-26": 905
+            "2026-08-25": 948
         },
         "/bose-miguel/5278/": {
             "url": "https://www.letras.com/bose-miguel/5278/",
@@ -256794,6 +256793,12 @@
             "nome": "00:00 (Zero O’Clock)",
             "artista": "BTS",
             "2026-08-26": 892
+        },
+        "/vox-dei-guatemala/en-la-cruz/": {
+            "url": "https://www.letras.com/vox-dei-guatemala/en-la-cruz/",
+            "nome": "En La Cruz",
+            "artista": "Vox Dei (Guatemala)",
+            "2026-08-26": 905
         },
         "/bangtan-boys/outro-tear/": {
             "url": "https://www.letras.com/bangtan-boys/outro-tear/",

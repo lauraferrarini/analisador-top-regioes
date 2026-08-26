@@ -409,6 +409,7 @@
 - **Exáltate** (Marcos Witt): 831º → **828º** (+3)
 
 ## 🚀 Novas Entradas no Top
+- **En La Cruz** (Vox Dei (Guatemala)) - Apareceu direto na posição **240º**
 - **serena joy** (Olivia Rodrigo) - Apareceu direto na posição **327º**
 - **Butterflies** (Mac Miller) - Apareceu direto na posição **537º**
 - **Bloody Mary** (Lady Gaga) - Apareceu direto na posição **598º**

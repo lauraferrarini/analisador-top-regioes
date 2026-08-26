@@ -66,7 +66,6 @@
 - **L a k e n o s h i** (Omar Courtz): 384º → **341º** (+43)
 - **Incomprensible Amor** (New Wine): 869º → **826º** (+43)
 - **Somos el Pueblo de Dios** (Marcos Witt): 917º → **874º** (+43)
-- **En La Cruz** (Vox Dei): 948º → **905º** (+43)
 - **The Nights** (Avicii): 588º → **546º** (+42)
 - **Mary Es Mi Amor** (Leo Dan): 729º → **687º** (+42)
 - **DAISIES** (Justin Bieber): 768º → **726º** (+42)
@@ -404,6 +403,7 @@
 - **Butterflies** (Mac Miller) - Apareceu direto na posição **741º**
 - **Inside My Soul** (SK.music) - Apareceu direto na posição **879º**
 - **00:00 (Zero O’Clock)** (BTS) - Apareceu direto na posição **892º**
+- **En La Cruz** (Vox Dei (Guatemala)) - Apareceu direto na posição **905º**
 - **Outro: Tear** (BTS) - Apareceu direto na posição **929º**
 - **Cuéntame** (Pedro Suárez-Vértiz) - Apareceu direto na posição **933º**
 - **I Miss You** (blink-182) - Apareceu direto na posição **952º**

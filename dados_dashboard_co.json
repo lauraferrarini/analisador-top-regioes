@@ -96160,8 +96160,7 @@
             "2026-08-22": 259,
             "2026-08-23": 270,
             "2026-08-24": 219,
-            "2026-08-25": 219,
-            "2026-08-26": 240
+            "2026-08-25": 219
         },
         "/los-50-de-joselito/1452944/": {
             "url": "https://www.letras.mus.br/los-50-de-joselito/1452944/",
@@ -256854,6 +256853,12 @@
             "artista": "El Caballero Gaucho",
             "2026-08-25": 996,
             "2026-08-26": 916
+        },
+        "/vox-dei-guatemala/en-la-cruz/": {
+            "url": "https://www.letras.com/vox-dei-guatemala/en-la-cruz/",
+            "nome": "En La Cruz",
+            "artista": "Vox Dei (Guatemala)",
+            "2026-08-26": 240
         },
         "/olivia-rodrigo/serena-joy/": {
             "url": "https://www.letras.com/olivia-rodrigo/serena-joy/",
