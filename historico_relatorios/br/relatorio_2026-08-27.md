@@ -7,7 +7,7 @@
 - **Rise Slow** (Kimo Sounds): Subiu de 753º para **604º** (📈 +149 posições)
 - **Bloody Paradise** (ENHYPEN): Subiu de 483º para **363º** (📈 +120 posições)
 - **Sexo, Violencia y Llantas** (ROSALÍA): Subiu de 514º para **399º** (📈 +115 posições)
-- **Não é Pressa é Pressão (part. Ana Castela e DJ Boss)** (Rincon): Subiu de 836º para **722º** (📈 +114 posições)
+- **Não é Pressa, é Pressão (part. Ana Castela e DJ BOSS)** (Rincon): Subiu de 836º para **722º** (📈 +114 posições)
 - **Dentro de Você (part. Kevin O Chris)** (Filipe Ret): Subiu de 825º para **716º** (📈 +109 posições)
 - **Pink Blush** (Dolly Babe): Subiu de 635º para **527º** (📈 +108 posições)
 
