@@ -281,7 +281,7 @@
 - **Enquanto Eu Te Adoro** (Flávio Vitor Jr.): 542º → **537º** (+5)
 - **Ninguém Explica Deus (part. Gabriela Rocha)** (Preto No Branco): 559º → **554º** (+5)
 - **Dias de Elias** (Lauriete): 584º → **579º** (+5)
-- **Yeshua** (José Jr): 656º → **651º** (+5)
+- **Yeshua** (José Jr.): 656º → **651º** (+5)
 - **Demons** (Imagine Dragons): 670º → **665º** (+5)
 - **Eu Te Devoro** (Djavan): 774º → **769º** (+5)
 - **One Time** (Justin Bieber): 786º → **781º** (+5)
