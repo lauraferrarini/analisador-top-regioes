@@ -4,7 +4,7 @@
 > ### 💥 **Cuando Yo Me Muera** — *La Guardia Imperial*
 > 🛑 **Subida histórica!** Saltou de 880º direto para **252º** (🔼 **+628** posições)
 
-> ### 💥 **Cha-cha Muchacha** — *Ruben Rada*
+> ### 💥 **Cha Cha, Muchacha** — *Ruben Rada*
 > 🛑 **Subida histórica!** Saltou de 626º direto para **95º** (🔼 **+531** posições)
 
 > ### 💥 **21 de Agosto** — *Ángela Torres*
