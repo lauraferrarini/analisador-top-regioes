@@ -412,7 +412,7 @@
 - **Te Bote (remix) (part. Casper, Darell, Nicky Jam, Bad Bunny y Ozuna)** (Nio García) - Apareceu direto na posição **949º**
 - **Dynamite** (BTS) - Apareceu direto na posição **950º**
 - **COQUETA (part. Fuerza Regida)** (Grupo Frontera) - Apareceu direto na posição **953º**
-- **Vou Tacar Na Peka Das Bebê (part. MC Kauan PV e DJ Yago)** (Coral das Quebradas) - Apareceu direto na posição **955º**
+- **Vou Tacar na Peka das Bebê (part. MC Kauan PV)** (Coral das Quebradas) - Apareceu direto na posição **955º**
 - **Stay For The Credits** (Malachi Barton) - Apareceu direto na posição **956º**
 - **Salvatore** (Lana Del Rey) - Apareceu direto na posição **966º**
 - **Stargirl Interlude (feat. Lana Del Rey)** (The Weeknd) - Apareceu direto na posição **967º**
