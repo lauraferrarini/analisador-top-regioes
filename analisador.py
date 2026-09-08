@@ -16,6 +16,7 @@ MARGEM_OSCILACAO = 2
 # Mapeamento de Regiões, URLs e seus respectivos Cookies de controle
 REGIOES = {
     "br": {"nome": "Brasil", "url": "https://www.letras.mus.br/mais-acessadas/", "cookies": {}},
+    "kr": {"nome": "Top Coreano", "url": "https://www.letras.mus.br/mais-acessadas/k-pop/", "cookies": {}},
     "ar": {"nome": "Argentina", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "ar"}},
     "co": {"nome": "Colômbia", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "co"}},
     "sp": {"nome": "Espanha", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "sp"}},
@@ -318,7 +319,7 @@ if __name__ == "__main__":
         alvo = sys.argv[1].lower() if len(sys.argv) > 1 else "all"
         
         if alvo == "br":
-            regioes_para_processar = ["br"]
+            regioes_para_processar = ["br", "kr"]
         elif alvo == "latam":
             regioes_para_processar = ["ar", "co", "sp", "es", "mx"]
         else:
