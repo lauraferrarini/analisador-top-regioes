@@ -81,11 +81,16 @@
 
         /* FILTROS POR CHECKBOX */
         .filter-checkbox-container {
-            background-color: #f9f9f9; 
-            padding: 12px 15px; 
+            background-color: #f9f9f9;
+            padding: 12px 15px;
             border-radius: 4px;
-            border: 1px solid var(--border-light); 
+            border: 1px solid var(--border-light);
             margin-bottom: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .filter-row {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
@@ -309,13 +314,6 @@
         <label class="filter-label"><input type="checkbox" id="chk-pequenas" onchange="aoClicarIndividual()"> 🌱 Pequenas Subidas</label>
         <label class="filter-label"><input type="checkbox" id="chk-novas" onchange="aoClicarIndividual()"> 🚀 Novas Entradas</label>
 
-        <div style="flex-basis: 100%; height: 0;"></div>
-
-        <span class="filter-title">Filtrar por Artista:</span>
-        <input type="text" id="filtro-artista-input" class="search-input" placeholder="Digite o nome do artista..." oninput="aplicarFiltrosNaTela()" style="width: 220px;">
-
-        <div style="flex-basis: 100%; height: 0;"></div>
-
         <span style="color: var(--border-light); margin: 0 2px;">|</span>
 
         <label class="filter-label" id="label-fds" style="font-weight: 600; color: var(--text-main);">
@@ -368,6 +366,11 @@
             <input type="text" id="musica-input" class="search-input" placeholder="Procurar outra faixa do histórico...">
             <div id="search-matches" class="search-matches-dropdown"></div>
         </div>
+    </div>
+
+    <div class="search-container">
+        <span style="font-weight: 600; color: var(--text-muted); text-transform: uppercase; font-size: 9px;">Filtrar por Artista:</span>
+        <input type="text" id="filtro-artista-input" class="search-input" placeholder="Digite o nome do artista..." oninput="aplicarFiltrosNaTela()">
     </div>
 
     <div class="table-container">
@@ -621,9 +624,7 @@
             tr.onclick = function(e) {
                 selecionarFaixa(item.id, this);
                 if (e.target.tagName === 'TD' || e.target.tagName === 'TR') {
-                    // ⚡ Rola até o topo do próprio gráfico (em vez do topo da página), pra ele
-                    // aparecer inteiro na tela mesmo com os filtros acima tendo crescido.
-                    document.querySelector('.chart-box').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
             };
 
