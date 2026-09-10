@@ -25,16 +25,29 @@ REGIOES = {
 }
 
 def extrair_musicas(url, cookies):
-    # User-Agent completo (igual um Chrome de verdade manda) + headers que
-    # navegadores sempre mandam. Um User-Agent incompleto (só
-    # "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", sem o resto) é, sozinho,
-    # um sinal forte de tráfego automatizado pra qualquer proteção anti-bot
-    # — foi provavelmente isso que fez o site passar a bloquear o robô.
+    # Tentativa 2 de disfarce: além do User-Agent completo, adiciona os
+    # headers "Sec-Fetch-*" e Referer que só navegadores de verdade mandam
+    # (o Python "requests" não manda nenhum deles por padrão). Com o run
+    # anterior confirmamos que o site devolve HTML de verdade (200, ~70KB,
+    # cabeçalhos normais) só que uma versão "vazia" — sem o robô conseguir
+    # se identificar como navegador o suficiente, ele recebe essa versão
+    # reduzida em vez da página completa (~480KB) que um navegador recebe.
+    origem = f"{urlparse(url).scheme}://{urlparse(url).netloc}/"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
                        '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
         'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Referer': origem,
+        'Upgrade-Insecure-Requests': '1',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'same-origin',
+        'Sec-Fetch-User': '?1',
+        'Sec-CH-UA': '"Chromium";v="131", "Not_A Brand";v="24", "Google Chrome";v="131"',
+        'Sec-CH-UA-Mobile': '?0',
+        'Sec-CH-UA-Platform': '"Windows"',
     }
     response = requests.get(url, headers=headers, cookies=cookies, timeout=15)
     response.raise_for_status()
