@@ -44,11 +44,21 @@ def extrair_musicas(url, cookies):
     lista_top = soup.find('ol', class_='top-list_mus')
 
     if not lista_top:
-        # Diagnóstico: se vier vazio de novo, mostra um pedaço do que
-        # realmente voltou (página de bloqueio, captcha, etc.) direto no
-        # log do Actions, em vez de só dizer "não achei a lista".
-        trecho = response.text.strip().replace("\n", " ")[:300]
-        print(f"   ↳ Nada encontrado. Início da resposta recebida: {trecho!r}")
+        # Diagnóstico: se vier vazio de novo, mostra o tamanho da resposta,
+        # de onde ela diz que veio (Server/cf-ray, indica se tem alguma
+        # proteção tipo Cloudflare no meio do caminho), se a classe
+        # "top-list_mus" aparece em QUALQUER lugar do texto bruto (mesmo
+        # fora de um <ol>, pra descartar troca de tag) e um pedaço do
+        # conteúdo — tudo isso direto no log do Actions, em vez de só dizer
+        # "não achei a lista".
+        print(f"   ↳ Nada encontrado. Tamanho da resposta: {len(response.text)} bytes")
+        print(f"   ↳ Headers do servidor: Server={response.headers.get('Server')!r}, "
+              f"CF-Ray={response.headers.get('CF-Ray')!r}, "
+              f"Content-Type={response.headers.get('Content-Type')!r}")
+        print(f"   ↳ 'top-list_mus' aparece em algum lugar do texto bruto? "
+              f"{'top-list_mus' in response.text}")
+        trecho = response.text.strip().replace("\n", " ")[:800]
+        print(f"   ↳ Início da resposta recebida: {trecho!r}")
         return musicas_atuais
         
     itens = lista_top.find_all('li')
