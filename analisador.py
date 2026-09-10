@@ -14,26 +14,75 @@ PASTA_RELATORIOS = "historico_relatorios"
 MARGEM_OSCILACAO = 2 
 
 # Mapeamento de Regiões, URLs e seus respectivos Cookies de controle
+
+# ⚡ ENDPOINT: o time do letras sugeriu puxar de /top.ssi em vez da página
+# cheia (/mais-acessadas/...). É o fragmento interno (include assíncrono)
+# que a própria página usa pra montar a lista — já vem com o
+# <ol class="top-list_mus"> populado, no mesmo formato de sempre, sem a
+# camada que estava reduzindo a resposta pro robô do GitHub Actions.
 REGIOES = {
-    "br": {"nome": "Brasil", "url": "https://www.letras.mus.br/mais-acessadas/", "cookies": {}},
-    "kr": {"nome": "Top Coreano", "url": "https://www.letras.mus.br/mais-acessadas/k-pop/", "cookies": {}},
-    "ar": {"nome": "Argentina", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "ar"}},
-    "co": {"nome": "Colômbia", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "co"}},
-    "sp": {"nome": "Espanha", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "sp"}},
-    "es": {"nome": "Hispanoamérica", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "es"}},
-    "mx": {"nome": "México", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "mx"}}
+    "br": {"nome": "Brasil", "url": "https://www.letras.mus.br/top.ssi", "cookies": {}},
+    "kr": {"nome": "Top Coreano", "url": "https://www.letras.mus.br/top.ssi?slug=k-pop", "cookies": {}},
+    "ar": {"nome": "Argentina", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "ar"}},
+    "co": {"nome": "Colômbia", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "co"}},
+    "sp": {"nome": "Espanha", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "sp"}},
+    "es": {"nome": "Hispanoamérica", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "es"}},
+    "mx": {"nome": "México", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "mx"}}
 }
 
 def extrair_musicas(url, cookies):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    # Tentativa 2 de disfarce: além do User-Agent completo, adiciona os
+    # headers "Sec-Fetch-*" e Referer que só navegadores de verdade mandam
+    # (o Python "requests" não manda nenhum deles por padrão). Com o run
+    # anterior confirmamos que o site devolve HTML de verdade (200, ~70KB,
+    # cabeçalhos normais) só que uma versão "vazia" — sem o robô conseguir
+    # se identificar como navegador o suficiente, ele recebe essa versão
+    # reduzida em vez da página completa (~480KB) que um navegador recebe.
+    origem = f"{urlparse(url).scheme}://{urlparse(url).netloc}/"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                       '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+        # Sem 'br' (Brotli) aqui de propósito: o ambiente do GitHub Actions
+        # não tem a biblioteca que descomprime Brotli, e anunciar suporte a
+        # ele faz o site responder comprimido e o Python não conseguir ler
+        # (vira um bloco de caracteres ilegíveis, não é bloqueio nenhum).
+        # Deixando sem essa linha, o "requests" já cuida de gzip/deflate
+        # sozinho, do jeito que sempre funcionou.
+        'Referer': origem,
+        'Upgrade-Insecure-Requests': '1',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'same-origin',
+        'Sec-Fetch-User': '?1',
+        'Sec-CH-UA': '"Chromium";v="131", "Not_A Brand";v="24", "Google Chrome";v="131"',
+        'Sec-CH-UA-Mobile': '?0',
+        'Sec-CH-UA-Platform': '"Windows"',
+    }
     response = requests.get(url, headers=headers, cookies=cookies, timeout=15)
     response.raise_for_status()
-    
+
     soup = BeautifulSoup(response.text, 'html.parser')
     musicas_atuais = {}
     lista_top = soup.find('ol', class_='top-list_mus')
-    
+
     if not lista_top:
+        # Diagnóstico: se vier vazio de novo, mostra o tamanho da resposta,
+        # de onde ela diz que veio (Server/cf-ray, indica se tem alguma
+        # proteção tipo Cloudflare no meio do caminho), se a classe
+        # "top-list_mus" aparece em QUALQUER lugar do texto bruto (mesmo
+        # fora de um <ol>, pra descartar troca de tag) e um pedaço do
+        # conteúdo — tudo isso direto no log do Actions, em vez de só dizer
+        # "não achei a lista".
+        print(f"   ↳ Nada encontrado. Tamanho da resposta: {len(response.text)} bytes")
+        print(f"   ↳ Headers do servidor: Server={response.headers.get('Server')!r}, "
+              f"CF-Ray={response.headers.get('CF-Ray')!r}, "
+              f"Content-Type={response.headers.get('Content-Type')!r}")
+        print(f"   ↳ 'top-list_mus' aparece em algum lugar do texto bruto? "
+              f"{'top-list_mus' in response.text}")
+        trecho = response.text.strip().replace("\n", " ")[:800]
+        print(f"   ↳ Início da resposta recebida: {trecho!r}")
         return musicas_atuais
         
     itens = lista_top.find_all('li')
