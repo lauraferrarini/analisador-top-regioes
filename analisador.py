@@ -25,15 +25,30 @@ REGIOES = {
 }
 
 def extrair_musicas(url, cookies):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    # User-Agent completo (igual um Chrome de verdade manda) + headers que
+    # navegadores sempre mandam. Um User-Agent incompleto (só
+    # "Mozilla/5.0 (Windows NT 10.0; Win64; x64)", sem o resto) é, sozinho,
+    # um sinal forte de tráfego automatizado pra qualquer proteção anti-bot
+    # — foi provavelmente isso que fez o site passar a bloquear o robô.
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                       '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+    }
     response = requests.get(url, headers=headers, cookies=cookies, timeout=15)
     response.raise_for_status()
-    
+
     soup = BeautifulSoup(response.text, 'html.parser')
     musicas_atuais = {}
     lista_top = soup.find('ol', class_='top-list_mus')
-    
+
     if not lista_top:
+        # Diagnóstico: se vier vazio de novo, mostra um pedaço do que
+        # realmente voltou (página de bloqueio, captcha, etc.) direto no
+        # log do Actions, em vez de só dizer "não achei a lista".
+        trecho = response.text.strip().replace("\n", " ")[:300]
+        print(f"   ↳ Nada encontrado. Início da resposta recebida: {trecho!r}")
         return musicas_atuais
         
     itens = lista_top.find_all('li')
