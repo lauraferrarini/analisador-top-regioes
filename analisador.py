@@ -21,28 +21,35 @@ MARGEM_OSCILACAO = 2
 # <ol class="top-list_mus"> populado, no mesmo formato de sempre, sem a
 # camada que estava reduzindo a resposta pro robô do GitHub Actions.
 REGIOES = {
-    "br": {"nome": "Brasil", "url": "https://www.letras.mus.br/top.ssi", "cookies": {}},
-    "kr": {"nome": "Top Coreano", "url": "https://www.letras.mus.br/top.ssi?slug=k-pop", "cookies": {}},
-    "ar": {"nome": "Argentina", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "ar"}},
-    "co": {"nome": "Colômbia", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "co"}},
-    "sp": {"nome": "Espanha", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "sp"}},
-    "es": {"nome": "Hispanoamérica", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "es"}},
-    "mx": {"nome": "México", "url": "https://www.letras.com/top.ssi", "cookies": {"content": "mx"}}
+    "br": {"nome": "Brasil", "url": "https://www.letras.mus.br/top.ssi",
+           "referer": "https://www.letras.mus.br/mais-acessadas/", "cookies": {}},
+    "kr": {"nome": "Top Coreano", "url": "https://www.letras.mus.br/top.ssi?slug=k-pop",
+           "referer": "https://www.letras.mus.br/mais-acessadas/k-pop/", "cookies": {}},
+    "ar": {"nome": "Argentina", "url": "https://www.letras.com/top.ssi",
+           "referer": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "ar"}},
+    "co": {"nome": "Colômbia", "url": "https://www.letras.com/top.ssi",
+           "referer": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "co"}},
+    "sp": {"nome": "Espanha", "url": "https://www.letras.com/top.ssi",
+           "referer": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "sp"}},
+    "es": {"nome": "Hispanoamérica", "url": "https://www.letras.com/top.ssi",
+           "referer": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "es"}},
+    "mx": {"nome": "México", "url": "https://www.letras.com/top.ssi",
+           "referer": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "mx"}}
 }
 
-def extrair_musicas(url, cookies):
-    # Tentativa 2 de disfarce: além do User-Agent completo, adiciona os
-    # headers "Sec-Fetch-*" e Referer que só navegadores de verdade mandam
-    # (o Python "requests" não manda nenhum deles por padrão). Com o run
-    # anterior confirmamos que o site devolve HTML de verdade (200, ~70KB,
-    # cabeçalhos normais) só que uma versão "vazia" — sem o robô conseguir
-    # se identificar como navegador o suficiente, ele recebe essa versão
-    # reduzida em vez da página completa (~480KB) que um navegador recebe.
-    origem = f"{urlparse(url).scheme}://{urlparse(url).netloc}/"
+def extrair_musicas(url, cookies, referer):
+    # /top.ssi é um fragmento interno — a própria página só o busca via
+    # fetch()/XHR (depois de já estar carregada), nunca navegando direto
+    # pra essa URL. Por isso os headers "Sec-Fetch-*" têm que descrever
+    # ESSE tipo de pedido (Dest: empty, Mode: cors), e não uma navegação de
+    # página inteira (Dest: document, Mode: navigate) — foi exatamente essa
+    # inconsistência que fez o servidor devolver 0 bytes na tentativa
+    # anterior: os headers diziam "isso é alguém abrindo a URL direto no
+    # navegador", que é o cenário que o servidor recusa.
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
                        '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept': '*/*',
         'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
         # Sem 'br' (Brotli) aqui de propósito: o ambiente do GitHub Actions
         # não tem a biblioteca que descomprime Brotli, e anunciar suporte a
@@ -50,12 +57,11 @@ def extrair_musicas(url, cookies):
         # (vira um bloco de caracteres ilegíveis, não é bloqueio nenhum).
         # Deixando sem essa linha, o "requests" já cuida de gzip/deflate
         # sozinho, do jeito que sempre funcionou.
-        'Referer': origem,
-        'Upgrade-Insecure-Requests': '1',
-        'Sec-Fetch-Dest': 'document',
-        'Sec-Fetch-Mode': 'navigate',
+        'Referer': referer,
+        'X-Requested-With': 'XMLHttpRequest',
+        'Sec-Fetch-Dest': 'empty',
+        'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin',
-        'Sec-Fetch-User': '?1',
         'Sec-CH-UA': '"Chromium";v="131", "Not_A Brand";v="24", "Google Chrome";v="131"',
         'Sec-CH-UA-Mobile': '?0',
         'Sec-CH-UA-Platform': '"Windows"',
@@ -228,7 +234,7 @@ def processar_regiao(regiao, config):
     os.makedirs(pasta_dados_regiao, exist_ok=True)
     os.makedirs(pasta_relatorios_regiao, exist_ok=True)
     
-    atuais = extrair_musicas(config['url'], config['cookies'])
+    atuais = extrair_musicas(config['url'], config['cookies'], config['referer'])
     if not atuais:
         print(f"⚠️ Alerta: Nenhuma música coletada para {config['nome']}. Estrutura mudou ou bloqueio.")
         return False
