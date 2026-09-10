@@ -38,7 +38,12 @@ def extrair_musicas(url, cookies):
                        '(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
         'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
-        'Accept-Encoding': 'gzip, deflate, br',
+        # Sem 'br' (Brotli) aqui de propósito: o ambiente do GitHub Actions
+        # não tem a biblioteca que descomprime Brotli, e anunciar suporte a
+        # ele faz o site responder comprimido e o Python não conseguir ler
+        # (vira um bloco de caracteres ilegíveis, não é bloqueio nenhum).
+        # Deixando sem essa linha, o "requests" já cuida de gzip/deflate
+        # sozinho, do jeito que sempre funcionou.
         'Referer': origem,
         'Upgrade-Insecure-Requests': '1',
         'Sec-Fetch-Dest': 'document',
