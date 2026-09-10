@@ -3,7 +3,7 @@ name: Analisador Diário de Músicas
 on:
   schedule:
     # Roda às 11:30 UTC (08:30 no Horário de Brasília) para o Brasil
-    - cron: '30 11 * * *'
+    - cron: '07 11 * * *'
     # Roda às 13:11 UTC (10:11 no Horário de Brasília) para as outras regiões
     - cron: '11 13 * * *'
   workflow_dispatch:
