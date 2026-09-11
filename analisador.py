@@ -167,8 +167,14 @@ def atualizar_dados_dashboard(regiao):
         "musicas": historico_global
     }
 
+    # ⚡ SEM indentação: esse arquivo cresce sem parar (um pouco mais a cada
+    # dia, pra sempre) e o JSON com indent=4 ficava quase o dobro do tamanho
+    # necessário à toa — chegou a esbarrar no limite de upload do próprio
+    # GitHub pela interface web. Compacto funciona idêntico pro index.html
+    # (ele só dá JSON.parse, não liga pra formatação) e mantém o arquivo bem
+    # menor conforme o histórico for crescendo.
     with open(f"dados_dashboard_{regiao}.json", "w", encoding="utf-8") as f:
-        json.dump(dados_finais, f, ensure_ascii=False, indent=4)
+        json.dump(dados_finais, f, ensure_ascii=False, separators=(",", ":"))
 
 def processar_regiao(regiao, config):
     print(f"🌍 Coletando dados da região: {config['nome']} ({regiao})...")
@@ -307,9 +313,10 @@ def processar_regiao(regiao, config):
     with open(f"relatorio_diario_{regiao}.md", 'w', encoding='utf-8') as f:
         f.write(conteudo_md)
         
-    # Salva o JSON na subpasta correspondente
+    # Salva o JSON na subpasta correspondente (compacto, mesmo motivo do
+    # dados_dashboard_*.json acima)
     with open(os.path.join(pasta_dados_regiao, f"dados_{data_hoje_iso}.json"), 'w', encoding='utf-8') as f:
-        json.dump(atuais, f, ensure_ascii=False, indent=4)
+        json.dump(atuais, f, ensure_ascii=False, separators=(",", ":"))
         
     return True
 
