@@ -4,9 +4,20 @@ import json
 import os
 import glob
 import sys
+import time
 import traceback
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
+
+# ⚡ RETRY DE DADO REPETIDO: quando uma região vem com o MESMO dado do dia
+# anterior (sintoma de cache/bloqueio do site, não um "dia parado" de
+# verdade), o robô não salva — e fica tentando de novo só aquela região a
+# cada ESPERA_RETRY_MIN minutos, até vir um dado realmente diferente ou até
+# esgotar TENTATIVAS_RETRY_MAX rodadas (depois disso, desiste por agora e
+# tenta de novo só no próximo ciclo agendado — e o job termina com erro pra
+# disparar o email de falha padrão do GitHub).
+ESPERA_RETRY_MIN = 40
+TENTATIVAS_RETRY_MAX = 8  # 8 x 40min ≈ 5h20 de tentativas dentro da mesma execução
 
 # Configurações Gerais
 PASTA_DADOS = "historico_dados"
@@ -227,6 +238,8 @@ def processar_regiao(regiao, config):
             texto = _texto_identidade(info)
             anteriores_por_texto.setdefault(texto, info)
 
+        total_com_mudanca = 0
+
         for chave, dados_atuais in atuais.items():
             pos_atual = dados_atuais['posicao']
             caminho_atual = _caminho_identidade(dados_atuais)
@@ -247,6 +260,9 @@ def processar_regiao(regiao, config):
                 pos_anterior = info_anterior['posicao']
                 diferenca = pos_anterior - pos_atual
 
+                if diferenca != 0:
+                    total_com_mudanca += 1
+
                 dados_item = {
                     "dados": dados_atuais,
                     "pos_anterior": pos_anterior,
@@ -262,6 +278,30 @@ def processar_regiao(regiao, config):
                     subidas_moderadas.append(dados_item)
                 elif diferenca > MARGEM_OSCILACAO:
                     pequenas_subidas.append(dados_item)
+
+        # ⚡ GUARDA CONTRA CACHE/BLOQUEIO: se o total de mudanças reais de hoje
+        # — músicas que mudaram de posição (subida/queda, de qualquer
+        # tamanho: pequena, moderada, grande salto ou absurda) SOMADO com
+        # entradas novas — for 0 ou 1, é sintoma de dado repetido/velho
+        # (cache do site, CDN, ou bloqueio que devolve a última página válida
+        # em cache), não um dia real "quase parado". Um card isolado mudando
+        # sozinho (não importa em qual categoria ele caiu) ainda conta como
+        # suspeito. Já aconteceu de verdade várias vezes (AR, CO, ES, MX, SP
+        # — nunca no Brasil). Nesse caso não salva nada hoje (nem o JSON
+        # bruto, nem os relatórios): assim "buscar_dados_anteriores" continua
+        # enxergando o último dia bom de verdade, em vez de gravar por cima
+        # com um dado provavelmente velho. Quem decide tentar de novo mais
+        # tarde é o loop no __main__.
+        mudanca_total = total_com_mudanca + len(novas_entradas)
+        if mudanca_total <= 1:
+            print(
+                f"⚠️ Suspeita de cache/bloqueio para {config['nome']}: "
+                f"apenas {mudanca_total} mudança(s) no total hoje "
+                f"({total_com_mudanca} música(s) mudou/mudaram de posição, "
+                f"{len(novas_entradas)} entrada(s) nova(s)). "
+                f"Dados NÃO salvos."
+            )
+            return "ZERADO"
 
         subidas_absurdas.sort(key=lambda x: x['posicoes_ganhas'], reverse=True)
         grandes_saltos.sort(key=lambda x: x['posicoes_ganhas'], reverse=True)
@@ -335,19 +375,62 @@ if __name__ == "__main__":
         print(f"🚀 Iniciando módulo de análise para o alvo: {alvo.upper()}")
 
         sucesso_geral = True
-        for regiao in regioes_para_processar:
-            config = REGIOES[regiao]
-            try:
-                if processar_regiao(regiao, config):
-                    atualizar_dados_dashboard(regiao)
-                    print(f"✅ Região {regiao.upper()} processada com sucesso.\n")
-                else:
+        # Regiões ainda por processar nesta rodada. Começa com todas; a cada
+        # passagem, quem deu certo (True) sai da lista, quem veio "ZERADO"
+        # (dado repetido do dia anterior) continua na lista pra tentar de
+        # novo depois de esperar — só ela, sem re-tentar quem já deu certo.
+        # Quem falhou de verdade (bloqueio/erro) sai da lista mas conta como
+        # falha, sem entrar no retry.
+        regioes_pendentes = list(regioes_para_processar)
+
+        for tentativa in range(1, TENTATIVAS_RETRY_MAX + 1):
+            ainda_zerado = []
+            for regiao in regioes_pendentes:
+                config = REGIOES[regiao]
+                try:
+                    resultado = processar_regiao(regiao, config)
+                    if resultado is True:
+                        atualizar_dados_dashboard(regiao)
+                        print(f"✅ Região {regiao.upper()} processada com sucesso.\n")
+                    elif resultado == "ZERADO":
+                        ainda_zerado.append(regiao)
+                    else:
+                        sucesso_geral = False
+                except Exception as e:
+                    print(f"\n💥 Erro ao processar a região {regiao.upper()}:")
+                    traceback.print_exc()
                     sucesso_geral = False
-            except Exception as e:
-                print(f"\n💥 Erro ao processar a região {regiao.upper()}:")
-                traceback.print_exc()
-                sucesso_geral = False
-        
+
+            regioes_pendentes = ainda_zerado
+
+            if not regioes_pendentes:
+                break
+
+            if tentativa < TENTATIVAS_RETRY_MAX:
+                print(
+                    f"⏳ {len(regioes_pendentes)} região(ões) ainda com dado repetido "
+                    f"({', '.join(r.upper() for r in regioes_pendentes)}). "
+                    f"Aguardando {ESPERA_RETRY_MIN} min antes de tentar de novo "
+                    f"(tentativa {tentativa}/{TENTATIVAS_RETRY_MAX})...\n"
+                )
+                time.sleep(ESPERA_RETRY_MIN * 60)
+
+        if regioes_pendentes:
+            # ⚡ ESGOTOU AS TENTATIVAS: depois de horas tentando, a região
+            # continua devolvendo dado repetido — isso não é mais "espera
+            # normal", é sinal de que algo está preso de verdade (bloqueio
+            # persistente, cache travado no CDN, etc.) e merece atenção.
+            # Marca como falha real pra o job terminar com erro: é isso que
+            # dispara o email padrão de "workflow falhou" do GitHub pra quem
+            # estiver com essa notificação ativada.
+            print(
+                f"🚨 Região(ões) que continuaram com dado repetido depois de "
+                f"{TENTATIVAS_RETRY_MAX} tentativas ({ESPERA_RETRY_MIN * TENTATIVAS_RETRY_MAX} min): "
+                f"{', '.join(r.upper() for r in regioes_pendentes)}. "
+                f"Isso passou de 'espera normal' — marcando como falha pra gerar alerta."
+            )
+            sucesso_geral = False
+
         if sucesso_geral:
             print(f"🚀 Módulo executado com sucesso total para as regiões ({alvo.upper()})!")
         else:
