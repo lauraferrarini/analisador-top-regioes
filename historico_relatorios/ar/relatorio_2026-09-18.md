@@ -404,7 +404,7 @@
 - **Joseph (feat. Corey Taylor & Serj Tankian)** (Falling In Reverse) - Apareceu direto na posição **263º**
 - **Alright** (Jamiroquai) - Apareceu direto na posição **759º**
 - **Virtual Insanity** (Jamiroquai) - Apareceu direto na posição **765º**
-- **bad taste** (Freya Skye) - Apareceu direto na posição **826º**
+- **bad taste (Unreleased)** (Freya Skye) - Apareceu direto na posição **826º**
 - **You Can't Always Get What You Want** (The Rolling Stones) - Apareceu direto na posição **872º**
 - **Supersonic** (Oasis) - Apareceu direto na posição **877º**
 - **Please, Please, Please, Let Me Get What I Want** (The Smiths) - Apareceu direto na posição **878º**
