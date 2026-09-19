@@ -3,14 +3,14 @@ name: Analisador Diário de Músicas
 on:
   schedule:
     # Roda às 11:30 UTC (08:30 no Horário de Brasília) para o Brasil
-    - cron: '30 11 * * *'
+    - cron: '30 09 * * *'
     # Roda às 13:11 UTC (10:11 no Horário de Brasília) para as outras regiões
-    - cron: '11 13 * * *'
+    - cron: '11 10 * * *'
   workflow_dispatch:
     # Adicionamos uma opção para você escolher o que rodar se apertar o botão manual
     inputs:
       regiao:
-        description: 'Qual bloco processar? (br, latam, all)'
+        description: 'Qual bloco processar? (all, br, latam, ou uma região específica: br, kr, ar, co, sp, es, mx)'
         required: true
         default: 'all'
 
@@ -19,7 +19,18 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
+    # ⚡ Impede que duas execuções rodem ao mesmo tempo (ex: você dispara manual
+    # enquanto o agendado ainda está rodando). Sem isso, as duas tentam commitar
+    # e dar push nos mesmos arquivos quase junto, o que pode gerar disputa no
+    # git. Com isso, a segunda execução espera a primeira terminar e roda
+    # depois — sempre sobrescrevendo por cima do que a anterior salvou, nunca
+    # em paralelo. "cancel-in-progress: false" garante que nenhuma execução é
+    # cancelada, só fica na fila.
+    concurrency:
+      group: analisador-diario
+      cancel-in-progress: false
+
     # ⚡ FORÇA O SERVIDOR DO GITHUB A USAR O HORÁRIO DO BRASIL
     env:
       TZ: "America/Sao_Paulo"
@@ -66,8 +77,28 @@ jobs:
           
           if ! git diff --cached --quiet; then
             git commit -m "📊 Histórico, relatórios e dados do painel updated (${{ env.TARGET }})"
-            git pull origin main --rebase -X theirs
-            git push origin main
+
+            # -X theirs aqui favorece o commit desta execução (é assim que o rebase
+            # trata "theirs" durante um pull --rebase) sobre o que já estiver no
+            # remoto — ou seja, a run mais recente sempre sobrescreve a anterior
+            # pro mesmo dia. Repetimos algumas vezes por segurança, caso o push
+            # perca uma corrida rara contra outro commit que chegou entre o pull
+            # e o push.
+            tentativa=1
+            ate_tentativas=5
+            while true; do
+              git pull origin main --rebase -X theirs
+              if git push origin main; then
+                break
+              fi
+              if [ "$tentativa" -ge "$ate_tentativas" ]; then
+                echo "❌ Não consegui dar push depois de $ate_tentativas tentativas."
+                exit 1
+              fi
+              echo "⚠️ Push falhou (tentativa $tentativa/$ate_tentativas), tentando de novo..."
+              tentativa=$((tentativa+1))
+              sleep 5
+            done
           else
             echo "Nenhuma mudança nos dados estruturados detectada hoje."
           fi
