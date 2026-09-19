@@ -20,7 +20,7 @@
 - **Really Don't Care (feat. Cher Lloyd)** (Demi Lovato): 983º → **891º** (+92)
 - **Drag Path** (Twenty One Pilots): 899º → **808º** (+91)
 - **Minha Essência** (Thiago Brado): 997º → **913º** (+84)
-- **Escola é linda** (VM e XOODÓ): 333º → **252º** (+81)
+- **Escola é linda** (VM & XOODÓ): 333º → **252º** (+81)
 - **Don't tell your dreams (feat. STOSLIV)** (LOVIXX): 213º → **137º** (+76)
 - **Flash** (Hugo & Guilherme): 429º → **354º** (+75)
 - **A Mão ao Arado! - 394** (Harpa Cristã): 556º → **481º** (+75)

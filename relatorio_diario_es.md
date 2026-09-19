@@ -407,7 +407,7 @@
 - **Joseph (feat. Corey Taylor & Serj Tankian)** (Falling In Reverse) - Apareceu direto na posição **251º**
 - **Corazón de Cristal (part. Zhamira)** (LUANA (ARG)) - Apareceu direto na posição **538º**
 - **Can't Hold Us (feat. Ray Dalton)** (Macklemore & Ryan Lewis) - Apareceu direto na posição **546º**
-- **bad taste (Unreleased)** (Freya Skye) - Apareceu direto na posição **616º**
+- **bad taste** (Freya Skye) - Apareceu direto na posição **616º**
 - **Luna** (Camilo) - Apareceu direto na posição **720º**
 - **A Llorar a Otra Parte** (Américo) - Apareceu direto na posição **784º**
 - **Le Temps des Fleurs Fanées** (Élise Noiret) - Apareceu direto na posição **820º**
