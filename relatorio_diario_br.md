@@ -152,7 +152,7 @@
 - **What Makes You Beautiful** (One Direction): 945º → **917º** (+28)
 - **Restitui** (Davi Sacer): 958º → **930º** (+28)
 - **Matilda** (Harry Styles): 962º → **934º** (+28)
-- **Vai Tomar (part. Gabb MC e MC Xangai)** (MC Paiva ZS): 71º → **44º** (+27)
+- **SEU PEITO NATURALZINHO EU JÁ APERTEI (part. Gabb e Xangai)** (MC Paiva ZS): 71º → **44º** (+27)
 - **Kyrie Eleison** (JMJ RIO 2013): 255º → **228º** (+27)
 - **A Tua Palavra** (Larissa Pires): 474º → **447º** (+27)
 - **Medley Corinhos de Fogo (Deus Forte Como Jeová / Divisa de Fogo / Vem Cá Vem Ver / Carros de Fogo / Jacó Segurou o Anjo / Desemborca o Vaso)** (Midian Lima): 531º → **504º** (+27)
