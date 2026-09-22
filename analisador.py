@@ -322,29 +322,15 @@ def processar_regiao(regiao, config):
 
 if __name__ == "__main__":
     try:
-        # Define o alvo baseado no argumento do terminal (ex: "br", "latam", "mx" ou "all")
+        # Define o alvo baseado no argumento do terminal (ex: "br", "latam", ou "all")
         alvo = sys.argv[1].lower() if len(sys.argv) > 1 else "all"
-
+        
         if alvo == "br":
             regioes_para_processar = ["br", "kr"]
         elif alvo == "latam":
             regioes_para_processar = ["ar", "co", "sp", "es", "mx"]
-        elif alvo in REGIOES:
-            # ⚡ Alvo é uma região específica (ex: "mx", "kr") — permite reprocessar
-            # só ela, sem precisar rodar o bloco "br" ou "latam" inteiro. Útil pra
-            # rodar de novo no meio do dia depois de já ter rodado hoje: os dados
-            # de hoje dessa região (dados_<data>.json e dados_dashboard_<regiao>.json)
-            # são SEMPRE sobrescritos do zero a cada execução — não acumula nem
-            # duplica, não importa quantas vezes rodar no mesmo dia. A comparação
-            # de "novas entradas"/"subidas" continua usando o último dia ANTERIOR
-            # a hoje como base (buscar_dados_anteriores já ignora o arquivo de
-            # hoje), então rodar de novo no mesmo dia não distorce o relatório.
-            regioes_para_processar = [alvo]
-        elif alvo == "all":
-            regioes_para_processar = list(REGIOES.keys())
         else:
-            print(f"⚠️ Alvo '{alvo}' não reconhecido. Use: all, br, latam, ou uma região específica ({', '.join(REGIOES.keys())}).")
-            sys.exit(1)
+            regioes_para_processar = list(REGIOES.keys())
 
         print(f"🚀 Iniciando módulo de análise para o alvo: {alvo.upper()}")
 
