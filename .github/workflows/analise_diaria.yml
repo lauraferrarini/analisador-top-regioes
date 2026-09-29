@@ -5,7 +5,7 @@ on:
     # Roda às 11:30 UTC (08:30 no Horário de Brasília) para o Brasil
     - cron: '30 09 * * *'
     # Roda às 13:11 UTC (10:11 no Horário de Brasília) para as outras regiões
-    - cron: '11 10 * * *'
+    - cron: '30 09 * * *'
   workflow_dispatch:
     # Adicionamos uma opção para você escolher o que rodar se apertar o botão manual
     inputs:
