@@ -1,488 +1,808 @@
 # 📊 Relatório Letras - Espanha - 29/09/2026
 
 ## 🚨 🚨 EXPLOSÃO NO TOP: SUBIDAS ABSURDAS (+400 posições) 🚨 🚨
-> ### 💥 **nadie es para ti** — *Claudia Arenas*
-> 🛑 **Subida histórica!** Saltou de 975º direto para **378º** (🔼 **+597** posições)
+> ### 💥 **Way Maker (Versión En Español)** — *Priscilla & Luis Bueno*
+> 🛑 **Subida histórica!** Saltou de 884º direto para **31º** (🔼 **+853** posições)
+
+> ### 💥 **Alma Misionera** — *Salve (Oswaldo y Arce)*
+> 🛑 **Subida histórica!** Saltou de 909º direto para **118º** (🔼 **+791** posições)
+
+> ### 💥 **Dueles** — *Jesse & Joy*
+> 🛑 **Subida histórica!** Saltou de 822º direto para **36º** (🔼 **+786** posições)
+
+> ### 💥 **Santo Por Siempre** — *Adoración La IBI*
+> 🛑 **Subida histórica!** Saltou de 804º direto para **30º** (🔼 **+774** posições)
+
+> ### 💥 **Virgen** — *Adolescent's Orquesta (Los Adolescentes)*
+> 🛑 **Subida histórica!** Saltou de 760º direto para **41º** (🔼 **+719** posições)
+
+> ### 💥 **Into the Sun** — *BTS*
+> 🛑 **Subida histórica!** Saltou de 974º direto para **269º** (🔼 **+705** posições)
+
+> ### 💥 **Feel** — *Robbie Williams*
+> 🛑 **Subida histórica!** Saltou de 718º direto para **16º** (🔼 **+702** posições)
+
+> ### 💥 **Te Estoy Correteando (part. LATIN MAFIA)** — *Fred again..*
+> 🛑 **Subida histórica!** Saltou de 702º direto para **10º** (🔼 **+692** posições)
+
+> ### 💥 **BACKROOMS (part. Club Misterio)** — *Fede Vigevani*
+> 🛑 **Subida histórica!** Saltou de 1000º direto para **310º** (🔼 **+690** posições)
+
+> ### 💥 **Базовый минимум (bazovyj minimum) (feat. SABI)** — *Mia Boyka*
+> 🛑 **Subida histórica!** Saltou de 783º direto para **105º** (🔼 **+678** posições)
+
+> ### 💥 **Suffer** — *Bex*
+> 🛑 **Subida histórica!** Saltou de 746º direto para **79º** (🔼 **+667** posições)
+
+> ### 💥 **Si tú no vuelves** — *Miguel Bosé*
+> 🛑 **Subida histórica!** Saltou de 687º direto para **23º** (🔼 **+664** posições)
+
+> ### 💥 **Tumbas A Jardines (part. Brandon Lake)** — *Elevation Worship*
+> 🛑 **Subida histórica!** Saltou de 853º direto para **213º** (🔼 **+640** posições)
+
+> ### 💥 **Tu Falta de Querer** — *Mon Laferte*
+> 🛑 **Subida histórica!** Saltou de 695º direto para **58º** (🔼 **+637** posições)
+
+> ### 💥 **Flores Amarillas** — *Floricienta*
+> 🛑 **Subida histórica!** Saltou de 582º direto para **37º** (🔼 **+545** posições)
+
+> ### 💥 **Gracia Sublime Es** — *En Espiritu Y En Verdad*
+> 🛑 **Subida histórica!** Saltou de 553º direto para **11º** (🔼 **+542** posições)
+
+> ### 💥 **No Hay Lugar Más Alto (part. Christine D'Clario)** — *Miel San Marcos*
+> 🛑 **Subida histórica!** Saltou de 567º direto para **26º** (🔼 **+541** posições)
+
+> ### 💥 **Don't tell your dreams (feat. STOSLIV)** — *LOVIXX*
+> 🛑 **Subida histórica!** Saltou de 585º direto para **48º** (🔼 **+537** posições)
+
+> ### 💥 **Solo Hay Uno (part. Enoc Parra)** — *Joel Rocco*
+> 🛑 **Subida histórica!** Saltou de 646º direto para **117º** (🔼 **+529** posições)
+
+> ### 💥 **NORMAL [explicit version]** — *BTS*
+> 🛑 **Subida histórica!** Saltou de 855º direto para **328º** (🔼 **+527** posições)
+
+> ### 💥 **Golden Days** — *Nerin*
+> 🛑 **Subida histórica!** Saltou de 999º direto para **487º** (🔼 **+512** posições)
+
+> ### 💥 **Run Rabbit** — *Mollie Elizabeth*
+> 🛑 **Subida histórica!** Saltou de 885º direto para **397º** (🔼 **+488** posições)
+
+> ### 💥 **Hasta La Raíz** — *Natalia Lafourcade*
+> 🛑 **Subida histórica!** Saltou de 570º direto para **83º** (🔼 **+487** posições)
+
+> ### 💥 **Don't Cry** — *Guns N' Roses*
+> 🛑 **Subida histórica!** Saltou de 939º direto para **464º** (🔼 **+475** posições)
+
+> ### 💥 **I'm Not In Love** — *10cc*
+> 🛑 **Subida histórica!** Saltou de 879º direto para **409º** (🔼 **+470** posições)
+
+> ### 💥 **CARITA FELIZ** — *Myke Towers*
+> 🛑 **Subida histórica!** Saltou de 612º direto para **159º** (🔼 **+453** posições)
+
+> ### 💥 **Francia vs Japón (Blue Lock) - Mundial Sub 20 #2** — *MegaR*
+> 🛑 **Subida histórica!** Saltou de 964º direto para **517º** (🔼 **+447** posições)
+
+> ### 💥 **El Cisne** — *Camilo*
+> 🛑 **Subida histórica!** Saltou de 757º direto para **311º** (🔼 **+446** posições)
+
+> ### 💥 **Crazy** — *Aerosmith*
+> 🛑 **Subida histórica!** Saltou de 868º direto para **424º** (🔼 **+444** posições)
+
+> ### 💥 **Cinnamon Girl** — *Lana Del Rey*
+> 🛑 **Subida histórica!** Saltou de 700º direto para **267º** (🔼 **+433** posições)
+
+> ### 💥 **CAPCANA COCOA (part. Anuel AA) [explícita]** — *Blessd*
+> 🛑 **Subida histórica!** Saltou de 747º direto para **326º** (🔼 **+421** posições)
+
+> ### 💥 **Es Él (part. Marcos Brunet)** — *Felipe S. Santos*
+> 🛑 **Subida histórica!** Saltou de 428º direto para **21º** (🔼 **+407** posições)
 
 ## 🔥 Grandes Saltos (+200 a 400 posições)
-- **En El Lago** (Triana): Subiu de 767º para **527º** (🔥 +240 posições)
-- **After** (Conep): Subiu de 897º para **666º** (🔥 +231 posições)
-- **Silencio** (U2): Subiu de 435º para **216º** (🔥 +219 posições)
-- **WO OH OH (part. ROA)** (Omar Courtz): Subiu de 952º para **749º** (🔥 +203 posições)
+- **L a k e n o s h i** (Omar Courtz): Subiu de 805º para **405º** (🔥 +400 posições)
+- **WO OH OH (part. ROA)** (Omar Courtz): Subiu de 952º para **553º** (🔥 +399 posições)
+- **Congratulations (feat. Bilal)** (Mac Miller): Subiu de 616º para **222º** (🔥 +394 posições)
+- **Yeshua: Quiero Conocer a Jesús** (Llévame de Vuelta): Subiu de 408º para **15º** (🔥 +393 posições)
+- **La Bendición - Latinoamérica (The Blessing)** (Canciones Religiosas): Subiu de 832º para **439º** (🔥 +393 posições)
+- **Love Songs** (Kaash Paige): Subiu de 537º para **170º** (🔥 +367 posições)
+- **Chicago** (Michael Jackson): Subiu de 893º para **528º** (🔥 +365 posições)
+- **Cuando No Era Cantante (remix) (part. Anuel AA, Fuerza Regida y Yung Beef)** (El Bogueto): Subiu de 594º para **230º** (🔥 +364 posições)
+- **Your Love** (The Outfield): Subiu de 569º para **207º** (🔥 +362 posições)
+- **See You Again (feat. Kali Uchis)** (Tyler, The Creator): Subiu de 548º para **192º** (🔥 +356 posições)
+- **Bachata Rosa** (Juan Luis Guerra 4.40): Subiu de 774º para **436º** (🔥 +338 posições)
+- **Seven (feat. Latto) (Explicit Version)** (Jung Kook): Subiu de 750º para **414º** (🔥 +336 posições)
+- **Casi Algo (part. Jay Wheeler)** (Maisak): Subiu de 843º para **509º** (🔥 +334 posições)
+- **Yebba's Heartbreak (feat. Yebba)** (Drake): Subiu de 665º para **332º** (🔥 +333 posições)
+- **VAMO A VEL (part. Anuel AA)** (ROA): Subiu de 484º para **152º** (🔥 +332 posições)
+- **Los Países Del Mundo (Versión En Español)** (Animaniacs): Subiu de 911º para **586º** (🔥 +325 posições)
+- **Le Temps des Fleurs Fanées** (Élise Noiret): Subiu de 806º para **482º** (🔥 +324 posições)
+- **Eres Mía** (Romeo Santos): Subiu de 498º para **180º** (🔥 +318 posições)
+- **Umbrella (feat. Jay-Z)** (Rihanna): Subiu de 762º para **447º** (🔥 +315 posições)
+- **It's me, It's Verity** (Horror Skunx): Subiu de 549º para **239º** (🔥 +310 posições)
+- **Pink Blush** (Dolly Babe): Subiu de 925º para **624º** (🔥 +301 posições)
+- **Estrellita, ¿Dónde Estás?** (Canciones Infantiles): Subiu de 460º para **160º** (🔥 +300 posições)
+- **Moonlight** (XXXTENTACION): Subiu de 753º para **461º** (🔥 +292 posições)
+- **Kiss It Better** (Rihanna): Subiu de 899º para **621º** (🔥 +278 posições)
+- **As It Was** (Harry Styles): Subiu de 501º para **226º** (🔥 +275 posições)
+- **Sparks** (Coldplay): Subiu de 668º para **395º** (🔥 +273 posições)
+- **Choosin' Texas** (Ella Langley): Subiu de 441º para **173º** (🔥 +268 posições)
+- **Sure Thing** (Miguel): Subiu de 650º para **387º** (🔥 +263 posições)
+- **misery.** (pupsies): Subiu de 434º para **172º** (🔥 +262 posições)
+- **You're Still The One** (Shania Twain): Subiu de 689º para **427º** (🔥 +262 posições)
+- **Locked Out Of Heaven** (Bruno Mars): Subiu de 693º para **432º** (🔥 +261 posições)
+- **Super Jon-Z (Residente Challenge)** (Jon Z): Subiu de 512º para **254º** (🔥 +258 posições)
+- **Angels** (Robbie Williams): Subiu de 269º para **13º** (🔥 +256 posições)
+- **All Too Well (10 Minute Version)** (Taylor Swift): Subiu de 840º para **588º** (🔥 +252 posições)
+- **Dance with STEEL BALL RUN** (Yugo Kanno): Subiu de 462º para **212º** (🔥 +250 posições)
+- **Chop Suey!** (System Of A Down): Subiu de 986º para **740º** (🔥 +246 posições)
+- **Black** (Pearl Jam): Subiu de 415º para **176º** (🔥 +239 posições)
+- **Why'd You Only Call Me When You're High?** (Arctic Monkeys): Subiu de 573º para **341º** (🔥 +232 posições)
+- **Boys Don't Cry** (The Cure): Subiu de 765º para **534º** (🔥 +231 posições)
+- **I'm Not The Only One** (Sam Smith): Subiu de 490º para **261º** (🔥 +229 posições)
+- **Complicated** (Avril Lavigne): Subiu de 773º para **544º** (🔥 +229 posições)
+- **El Árbol** (Camilo): Subiu de 966º para **739º** (🔥 +227 posições)
+- **If I Ain't Got You** (Alicia Keys): Subiu de 766º para **540º** (🔥 +226 posições)
+- **After** (Conep): Subiu de 897º para **675º** (🔥 +222 posições)
+- **POR SI MAÑANA NO ESTOY** (Omar Courtz): Subiu de 248º para **29º** (🔥 +219 posições)
+- **Earrings** (Malcolm Todd): Subiu de 610º para **400º** (🔥 +210 posições)
 
 ## 📈 Subidas Significativas (100 a 200 posições)
-- **Vielleicht Vielleicht** (MilleniumKiD): Subiu de 644º para **444º** (📈 +200 posições)
-- **Quiéreme (part. Manu Tenorio)** (Nuria Fergó): Subiu de 859º para **659º** (📈 +200 posições)
-- **Bad Times** (Imael Angel): Subiu de 350º para **174º** (📈 +176 posições)
-- **Si tú no vuelves** (Miguel Bosé): Subiu de 687º para **518º** (📈 +169 posições)
-- **Abre La Puerta** (Triana): Subiu de 457º para **300º** (📈 +157 posições)
-- **Skyfall** (Adele): Subiu de 970º para **816º** (📈 +154 posições)
-- **Me Voy A Escapar** (Pablo López): Subiu de 706º para **556º** (📈 +150 posições)
-- **Layla** (Eric Clapton): Subiu de 967º para **824º** (📈 +143 posições)
-- **El Calendario De Las Cruces** (Pablo López): Subiu de 904º para **763º** (📈 +141 posições)
-- **Angels Like You** (MILEY): Subiu de 500º para **361º** (📈 +139 posições)
-- **cigarette smoke** (Olivia Rodrigo): Subiu de 902º para **765º** (📈 +137 posições)
-- **The House Of The Rising Sun** (The Animals): Subiu de 626º para **490º** (📈 +136 posições)
-- **Elefants** (Oques Grasses): Subiu de 711º para **575º** (📈 +136 posições)
-- **Le Petit Pêcheur** (Manon Lisa): Subiu de 912º para **780º** (📈 +132 posições)
-- **Cuando En Marcha Voy** (Bob Esponja (Spongebob Squarepants)): Subiu de 876º para **747º** (📈 +129 posições)
-- **deja vu** (Olivia Rodrigo): Subiu de 664º para **538º** (📈 +126 posições)
-- **Aitormena** (Hertzainak): Subiu de 834º para **714º** (📈 +120 posições)
-- **Smalltown Boy** (Bronski Beat): Subiu de 870º para **750º** (📈 +120 posições)
-- **Look After You** (The Fray): Subiu de 846º para **727º** (📈 +119 posições)
-- **Blinding Lights** (The Weeknd): Subiu de 754º para **636º** (📈 +118 posições)
-- **Canción Del Mariachi (part. Los Lobos)** (Antonio Banderas): Subiu de 944º para **826º** (📈 +118 posições)
-- **Crazy** (Gnarls Barkley): Subiu de 848º para **732º** (📈 +116 posições)
-- **Stronger (What Doesn't Kill You)** (Kelly Clarkson): Subiu de 947º para **832º** (📈 +115 posições)
-- **Desanchantée** (Kate Ryan): Subiu de 658º para **544º** (📈 +114 posições)
-- **Volvernos a Amar (part. Nanpa Básico)** (Lia Kali): Subiu de 697º para **584º** (📈 +113 posições)
-- **A Million Dreams** (O Rei do Show (The Greatest Showman)): Subiu de 823º para **711º** (📈 +112 posições)
-- **Take Me Home, Country Roads** (John Denver): Subiu de 416º para **306º** (📈 +110 posições)
-- **Alma Misionera** (Salve (Oswaldo y Arce)): Subiu de 909º para **800º** (📈 +109 posições)
-- **Marry You** (Bruno Mars): Subiu de 781º para **676º** (📈 +105 posições)
-- **Save Your Tears** (The Weeknd): Subiu de 816º para **713º** (📈 +103 posições)
-- **Wherever You Will Go** (The Calling): Subiu de 915º para **813º** (📈 +102 posições)
+- **La Gata Bajo La Lluvia** (Rocío Durcal): Subiu de 819º para **620º** (📈 +199 posições)
+- **HOTEL LOBBY (Unc & Phew) (feat. Takeoff)** (Quavo): Subiu de 542º para **345º** (📈 +197 posições)
+- **真夜中のドア (Stay With Me)** (Miki Matsubara): Subiu de 277º para **81º** (📈 +196 posições)
+- **Careless Whisper** (George Michael): Subiu de 414º para **225º** (📈 +189 posições)
+- **I Want To Know What Love Is** (Foreigner): Subiu de 527º para **342º** (📈 +185 posições)
+- **We Are The People** (Empire Of The Sun): Subiu de 600º para **415º** (📈 +185 posições)
+- **ICONIC BY MISTAKE (feat. ILLIT & KATSEYE)** (LE SSERAFIM): Subiu de 742º para **559º** (📈 +183 posições)
+- **Hold The Line** (Toto): Subiu de 743º para **563º** (📈 +180 posições)
+- **BIRDS OF A FEATHER** (Billie Eilish): Subiu de 403º para **224º** (📈 +179 posições)
+- **Pumped Up Kicks** (Foster The People): Subiu de 990º para **815º** (📈 +175 posições)
+- **Until I Found You** (Stephen Sanchez): Subiu de 340º para **166º** (📈 +174 posições)
+- **Linger** (The Cranberries): Subiu de 401º para **229º** (📈 +172 posições)
+- **Tú Has Venido a La Orilla (Pescador de Hombres)** (Canciones Religiosas): Subiu de 531º para **361º** (📈 +170 posições)
+- **La Bondad de Dios** (StayInFaith): Subiu de 169º para **2º** (📈 +167 posições)
+- **La Leyenda Del Rey y El Mago (part. Kballero Rap)** (BenderCat): Subiu de 842º para **680º** (📈 +162 posições)
+- **Jane!** (The Long Faces): Subiu de 365º para **205º** (📈 +160 posições)
+- **Let Her Go** (Passenger): Subiu de 417º para **257º** (📈 +160 posições)
+- **Those Eyes** (New West): Subiu de 227º para **69º** (📈 +158 posições)
+- **Lonely Day** (System Of A Down): Subiu de 682º para **525º** (📈 +157 posições)
+- **Talking To The Moon** (Bruno Mars): Subiu de 448º para **295º** (📈 +153 posições)
+- **¿Y Como Es Él?** (José Luis Perales): Subiu de 898º para **749º** (📈 +149 posições)
+- **Tiroteo (remix) (part. Rauw Alejandro y Pol Granch)** (Marc Seguí): Subiu de 591º para **444º** (📈 +147 posições)
+- **Hopelessly Devoted To You** (Grease): Subiu de 614º para **469º** (📈 +145 posições)
+- **I Was Made For Lovin' You** (KISS): Subiu de 292º para **150º** (📈 +142 posições)
+- **How Deep Is Your Love** (Bee Gees): Subiu de 214º para **73º** (📈 +141 posições)
+- **505** (Arctic Monkeys): Subiu de 270º para **133º** (📈 +137 posições)
+- **No Surprises** (Radiohead): Subiu de 836º para **702º** (📈 +134 posições)
+- **Love On The Brain** (Rihanna): Subiu de 458º para **327º** (📈 +131 posições)
+- **Reflections** (The Neighbourhood): Subiu de 302º para **174º** (📈 +128 posições)
+- **Loser** (Tame Impala): Subiu de 475º para **347º** (📈 +128 posições)
+- **Raindance (feat. Tems)** (Dave): Subiu de 493º para **365º** (📈 +128 posições)
+- **I Wanna Be Yours** (Arctic Monkeys): Subiu de 202º para **75º** (📈 +127 posições)
+- **Candy** (Plan B): Subiu de 673º para **547º** (📈 +126 posições)
+- **Little Moments** (Nerin): Subiu de 192º para **68º** (📈 +124 posições)
+- **Last Christmas** (Wham!): Subiu de 752º para **628º** (📈 +124 posições)
+- **COQUETA (part. Fuerza Regida)** (Grupo Frontera): Subiu de 598º para **475º** (📈 +123 posições)
+- **COMPA COLETO (uy_como)** (ARIA VEGA): Subiu de 111º para **3º** (📈 +108 posições)
+- **Mirrors** (Justin Timberlake): Subiu de 263º para **156º** (📈 +107 posições)
+- **Vienna** (Billy Joel): Subiu de 244º para **138º** (📈 +106 posições)
+- **El Traje** (Camilo): Subiu de 413º para **312º** (📈 +101 posições)
+- **Paparazzi** (Lady Gaga): Subiu de 535º para **434º** (📈 +101 posições)
 
 ## 🌱 Pequenas Subidas (Abaixo de 100 posições)
 > Omitindo oscilações menores ou iguais a 2 posições.
 
-- **Levanta** (Pablo López): 794º → **696º** (+98)
-- **Space Oddity** (David Bowie): 869º → **771º** (+98)
-- **Cuando No Era Cantante (remix) (part. Anuel AA, Fuerza Regida y Yung Beef)** (El Bogueto): 594º → **499º** (+95)
-- **Effortless** (Freya Skye): 563º → **469º** (+94)
-- **In My Life** (The Beatles): 564º → **470º** (+94)
-- **Guantanamera** (Guitarricadelafuente): 864º → **770º** (+94)
-- **BACKROOMS (part. Club Misterio)** (Fede Vigevani): 1000º → **907º** (+93)
-- **Vivir Así Es Morir de Amor** (Camilo Sesto): 776º → **684º** (+92)
-- **DADDY YANKEE (BZRP Music Sessions #0/66)** (Bizarrap): 963º → **871º** (+92)
-- **AïCha** (Khaled): 422º → **331º** (+91)
-- **Locked Out Of Heaven** (Bruno Mars): 693º → **602º** (+91)
-- **EL BACHATÓN DE LA L (part. Lucho RK)** (Lola Indigo): 983º → **892º** (+91)
-- **You're Still The One** (Shania Twain): 689º → **600º** (+89)
-- **Oceans** (Kenna Childs): 900º → **811º** (+89)
-- **Superviviente** (Antoñito Molina): 630º → **542º** (+88)
-- **Love Will Tear Us Apart** (Joy Division): 595º → **508º** (+87)
-- **Waterloo** (ABBA): 487º → **402º** (+85)
-- **All Too Well (10 Minute Version)** (Taylor Swift): 840º → **755º** (+85)
-- **I Still Haven't Found What I'm Looking For** (U2): 926º → **841º** (+85)
-- **Francia vs Japón (Blue Lock) - Mundial Sub 20 #2** (MegaR): 964º → **879º** (+85)
-- **Lontano** (Sfera Ebbasta): 605º → **521º** (+84)
-- **Rivers Of Babylon** (Boney M.): 667º → **583º** (+84)
-- **Los Amigos** (José Luis Rodríguez): 901º → **817º** (+84)
-- **The Emptiness Machine** (Linkin Park): 924º → **840º** (+84)
-- **Love Story** (Taylor Swift): 931º → **847º** (+84)
-- **TRUENO (BZRP Freestyle Sessions #6)** (Bizarrap): 935º → **851º** (+84)
-- **Can't Remember To Forget You (feat. Rihanna)** (Shakira): 597º → **514º** (+83)
-- **Esta Cobardia** (Chiquetete): 945º → **862º** (+83)
-- **Boulevard of Broken Dreams** (Green Day): 958º → **875º** (+83)
-- **Hola Mi Amor (Yo No Quiero Ser Tu Amante)** (Junco): 969º → **886º** (+83)
-- **Your Love** (The Outfield): 569º → **489º** (+80)
-- **Dear Future Husband** (Meghan Trainor): 874º → **794º** (+80)
-- **Night Changes** (One Direction): 789º → **710º** (+79)
-- **L a k e n o s h i** (Omar Courtz): 805º → **728º** (+77)
-- **Delilah** (Tom Jones): 386º → **311º** (+75)
-- **Bailando (Spanish Version) (part. Descemer Bueno y Gente de Zona)** (Enrique Iglesias): 933º → **858º** (+75)
-- **Si Me Necesitas, Llámame** (Siloé): 639º → **566º** (+73)
-- **L-O-V-E** (Nat King Cole): 713º → **641º** (+72)
-- **Love Of My Life** (Queen): 917º → **845º** (+72)
-- **Earned It** (The Weeknd): 921º → **849º** (+72)
-- **Ama, ama, ama y ensancha el alma** (Extremoduro): 745º → **674º** (+71)
-- **En La Plaza de Mi Pueblo** (Hinos): 283º → **213º** (+70)
-- **Super Jon-Z (Residente Challenge)** (Jon Z): 512º → **442º** (+70)
-- **Mary On A Cross** (Ghost): 815º → **745º** (+70)
-- **Mírame (part. Jime)** (Al Safir): 896º → **827º** (+69)
-- **Back For Good** (Take That): 425º → **357º** (+68)
-- **u + me = <3** (Olivia Rodrigo): 525º → **457º** (+68)
-- **Noches de Boda** (Joaquín Sabina): 669º → **601º** (+68)
-- **drop dead** (Olivia Rodrigo): 685º → **617º** (+68)
-- **Good Luck, Babe!** (Chappell Roan): 353º → **286º** (+67)
-- **Le Temps des Fleurs Fanées** (Élise Noiret): 806º → **740º** (+66)
-- **Don't Cry** (Guns N' Roses): 939º → **873º** (+66)
-- **El Ángel** (Camilo): 410º → **345º** (+65)
-- **99 Luftballons** (NENA): 545º → **480º** (+65)
-- **Fly Me To The Moon** (Frank Sinatra): 632º → **568º** (+64)
-- **Ai Se Eu Te Pego** (Michel Teló): 633º → **569º** (+64)
-- **Your Song** (Elton John): 703º → **639º** (+64)
-- **Como Soy** (Pablo López): 793º → **729º** (+64)
-- **Por la boca vive el pez** (Fito & Fitipaldis): 565º → **503º** (+62)
-- **Sex On Fire** (Kings Of Leon): 709º → **647º** (+62)
-- **Hijo de Hombre** (Phil Collins): 739º → **678º** (+61)
-- **Human Nature** (Michael Jackson): 744º → **683º** (+61)
-- **Live Forever** (Oasis): 607º → **547º** (+60)
-- **No Hay Tregua** (Barricada): 609º → **549º** (+60)
-- **CARITA FELIZ** (Myke Towers): 612º → **553º** (+59)
-- **Champagne Supernova** (Oasis): 546º → **488º** (+58)
-- **Thunderstruck** (AC/DC): 551º → **493º** (+58)
-- **Stan (feat. Eminem)** (Dido): 779º → **721º** (+58)
-- **Basket Case** (Green Day): 913º → **855º** (+58)
-- **There Is a Light That Never Goes Out** (The Smiths): 478º → **421º** (+57)
-- **If The World Was Ending (feat. Julia Michaels)** (JP Saxe): 513º → **456º** (+57)
-- **My Heart Will Go On** (Céline Dion): 681º → **624º** (+57)
-- **Uno Más Uno Son 7 (part. Despistaos)** (Fran Perea): 691º → **634º** (+57)
-- **La Dama y El Vagabundo** (Melendi): 377º → **321º** (+56)
-- **Las Mil y Una Noches** (Flans): 547º → **491º** (+56)
-- **​​​vampire** (Olivia Rodrigo): 817º → **761º** (+56)
-- **La Leyenda Del Rey y El Mago (part. Kballero Rap)** (BenderCat): 842º → **786º** (+56)
-- **Love Songs** (Kaash Paige): 537º → **482º** (+55)
-- **Hasta La Raíz** (Natalia Lafourcade): 570º → **515º** (+55)
-- **En blanco y negro** (Barricada): 788º → **733º** (+55)
-- **Na Na** (Trey Songz): 423º → **369º** (+54)
-- **lovely (feat. Khalid)** (Billie Eilish): 663º → **609º** (+54)
-- **Mosquitos** (Gamberroz): 763º → **709º** (+54)
-- **NORMAL [explicit version]** (BTS): 855º → **801º** (+54)
-- **Je te laisserai des mots** (Patrick Watson): 922º → **869º** (+53)
-- **Bon Dia** (Els Pets): 578º → **526º** (+52)
-- **El Licenciao** (El Barrio): 592º → **540º** (+52)
-- **CAPCANA COCOA (part. Anuel AA) [explícita]** (Blessd): 747º → **695º** (+52)
-- **Lost On You** (LP): 562º → **511º** (+51)
-- **Du Hast** (Rammstein): 916º → **865º** (+51)
-- **Puntos suspensivos** (Robe): 629º → **579º** (+50)
-- **Mercy** (Shawn Mendes): 992º → **942º** (+50)
-- **Pies Descalzos, Sueños Blancos** (Shakira): 363º → **314º** (+49)
-- **It's My Life** (Bon Jovi): 678º → **629º** (+49)
-- **Bachata Rosa** (Juan Luis Guerra 4.40): 774º → **725º** (+49)
-- **Solo Hay Uno (part. Enoc Parra)** (Joel Rocco): 646º → **598º** (+48)
-- **Escúchame Mujer** (Fondo Flamenco): 655º → **607º** (+48)
-- **No Dudaría** (Antonio Flores): 736º → **688º** (+48)
-- **Rein Me In (feat. Sam Fender)** (Olivia Dean): 866º → **818º** (+48)
-- **NI BORRACHO** (Quevedo): 973º → **925º** (+48)
-- **Whenever, Wherever** (Shakira): 985º → **937º** (+48)
-- **American Pie** (Don McLean): 311º → **264º** (+47)
-- **what's wrong with me (feat. Robert Smith)** (Olivia Rodrigo): 572º → **525º** (+47)
-- **Y, ¿Si Fuera Ella?** (Alejandro Sanz): 800º → **753º** (+47)
-- **It's a Heartache** (Bonnie Tyler): 942º → **895º** (+47)
-- **Sencillamente** (Hakuna Group Music): 962º → **915º** (+47)
-- **COMPA COLETO (uy_como)** (ARIA VEGA): 111º → **65º** (+46)
-- **Highway To Hell** (AC/DC): 184º → **138º** (+46)
-- **ENVIDIA** (NATHY PELUSO): 461º → **415º** (+46)
-- **Anima Christi** (Marco Frisina): 768º → **722º** (+46)
-- **Wake Me Up (feat. Aloe Blacc)** (Avicii): 830º → **784º** (+46)
-- **Crazy** (Aerosmith): 868º → **822º** (+46)
-- **7 Years** (Lukas Graham): 934º → **889º** (+45)
-- **Contra Todos** (Robe): 949º → **904º** (+45)
-- **A Thousand Miles** (Vanessa Carlton): 521º → **477º** (+44)
-- **Guantanamera** (Compay Segundo): 540º → **496º** (+44)
-- **HOTEL LOBBY (Unc & Phew) (feat. Takeoff)** (Quavo): 542º → **498º** (+44)
-- **No Me Importa Nada** (Luz Casal): 890º → **846º** (+44)
-- **Jamaican (Bam Bam) (feat. SOLTO)** (HUGEL (FR)): 433º → **390º** (+43)
-- **Cheque Al Portamor** (Melendi): 453º → **410º** (+43)
-- **Babylon** (Taylor Swift): 89º → **47º** (+42)
-- **Pink Clouding** (Taylor Swift): 127º → **86º** (+41)
-- **Rasputin** (Boney M.): 723º → **682º** (+41)
-- **Moonlight** (XXXTENTACION): 753º → **712º** (+41)
-- **Y Sin Embargo** (Joaquín Sabina): 851º → **810º** (+41)
-- **Sultans Of Swing** (Dire Straits): 357º → **317º** (+40)
-- **I Just Might** (Bruno Mars): 645º → **605º** (+40)
-- **Rosa Maria** (Camarón de La Isla): 989º → **949º** (+40)
-- **Delirios de un Poeta** (013): 199º → **160º** (+39)
-- **I Have Nothing** (Whitney Houston): 260º → **221º** (+39)
-- **Talking To The Moon** (Bruno Mars): 448º → **409º** (+39)
-- **We Are The People** (Empire Of The Sun): 600º → **561º** (+39)
-- **Qui sait? (feat. ElGrandeToto)** (ElGrandeToto): 230º → **192º** (+38)
-- **Primavera** (División Azul): 517º → **479º** (+38)
-- **444 (remix) (part. De La Rose, Hades66 y Ñengo Flow)** (Yan Block): 619º → **581º** (+38)
-- **Salve Regina** (Canto Católico): 355º → **318º** (+37)
-- **Ni Más Ni Menos** (Los Chichos): 672º → **635º** (+37)
-- **Dueles** (Jesse & Joy): 822º → **785º** (+37)
-- **Mirrors** (Justin Timberlake): 263º → **227º** (+36)
-- **comare** (Yerai Cortés): 310º → **274º** (+36)
-- **Money For Nothing** (Dire Straits): 360º → **324º** (+36)
-- **Xalbadorren heriotzean** (Xabier Lete): 374º → **338º** (+36)
-- **Mi Estrella Blanca** (Fondo Flamenco): 383º → **347º** (+36)
-- **See You Again (feat. Kali Uchis)** (Tyler, The Creator): 548º → **512º** (+36)
-- **Tu Calorro** (Estopa): 735º → **699º** (+36)
-- **She** (Elvis Costello): 809º → **773º** (+36)
-- **DtMF** (Bad Bunny): 518º → **483º** (+35)
-- **L'Italiano** (Toto Cutugno): 679º → **644º** (+35)
-- **Hijo de La Luna** (Mecano (ES)): 680º → **645º** (+35)
-- **Por El Boulevard de Los Sueños Rotos** (Joaquín Sabina): 759º → **724º** (+35)
-- **She Doesn't Mind** (Sean Paul): 892º → **857º** (+35)
-- **Don't Dream It's Over** (Crowded House): 333º → **299º** (+34)
-- **Jesucristo García** (Extremoduro): 370º → **336º** (+34)
-- **Y Nos Dieron Las Diez** (Joaquín Sabina): 481º → **447º** (+34)
-- **La Gent Que Estimo (part. Rita Payés)** (Oques Grasses): 264º → **232º** (+32)
-- **Don't Stop Me Now** (Queen): 504º → **472º** (+32)
-- **The Nights** (Avicii): 529º → **497º** (+32)
-- **NEXO 01. Me acuerdo de ti** (Nil Moliner): 329º → **298º** (+31)
-- **Moonlight Shadow (feat. Maggie Reilly)** (Mike Oldfield): 391º → **360º** (+31)
-- **Hibakusha** (Pablo López): 444º → **413º** (+31)
-- **Don't tell your dreams (feat. STOSLIV)** (LOVIXX): 585º → **554º** (+31)
-- **back to friends** (sombr): 611º → **580º** (+31)
-- **Катюша (Katyusha)** (Ensemble Alexandrov): 932º → **901º** (+31)
-- **Try** (P!nk): 343º → **313º** (+30)
-- **Numb** (Linkin Park): 366º → **337º** (+29)
-- **Summertime Sadness** (Lana Del Rey): 642º → **613º** (+29)
-- **There's Nothing Holdin' Me Back** (Shawn Mendes): 715º → **686º** (+29)
-- **Suffer** (Bex): 746º → **717º** (+29)
-- **Gangnam Style** (Glee): 240º → **212º** (+28)
-- **Gangnam Style (강남 스타일)** (PSY): 506º → **478º** (+28)
-- **People Have the Power** (Patti Smith): 640º → **612º** (+28)
-- **Stand by Me** (Oasis): 224º → **197º** (+27)
-- **Como Camarón** (Estopa): 420º → **393º** (+27)
-- **misery.** (pupsies): 434º → **407º** (+27)
-- **The Phantom of the Opera** (Fantasma da Ópera): 587º → **560º** (+27)
-- **Seven (feat. Latto) (Explicit Version)** (Jung Kook): 750º → **723º** (+27)
-- **Camals Mullats** (La Gossa Sorda): 991º → **964º** (+27)
-- **Mari Carmen** (La Pegatina): 124º → **98º** (+26)
-- **Ventolà (125 Km)** (Serko): 331º → **305º** (+26)
-- **Heroes** (David Bowie): 342º → **316º** (+26)
-- **Somewhere Over The Rainbow** (Israel Kamakawiwo'ole): 497º → **471º** (+26)
-- **Space Between (feat. Sofia Carson)** (Dove Cameron): 696º → **670º** (+26)
-- **7 rings** (Ariana Grande): 790º → **764º** (+26)
-- **Father And Son** (Cat Stevens): 381º → **356º** (+25)
-- **I Want To Know What Love Is** (Foreigner): 527º → **502º** (+25)
-- **NUEVAYoL** (Bad Bunny): 576º → **551º** (+25)
-- **Candy** (Plan B): 673º → **648º** (+25)
-- **Quién Fuera** (Silvio Rodriguez): 732º → **707º** (+25)
-- **Días de Verano** (Amaral): 733º → **708º** (+25)
-- **My Way** (KATSEYE): 740º → **715º** (+25)
-- **Great Expectation** (SIENNA SPIRO): 399º → **375º** (+24)
-- **Dance with STEEL BALL RUN** (Yugo Kanno): 462º → **438º** (+24)
-- **Fiera Inquieta** (Pasión de Gavilanes): 482º → **458º** (+24)
-- **Say You Won't Let Go** (James Arthur): 883º → **859º** (+24)
-- **BAILE INoLVIDABLE** (Bad Bunny): 994º → **970º** (+24)
-- **Reflections** (The Neighbourhood): 302º → **279º** (+23)
-- **Mamma Mia** (ABBA): 352º → **329º** (+23)
-- **Unstoppable** (Sia): 464º → **441º** (+23)
-- **Let Me Out** (Dover): 483º → **460º** (+23)
-- **When We Were Young** (Adele): 510º → **487º** (+23)
-- **El Vaquilla** (Los Chichos): 891º → **868º** (+23)
-- **The First Time** (Damiano David): 42º → **20º** (+22)
-- **God's Plan** (Drake): 279º → **257º** (+22)
-- **Jane!** (The Long Faces): 365º → **343º** (+22)
-- **En Algún Lugar** (Duncan Dhu): 405º → **383º** (+22)
-- **Friday I'm In Love** (The Cure): 468º → **446º** (+22)
-- **MELODRAMMATICA (part. Cris Lora)** (LUK3): 155º → **134º** (+21)
-- **P0RN0 (part. Chesyprod)** (Metrika): 341º → **320º** (+21)
-- **Stairway To Heaven** (Led Zeppelin): 346º → **325º** (+21)
-- **C'est la cité** (JuL): 398º → **377º** (+21)
-- **Yeshua: Quiero Conocer a Jesús** (Llévame de Vuelta): 408º → **387º** (+21)
-- **Black** (Pearl Jam): 415º → **394º** (+21)
-- **La Salvación** (Arde Bogotá): 637º → **616º** (+21)
-- **MARIMANDONA** (l0rna): 701º → **680º** (+21)
-- **Sarri, Sarri** (Kortatu): 725º → **704º** (+21)
-- **El Libro de La Selva - Busca Lo Más Vital** (Disney): 820º → **799º** (+21)
-- **Tu Jardín Con Enanitos** (Melendi): 908º → **887º** (+21)
-- **Patient Zero** (Taylor Swift): 44º → **24º** (+20)
-- **Forever Young** (Alphaville): 187º → **167º** (+20)
-- **Y Viva España** (Manolo Escobar): 447º → **427º** (+20)
-- **serena joy** (Olivia Rodrigo): 613º → **593º** (+20)
-- **Like a Prayer** (Madonna): 631º → **611º** (+20)
-- **Con Te Partirò** (Andrea Bocelli): 808º → **788º** (+20)
-- **El Patio (part. Delaossa)** (Pepe y Vizio): 175º → **156º** (+19)
-- **Soldadito marinero** (Fito & Fitipaldis): 371º → **352º** (+19)
-- **La Revolucion Sexual** (La Casa Azul): 670º → **651º** (+19)
-- **The Door** (Teddy Swims): 716º → **697º** (+19)
-- **Viva El Pasodoble** (Rocío Jurado): 918º → **899º** (+19)
-- **Dama y Vagabundo** (Envido6): 58º → **40º** (+18)
-- **Somewhere In September** (Planes Mistaken For Stars): 171º → **153º** (+18)
-- **Pocahontas - Colores En El Viento** (Disney): 196º → **178º** (+18)
-- **Clocks** (Coldplay): 486º → **468º** (+18)
-- **Memories** (Maroon 5): 499º → **481º** (+18)
-- **I Love You, I'm Sorry** (Gracie Abrams): 755º → **737º** (+18)
-- **The Scientist** (Coldplay): 201º → **184º** (+17)
-- **El Fin Del Mundo (part. Axolotes Mexicanos)** (La La Love You): 251º → **234º** (+17)
-- **Mockingbird** (Eminem): 294º → **277º** (+17)
-- **VAMO A VEL (part. Anuel AA)** (ROA): 484º → **467º** (+17)
-- **You're The One That I Want** (Grease): 657º → **640º** (+17)
-- **Cleveland!** (Taylor Swift): 39º → **23º** (+16)
-- **真夜中のドア (Stay With Me)** (Miki Matsubara): 277º → **261º** (+16)
-- **Stop The Wedding!** (Ashe): 378º → **362º** (+16)
-- **Si Me Voy (Cups)** (Paula Rojo): 721º → **705º** (+16)
-- **COACHELLA** (Juseph): 835º → **819º** (+16)
-- **After (remix) (part. Young Miko)** (Conep): 72º → **57º** (+15)
-- **La Tortura (part. Alejandro Sanz)** (Shakira): 95º → **80º** (+15)
-- **Stand By Me** (Ben E. King): 130º → **115º** (+15)
-- **Mil y Una Noches** (Guitarricadelafuente): 190º → **175º** (+15)
-- **I Will Always Love You** (Whitney Houston): 307º → **292º** (+15)
-- **Sweet Caroline** (Neil Diamond): 356º → **341º** (+15)
-- **Himno Nacional de España (Marcha Real Española) (versión 1928)** (Himnos de Países): 404º → **389º** (+15)
-- **Don't Stop Believin'** (Journey): 476º → **461º** (+15)
-- **Si Tú Me Dices Ven** (Los Panchos): 588º → **573º** (+15)
-- **Est-ce Que Tu M'aimes?** (GIMS): 948º → **933º** (+15)
-- **Casi Siempre (part. Lola Indigo)** (Pablo López): 76º → **62º** (+14)
-- **One** (U2): 218º → **204º** (+14)
-- **La Vereda de La Puerta de Atrás** (Extremoduro): 286º → **272º** (+14)
-- **Hips Don't Lie (feat. Wyclef Jean)** (Shakira): 295º → **281º** (+14)
-- **Set Fire To The Rain** (Adele): 301º → **287º** (+14)
-- **Ciega, Sordomuda** (Shakira): 369º → **355º** (+14)
-- **What Makes You Beautiful** (One Direction): 394º → **380º** (+14)
-- **Soltera** (Shakira): 618º → **604º** (+14)
-- **Stitches** (Shawn Mendes): 683º → **669º** (+14)
-- **La Gata Bajo La Lluvia** (Rocío Durcal): 819º → **805º** (+14)
-- **Wings** (Birdy): 852º → **838º** (+14)
-- **Entre Sobras y Sobras Me Faltas** (Antonio Orozco): 980º → **966º** (+14)
-- **Chiquitita (Spanish Version)** (ABBA): 134º → **121º** (+13)
-- **Always Remember Us This Way** (Lady Gaga): 266º → **253º** (+13)
-- **SPICY (part. Brytiago y Myke Towers)** (Fronti): 272º → **259º** (+13)
-- **Estoy Aquí** (Shakira): 281º → **268º** (+13)
-- **Stop Crying Your Heart Out** (Oasis): 296º → **283º** (+13)
-- **Acróstico** (Shakira): 144º → **132º** (+12)
-- **Demons** (Imagine Dragons): 189º → **177º** (+12)
-- **Uptown Funk (feat. Mark Ronson)** (Bruno Mars): 208º → **196º** (+12)
-- **Peter Pan** (El Canto del Loco): 223º → **211º** (+12)
-- **The Best** (Tina Turner): 309º → **297º** (+12)
-- **Smells Like Teen Spirit** (Nirvana): 344º → **332º** (+12)
-- **Next Summer** (Damiano David): 684º → **672º** (+12)
-- **Cuando Zarpa El Amor (part. Juan Magan)** (Camela): 959º → **947º** (+12)
-- **Runaway** (AURORA): 156º → **145º** (+11)
-- **Chasing Cars** (Snow Patrol): 265º → **254º** (+11)
-- **Angels** (Robbie Williams): 269º → **258º** (+11)
-- **Where Is My Mind?** (Pixies): 323º → **312º** (+11)
-- **Beat It** (Michael Jackson): 376º → **365º** (+11)
-- **STILETTO O CUADRÁS (part. D.Basto)** (Metrika): 603º → **592º** (+11)
-- **Insurreción** (El Último de la Fila): 786º → **775º** (+11)
-- **Running Up That Hill (A Deal With God)** (Kate Bush): 987º → **976º** (+11)
-- **honeybee** (Olivia Rodrigo): 54º → **44º** (+10)
-- **...Baby One More Time** (Britney Spears): 74º → **64º** (+10)
-- **Lose Control** (Teddy Swims): 150º → **140º** (+10)
-- **Zombie** (The Cranberries): 159º → **149º** (+10)
-- **hate that i made you love me** (Ariana Grande): 212º → **202º** (+10)
-- **Come As You Are** (Nirvana): 216º → **206º** (+10)
-- **Vois Sur Ton Chemin** (Les Choristes): 232º → **222º** (+10)
-- **Olvidame y Pega La Vuelta** (Pimpinela): 258º → **248º** (+10)
-- **La Playa** (La Oreja de Van Gogh): 364º → **354º** (+10)
-- **DaME las SuBs (part. La Pantera y Lucho)** (Peereira7): 903º → **893º** (+10)
-- **With Or Without You** (U2): 30º → **21º** (+9)
-- **Beautiful Things** (Benson Boone): 152º → **143º** (+9)
-- **Chandelier** (Sia): 229º → **220º** (+9)
-- **El Legionario y La Morita** (El Chipirón de Granada): 280º → **271º** (+9)
-- **Slide Away** (Oasis): 284º → **275º** (+9)
-- **Eye In The Sky** (The Alan Parsons Project): 368º → **359º** (+9)
-- **Runaway (feat. Pusha T)** (Kanye West): 452º → **443º** (+9)
-- **Still Loving You** (Scorpions): 485º → **476º** (+9)
-- **No Hay Lugar Más Alto (part. Christine D'Clario)** (Miel San Marcos): 567º → **558º** (+9)
-- **Where Is The Love?** (Black Eyed Peas): 641º → **632º** (+9)
-- **Jenifer** (Els Catarres): 694º → **685º** (+9)
-- **Pink Blush** (Dolly Babe): 925º → **916º** (+9)
-- **Fade Into You** (Mazzy Star): 84º → **76º** (+8)
-- **Wake Me Up When September Ends** (Green Day): 139º → **131º** (+8)
-- **Amor Infinito** (Siloé): 206º → **198º** (+8)
-- **SUN KISS** (TUIDE): 379º → **371º** (+8)
-- **Todos Los Besos** (Los Rebujitos): 390º → **382º** (+8)
-- **Antes de que cuente diez** (Fito & Fitipaldis): 470º → **462º** (+8)
-- **Tú Has Venido a La Orilla (Pescador de Hombres)** (Canciones Religiosas): 531º → **523º** (+8)
-- **Opalite** (Taylor Swift): 599º → **591º** (+8)
-- **Bloody Paradise** (ENHYPEN): 604º → **596º** (+8)
-- **Zoo (From Zootopia 2)** (Shakira): 756º → **748º** (+8)
-- **Hallelujah** (Leonard Cohen): 108º → **101º** (+7)
-- **Un Beso y Una Flor** (Nino Bravo): 119º → **112º** (+7)
-- **Halo** (Beyoncé): 146º → **139º** (+7)
-- **stupid song** (Olivia Rodrigo): 162º → **155º** (+7)
-- **Sweet Dreams (Are Made Of This)** (Eurythmics): 207º → **200º** (+7)
-- **POR SI MAÑANA NO ESTOY** (Omar Courtz): 248º → **241º** (+7)
-- **El Traje** (Camilo): 413º → **406º** (+7)
-- **Hoxe, Mañá e Sempre (part. Valeria Castro)** (Tanxugueiras): 492º → **485º** (+7)
-- **Him & I (feat. Halsey)** (G-Eazy): 523º → **516º** (+7)
-- **Volare (Nel Blu Dipinto Di Blu)** (Domenico Modugno): 579º → **572º** (+7)
-- **Shake It Off** (Taylor Swift): 698º → **691º** (+7)
-- **Ilargia** (Ken Zazpi): 761º → **754º** (+7)
-- **Lovesong** (Adele): 838º → **831º** (+7)
-- **I Want You Back** (The Jackson 5): 889º → **882º** (+7)
-- **PARADIXE (part. El Americano 4KT y Pirlo)** (Feid): 96º → **90º** (+6)
-- **Baby (feat. Ludacris)** (Justin Bieber): 142º → **136º** (+6)
-- **SORT DE TU** (Oques Grasses): 179º → **173º** (+6)
-- **True Love** (Carrion GodBle$$): 195º → **189º** (+6)
-- **Cinco Lobitos Tiene La Loba** (Canciones Infantiles): 242º → **236º** (+6)
-- **See You Again (feat. Charlie Puth)** (Wiz Khalifa): 440º → **434º** (+6)
-- **Cinnamon Girl** (Lana Del Rey): 700º → **694º** (+6)
-- **Love Me Like You Do** (Ellie Goulding): 749º → **743º** (+6)
-- **Complicated** (Avril Lavigne): 773º → **767º** (+6)
-- **Las de La Intuición** (Shakira): 14º → **9º** (+5)
-- **Someone You Loved** (Lewis Capaldi): 31º → **26º** (+5)
-- **Bohemian Rhapsody** (Queen): 43º → **38º** (+5)
-- **pa ti toa ˂3 (part. Lola Indigo)** (Ana Mena): 51º → **46º** (+5)
-- **Loba** (Shakira): 80º → **75º** (+5)
-- **Every Breath You Take** (The Police): 87º → **82º** (+5)
-- **Someone Like You** (Adele): 102º → **97º** (+5)
-- **Let It Be** (The Beatles): 131º → **126º** (+5)
-- **Young And Beautiful** (Lana Del Rey): 163º → **158º** (+5)
-- **Si Antes Te Hubiera Conocido** (KAROL G): 222º → **217º** (+5)
-- **El Rey** (Vicente Fernández): 289º → **284º** (+5)
-- **Dream On** (Aerosmith): 315º → **310º** (+5)
-- **AL GOLPITO (part. Nueva Línea)** (Quevedo): 396º → **391º** (+5)
-- **bloodstream** (Alyssa Grace): 397º → **392º** (+5)
-- **My Heart Will Go On** (Titanic): 406º → **401º** (+5)
-- **Será Porque Te Amo** (Ricchi e Poveri): 431º → **426º** (+5)
-- **Superman (feat. Dina Rae)** (Eminem): 705º → **700º** (+5)
-- **No Necesito Más** (Demarco Flamenco): 910º → **905º** (+5)
-- **A Whiter Shade Of Pale** (Procol Harum): 10º → **6º** (+4)
-- **Carme Flaviá** (Lax'n'Busto): 15º → **11º** (+4)
-- **Love The Way You Lie (feat. Rihanna)** (Eminem): 53º → **49º** (+4)
-- **Fix You** (Coldplay): 59º → **55º** (+4)
-- **03' Bonnie & Clyde (feat. Beyoncé)** (JAY-Z): 73º → **69º** (+4)
-- **Sarà Perché Ti Amo** (Ricchi e Poveri): 83º → **79º** (+4)
-- **Yesterday** (The Beatles): 132º → **128º** (+4)
-- **Piano Man** (Billy Joel): 145º → **141º** (+4)
-- **La Llorona** (Chavela Vargas): 185º → **181º** (+4)
-- **Bonito** (Demarco Flamenco): 209º → **205º** (+4)
-- **How Deep Is Your Love** (Bee Gees): 214º → **210º** (+4)
-- **Es Él (part. Marcos Brunet)** (Felipe S. Santos): 428º → **424º** (+4)
-- **Choosin' Texas** (Ella Langley): 441º → **437º** (+4)
-- **TQG (part. Shakira)** (KAROL G): 477º → **473º** (+4)
-- **Stay With Me** (Sam Smith): 509º → **505º** (+4)
-- **Dog Days Are Over** (Florence + The Machine): 780º → **776º** (+4)
-- **Redemption Song** (Bob Marley): 795º → **791º** (+4)
-- **the cure** (Olivia Rodrigo): 18º → **15º** (+3)
-- **Self Aware** (Temper City): 97º → **94º** (+3)
-- **La Bicicleta (part. Shakira)** (Carlos Vives): 113º → **110º** (+3)
-- **Back To Black** (Amy Winehouse): 126º → **123º** (+3)
-- **Gnarly** (KATSEYE): 149º → **146º** (+3)
-- **Still (feat. Bruno Mars)** (KAROL G): 165º → **162º** (+3)
-- **Duvet** (bôa): 182º → **179º** (+3)
-- **In This Shirt** (The Irrepressibles): 188º → **185º** (+3)
-- **The Reason** (Hoobastank): 197º → **194º** (+3)
-- **Imagine** (John Lennon): 228º → **225º** (+3)
-- **In The End** (Linkin Park): 276º → **273º** (+3)
-- **Messy** (Lola Young): 291º → **288º** (+3)
-- **End of Beginning** (Djo): 336º → **333º** (+3)
-- **One Less Lonely Girl** (Justin Bieber): 402º → **399º** (+3)
-- **Puedes Contar Conmigo** (La Oreja de Van Gogh): 426º → **423º** (+3)
-- **Colgando En Tus Manos (part. Marta Sánchez)** (Carlos Baute): 692º → **689º** (+3)
-- **Tu Falta de Querer** (Mon Laferte): 695º → **692º** (+3)
-- **Locura transitoria** (Extremoduro): 738º → **735º** (+3)
-- **ICONIC BY MISTAKE (feat. ILLIT & KATSEYE)** (LE SSERAFIM): 742º → **739º** (+3)
-- **Into the Sun** (BTS): 974º → **971º** (+3)
+- **Angels Like You** (MILEY): 500º → **403º** (+97)
+- **The Reason** (Hoobastank): 197º → **103º** (+94)
+- **El Ángel** (Camilo): 410º → **324º** (+86)
+- **BAILE INoLVIDABLE** (Bad Bunny): 994º → **911º** (+83)
+- **Dichavate (part. Rey Tony, Dj Honda y Helabusador) [explícita]** (Ya Ice Dilan): 178º → **97º** (+81)
+- **Cinderella (feat. Ty Dolla $ign)** (Mac Miller): 160º → **80º** (+80)
+- **The Climb** (MILEY): 275º → **195º** (+80)
+- **November Rain** (Guns N' Roses): 451º → **371º** (+80)
+- **Everybody Wants To Rule The World** (Tears For Fears): 273º → **201º** (+72)
+- **Cuatro Babys (part. Trap Capos, Noriel, Bryant Myers y Juhn)** (Maluma): 110º → **39º** (+71)
+- **See You Again (feat. Charlie Puth)** (Wiz Khalifa): 440º → **372º** (+68)
+- **Can't Help Falling In Love** (Elvis Presley): 122º → **56º** (+66)
+- **WILDFLOWER** (Billie Eilish): 317º → **253º** (+64)
+- **Sweater Weather** (The Neighbourhood): 226º → **169º** (+57)
+- **Olvidame y Pega La Vuelta** (Pimpinela): 258º → **202º** (+56)
+- **Still Loving You** (Scorpions): 485º → **431º** (+54)
+- **Joseph (feat. Corey Taylor & Serj Tankian)** (Falling In Reverse): 137º → **84º** (+53)
+- **Sign of the Times** (Harry Styles): 107º → **57º** (+50)
+- **Nicole Kidman** (ADÉLA): 79º → **34º** (+45)
+- **Baby (feat. Ludacris)** (Justin Bieber): 142º → **98º** (+44)
+- **Stay With Me** (Sam Smith): 509º → **466º** (+43)
+- **back to friends** (sombr): 611º → **568º** (+43)
+- **La Medalla (part. Evaluna Montaner)** (Camilo): 47º → **6º** (+41)
+- **Disfruto** (Carla Morrison): 148º → **107º** (+41)
+- **Limón y Sal** (Julieta Venegas): 204º → **164º** (+40)
+- **ZIZI (part. Omar Courtz)** (Ozuna): 392º → **353º** (+39)
+- **Manchild** (Sabrina Carpenter): 652º → **615º** (+37)
+- **Die With A Smile (feat. Bruno Mars)** (Lady Gaga): 60º → **24º** (+36)
+- **En Mi Corazón Vivirás** (Tarzan): 161º → **125º** (+36)
+- **UNETHICAL** (Faouzia): 326º → **290º** (+36)
+- **SI ME HICIERA EL DE LA LENGUA (remix) (part. Hades66, Luar La L, Jon Z y Ñengo Flow)** (FANTA ROSARIO): 792º → **756º** (+36)
+- **When I Was Your Man** (Bruno Mars): 112º → **78º** (+34)
+- **Pink Clouding** (Taylor Swift): 127º → **93º** (+34)
+- **Always** (Bon Jovi): 154º → **122º** (+32)
+- **Contigo Aprendí** (Armando Manzanero): 247º → **215º** (+32)
+- **More Than Words** (Extreme): 606º → **580º** (+26)
+- **Patient Zero** (Taylor Swift): 44º → **19º** (+25)
+- **Obsesión (part. Judy Santos)** (Aventura): 128º → **104º** (+24)
+- **Babylon** (Taylor Swift): 89º → **66º** (+23)
+- **Pure** (SIENNA SPIRO): 121º → **100º** (+21)
+- **SaWaDiKa** (LISA): 136º → **115º** (+21)
+- **Somewhere Only We Know** (Keane): 166º → **145º** (+21)
+- **Hootie Frutti** (KATSEYE): 91º → **71º** (+20)
+- **Stand By Me** (Ben E. King): 130º → **110º** (+20)
+- **Still (feat. Bruno Mars)** (KAROL G): 165º → **146º** (+19)
+- **444 (remix) (part. De La Rose, Hades66 y Ñengo Flow)** (Yan Block): 619º → **601º** (+18)
+- **Cleveland!** (Taylor Swift): 39º → **22º** (+17)
+- **Risk It All** (Bruno Mars): 19º → **4º** (+15)
+- **Wind Of Change** (Scorpions): 278º → **264º** (+14)
+- **Con La Misma Piedra** (Julio Iglesias): 988º → **975º** (+13)
+- **Do I Wanna Know?** (Arctic Monkeys): 26º → **14º** (+12)
+- **BbY WOW (part. Judeline y rusowsky)** (KAROL G): 16º → **5º** (+11)
+- **September** (Earth, Wind And Fire): 23º → **12º** (+11)
+- **What's Up?** (4 Non Blondes): 65º → **54º** (+11)
+- **Heaven** (Bryan Adams): 17º → **8º** (+9)
+- **The First Time** (Damiano David): 42º → **33º** (+9)
+- **honeybee** (Olivia Rodrigo): 54º → **45º** (+9)
+- **Have You Ever Seen The Rain** (Creedence Clearwater Revival): 55º → **47º** (+8)
+- **Perfect** (Ed Sheeran): 69º → **62º** (+7)
+- **Who You Share It With** (Layup): 951º → **944º** (+7)
+- **Animal** (KATSEYE): 57º → **51º** (+6)
+- **The One That Got Away** (Katy Perry): 82º → **76º** (+6)
+- **Lonely** (Akon): 205º → **200º** (+5)
+- **Training Season** (Dua Lipa): 11º → **7º** (+4)
+- **Bonito, Bonito** (Thiago Navarro): 21º → **17º** (+4)
+- **Yellow** (Coldplay): 28º → **25º** (+3)
 
 ## 🚀 Novas Entradas no Top
-- **La Romería** (Victor Manuel) - Apareceu direto na posição **783º**
-- **Right Here Waiting** (Richard Marx) - Apareceu direto na posição **825º**
-- **Acquiesce** (Oasis) - Apareceu direto na posição **843º**
-- **Nights In White Satin** (The Moody Blues) - Apareceu direto na posição **864º**
-- **Cristo Jesús Eres Mi Plenitud (Si Te Tengo a Ti)** (Marcos Brunet) - Apareceu direto na posição **870º**
-- **Escapism. (feat. 070 Shake)** (RAYE) - Apareceu direto na posição **890º**
-- **Con La Miel En Los Labios** (Aitana) - Apareceu direto na posição **903º**
-- **Tu Frialdad** (Triana) - Apareceu direto na posição **910º**
-- **Can't Take My Eyes Off You** (Frankie Valli) - Apareceu direto na posição **919º**
-- **Amor de compra y venta** (Los Chichos) - Apareceu direto na posição **920º**
-- **Océanos (Donde Mis Pies Pueden Fallar)** (Hillsong UNITED) - Apareceu direto na posição **922º**
-- **CUANDO HABLES CON ÉL** (Aitana) - Apareceu direto na posição **924º**
-- **Mi Chico (feat. Melody & DJ Goja)** (Jason Derulo) - Apareceu direto na posição **926º**
-- **Blowin' in the Wind** (Bob Dylan) - Apareceu direto na posição **928º**
-- **Till I Collapse (feat. Nate Dogg)** (Eminem) - Apareceu direto na posição **929º**
-- **New York, New York** (Frank Sinatra) - Apareceu direto na posição **938º**
-- **Cuéntame** (Fórmula V) - Apareceu direto na posição **939º**
-- **Patience** (Take That) - Apareceu direto na posição **940º**
-- **Se Acabó** (María Jiménez) - Apareceu direto na posição **941º**
-- **Quelqu'un M'a Dit** (Carla Bruni) - Apareceu direto na posição **946º**
-- **Sueños Inalcanzables** (Camela) - Apareceu direto na posição **948º**
-- **Instant Crush (feat. Julian Casablancas)** (Daft Punk) - Apareceu direto na posição **954º**
-- **Margaret (feat. Bleachers)** (Lana Del Rey) - Apareceu direto na posição **957º**
-- **Down Under** (Men At Work) - Apareceu direto na posição **959º**
-- **Propuesta Indecente** (Romeo Santos) - Apareceu direto na posição **965º**
-- **G.G.B** (Bling Bling) - Apareceu direto na posição **967º**
-- **Et Prometo (part. Ivan Herzog)** (Porto Bello) - Apareceu direto na posição **968º**
-- **Fiesta Pagana** (Mägo de Oz) - Apareceu direto na posição **969º**
-- **Starman** (David Bowie) - Apareceu direto na posição **972º**
-- **Just Like Heaven** (The Cure) - Apareceu direto na posição **973º**
-- **Landslide** (Fleetwood Mac) - Apareceu direto na posição **974º**
-- **Can't Stop** (Red Hot Chili Peppers) - Apareceu direto na posição **975º**
-- **What's Luv? (feat. Ashanti)** (Fat Joe) - Apareceu direto na posição **978º**
-- **Bad Dreams** (Teddy Swims) - Apareceu direto na posição **981º**
-- **I Knew It, I Knew You** (Taylor Swift) - Apareceu direto na posição **982º**
-- **Reflejo (Versión de Charly Flow)** (La Reina del Flow) - Apareceu direto na posição **989º**
-- **Celine (part. Ghost Killer Track)** (Kidd Keo) - Apareceu direto na posição **993º**
-- **Tick-Tack** (ILLIT) - Apareceu direto na posição **994º**
-- **Niño** (Milo j) - Apareceu direto na posição **996º**
-- **2.0 #1** (l0rna) - Apareceu direto na posição **998º**
-- **Im Sorry Mom** (Marino) - Apareceu direto na posição **1000º**
+- **Alaba a Dios** (Danny Berrios) - Apareceu direto na posição **9º**
+- **Y Que Pasó** (Orquesta La Bella Luz) - Apareceu direto na posição **18º**
+- **Cuán Grande Es Él** (Rojo) - Apareceu direto na posição **27º**
+- **Yo No Soy El Mismo** (Alex Márquez) - Apareceu direto na posição **32º**
+- **Un Destello de Tu Gloria** (Jesús Adrián Romero) - Apareceu direto na posição **43º**
+- **Tus Cuerdas de Amor (part. Lowsan Melgar)** (Julio Melgar) - Apareceu direto na posição **44º**
+- **Creo En Ti** (Julio Melgar) - Apareceu direto na posição **46º**
+- **Cristo Jesús Eres Mi Plenitud (Si Te Tengo a Ti)** (Marcos Brunet) - Apareceu direto na posição **49º**
+- **La Casa de Dios** (Danilo Montero) - Apareceu direto na posição **50º**
+- **Grande y Fuerte** (Miel San Marcos) - Apareceu direto na posição **52º**
+- **Hay Libertad** (Art Aguilera) - Apareceu direto na posição **53º**
+- **Preciosa Sangre** (Cesar Dario) - Apareceu direto na posição **59º**
+- **Supreme** (Robbie Williams) - Apareceu direto na posição **60º**
+- **Pense em Mim** (Leandro & Leonardo) - Apareceu direto na posição **61º**
+- **Inexplicable** (Denicher Pol) - Apareceu direto na posição **63º**
+- **Abre Mis Ojos** (Danilo Montero) - Apareceu direto na posição **65º**
+- **Better Man** (Robbie Williams) - Apareceu direto na posição **67º**
+- **Himno de Victoria** (Danny Berrios) - Apareceu direto na posição **70º**
+- **Que Nadie Se Entere** (La Noche) - Apareceu direto na posição **74º**
+- **Aleluya** (Centro Mundial de Avivamiento) - Apareceu direto na posição **82º**
+- **Eres Todo Poderoso** (Danilo Montero) - Apareceu direto na posição **86º**
+- **Floating** (Cinek) - Apareceu direto na posição **87º**
+- **Beretta (De Los Cerros La Escuela)** (El de Las R's) - Apareceu direto na posição **88º**
+- **Será Llena La Tierra** (Marco Barrientos) - Apareceu direto na posição **89º**
+- **Maula Mere Maula** (Roop Kumar Rathod) - Apareceu direto na posição **90º**
+- **Danzando (part. Christine D'Clario, Travy Joe y Daniel Calveti)** (Gateway Worship Español) - Apareceu direto na posição **91º**
+- **El Borde de Su Manto** (Juan Carlos Alvarado) - Apareceu direto na posição **92º**
+- **Fiesta En El Desierto (La La La)** (Montesanto) - Apareceu direto na posição **94º**
+- **Glorioso Día** (Passion) - Apareceu direto na posição **99º**
+- **Quiero Levantar Mis Manos** (Marcos Witt) - Apareceu direto na posição **101º**
+- **Yahweh Se Manifestará** (Oasis Ministry) - Apareceu direto na posição **106º**
+- **Lo Harás Otra Vez** (Elevation Worship) - Apareceu direto na posição **120º**
+- **Digno (Worthy)** (Elevation Worship) - Apareceu direto na posição **121º**
+- **Háblame Papá** (Mayo Music) - Apareceu direto na posição **127º**
+- **Yo Me Rindo a Él** (Jesús Adrián Romero) - Apareceu direto na posição **128º**
+- **Digno (part. Yvonne Muñoz y Marco Barrientos)** (Marcos Brunet) - Apareceu direto na posição **129º**
+- **Remolineando** (Fernel Monroy) - Apareceu direto na posição **131º**
+- **Amor** (Emmanuel Cortes) - Apareceu direto na posição **132º**
+- **Las Mañanitas** (Vicente Fernández) - Apareceu direto na posição **135º**
+- **Hermoso Nombre** (Hillsong en Español) - Apareceu direto na posição **136º**
+- **Eso y Más** (Joan Sebastian) - Apareceu direto na posição **139º**
+- **PERRA** (LIL NAAY) - Apareceu direto na posição **140º**
+- **Ya No Soy Esclavo (part. Aliento y Yvonne Muñoz)** (Julio Melgar) - Apareceu direto na posição **141º**
+- **ELA PEIDA FUNK** (DJ V2be) - Apareceu direto na posição **142º**
+- **El Dios Que Adoramos (part. Adoración La IBI)** (Sovereign Grace Music) - Apareceu direto na posição **143º**
+- **Tu Fidelidad** (Marcos Witt) - Apareceu direto na posição **144º**
+- **Quien Más (part. Waleska Morales y Miel San Marcos)** (Gateway Worship Español) - Apareceu direto na posição **147º**
+- **Tú No Vive' Así (part. Arcángel, DJ Luian y Mambo Kingz)** (Bad Bunny) - Apareceu direto na posição **149º**
+- **El Perfume** (Caribeños de Guadalupe) - Apareceu direto na posição **153º**
+- **Bueno Es Alabarte** (Danilo Montero) - Apareceu direto na posição **155º**
+- **Al Que Esta Sentado En El Trono (part. Lucas Conslie)** (Marcos Brunet) - Apareceu direto na posição **157º**
+- **El Secreto** (Grupo 5) - Apareceu direto na posição **158º**
+- **Por Amar a Ciegas** (Arcángel) - Apareceu direto na posição **162º**
+- **Gracias** (Marcos Witt) - Apareceu direto na posição **163º**
+- **Amado de Mi Alma** (Alex Márquez) - Apareceu direto na posição **165º**
+- **Cuán Grande Es Dios** (En Espiritu Y En Verdad) - Apareceu direto na posição **171º**
+- **Hosanna** (Marco Barrientos) - Apareceu direto na posição **175º**
+- **Renuévame** (Marcos Witt) - Apareceu direto na posição **177º**
+- **Hermoso Momento (Sesión Acústica)** (Kairo Worship) - Apareceu direto na posição **178º**
+- **De Tal Manera** (Abel Zavala) - Apareceu direto na posição **179º**
+- **Fiesta** (Miel San Marcos) - Apareceu direto na posição **181º**
+- **She's The One** (Robbie Williams) - Apareceu direto na posição **184º**
+- **Nadie Puede Detenerle (En Vivo)** (Grace Rodríguez) - Apareceu direto na posição **185º**
+- **En El Nombre de Jesús** (Ingrid Rosario) - Apareceu direto na posição **187º**
+- **Mi Historia Entre Tus Dedos** (Gianluca Grignani) - Apareceu direto na posição **188º**
+- **Ven Espíritu Santo** (Barak) - Apareceu direto na posição **189º**
+- **Santo Es El Que Vive** (Montesanto) - Apareceu direto na posição **190º**
+- **Historia de Taxi** (Ricardo Arjona) - Apareceu direto na posição **191º**
+- **DIGNO DE ADORAR (part. Waleska Morales)** (Miel San Marcos) - Apareceu direto na posição **196º**
+- **Loco (Tu Forma de Ser)** (Los Auténticos Decadentes) - Apareceu direto na posição **199º**
+- **Al Estar Aqui** (Danilo Montero) - Apareceu direto na posição **203º**
+- **Jesucristo Basta (Versión Acústica) (part. Living)** (Un Corazón) - Apareceu direto na posição **204º**
+- **Cosas Del Amor (part. Vikki Carr)** (Ana Gabriel) - Apareceu direto na posição **209º**
+- **El Fuego Que Me Quema / A Dónde Iré** (Neway Music) - Apareceu direto na posição **220º**
+- **Veo En Ti La Luz (part. Chayanne)** (DANNA) - Apareceu direto na posição **223º**
+- **Que Se Abra El Cielo (part. Marcos Brunet)** (Christine D'Clario) - Apareceu direto na posição **227º**
+- **Voy A Perder La compostura** (Billy Bunster) - Apareceu direto na posição **228º**
+- **En Totalidad a Ti** (Vino Nuevo) - Apareceu direto na posição **232º**
+- **Yo Te Extrañaré** (Tercer Cielo) - Apareceu direto na posição **236º**
+- **El Poder de Tu Amor** (Ingrid Rosario) - Apareceu direto na posição **237º**
+- **Lo Único Que Quiero (part. Marco Barrientos)** (Marcela Gandara) - Apareceu direto na posição **240º**
+- **Ta Ki Seni Görene Kadar** (Tuana Tetik) - Apareceu direto na posição **241º**
+- **Es Por Ti** (Juanes) - Apareceu direto na posição **243º**
+- **Así Como David Danzaba** (Iglesia de Cristo Ebenezer Honduras) - Apareceu direto na posição **244º**
+- **Que Se Mueran** (Romeo Santos) - Apareceu direto na posição **245º**
+- **Mix Hechicero** (Son Del Duke) - Apareceu direto na posição **247º**
+- **Agnus Dei** (Marco Barrientos) - Apareceu direto na posição **248º**
+- **La Bendición (The Blessing)** (Elevation Worship) - Apareceu direto na posição **251º**
+- **Me Viene a Buscar** (Horeb Collective) - Apareceu direto na posição **252º**
+- **El Amar y el Querer** (José José) - Apareceu direto na posição **256º**
+- **Te Alabaré Mi Buen Jesús** (Danilo Montero) - Apareceu direto na posição **258º**
+- **Escalando Peldaños / Grandes y Maravillosas (medley)** (Vida Real Worship) - Apareceu direto na posição **259º**
+- **MONTAGEM ALQUIMIA** (h6itam) - Apareceu direto na posição **260º**
+- **El Nombre de Jesús** (Elevation Worship) - Apareceu direto na posição **262º**
+- **Alaba** (Elevation Worship) - Apareceu direto na posição **263º**
+- **La Voz de Mi Amado** (Iglesia de Cristo Ebenezer Honduras) - Apareceu direto na posição **266º**
+- **Canta Al Señor** (Ingrid Rosario) - Apareceu direto na posição **271º**
+- **Amor Mío** (Diego Barrera Requintista) - Apareceu direto na posição **272º**
+- **Aceite Fresco** (New Wine) - Apareceu direto na posição **273º**
+- **Una Aventura** (Banda El Recodo De Cruz Lizárraga) - Apareceu direto na posição **279º**
+- **Te Doy Gloria** (En Espiritu Y En Verdad) - Apareceu direto na posição **281º**
+- **Ven, Es Hora de Adorarle** (Marco Barrientos) - Apareceu direto na posição **282º**
+- **Si Tu Presencia Conmigo No Va** (Oasis Ministry) - Apareceu direto na posição **283º**
+- **Como Dijiste** (Christine D'Clario) - Apareceu direto na posição **284º**
+- **Sábanas Blancas** (La Santa Grifa) - Apareceu direto na posição **285º**
+- **Mira Niñita** (Los Jaivas) - Apareceu direto na posição **286º**
+- **Yo Quiero Más de Ti** (Jaime Murrell) - Apareceu direto na posição **289º**
+- **No Hay Otro Nombre** (Hillsong Worship) - Apareceu direto na posição **291º**
+- **MESÍAS** (Averly Morillo) - Apareceu direto na posição **292º**
+- **El Problema** (Ricardo Arjona) - Apareceu direto na posição **293º**
+- **La Cheyenne** (El de Las R's) - Apareceu direto na posição **297º**
+- **Como En El Cielo** (Elevation Worship) - Apareceu direto na posição **298º**
+- **Peli De Terror** (KØDDY-G) - Apareceu direto na posição **300º**
+- **Granito de Mostaza** (Canciones Religiosas) - Apareceu direto na posição **301º**
+- **Que Vuelva Lo Santo Al Altar (part. Montesanto)** (Grupo Grace) - Apareceu direto na posição **303º**
+- **Así Fue** (Juan Gabriel) - Apareceu direto na posição **306º**
+- **Chachachá** (Jósean Log) - Apareceu direto na posição **307º**
+- **Alabaré** (Canciones Religiosas) - Apareceu direto na posição **309º**
+- **Simplemente Amigos** (Ana Gabriel) - Apareceu direto na posição **313º**
+- **Alaba (part. Intimidad Worship)** (Evan Craft) - Apareceu direto na posição **314º**
+- **Cambiaré Mis Tristezas** (Israel Houghton) - Apareceu direto na posição **317º**
+- **Luna** (Zoé) - Apareceu direto na posição **318º**
+- **KOKO** (Omar Courtz) - Apareceu direto na posição **321º**
+- **Bendita Vida** (Paolo) - Apareceu direto na posição **323º**
+- **Bueno Es Dios, Grita Canta Danza, Yo Tengo Gozo (En Vivo) (medley)** (CCINT MUSIC) - Apareceu direto na posição **325º**
+- **Haz Un Milagro En Mí** (Jonathan Giménez) - Apareceu direto na posição **331º**
+- **Cuando Florezca el Chuño** (Armonía 10) - Apareceu direto na posição **334º**
+- **Give It Up to Me** (Sean Paul) - Apareceu direto na posição **335º**
+- **Hooligan** (BTS) - Apareceu direto na posição **336º**
+- **Angeles (Spanish Version)** (Robbie Williams) - Apareceu direto na posição **337º**
+- **El Gran Varón** (Willie Colón) - Apareceu direto na posição **339º**
+- **Qué Locura Enamorarme de Ti** (Eddie Santiago) - Apareceu direto na posição **343º**
+- **Moana - Cuán Lejos Voy** (Disney) - Apareceu direto na posição **344º**
+- **Sunday Morning** (Maroon 5) - Apareceu direto na posição **346º**
+- **El Gabán Trabalenguas** (Ambar Montilla) - Apareceu direto na posição **350º**
+- **Mix Tu Ausencia (A Través Del Vaso / Tu Ausencia / El Amor Se Pesa)** (Son Del Duke) - Apareceu direto na posição **352º**
+- **Desierto En Paraiso** (Hanna Ponce) - Apareceu direto na posição **354º**
+- **Cantare Al Señor Por Siempre** (Juan Carlos Alvarado) - Apareceu direto na posição **356º**
+- **El Amor** (Ricardo Arjona) - Apareceu direto na posição **358º**
+- **Dame de Beber** (Marco Barrientos) - Apareceu direto na posição **359º**
+- **Love My Life** (Robbie Williams) - Apareceu direto na posição **362º**
+- **Si No Te Hubieras Ido** (Marco Antonio Solís) - Apareceu direto na posição **363º**
+- **Levanto Mis Manos** (Samuel Hernandez) - Apareceu direto na posição **366º**
+- **Yo... El Aventurero** (Pedro Fernández) - Apareceu direto na posição **369º**
+- **Por Que Te Vas De Mí** (Valentín Elizalde) - Apareceu direto na posição **373º**
+- **Mala Racha (Losin' Streak) (versión en español latino)** (Hazbin Hotel) - Apareceu direto na posição **374º**
+- **Esta Cayendo** (José Luis Reyes) - Apareceu direto na posição **375º**
+- **Mix Te Sueño** (Corazón Serrano) - Apareceu direto na posição **376º**
+- **Cien Años** (Pedro Infante) - Apareceu direto na posição **377º**
+- **Tan Enamorados** (Ricardo Montaner) - Apareceu direto na posição **379º**
+- **Rude** (MAGIC!) - Apareceu direto na posição **380º**
+- **Tu Estás Aqui** (Marcela Gandara) - Apareceu direto na posição **381º**
+- **Señora de Las Cuatro Décadas** (Ricardo Arjona) - Apareceu direto na posição **382º**
+- **El Poderoso de Israel** (Juan Carlos Alvarado) - Apareceu direto na posição **384º**
+- **Estoy Convencido** (Averly Morillo) - Apareceu direto na posição **385º**
+- **Tu Mirada** (Marcos Witt) - Apareceu direto na posição **386º**
+- **Like Animals** (BTS) - Apareceu direto na posição **388º**
+- **Ya Me Enteré** (Reik) - Apareceu direto na posição **390º**
+- **Munasqechay** (Los Kjarkas) - Apareceu direto na posição **391º**
+- **My Kind of Woman** (Mac DeMarco) - Apareceu direto na posição **392º**
+- **Te Necesito** (Grace Rodríguez) - Apareceu direto na posição **394º**
+- **Señor Eres Fiel** (Coalo Zamorano) - Apareceu direto na posição **399º**
+- **Mix Palabritas** (Son Del Duke) - Apareceu direto na posição **401º**
+- **Hosanna** (Hillsong en Español) - Apareceu direto na posição **402º**
+- **COOOK PARDON (feat. AKDO)** (Lvbel C5) - Apareceu direto na posição **404º**
+- **El Mochomo** (Los Canelos de Durango) - Apareceu direto na posição **406º**
+- **Tesoro Perdido** (Dalvin La Melodia) - Apareceu direto na posição **407º**
+- **Jesús En El Centro** (Israel & New Breed) - Apareceu direto na posição **408º**
+- **VUELVE A ARDER** (Coral La Luz) - Apareceu direto na posição **410º**
+- **Body to Body** (BTS) - Apareceu direto na posição **411º**
+- **Un Millón de Primaveras** (Vicente Fernández) - Apareceu direto na posição **413º**
+- **De Gloria En Gloria** (Marcos Witt) - Apareceu direto na posição **417º**
+- **My One And Only Love (feat. Natalia Lafourcade & Silvana Estrada)** (Mon Laferte) - Apareceu direto na posição **418º**
+- **Quítame Ese Hombre** (Pilar Montenegro) - Apareceu direto na posição **419º**
+- **No Other Heart** (Mac DeMarco) - Apareceu direto na posição **420º**
+- **La Quemona 2** (Mishelle Master Boys) - Apareceu direto na posição **421º**
+- **Exáltate** (Marcos Witt) - Apareceu direto na posição **422º**
+- **OLIVIA LA FLAKA (part. Tito Double P, Victor Mendivil y Ovi)** (Natanael Cano) - Apareceu direto na posição **423º**
+- **Fuentes de Ortiz** (Ed Maverick) - Apareceu direto na posição **428º**
+- **Rock DJ** (Robbie Williams) - Apareceu direto na posição **429º**
+- **He Decidido Seguir a Cristo** (Himnario Adventista) - Apareceu direto na posição **430º**
+- **Eyes Without a Face** (Billy Idol) - Apareceu direto na posição **438º**
+- **Camino Al Cielo Yo Voy** (Puerto Seguro) - Apareceu direto na posição **441º**
+- **Necio (part. Santana)** (Romeo Santos) - Apareceu direto na posição **442º**
+- **Mujeres** (Ricardo Arjona) - Apareceu direto na posição **443º**
+- **Ruler Of My Heart** (Alien Stage) - Apareceu direto na posição **445º**
+- **La Nave Del Olvido** (José José) - Apareceu direto na posição **446º**
+- **SWIM** (BTS) - Apareceu direto na posição **450º**
+- **Él Es El Rey** (Danilo Montero) - Apareceu direto na posição **451º**
+- **Que Se Llene Tu Casa** (Ingrid Rosario) - Apareceu direto na posição **452º**
+- **Sebebi Yar** (BLOK3) - Apareceu direto na posição **453º**
+- **Amor y Control** (Rubén Blades) - Apareceu direto na posição **454º**
+- **they don't know 'bout us** (BTS) - Apareceu direto na posição **455º**
+- **La Tierra Canta** (Barak) - Apareceu direto na posição **456º**
+- **Harvey** (Her's) - Apareceu direto na posição **457º**
+- **Daylight** (Taylor Swift) - Apareceu direto na posição **458º**
+- **La Sunamita (part. Alex Marquez)** (Montesanto) - Apareceu direto na posição **460º**
+- **Mi Amor Es Pobre (part. Ken-Y y Arcángel)** (Tony Dize) - Apareceu direto na posição **462º**
+- **Un Idiota** (Joan Sebastian) - Apareceu direto na posição **465º**
+- **Sunflower (feat. Swae Lee)** (Post Malone) - Apareceu direto na posição **467º**
+- **Amor Sin Condición** (TWICE) - Apareceu direto na posição **468º**
+- **Yo Llegaré** (Impacto Uncion Y Poder) - Apareceu direto na posição **470º**
+- **Ayúdame** (LOS DOS DE TAMAULIPAS) - Apareceu direto na posição **471º**
+- **La Loba** (Miriam Cruz) - Apareceu direto na posição **472º**
+- **Me Gustas** (Joan Sebastian) - Apareceu direto na posição **473º**
+- **For Eva** (Camilo) - Apareceu direto na posição **474º**
+- **In Aisles** (Nero's Day At Disneyland) - Apareceu direto na posição **476º**
+- **Te Conozco** (Ricardo Arjona) - Apareceu direto na posição **477º**
+- **Desde Que Te Tengo** (Carín León) - Apareceu direto na posição **478º**
+- **Revelación (Digno Es El Cordero Santo) (part. Kari Jobe)** (Danilo Montero) - Apareceu direto na posição **480º**
+- **Cuando Ella Me Amaba** (Alessandra Rosaldo) - Apareceu direto na posição **481º**
+- **Tu Palabra** (Juan Carlos Alvarado) - Apareceu direto na posição **484º**
+- **Cico Buff** (Cocteau Twins) - Apareceu direto na posição **485º**
+- **Niño** (Milo j) - Apareceu direto na posição **486º**
+- **Has Cambiado Mi Lamento** (Marcos Witt) - Apareceu direto na posição **489º**
+- **Maladie (Gospel Version)** (Gospelize) - Apareceu direto na posição **492º**
+- **Más Allá Del Horizonte** (Virginia Brito) - Apareceu direto na posição **494º**
+- **El Amor** (Tito El Bambino) - Apareceu direto na posição **496º**
+- **Fiel** (Majo y Dan) - Apareceu direto na posição **497º**
+- **A Dios Sea La Gloria** (Danny Berrios) - Apareceu direto na posição **499º**
+- **Ella y Yo (part. Don Omar)** (Aventura) - Apareceu direto na posição **500º**
+- **Trae El Cielo Aquí** (Barak) - Apareceu direto na posição **501º**
+- **Te Dejo En Libertad** (Ha*Ash) - Apareceu direto na posição **502º**
+- **Ven, Espíritu, Ven** (Marco Barrientos) - Apareceu direto na posição **503º**
+- **From The Start** (Laufey) - Apareceu direto na posição **504º**
+- **Solo Dejenme Adorarle** (Henry Ulloa) - Apareceu direto na posição **505º**
+- **My Song** (イルカの夢でさようなら (iruka no yumede sayonara)) - Apareceu direto na posição **506º**
+- **Libre Soy (part. Alex Campos)** (Barak) - Apareceu direto na posição **507º**
+- **Océanos (Donde Mis Pies Pueden Fallar)** (Hillsong UNITED) - Apareceu direto na posição **508º**
+- **Tienes (remix) (part. Rey Tony, Helabusador y Dj Honda)** (Ya Ice Dilan) - Apareceu direto na posição **512º**
+- **Dios Está Aqui** (Cindy Barrera) - Apareceu direto na posição **514º**
+- **El Espíritu de Dios Está En Este Lugar** (Canciones Religiosas) - Apareceu direto na posição **515º**
+- **Tu Y Yo** (La Misma Gente) - Apareceu direto na posição **520º**
+- **Un Osito Dormilón** (Binomio de Oro de América) - Apareceu direto na posição **524º**
+- **Evergreen (You Didn't Deserve Me At All)** (Omar Apollo) - Apareceu direto na posição **526º**
+- **El Próximo Viernes** (Espinoza Paz) - Apareceu direto na posição **527º**
+- **No. 1 Party Anthem** (Arctic Monkeys) - Apareceu direto na posição **529º**
+- **Espíritu de Dios Llena Mi Vida** (Ungidos Worship) - Apareceu direto na posição **530º**
+- **MIX MI VECINA** (LIZ GARAY) - Apareceu direto na posição **531º**
+- **DE MEDALLO PA MOROVIS (part. Kris R.)** (FANTA ROSARIO) - Apareceu direto na posição **532º**
+- **Heme Aquí** (Iglesia de Cristo Ebenezer Honduras) - Apareceu direto na posição **533º**
+- **Promise (part. Usher)** (Romeo Santos) - Apareceu direto na posição **537º**
+- **Doma** (Jósean Log) - Apareceu direto na posição **538º**
+- **يا حلو (ya helou)** (Adam (آدم)) - Apareceu direto na posição **539º**
+- **Bendito Jesus** (Danilo Montero) - Apareceu direto na posição **541º**
+- **Necesito Un Encuentro** (New Wine) - Apareceu direto na posição **542º**
+- **Hay Momentos** (Danilo Montero) - Apareceu direto na posição **543º**
+- **White Keys** (Dominic Fike) - Apareceu direto na posição **545º**
+- **El Señor Es Mi Rey (part. Tony Perez)** (Miel San Marcos) - Apareceu direto na posição **548º**
+- **0 Sentimientos (remix) (part. Baby Rasta, Noriel, Lyan, Darkiel y Messiah)** (Jon Z) - Apareceu direto na posição **549º**
+- **Hay Libertad** (Adoración La IBI) - Apareceu direto na posição **550º**
+- **Levántate Señor** (Miel San Marcos) - Apareceu direto na posição **551º**
+- **Loverboy** (A-Wall) - Apareceu direto na posição **552º**
+- **Pablo & Silas** (Oasis Ministry) - Apareceu direto na posição **555º**
+- **El Hijo Desobediente** (Antonio Aguilar) - Apareceu direto na posição **556º**
+- **Libre** (Juan Carlos Alvarado) - Apareceu direto na posição **557º**
+- **Los Viejos Estandartes** (Los Cuatro Cuartos) - Apareceu direto na posição **558º**
+- **Le Llaman Guerrero (Popurrí Completo)** (Juan Carlos Alvarado) - Apareceu direto na posição **560º**
+- **Coleccionando Heridas (part. Marco Antonio Solís)** (KAROL G) - Apareceu direto na posição **562º**
+- **Quién Va A Cantar** (Rubén Rada) - Apareceu direto na posição **564º**
+- **Eres** (Café Tacvba) - Apareceu direto na posição **567º**
+- **Señor Carcelero** (Pascualillo Coronado) - Apareceu direto na posição **569º**
+- **The Only Exception** (Paramore) - Apareceu direto na posição **571º**
+- **Rodeado (part. Tba Worship, Misael J y Carolina Ponciano)** (Grupo Hope) - Apareceu direto na posição **572º**
+- **M.** (Anıl Emre Daldal) - Apareceu direto na posição **573º**
+- **GALÁCTICOS (part. El Americano 4KT)** (Bigg Danny) - Apareceu direto na posição **574º**
+- **Deseándote** (Frankie Ruiz) - Apareceu direto na posição **575º**
+- **Good Looking** (Suki Waterhouse) - Apareceu direto na posição **576º**
+- **Puerto Montt** (Los Iracundos) - Apareceu direto na posição **578º**
+- **Piensa En Mí** (Leandro & Leonardo) - Apareceu direto na posição **581º**
+- **Fuego** (Billy Bunster) - Apareceu direto na posição **582º**
+- **Hurt** (Christina Aguilera) - Apareceu direto na posição **583º**
+- **No Crezcas Más** (Tercer Cielo) - Apareceu direto na posição **585º**
+- **SLOW DANCING IN THE DARK** (Joji) - Apareceu direto na posição **587º**
+- **Levántate Señor** (Marcos Witt) - Apareceu direto na posição **592º**
+- **De La Vida Como Película, Tragedia, Comedia y Ficción** (Canserbero) - Apareceu direto na posição **593º**
+- **EL AMOR DE SU VIDA (part. Grupo Firme)** (Grupo Frontera) - Apareceu direto na posição **594º**
+- **YAMA** (DYSTINCT) - Apareceu direto na posição **595º**
+- **Los Muros Caerán** (Miel San Marcos) - Apareceu direto na posição **598º**
+- **Ebrio De Amor** (Valentín Elizalde) - Apareceu direto na posição **599º**
+- **Pornosotros** (Wampi) - Apareceu direto na posição **600º**
+- **One Of The Girls (feat. JENNIE & Lily-Rose Depp)** (The Weeknd) - Apareceu direto na posição **602º**
+- **Sexy Moves** (Blero) - Apareceu direto na posição **603º**
+- **I'm Still In Love With You (feat. Sasha)** (Sean Paul) - Apareceu direto na posição **605º**
+- **MOOO!** (Doja Cat) - Apareceu direto na posição **606º**
+- **El Triste** (José José) - Apareceu direto na posição **608º**
+- **El Teléfono** (Grupo 5) - Apareceu direto na posição **609º**
+- **El Gran Yo Soy** (Julissa) - Apareceu direto na posição **610º**
+- **El Alfarero (part. Veronica Leal)** (Alex Campos) - Apareceu direto na posição **611º**
+- **Making Love Out of Nothing at All** (Air Supply) - Apareceu direto na posição **612º**
+- **La Bondad de Dios (part. Ileia Sharaé)** (Church of the City) - Apareceu direto na posição **613º**
+- **El Rey Te Mandó a Llamar** (Danny Berrios) - Apareceu direto na posição **614º**
+- **PXG Vs Bastard Munchen (Blue Lock) - Liga Neo Egoísta #4** (MegaR) - Apareceu direto na posição **616º**
+- **Stupid Love Story (part. Apache)** (Canserbero) - Apareceu direto na posição **618º**
+- **Lokita Por Mí (part. Prince Royce)** (Romeo Santos) - Apareceu direto na posição **619º**
+- **Yo Navegaré** (Dahaira) - Apareceu direto na posição **622º**
+- **Ma Chérie ~愛しい君へ~ (ma chérie ~ itoshii kimi e~)** (Malice Mizer) - Apareceu direto na posição **623º**
+- **Jehová Gibbor** (Iglesia de Cristo Ebenezer Honduras) - Apareceu direto na posição **625º**
+- **KARMA** (Alien Stage) - Apareceu direto na posição **626º**
+- **Creo En Ti** (Canciones Religiosas) - Apareceu direto na posição **627º**
+- **¡Corre!** (Jesse & Joy) - Apareceu direto na posição **629º**
+- **Pose** (Daddy Yankee) - Apareceu direto na posição **630º**
+- **No One Noticed** (The Marias) - Apareceu direto na posição **631º**
+- **Perfume a Tus Pies** (Marcela Gandara) - Apareceu direto na posição **634º**
+- **Vasija Quebrantada** (Felixis Falcón) - Apareceu direto na posição **636º**
+- **Secreto de Amor** (Joan Sebastian) - Apareceu direto na posição **637º**
+- **Padre Nuestro** (Marcos Brunet) - Apareceu direto na posição **638º**
+- **CURE** (Alien Stage) - Apareceu direto na posição **639º**
+- **Mary Es Mi Amor** (Leo Dan) - Apareceu direto na posição **641º**
+- **Te Daré Lo Mejor** (Jesús Adrián Romero) - Apareceu direto na posição **643º**
+- **Todo Lo Fue** (Lenin Ramírez) - Apareceu direto na posição **646º**
+- **Merry Go Round** (BTS) - Apareceu direto na posição **647º**
+- **Duele El Amor (part. Ana Torroja)** (Aleks Syntek) - Apareceu direto na posição **648º**
+- **Más Allá Del Sol** (Manuel Bonilla) - Apareceu direto na posição **649º**
+- **Mar Azul** (Natanael Cano) - Apareceu direto na posição **650º**
+- **Love** (Keyshia Cole) - Apareceu direto na posição **652º**
+- **Cristo Yo Te Amo** (Vino Nuevo) - Apareceu direto na posição **653º**
+- **Lava (Español)** (Disney) - Apareceu direto na posição **654º**
+- **Vamos a Cantar** (En Espiritu Y En Verdad) - Apareceu direto na posição **655º**
+- **Incomprensible Amor** (New Wine) - Apareceu direto na posição **656º**
+- **Abres Camino (part. Joel Contreras)** (Rojo) - Apareceu direto na posição **657º**
+- **Aura** (Pablo Antonio) - Apareceu direto na posição **658º**
+- **Flor Que Da Fulgor** (DANNA) - Apareceu direto na posição **659º**
+- **Vou Tacar na Peka das Bebê (part. MC Kauan PV)** (Coral das Quebradas) - Apareceu direto na posição **660º**
+- **Contigo** (Los Panchos) - Apareceu direto na posição **662º**
+- **Hay Poder** (Marcos Witt) - Apareceu direto na posição **663º**
+- **Mi Buen Amor (part. Enrique Bunbury)** (Mon Laferte) - Apareceu direto na posição **664º**
+- **Atrae Mi Corazón** (Marcos Brunet) - Apareceu direto na posição **667º**
+- **Musica Del Cielo** (Miel San Marcos) - Apareceu direto na posição **670º**
+- **Cuando Llora Mi Guitarra** (Julio Jaramillo) - Apareceu direto na posição **671º**
+- **Así No Te Amará Jamás** (Amanda Miguel) - Apareceu direto na posição **673º**
+- **Cuando Le Adoras** (Sasha Rodriguez y Raymond Rodriguez) - Apareceu direto na posição **674º**
+- **No Puedo Parar de Alabarte** (Erick Porta) - Apareceu direto na posição **677º**
+- **De Gloria En Gloria** (Marco Barrientos) - Apareceu direto na posição **679º**
+- **Mil Horas** (Andrés Calamaro) - Apareceu direto na posição **681º**
+- **Beso Tus Pies (part. Toma Tu Lugar)** (Marcos Brunet) - Apareceu direto na posição **682º**
+- **Ahí (part. Drake)** (KAROL G) - Apareceu direto na posição **683º**
+- **Enviame a Mi** (Jesús Adrián Romero) - Apareceu direto na posição **684º**
+- **El Che Y Los Rolling Stones** (Los Rancheros) - Apareceu direto na posição **685º**
+- **Yo Entro Al Lugar Más Santo** (Paul Wilbur) - Apareceu direto na posição **686º**
+- **Luna de Xelajú** (Paco Pérez) - Apareceu direto na posição **688º**
+- **Salmo 23 (part. Marco Barrientos)** (Un Corazón) - Apareceu direto na posição **689º**
+- **La Vida Es Un Carnaval** (Celia Cruz) - Apareceu direto na posição **690º**
+- **Bienvenido Espíritu Santo (part. Marco Barrientos)** (Miel San Marcos) - Apareceu direto na posição **691º**
+- **Like a Stone** (Audioslave) - Apareceu direto na posição **692º**
+- **Sad Girl** (Lana Del Rey) - Apareceu direto na posição **693º**
+- **Melancolía** (Mon Laferte) - Apareceu direto na posição **695º**
+- **Eran Cien Ovejas** (Manuel Bonilla) - Apareceu direto na posição **696º**
+- **Lover** (Taylor Swift) - Apareceu direto na posição **697º**
+- **Pon Aceite En Mi Lámpara** (Scandinavian Metal Praise) - Apareceu direto na posição **699º**
+- **2.0** (BTS) - Apareceu direto na posição **700º**
+- **Quiero Que Seas Mi Estrella** (Binomio de Oro de América) - Apareceu direto na posição **701º**
+- **Come Undone** (Robbie Williams) - Apareceu direto na posição **703º**
+- **Favorite Girl** (Justin Bieber) - Apareceu direto na posição **704º**
+- **Todos Juntos** (Los Jaivas) - Apareceu direto na posição **705º**
+- **Al Que Me Ciñe** (Jesús Adrián Romero) - Apareceu direto na posição **706º**
+- **Ela É Demais** (Rick & Renner) - Apareceu direto na posição **707º**
+- **El Ruiseñor** (Camilo) - Apareceu direto na posição **709º**
+- **Propuesta Indecente** (Romeo Santos) - Apareceu direto na posição **710º**
+- **Can't Take My Eyes Off You** (Frankie Valli) - Apareceu direto na posição **715º**
+- **Dios Incomparable** (Marco Barrientos) - Apareceu direto na posição **717º**
+- **La Noche Más Linda** (Adalberto Santiago) - Apareceu direto na posição **718º**
+- **Gozo (Aunque Lo Llamen Locura)** (Gateway Worship Español) - Apareceu direto na posição **720º**
+- **Dios de Generaciones** (David Scarpeta) - Apareceu direto na posição **721º**
+- **Love Hurts** (Nazareth) - Apareceu direto na posição **723º**
+- **Mujer Amante** (Rata Blanca) - Apareceu direto na posição **724º**
+- **Eres Mi Respirar** (Ingrid Rosario) - Apareceu direto na posição **725º**
+- **Lo Que No Fue No Será** (José José) - Apareceu direto na posição **726º**
+- **Paramar** (Los Prisioneros) - Apareceu direto na posição **728º**
+- **Hombres de Acción** (Mulan) - Apareceu direto na posição **729º**
+- **¿Por Qué Me Haces Llorar?** (Juan Gabriel) - Apareceu direto na posição **730º**
+- **Company** (Justin Bieber) - Apareceu direto na posição **732º**
+- **Ya Se Oye El Shofar** (Billy Bunster) - Apareceu direto na posição **733º**
+- **Sexed Up** (Robbie Williams) - Apareceu direto na posição **734º**
+- **Mi Gozo** (Barak) - Apareceu direto na posição **735º**
+- **El Rey Gobierna Todo** (Barak) - Apareceu direto na posição **736º**
+- **Amores Extraños** (Laura Pausini) - Apareceu direto na posição **737º**
+- **Feel Good Inc. (feat. De La Soul)** (Gorillaz) - Apareceu direto na posição **741º**
+- **Amor Eterno** (Rocío Durcal) - Apareceu direto na posição **742º**
+- **Danza de Amor** (Iglesia de Cristo Ebenezer Honduras) - Apareceu direto na posição **743º**
+- **Vine a Adorarte (part. Marcela Gándara)** (Visión Juvenil) - Apareceu direto na posição **744º**
+- **Hay Una Uncion** (Iglesia Rey de Reyes) - Apareceu direto na posição **745º**
+- **Quiero Llenar Tu Trono de Alabanza** (Grupo Inspiracion) - Apareceu direto na posição **746º**
+- **Mujeres Divinas** (Vicente Fernández) - Apareceu direto na posição **747º**
+- **Life Goes On** (Oliver Tree) - Apareceu direto na posição **748º**
+- **Es Tan Grande Este Amor** (Rodrigo Tapari) - Apareceu direto na posição **750º**
+- **Tu Carcel** (Los Enanitos Verdes) - Apareceu direto na posição **751º**
+- **Sublime Gracia** (Blest) - Apareceu direto na posição **754º**
+- **Run BTS (달려라 방탄)** (BTS) - Apareceu direto na posição **755º**
+- **La Consentida** (Jaime Atria) - Apareceu direto na posição **759º**
+- **Rey** (Christine D'Clario) - Apareceu direto na posição **761º**
+- **Lover, You Should've Come Over** (Jeff Buckley) - Apareceu direto na posição **762º**
+- **Dios El Más Grande** (Juan Carlos Alvarado) - Apareceu direto na posição **764º**
+- **You** (Romeo Santos) - Apareceu direto na posição **766º**
+- **Committed (part. Pharrell Williams)** (Rauw Alejandro) - Apareceu direto na posição **767º**
+- **Entre Tú Y Mil Mares** (Laura Pausini) - Apareceu direto na posição **768º**
+- **Sweet Dream** (Alien Stage) - Apareceu direto na posição **769º**
+- **Modinha para Gabriela** (Dorival Caymmi) - Apareceu direto na posição **770º**
+- **I Gotta Feeling** (Black Eyed Peas) - Apareceu direto na posição **772º**
+- **Lavado** (Elevation Worship) - Apareceu direto na posição **773º**
+- **Eu Tava Aqui Pensando** (Nasac) - Apareceu direto na posição **774º**
+- **Que Ruja El León** (Gabriela Ríos) - Apareceu direto na posição **775º**
+- **Las Avispas** (Juan Luis Guerra 4.40) - Apareceu direto na posição **776º**
+- **Aleluya** (Grupo Inspiracion) - Apareceu direto na posição **777º**
+- **De Música Ligera** (Soda Stereo) - Apareceu direto na posição **778º**
+- **Lo Grande Que Es Perdonar (part. Gilberto Santa Rosa)** (Vico C) - Apareceu direto na posição **779º**
+- **La Boda** (Aventura) - Apareceu direto na posição **782º**
+- **Un Encuentro Contigo (El León Está Rugiendo) (part. Jordan Mateo)** (Oasis Ministry) - Apareceu direto na posição **784º**
+- **Lamento Boliviano** (Los Enanitos Verdes) - Apareceu direto na posição **786º**
+- **Agradecimiento** (Johana Galdamez) - Apareceu direto na posição **788º**
+- **La Isla Bonita** (Madonna) - Apareceu direto na posição **789º**
+- **Me Gozaré** (Billy Bunster) - Apareceu direto na posição **791º**
+- **Please, Please, Please, Let Me Get What I Want** (The Smiths) - Apareceu direto na posição **792º**
+- **Peão Todo Tatuado (part. Jeninho)** (Mariana Fagundes) - Apareceu direto na posição **794º**
+- **Poderoso Dios** (Marcos Witt) - Apareceu direto na posição **795º**
+- **Algo Está Pasando** (Oasis Ministry) - Apareceu direto na posição **796º**
+- **Mi Vestido Azul** (Floricienta) - Apareceu direto na posição **797º**
+- **QUE LOUCURA (part. CACAU CHUU) [explícita]** (DJ EXE) - Apareceu direto na posição **798º**
+- **Somos el Pueblo de Dios** (Marcos Witt) - Apareceu direto na posição **800º**
+- **Sugar** (Maroon 5) - Apareceu direto na posição **801º**
+- **Si Tu Amor No Vuelve** (Binomio de Oro de América) - Apareceu direto na posição **807º**
+- **Te compro tu novia** (Ramon Orlando) - Apareceu direto na posição **808º**
+- **Aceite Nuevo** (Karen Espinosa) - Apareceu direto na posição **809º**
+- **El Cigarrillo** (Ana Gabriel) - Apareceu direto na posição **810º**
+- **Passionfruit** (Drake) - Apareceu direto na posição **811º**
+- **Sin Ti** (LOS DOS DE TAMAULIPAS) - Apareceu direto na posição **812º**
+- **Con Mi Dios** (Jesús Adrián Romero) - Apareceu direto na posição **813º**
+- **Gritan Cantan** (M'Kaddesh) - Apareceu direto na posição **816º**
+- **Fluorescent Adolescent** (Arctic Monkeys) - Apareceu direto na posição **818º**
+- **Este Es Mi Deseo (part. Claudio Freidzon)** (Iglesia Rey de Reyes) - Apareceu direto na posição **822º**
+- **On Melancholy Hill** (Gorillaz) - Apareceu direto na posição **824º**
+- **Una Madre No Se Cansa de Esperar (Hoy He Vuelto)** (Canciones Religiosas) - Apareceu direto na posição **825º**
+- **​lacy** (Olivia Rodrigo) - Apareceu direto na posição **826º**
+- **Minutos** (Ricardo Arjona) - Apareceu direto na posição **827º**
+- **Cómo Te Extraño Mi Amor** (Leo Dan) - Apareceu direto na posição **828º**
+- **Socorro** (Un Corazón) - Apareceu direto na posição **833º**
+- **Stuck On You** (Lionel Richie) - Apareceu direto na posição **834º**
+- **Amores Como El Nuestro** (Jerry Rivera) - Apareceu direto na posição **835º**
+- **Brillas** (León Larregui) - Apareceu direto na posição **837º**
+- **Admirable** (Christine D'Clario) - Apareceu direto na posição **838º**
+- **ONLY** (Lee Hi) - Apareceu direto na posição **839º**
+- **Danzaré** (Averly Morillo) - Apareceu direto na posição **842º**
+- **Qué Agonía (part. Ángela Aguilar)** (Yuridia) - Apareceu direto na posição **844º**
+- **BELLA DAVVERO** (Ultimo) - Apareceu direto na posição **845º**
+- **Vivo** (Gustavo Cerati) - Apareceu direto na posição **846º**
+- **Y Solo Yo Quiero (La Chata)** (Amen) - Apareceu direto na posição **847º**
+- **North wind calls** (Draugr Balled) - Apareceu direto na posição **848º**
+- **Olvídala** (Binomio de Oro de América) - Apareceu direto na posição **849º**
+- **21 Questions (feat. Nate Dogg)** (50 Cent) - Apareceu direto na posição **850º**
+- **Margaret (feat. Bleachers)** (Lana Del Rey) - Apareceu direto na posição **851º**
+- **Cha-La Head-Cha-La (versión latino)** (Dragon Ball Z) - Apareceu direto na posição **852º**
+- **Espresso** (Sabrina Carpenter) - Apareceu direto na posição **853º**
+- **Chatuba de Mesquita [explícita]** (Furacão 2000) - Apareceu direto na posição **854º**
+- **¿Con Quién Se Queda El Perro?** (Jesse & Joy) - Apareceu direto na posição **855º**
+- **Porque Él Vive** (Elias Júnior) - Apareceu direto na posição **856º**
+- **Ela Ké Cavucadinha (part. CACAU CHUU)** (Gordinho Bolado) - Apareceu direto na posição **857º**
+- **¿Quién Podrá?** (Averly Morillo) - Apareceu direto na posição **858º**
+- **It Wasn't Me (feat. RikRok)** (Shaggy) - Apareceu direto na posição **859º**
+- **Come I'Arancio Amaro** (Italian Atmosphere) - Apareceu direto na posição **860º**
+- **Busca Por Dentro** (Grupo Niche) - Apareceu direto na posição **870º**
+- **Te alabo** (Coro Menap) - Apareceu direto na posição **871º**
+- **It Will Rain** (Bruno Mars) - Apareceu direto na posição **876º**
+- **Enamórame** (Abel Zavala) - Apareceu direto na posição **877º**
+- **La Gran Carrera** (Pocoyó) - Apareceu direto na posição **878º**
+- **Corazón De Papel** (Dasgotti) - Apareceu direto na posição **879º**
+- **Toda (remix) (part. Rauw Alejandro, Cazzu, Lyanno y Lenny Tavárez)** (Alex Rose) - Apareceu direto na posição **881º**
+- **Garota de Ipanema** (Tom Jobim) - Apareceu direto na posição **882º**
+- **Snuff** (Slipknot) - Apareceu direto na posição **883º**
+- **Santo Eres Tú** (Ericson Alexander Molano) - Apareceu direto na posição **884º**
+- **El Tiburon** (Proyecto Uno) - Apareceu direto na posição **885º**
+- **Los Brazos de Papá** (Grupo Grace) - Apareceu direto na posição **886º**
+- **La Nave Del Olvido** (Mon Laferte) - Apareceu direto na posição **888º**
+- **BESAME (remix) (part. Seven Kayne, Milo J, Tiago PZK, KHEA y Neo Pistea)** (Bhavi) - Apareceu direto na posição **889º**
+- **500 Miles** (Peter, Paul & Mary) - Apareceu direto na posição **890º**
+- **Amarte Solo a Ti Señor** (Palabra en Accion) - Apareceu direto na posição **891º**
+- **Hay Una Palabra** (Raisa Diaz) - Apareceu direto na posição **892º**
+- **It's Me** (ILLIT) - Apareceu direto na posição **893º**
+- **Lover Is a Day** (Cuco) - Apareceu direto na posição **895º**
+- **Down Under** (Men At Work) - Apareceu direto na posição **896º**
+- **Gloria Gloria A Dios En El Cielo** (Canciones Religiosas) - Apareceu direto na posição **898º**
+- **Jubilo Medley** (Apostolic Assembly) - Apareceu direto na posição **899º**
+- **Cuéntame** (Pedro Suárez-Vértiz) - Apareceu direto na posição **900º**
+- **Ángel** (Elefante) - Apareceu direto na posição **901º**
+- **Feliz Cumpleaños Cristiano** (Emanuel Frias) - Apareceu direto na posição **902º**
+- **Corazón de Cristal (part. Zhamira)** (LUANA (ARG)) - Apareceu direto na posição **904º**
+- **Enchanted** (Taylor Swift) - Apareceu direto na posição **905º**
+- **Dynamite** (BTS) - Apareceu direto na posição **906º**
+- **Sorry Papi (part. Topic)** (Becky G) - Apareceu direto na posição **907º**
+- **Cry** (Cigarettes After Sex) - Apareceu direto na posição **908º**
+- **Ain't Shit** (Doja Cat) - Apareceu direto na posição **909º**
+- **Si Una Vez** (Selena) - Apareceu direto na posição **912º**
+- **Lo Que Siento** (Cuco) - Apareceu direto na posição **916º**
+- **Hasta Donde Te Quiero** (La Rondalla de Saltillo) - Apareceu direto na posição **918º**
+- **la_pochi.wav** (tomas metrikf) - Apareceu direto na posição **920º**
+- **Que Lloro** (Sin Bandera) - Apareceu direto na posição **921º**
+- **Te Vas y No Volverás** (Ronny Manchego) - Apareceu direto na posição **923º**
+- **Part-Time Lover** (Stevie Wonder) - Apareceu direto na posição **924º**
+- **Libre** (Miel San Marcos) - Apareceu direto na posição **925º**
+- **Am intrebat un om (Nebunu)** (Leo de la Rosiori) - Apareceu direto na posição **928º**
+- **No Me Suman** (Cris MJ) - Apareceu direto na posição **929º**
+- **Ayer Y Hoy** (Julio Jaramillo) - Apareceu direto na posição **931º**
+- **KRIVE DRINE** (Magla) - Apareceu direto na posição **933º**
+- **Is This Love** (Whitesnake) - Apareceu direto na posição **934º**
+- **Idilio** (Willie Colón) - Apareceu direto na posição **936º**
+- **Porque te amo** (Nino Segarra) - Apareceu direto na posição **937º**
+- **Océanos (part. Carley Redpath)** (Evan Craft) - Apareceu direto na posição **939º**
+- **Amárrame (part. Juanes)** (Mon Laferte) - Apareceu direto na posição **943º**
+- **WANDA NARA** (La Joaqui) - Apareceu direto na posição **945º**
+- **Please Forgive Me** (Bryan Adams) - Apareceu direto na posição **946º**
+- **Don't Speak** (No Doubt) - Apareceu direto na posição **947º**
+- **Choosin' Texas (remix) (feat. Don Toliver)** (Drake) - Apareceu direto na posição **949º**
+- **Aliens** (BTS) - Apareceu direto na posição **950º**
+- **Nuestro Juramento** (Julio Jaramillo) - Apareceu direto na posição **951º**
+- **Noche de Paz** (Villancicos) - Apareceu direto na posição **952º**
+- **Cristo No Está Muerto** (Juan Carlos Alvarado) - Apareceu direto na posição **953º**
+- **Dream of you** (Burgundy Blues) - Apareceu direto na posição **954º**
+- **Tuyo Es El Reino (part. Yesenia Then)** (Averly Morillo) - Apareceu direto na posição **956º**
+- **I Wonder** (Kanye West) - Apareceu direto na posição **957º**
+- **For The First Time** (Mac DeMarco) - Apareceu direto na posição **958º**
+- **STORM (feat. Yung Lean)** (GENER8ION) - Apareceu direto na posição **960º**
+- **Demos Gracias Al Señor** (Canciones Religiosas) - Apareceu direto na posição **962º**
+- **Estranged** (Guns N' Roses) - Apareceu direto na posição **963º**
+- **Quererte Jamás** (Bertín Y Lalo) - Apareceu direto na posição **964º**
+- **Y Que Fue?** (Don Miguelo) - Apareceu direto na posição **965º**
+- **El Cantante** (Héctor Lavoe) - Apareceu direto na posição **967º**
+- **Hay Momentos** (Blest) - Apareceu direto na posição **968º**
+- **Vino Celestial** (Miel San Marcos) - Apareceu direto na posição **969º**
+- **Rebelión** (Joe Arroyo) - Apareceu direto na posição **972º**
+- **Self Control** (Laura Branigan) - Apareceu direto na posição **973º**
+- **Tick-Tack** (ILLIT) - Apareceu direto na posição **976º**
+- **Me Tengo Que Ir** (Adolescent's Orquesta (Los Adolescentes)) - Apareceu direto na posição **977º**
+- **Pajarillo** (El Cartel de Nuevo León) - Apareceu direto na posição **979º**
+- **Yo Sé** (Marco Barrientos) - Apareceu direto na posição **980º**
+- **Derramo El Perfume (part. Averly Morillo)** (Montesanto) - Apareceu direto na posição **981º**
+- **Sola Con Mi Soledad** (Marisela) - Apareceu direto na posição **984º**
+- **Vientos de Gloria** (New Wine) - Apareceu direto na posição **985º**
+- **Siempre a Tiempo** (Elevation Worship) - Apareceu direto na posição **986º**
+- **QBELV (Que Bonita Está La Vida)** (Oasis Ministry) - Apareceu direto na posição **987º**
+- **Te Entiendo (remix) (part. Feid y Maluma)** (Maisak) - Apareceu direto na posição **988º**
+- **Conselho** (Grupo Revelação) - Apareceu direto na posição **989º**
+- **Recuerdos** (Adolescent's Orquesta (Los Adolescentes)) - Apareceu direto na posição **990º**
+- **Viene El Mesías** (Mayo Music) - Apareceu direto na posição **991º**
+- **Nutshell** (Alice In Chains) - Apareceu direto na posição **992º**
+- **I Thought I Saw Your Face Today** (She & Him) - Apareceu direto na posição **993º**
+- **Young, Wild & Free (feat. Bruno Mars & Wiz Khalifa)** (Snoop Dogg) - Apareceu direto na posição **994º**
+- **Snowman** (Sia) - Apareceu direto na posição **999º**
+- **Escucharte Hablar** (Marcos Witt) - Apareceu direto na posição **1000º**
