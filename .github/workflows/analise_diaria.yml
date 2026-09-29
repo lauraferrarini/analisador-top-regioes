@@ -64,7 +64,11 @@ jobs:
           fi
 
       - name: Rodar script de análise
-        # Repassa o alvo (br, latam ou all) para o Python
+        # Repassa o alvo (br, latam ou all) para o Python, e o User-Agent
+        # via secret (Settings → Secrets and variables → Actions) — nunca
+        # fica em texto puro no código nem aparece nos logs da run.
+        env:
+          SCRAPER_USER_AGENT: ${{ secrets.SCRAPER_USER_AGENT }}
         run: python analisador.py ${{ env.TARGET }}
 
       - name: Salvar alterações no GitHub (Git Puro)
