@@ -25,7 +25,13 @@ REGIOES = {
 }
 
 def extrair_musicas(url, cookies):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    # ⚡ O User-Agent vem da secret SCRAPER_USER_AGENT (configurada em Settings →
+    # Secrets and variables → Actions do repositório). Isso evita deixar esse
+    # valor exposto em texto puro no código, que é público. Se a secret não
+    # estiver definida (ex.: rodando local sem configurar a env var), cai no
+    # valor genérico de sempre, só pra não quebrar a execução.
+    user_agent = os.environ.get('SCRAPER_USER_AGENT', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)')
+    headers = {'User-Agent': user_agent}
     response = requests.get(url, headers=headers, cookies=cookies, timeout=15)
     response.raise_for_status()
     
