@@ -63,15 +63,57 @@ jobs:
             echo "TARGET=all" >> $GITHUB_ENV
           fi
 
+      - name: Verificar se já rodou hoje (trava contra rodada manual)
+        id: check_ja_rodou
+        run: |
+          # ⚡ Se você já processou o dia de hoje na mão (subindo os arquivos
+          # coletados pela extensão via "Add files via upload", por exemplo,
+          # depois de um scrape automático ter vindo errado), esse robô não
+          # deve rodar sozinho no horário programado e pisar em cima do que
+          # você já corrigiu. Só vale pra disparo AGENDADO — se você aperta
+          # "Run workflow" na mão, sempre roda, sem essa trava (é o seu botão
+          # de forçar).
+          HOJE=$(date +%F)
+
+          case "${{ env.TARGET }}" in
+            br) REGIOES="br" ;;
+            latam) REGIOES="ar co sp es mx" ;;
+            all) REGIOES="br kr ar co sp es mx" ;;
+            *) REGIOES="${{ env.TARGET }}" ;;
+          esac
+
+          PULAR=false
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            TODAS_JA_EXISTEM=true
+            for r in $REGIOES; do
+              if [[ ! -f "historico_dados/$r/dados_${HOJE}.json" ]]; then
+                TODAS_JA_EXISTEM=false
+                break
+              fi
+            done
+            if [[ "$TODAS_JA_EXISTEM" == "true" ]]; then
+              PULAR=true
+            fi
+          fi
+
+          echo "PULAR=$PULAR" >> $GITHUB_ENV
+          if [[ "$PULAR" == "true" ]]; then
+            echo "⏭️  Dia $HOJE já tem dados pra [$REGIOES] (rodada manual anterior). Pulando a rodada agendada."
+          else
+            echo "▶️  Seguindo com a rodada normal pra [$REGIOES]."
+          fi
+
       - name: Rodar script de análise
         # Repassa o alvo (br, latam ou all) para o Python, e o User-Agent
         # via secret (Settings → Secrets and variables → Actions) — nunca
         # fica em texto puro no código nem aparece nos logs da run.
+        if: env.PULAR != 'true'
         env:
           SCRAPER_USER_AGENT: ${{ secrets.SCRAPER_USER_AGENT }}
         run: python analisador.py ${{ env.TARGET }}
 
       - name: Salvar alterações no GitHub (Git Puro)
+        if: env.PULAR != 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
