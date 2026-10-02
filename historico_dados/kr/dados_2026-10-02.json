@@ -287,17 +287,17 @@
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/mic-drop-2/"
     },
-    "/i-dle/nxde/": {
-        "posicao": 49,
-        "nome": "Nxde",
-        "artista": "i-dle",
-        "url": "https://www.letras.mus.br/i-dle/nxde/"
-    },
     "/bangtan-boys/fya/": {
-        "posicao": 50,
+        "posicao": 49,
         "nome": "FYA",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/fya/"
+    },
+    "/i-dle/nxde/": {
+        "posicao": 50,
+        "nome": "Nxde",
+        "artista": "i-dle",
+        "url": "https://www.letras.mus.br/i-dle/nxde/"
     },
     "/jungkook/still-with-you/": {
         "posicao": 51,
@@ -371,17 +371,17 @@
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/0000-zero-oclock/"
     },
-    "/bangtan-boys/home/": {
-        "posicao": 63,
-        "nome": "HOME",
-        "artista": "BTS",
-        "url": "https://www.letras.mus.br/bangtan-boys/home/"
-    },
     "/twice-k-pop/what-is-love/": {
-        "posicao": 64,
+        "posicao": 63,
         "nome": "What Is Love?",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/what-is-love/"
+    },
+    "/bangtan-boys/home/": {
+        "posicao": 64,
+        "nome": "HOME",
+        "artista": "BTS",
+        "url": "https://www.letras.mus.br/bangtan-boys/home/"
     },
     "/jennie/heaven/": {
         "posicao": 65,
@@ -491,17 +491,17 @@
         "artista": "HUNTR/X",
         "url": "https://www.letras.mus.br/huntrx/letal/"
     },
-    "/stray-kids/divine-sinseonnoleum/": {
-        "posicao": 83,
-        "nome": "DIVINE (신선놀음)",
-        "artista": "Stray Kids",
-        "url": "https://www.letras.mus.br/stray-kids/divine-sinseonnoleum/"
-    },
     "/jimin-bts/like-crazy/": {
-        "posicao": 84,
+        "posicao": 83,
         "nome": "Like Crazy",
         "artista": "Jimin",
         "url": "https://www.letras.mus.br/jimin-bts/like-crazy/"
+    },
+    "/stray-kids/divine-sinseonnoleum/": {
+        "posicao": 84,
+        "nome": "DIVINE (신선놀음)",
+        "artista": "Stray Kids",
+        "url": "https://www.letras.mus.br/stray-kids/divine-sinseonnoleum/"
     },
     "/nexz/saucin/": {
         "posicao": 85,
@@ -635,17 +635,17 @@
         "artista": "Red Velvet",
         "url": "https://www.letras.mus.br/red-velvet/dumb-dumb/"
     },
-    "/stray-kids/lose-my-breath-feat-charlie-puth/": {
-        "posicao": 107,
-        "nome": "Lose My Breath (feat. Charlie Puth)",
-        "artista": "Stray Kids",
-        "url": "https://www.letras.mus.br/stray-kids/lose-my-breath-feat-charlie-puth/"
-    },
     "/bangtan-boys/euphoria-theme-of-love-yourself/": {
-        "posicao": 108,
+        "posicao": 107,
         "nome": "Euphoria",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/euphoria-theme-of-love-yourself/"
+    },
+    "/stray-kids/lose-my-breath-feat-charlie-puth/": {
+        "posicao": 108,
+        "nome": "Lose My Breath (feat. Charlie Puth)",
+        "artista": "Stray Kids",
+        "url": "https://www.letras.mus.br/stray-kids/lose-my-breath-feat-charlie-puth/"
     },
     "/bangtan-boys/house-of-cards-full-length-edition/": {
         "posicao": 109,
@@ -845,17 +845,17 @@
         "artista": "CORTIS",
         "url": "https://www.letras.mus.br/cortis/what-you-want/"
     },
-    "/bangtan-boys/dimple/": {
-        "posicao": 142,
-        "nome": "dimple (보조개)",
-        "artista": "BTS",
-        "url": "https://www.letras.mus.br/bangtan-boys/dimple/"
-    },
     "/le-sserafim/spaghetti-feat-j-hope/": {
-        "posicao": 143,
+        "posicao": 142,
         "nome": "SPAGHETTI (feat. j-hope)",
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/spaghetti-feat-j-hope/"
+    },
+    "/bangtan-boys/dimple/": {
+        "posicao": 143,
+        "nome": "dimple (보조개)",
+        "artista": "BTS",
+        "url": "https://www.letras.mus.br/bangtan-boys/dimple/"
     },
     "/blackpink/shut-down/": {
         "posicao": 144,
@@ -1001,17 +1001,17 @@
         "artista": "EVAN",
         "url": "https://www.letras.mus.br/evan/death-of-me/"
     },
-    "/bangtan-boys/boy-in-luv/": {
-        "posicao": 168,
-        "nome": "Boy In Luv (상남자)",
-        "artista": "BTS",
-        "url": "https://www.letras.mus.br/bangtan-boys/boy-in-luv/"
-    },
     "/bangtan-boys/no-more-dream/": {
-        "posicao": 169,
+        "posicao": 168,
         "nome": "No More Dream",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/no-more-dream/"
+    },
+    "/bangtan-boys/boy-in-luv/": {
+        "posicao": 169,
+        "nome": "Boy In Luv (상남자)",
+        "artista": "BTS",
+        "url": "https://www.letras.mus.br/bangtan-boys/boy-in-luv/"
     },
     "/enhypen/bad-for-you/": {
         "posicao": 170,
@@ -1151,23 +1151,23 @@
         "artista": "RM",
         "url": "https://www.letras.mus.br/rap-monster/come-back-to-me/"
     },
-    "/stray-kids/case-143/": {
-        "posicao": 193,
-        "nome": "CASE 143",
-        "artista": "Stray Kids",
-        "url": "https://www.letras.mus.br/stray-kids/case-143/"
-    },
     "/bangtan-boys/answer-love-myself/": {
-        "posicao": 194,
+        "posicao": 193,
         "nome": "Answer: Love Myself",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/answer-love-myself/"
     },
     "/jennie/mantra/": {
-        "posicao": 195,
+        "posicao": 194,
         "nome": "Mantra",
         "artista": "JENNIE",
         "url": "https://www.letras.mus.br/jennie/mantra/"
+    },
+    "/stray-kids/case-143/": {
+        "posicao": 195,
+        "nome": "CASE 143",
+        "artista": "Stray Kids",
+        "url": "https://www.letras.mus.br/stray-kids/case-143/"
     },
     "/lisa-blackpink/lalisa/": {
         "posicao": 196,
@@ -1727,17 +1727,17 @@
         "artista": "NewJeans",
         "url": "https://www.letras.mus.br/newjeans/how-sweet/"
     },
-    "/alien-stage/all-in/": {
-        "posicao": 289,
-        "nome": "All-in",
-        "artista": "Alien Stage",
-        "url": "https://www.letras.mus.br/alien-stage/all-in/"
-    },
     "/stray-kids/0801/": {
-        "posicao": 290,
+        "posicao": 289,
         "nome": "0801",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/0801/"
+    },
+    "/alien-stage/all-in/": {
+        "posicao": 290,
+        "nome": "All-in",
+        "artista": "Alien Stage",
+        "url": "https://www.letras.mus.br/alien-stage/all-in/"
     },
     "/bangtan-boys/hold-me-tight/": {
         "posicao": 291,
@@ -1757,29 +1757,29 @@
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/typa-girl/"
     },
-    "/jay-park/daddy/": {
-        "posicao": 294,
-        "nome": "DADDY",
-        "artista": "Jay Park",
-        "url": "https://www.letras.mus.br/jay-park/daddy/"
-    },
     "/bangtan-boys/fire/": {
-        "posicao": 295,
+        "posicao": 294,
         "nome": "Fire (불타오르네)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/fire/"
     },
     "/jennie/start-a-war/": {
-        "posicao": 296,
+        "posicao": 295,
         "nome": "start a war",
         "artista": "JENNIE",
         "url": "https://www.letras.mus.br/jennie/start-a-war/"
     },
     "/blackpink/stay/": {
-        "posicao": 297,
+        "posicao": 296,
         "nome": "STAY",
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/stay/"
+    },
+    "/jay-park/daddy/": {
+        "posicao": 297,
+        "nome": "DADDY",
+        "artista": "Jay Park",
+        "url": "https://www.letras.mus.br/jay-park/daddy/"
     },
     "/rap-monster/heaven/": {
         "posicao": 298,
@@ -1793,23 +1793,23 @@
         "artista": "CORTIS",
         "url": "https://www.letras.mus.br/cortis/tnt/"
     },
-    "/blackpink/lovesick-girls/": {
-        "posicao": 300,
-        "nome": "Lovesick Girls",
-        "artista": "BLACKPINK",
-        "url": "https://www.letras.mus.br/blackpink/lovesick-girls/"
-    },
     "/hyunjin-stray-kids/lover/": {
-        "posicao": 301,
+        "posicao": 300,
         "nome": "Lover",
         "artista": "Hyunjin (Stray Kids)",
         "url": "https://www.letras.mus.br/hyunjin-stray-kids/lover/"
     },
     "/le-sserafim/antifragile/": {
-        "posicao": 302,
+        "posicao": 301,
         "nome": "ANTIFRAGILE",
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/antifragile/"
+    },
+    "/blackpink/lovesick-girls/": {
+        "posicao": 302,
+        "nome": "Lovesick Girls",
+        "artista": "BLACKPINK",
+        "url": "https://www.letras.mus.br/blackpink/lovesick-girls/"
     },
     "/bangtan-boys/spine-breaker/": {
         "posicao": 303,
@@ -1817,29 +1817,29 @@
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/spine-breaker/"
     },
-    "/wonder-girls/rewind/": {
-        "posicao": 304,
-        "nome": "Rewind",
-        "artista": "Wonder Girls",
-        "url": "https://www.letras.mus.br/wonder-girls/rewind/"
-    },
     "/sun-jae/im-missing-you/": {
-        "posicao": 305,
+        "posicao": 304,
         "nome": "I'm Missing You",
         "artista": "Sunjae",
         "url": "https://www.letras.mus.br/sun-jae/im-missing-you/"
     },
     "/babymonster/dream/": {
-        "posicao": 306,
+        "posicao": 305,
         "nome": "DREAM",
         "artista": "BABYMONSTER",
         "url": "https://www.letras.mus.br/babymonster/dream/"
     },
     "/jungkook/stay-alive/": {
-        "posicao": 307,
+        "posicao": 306,
         "nome": "Stay Alive",
         "artista": "Jung Kook",
         "url": "https://www.letras.mus.br/jungkook/stay-alive/"
+    },
+    "/wonder-girls/rewind/": {
+        "posicao": 307,
+        "nome": "Rewind",
+        "artista": "Wonder Girls",
+        "url": "https://www.letras.mus.br/wonder-girls/rewind/"
     },
     "/jimin-bts/promise/": {
         "posicao": 308,
@@ -1955,23 +1955,23 @@
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/in-your-fantasy/"
     },
-    "/stray-kids/super-bowl/": {
+    "/lisa-blackpink/new-woman-feat-rosalia/": {
         "posicao": 327,
+        "nome": "New Woman (feat. ROSALÍA)",
+        "artista": "LISA",
+        "url": "https://www.letras.mus.br/lisa-blackpink/new-woman-feat-rosalia/"
+    },
+    "/stray-kids/super-bowl/": {
+        "posicao": 328,
         "nome": "Super Bowl",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/super-bowl/"
     },
     "/iu/love-wins-all/": {
-        "posicao": 328,
+        "posicao": 329,
         "nome": "Love Wins All",
         "artista": "IU",
         "url": "https://www.letras.mus.br/iu/love-wins-all/"
-    },
-    "/lisa-blackpink/new-woman-feat-rosalia/": {
-        "posicao": 329,
-        "nome": "New Woman (feat. ROSALÍA)",
-        "artista": "LISA",
-        "url": "https://www.letras.mus.br/lisa-blackpink/new-woman-feat-rosalia/"
     },
     "/babymonster/forever/": {
         "posicao": 330,
@@ -2129,23 +2129,23 @@
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/danger/"
     },
-    "/bangtan-boys/dynamite-live/": {
-        "posicao": 356,
-        "nome": "Dynamite (Live)",
-        "artista": "BTS",
-        "url": "https://www.letras.mus.br/bangtan-boys/dynamite-live/"
-    },
     "/bangtan-boys/134340/": {
-        "posicao": 357,
+        "posicao": 356,
         "nome": "134340",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/134340/"
     },
     "/twice-k-pop/cry-for-me/": {
-        "posicao": 358,
+        "posicao": 357,
         "nome": "CRY FOR ME",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/cry-for-me/"
+    },
+    "/bangtan-boys/dynamite-live/": {
+        "posicao": 358,
+        "nome": "Dynamite (Live)",
+        "artista": "BTS",
+        "url": "https://www.letras.mus.br/bangtan-boys/dynamite-live/"
     },
     "/bangtan-boys/lie/": {
         "posicao": 359,
@@ -2357,53 +2357,53 @@
         "artista": "BABYMONSTER",
         "url": "https://www.letras.mus.br/babymonster/batter-up/"
     },
-    "/twice-k-pop/feel-special/": {
-        "posicao": 394,
-        "nome": "Feel Special",
-        "artista": "TWICE",
-        "url": "https://www.letras.mus.br/twice-k-pop/feel-special/"
-    },
     "/bangtan-boys/trivia-seesaw/": {
-        "posicao": 395,
+        "posicao": 394,
         "nome": "Trivia: Seesaw",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/trivia-seesaw/"
     },
     "/aespa/armageddon/": {
-        "posicao": 396,
+        "posicao": 395,
         "nome": "Armageddon",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/armageddon/"
     },
     "/big-bang/bang-bang-bang/": {
-        "posicao": 397,
+        "posicao": 396,
         "nome": "BANG BANG BANG (뱅뱅뱅)",
         "artista": "BIGBANG",
         "url": "https://www.letras.mus.br/big-bang/bang-bang-bang/"
     },
-    "/red-velvet/russian-roulette-2/": {
-        "posicao": 398,
-        "nome": "Russian Roulette (러시안 룰렛)",
-        "artista": "Red Velvet",
-        "url": "https://www.letras.mus.br/red-velvet/russian-roulette-2/"
+    "/twice-k-pop/feel-special/": {
+        "posicao": 397,
+        "nome": "Feel Special",
+        "artista": "TWICE",
+        "url": "https://www.letras.mus.br/twice-k-pop/feel-special/"
     },
     "/bangtan-boys/as-i-told-you/": {
-        "posicao": 399,
+        "posicao": 398,
         "nome": "As I Told You (말하자면)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/as-i-told-you/"
     },
     "/bibi-kpop/bumpa/": {
-        "posicao": 400,
+        "posicao": 399,
         "nome": "BUMPA",
         "artista": "BIBI",
         "url": "https://www.letras.mus.br/bibi-kpop/bumpa/"
     },
     "/hearts2hearts/lemon-tang/": {
-        "posicao": 401,
+        "posicao": 400,
         "nome": "Lemon Tang",
         "artista": "Hearts2Hearts",
         "url": "https://www.letras.mus.br/hearts2hearts/lemon-tang/"
+    },
+    "/red-velvet/russian-roulette-2/": {
+        "posicao": 401,
+        "nome": "Russian Roulette (러시안 룰렛)",
+        "artista": "Red Velvet",
+        "url": "https://www.letras.mus.br/red-velvet/russian-roulette-2/"
     },
     "/j-hope/i-wonder-feat-jung-kook/": {
         "posicao": 402,
@@ -2537,29 +2537,29 @@
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/daring-women-jihyo-nayeon-tzuyu-chaeyoung/"
     },
-    "/bangtan-boys/23/": {
-        "posicao": 424,
-        "nome": "2! 3!",
-        "artista": "BTS",
-        "url": "https://www.letras.mus.br/bangtan-boys/23/"
-    },
     "/crush-k-pop/love-you-with-all-my-heart-mianhae-miweohae-saranghae/": {
-        "posicao": 425,
+        "posicao": 424,
         "nome": "Love You With All My Heart (미안해 미워해 사랑해)",
         "artista": "Crush",
         "url": "https://www.letras.mus.br/crush-k-pop/love-you-with-all-my-heart-mianhae-miweohae-saranghae/"
     },
     "/agust-d/28-feat-niihwa/": {
-        "posicao": 426,
+        "posicao": 425,
         "nome": "28 (점점 어른이 되나 봐) (feat. NiiHWA)",
         "artista": "Agust D",
         "url": "https://www.letras.mus.br/agust-d/28-feat-niihwa/"
     },
     "/babymonster/click-clack/": {
-        "posicao": 427,
+        "posicao": 426,
         "nome": "CLIK CLAK",
         "artista": "BABYMONSTER",
         "url": "https://www.letras.mus.br/babymonster/click-clack/"
+    },
+    "/bangtan-boys/23/": {
+        "posicao": 427,
+        "nome": "2! 3!",
+        "artista": "BTS",
+        "url": "https://www.letras.mus.br/bangtan-boys/23/"
     },
     "/v/blue/": {
         "posicao": 428,
@@ -2633,35 +2633,35 @@
         "artista": "LIM KIM",
         "url": "https://www.letras.mus.br/lim-kim/confess-to-you/"
     },
-    "/hearts2hearts/iconic-heart/": {
-        "posicao": 440,
-        "nome": "ICONIC HEART",
-        "artista": "Hearts2Hearts",
-        "url": "https://www.letras.mus.br/hearts2hearts/iconic-heart/"
-    },
     "/allday-project/crash/": {
-        "posicao": 441,
+        "posicao": 440,
         "nome": "CRASH",
         "artista": "ALLDAY PROJECT",
         "url": "https://www.letras.mus.br/allday-project/crash/"
     },
     "/bangtan-boys/outro-house-of-cards/": {
-        "posicao": 442,
+        "posicao": 441,
         "nome": "Outro: House Of Cards",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/outro-house-of-cards/"
     },
     "/aespa/lollipop-giselle-e-ningning/": {
-        "posicao": 443,
+        "posicao": 442,
         "nome": "Lollipop (GISELLE & NINGNING)",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/lollipop-giselle-e-ningning/"
     },
     "/bang-chan-3racha/roman-empire/": {
-        "posicao": 444,
+        "posicao": 443,
         "nome": "Roman Empire",
         "artista": "Bang Chan",
         "url": "https://www.letras.mus.br/bang-chan-3racha/roman-empire/"
+    },
+    "/hearts2hearts/iconic-heart/": {
+        "posicao": 444,
+        "nome": "ICONIC HEART",
+        "artista": "Hearts2Hearts",
+        "url": "https://www.letras.mus.br/hearts2hearts/iconic-heart/"
     },
     "/xlov/1eonly/": {
         "posicao": 445,
@@ -2795,17 +2795,17 @@
         "artista": "Jung Kook",
         "url": "https://www.letras.mus.br/jungkook/seven-feat-latto/"
     },
-    "/bangtan-boys/outro-wings/": {
-        "posicao": 467,
-        "nome": "Outro: Wings",
-        "artista": "BTS",
-        "url": "https://www.letras.mus.br/bangtan-boys/outro-wings/"
-    },
     "/psy/that-that-feat-suga/": {
-        "posicao": 468,
+        "posicao": 467,
         "nome": "That That (feat. SUGA)",
         "artista": "PSY",
         "url": "https://www.letras.mus.br/psy/that-that-feat-suga/"
+    },
+    "/bangtan-boys/outro-wings/": {
+        "posicao": 468,
+        "nome": "Outro: Wings",
+        "artista": "BTS",
+        "url": "https://www.letras.mus.br/bangtan-boys/outro-wings/"
     },
     "/ive/after-like/": {
         "posicao": 469,
@@ -2819,47 +2819,47 @@
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/knife/"
     },
-    "/lisa-blackpink/fxck-up-the-world-feat-future/": {
-        "posicao": 471,
-        "nome": "FXCK UP THE WORLD (feat. Future)",
-        "artista": "LISA",
-        "url": "https://www.letras.mus.br/lisa-blackpink/fxck-up-the-world-feat-future/"
-    },
     "/xg/hypnotize/": {
-        "posicao": 472,
+        "posicao": 471,
         "nome": "HYPNOTIZE",
         "artista": "XG",
         "url": "https://www.letras.mus.br/xg/hypnotize/"
     },
     "/txt-tomorrow-x-together/loerloer-loserlover/": {
-        "posicao": 473,
+        "posicao": 472,
         "nome": "LO$ER=LO♡ER (LOSER=LOVER)",
         "artista": "TOMORROW X TOGETHER (TXT)",
         "url": "https://www.letras.mus.br/txt-tomorrow-x-together/loerloer-loserlover/"
     },
     "/jennie/starlight/": {
-        "posicao": 474,
+        "posicao": 473,
         "nome": "Starlight",
         "artista": "JENNIE",
         "url": "https://www.letras.mus.br/jennie/starlight/"
     },
     "/bangtan-boys/we-are-bulletproof/": {
-        "posicao": 475,
+        "posicao": 474,
         "nome": "We Are Bulletproof PT.2 (위 아 불렛프루프 PT.2)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/we-are-bulletproof/"
     },
     "/ateez/ice-on-my-teeth/": {
-        "posicao": 476,
+        "posicao": 475,
         "nome": "Ice On My Teeth",
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/ice-on-my-teeth/"
     },
     "/ill-it/sunday-morning/": {
-        "posicao": 477,
+        "posicao": 476,
         "nome": "Sunday Morning",
         "artista": "ILLIT",
         "url": "https://www.letras.mus.br/ill-it/sunday-morning/"
+    },
+    "/lisa-blackpink/fxck-up-the-world-feat-future/": {
+        "posicao": 477,
+        "nome": "FXCK UP THE WORLD (feat. Future)",
+        "artista": "LISA",
+        "url": "https://www.letras.mus.br/lisa-blackpink/fxck-up-the-world-feat-future/"
     },
     "/bangtan-boys/singularity/": {
         "posicao": 478,
@@ -2867,35 +2867,35 @@
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/singularity/"
     },
-    "/stray-kids/venom/": {
-        "posicao": 479,
-        "nome": "VENOM (거미줄)",
-        "artista": "Stray Kids",
-        "url": "https://www.letras.mus.br/stray-kids/venom/"
-    },
     "/agust-d/d-day/": {
-        "posicao": 480,
+        "posicao": 479,
         "nome": "D-Day",
         "artista": "Agust D",
         "url": "https://www.letras.mus.br/agust-d/d-day/"
     },
     "/jennie/you-and-me-moonlight/": {
-        "posicao": 481,
+        "posicao": 480,
         "nome": "You & Me",
         "artista": "JENNIE",
         "url": "https://www.letras.mus.br/jennie/you-and-me-moonlight/"
     },
     "/10cm/spring-snow-bomnun/": {
-        "posicao": 482,
+        "posicao": 481,
         "nome": "Spring Snow (봄눈)",
         "artista": "10CM",
         "url": "https://www.letras.mus.br/10cm/spring-snow-bomnun/"
     },
     "/aespa/byeb4hello/": {
-        "posicao": 483,
+        "posicao": 482,
         "nome": "BYEB4HELLO",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/byeb4hello/"
+    },
+    "/stray-kids/venom/": {
+        "posicao": 483,
+        "nome": "VENOM (거미줄)",
+        "artista": "Stray Kids",
+        "url": "https://www.letras.mus.br/stray-kids/venom/"
     },
     "/nmixx/blue-valentine/": {
         "posicao": 484,
@@ -3047,23 +3047,23 @@
         "artista": "izna",
         "url": "https://www.letras.mus.br/izna/love-all/"
     },
-    "/twice-k-pop/tt/": {
-        "posicao": 509,
-        "nome": "TT",
-        "artista": "TWICE",
-        "url": "https://www.letras.mus.br/twice-k-pop/tt/"
-    },
     "/hearts2hearts/moonride/": {
-        "posicao": 510,
+        "posicao": 509,
         "nome": "Moonride",
         "artista": "Hearts2Hearts",
         "url": "https://www.letras.mus.br/hearts2hearts/moonride/"
     },
     "/chevy/morning-coffee/": {
-        "posicao": 511,
+        "posicao": 510,
         "nome": "Morning Coffee (feat. Nalba)",
         "artista": "Chevy",
         "url": "https://www.letras.mus.br/chevy/morning-coffee/"
+    },
+    "/twice-k-pop/tt/": {
+        "posicao": 511,
+        "nome": "TT",
+        "artista": "TWICE",
+        "url": "https://www.letras.mus.br/twice-k-pop/tt/"
     },
     "/meovv/hit-em/": {
         "posicao": 512,
@@ -3251,17 +3251,17 @@
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/lucifer/"
     },
-    "/i-dle/mono/": {
-        "posicao": 543,
-        "nome": "Mono (feat. skaiwater)",
-        "artista": "i-dle",
-        "url": "https://www.letras.mus.br/i-dle/mono/"
-    },
     "/kiss-of-life-k-pop/igloo/": {
-        "posicao": 544,
+        "posicao": 543,
         "nome": "Igloo",
         "artista": "KISS OF LIFE",
         "url": "https://www.letras.mus.br/kiss-of-life-k-pop/igloo/"
+    },
+    "/i-dle/mono/": {
+        "posicao": 544,
+        "nome": "Mono (feat. skaiwater)",
+        "artista": "i-dle",
+        "url": "https://www.letras.mus.br/i-dle/mono/"
     },
     "/stray-kids/hellevator/": {
         "posicao": 545,
@@ -3365,11 +3365,11 @@
         "artista": "Baek Yerin",
         "url": "https://www.letras.mus.br/baek-yerin/here-i-am-again/"
     },
-    "/twice-k-pop/alcohol-free/": {
+    "/lim-hyunsik/see-the-light/": {
         "posicao": 562,
-        "nome": "Alcohol-Free",
-        "artista": "TWICE",
-        "url": "https://www.letras.mus.br/twice-k-pop/alcohol-free/"
+        "nome": "See The Light",
+        "artista": "Lim Hyunsik",
+        "url": "https://www.letras.mus.br/lim-hyunsik/see-the-light/"
     },
     "/twice-k-pop/signal/": {
         "posicao": 563,
@@ -3377,29 +3377,29 @@
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/signal/"
     },
-    "/lim-hyunsik/see-the-light/": {
-        "posicao": 564,
-        "nome": "See The Light",
-        "artista": "Lim Hyunsik",
-        "url": "https://www.letras.mus.br/lim-hyunsik/see-the-light/"
-    },
     "/boynextdoor/animal/": {
-        "posicao": 565,
+        "posicao": 564,
         "nome": "ANIMAL",
         "artista": "BOYNEXTDOOR",
         "url": "https://www.letras.mus.br/boynextdoor/animal/"
     },
     "/cortis/blue-lips/": {
-        "posicao": 566,
+        "posicao": 565,
         "nome": "Blue Lips",
         "artista": "CORTIS",
         "url": "https://www.letras.mus.br/cortis/blue-lips/"
     },
     "/jimin-bts/closer-than-this/": {
-        "posicao": 567,
+        "posicao": 566,
         "nome": "Closer Than This",
         "artista": "Jimin",
         "url": "https://www.letras.mus.br/jimin-bts/closer-than-this/"
+    },
+    "/twice-k-pop/alcohol-free/": {
+        "posicao": 567,
+        "nome": "Alcohol-Free",
+        "artista": "TWICE",
+        "url": "https://www.letras.mus.br/twice-k-pop/alcohol-free/"
     },
     "/bangtan-boys/rain/": {
         "posicao": 568,
@@ -3413,77 +3413,77 @@
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/bouncy-k-hot-chilli-peppers/"
     },
-    "/jennie/filter/": {
-        "posicao": 570,
-        "nome": "Filter",
-        "artista": "JENNIE",
-        "url": "https://www.letras.mus.br/jennie/filter/"
-    },
     "/stray-kids/i-am-you/": {
-        "posicao": 571,
+        "posicao": 570,
         "nome": "I Am YOU",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/i-am-you/"
     },
     "/bangtan-boys/inner-child/": {
-        "posicao": 572,
+        "posicao": 571,
         "nome": "Inner Child",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/inner-child/"
     },
     "/rap-monster/closer-feat-paul-blanco-e-mahalia/": {
-        "posicao": 573,
+        "posicao": 572,
         "nome": "Closer (feat. Paul Blanco & Mahalia)",
         "artista": "RM",
         "url": "https://www.letras.mus.br/rap-monster/closer-feat-paul-blanco-e-mahalia/"
     },
     "/cl/hello-bitches-cl/": {
-        "posicao": 574,
+        "posicao": 573,
         "nome": "Hello Bitches",
         "artista": "CL",
         "url": "https://www.letras.mus.br/cl/hello-bitches-cl/"
     },
     "/rap-monster/joke/": {
-        "posicao": 575,
+        "posicao": 574,
         "nome": "Joke (농담)",
         "artista": "RM",
         "url": "https://www.letras.mus.br/rap-monster/joke/"
     },
     "/hwasa/so-cute/": {
-        "posicao": 576,
+        "posicao": 575,
         "nome": "So Cute",
         "artista": "HWASA",
         "url": "https://www.letras.mus.br/hwasa/so-cute/"
     },
-    "/jimin-bts/face-off/": {
-        "posicao": 577,
-        "nome": "Face-off",
-        "artista": "Jimin",
-        "url": "https://www.letras.mus.br/jimin-bts/face-off/"
+    "/jennie/filter/": {
+        "posicao": 576,
+        "nome": "Filter",
+        "artista": "JENNIE",
+        "url": "https://www.letras.mus.br/jennie/filter/"
     },
     "/red-velvet/day-1/": {
-        "posicao": 578,
+        "posicao": 577,
         "nome": "Day 1",
         "artista": "Red Velvet",
         "url": "https://www.letras.mus.br/red-velvet/day-1/"
     },
     "/agust-d/strange/": {
-        "posicao": 579,
+        "posicao": 578,
         "nome": "Strange (이상하지 않은가) (feat. RM)",
         "artista": "Agust D",
         "url": "https://www.letras.mus.br/agust-d/strange/"
     },
     "/twice-k-pop/moonlight-sunrise/": {
-        "posicao": 580,
+        "posicao": 579,
         "nome": "MOONLIGHT SUNRISE",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/moonlight-sunrise/"
     },
     "/enhypen/bad-desire-with-or-without-you-english-version/": {
-        "posicao": 581,
+        "posicao": 580,
         "nome": "Bad Desire (With or Without You) (English Ver.)",
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/bad-desire-with-or-without-you-english-version/"
+    },
+    "/jimin-bts/face-off/": {
+        "posicao": 581,
+        "nome": "Face-off",
+        "artista": "Jimin",
+        "url": "https://www.letras.mus.br/jimin-bts/face-off/"
     },
     "/itzy/wannabe/": {
         "posicao": 582,
@@ -3587,71 +3587,71 @@
         "artista": "WOODZ",
         "url": "https://www.letras.mus.br/woodz/drowning/"
     },
-    "/stray-kids/youth-lee-know/": {
-        "posicao": 599,
-        "nome": "Youth (Lee Know)",
-        "artista": "Stray Kids",
-        "url": "https://www.letras.mus.br/stray-kids/youth-lee-know/"
-    },
     "/lisa-blackpink/goals-feat-anitta-e-rema/": {
-        "posicao": 600,
+        "posicao": 599,
         "nome": "Goals (feat. Anitta & Rema)",
         "artista": "LISA",
         "url": "https://www.letras.mus.br/lisa-blackpink/goals-feat-anitta-e-rema/"
     },
     "/stray-kids/cheese/": {
-        "posicao": 601,
+        "posicao": 600,
         "nome": "CHEESE",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/cheese/"
     },
     "/rose/messy/": {
-        "posicao": 602,
+        "posicao": 601,
         "nome": "Messy",
         "artista": "ROSÉ",
         "url": "https://www.letras.mus.br/rose/messy/"
     },
     "/nmixx/loud/": {
-        "posicao": 603,
+        "posicao": 602,
         "nome": "LOUD",
         "artista": "NMIXX",
         "url": "https://www.letras.mus.br/nmixx/loud/"
     },
-    "/stray-kids/side-effects/": {
-        "posicao": 604,
-        "nome": "Side Effects (부작용)",
+    "/stray-kids/youth-lee-know/": {
+        "posicao": 603,
+        "nome": "Youth (Lee Know)",
         "artista": "Stray Kids",
-        "url": "https://www.letras.mus.br/stray-kids/side-effects/"
-    },
-    "/enhypen/criminal-love/": {
-        "posicao": 605,
-        "nome": "CRIMINAL LOVE",
-        "artista": "ENHYPEN",
-        "url": "https://www.letras.mus.br/enhypen/criminal-love/"
+        "url": "https://www.letras.mus.br/stray-kids/youth-lee-know/"
     },
     "/park-chanyeol-exo/stay-with-me/": {
-        "posicao": 606,
+        "posicao": 604,
         "nome": "Stay With Me (feat. PUNCH)",
         "artista": "CHANYEOL",
         "url": "https://www.letras.mus.br/park-chanyeol-exo/stay-with-me/"
     },
     "/blackpink/really/": {
-        "posicao": 607,
+        "posicao": 605,
         "nome": "REALLY",
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/really/"
     },
     "/i-dle/oh-my-god-english-version/": {
-        "posicao": 608,
+        "posicao": 606,
         "nome": "Oh My God (English Version)",
         "artista": "i-dle",
         "url": "https://www.letras.mus.br/i-dle/oh-my-god-english-version/"
     },
     "/blackpink/kiss-and-make-up-feat-dua-lipa/": {
-        "posicao": 609,
+        "posicao": 607,
         "nome": "Kiss And Make Up (feat. Dua Lipa)",
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/kiss-and-make-up-feat-dua-lipa/"
+    },
+    "/stray-kids/side-effects/": {
+        "posicao": 608,
+        "nome": "Side Effects (부작용)",
+        "artista": "Stray Kids",
+        "url": "https://www.letras.mus.br/stray-kids/side-effects/"
+    },
+    "/enhypen/criminal-love/": {
+        "posicao": 609,
+        "nome": "CRIMINAL LOVE",
+        "artista": "ENHYPEN",
+        "url": "https://www.letras.mus.br/enhypen/criminal-love/"
     },
     "/ive/rebel-heart/": {
         "posicao": 610,
@@ -3695,29 +3695,29 @@
         "artista": "BABYMONSTER",
         "url": "https://www.letras.mus.br/babymonster/supa-dupa-luv/"
     },
-    "/babymonster/stuck-in-the-middle/": {
-        "posicao": 617,
-        "nome": "Stuck In The Middle",
-        "artista": "BABYMONSTER",
-        "url": "https://www.letras.mus.br/babymonster/stuck-in-the-middle/"
-    },
     "/ill-it/pimple/": {
-        "posicao": 618,
+        "posicao": 617,
         "nome": "Pimple",
         "artista": "ILLIT",
         "url": "https://www.letras.mus.br/ill-it/pimple/"
     },
     "/enhypen/bad-desire-with-or-without-you/": {
-        "posicao": 619,
+        "posicao": 618,
         "nome": "Bad Desire (With or Without You)",
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/bad-desire-with-or-without-you/"
     },
     "/aespa/dirty-work/": {
-        "posicao": 620,
+        "posicao": 619,
         "nome": "Dirty Work",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/dirty-work/"
+    },
+    "/babymonster/stuck-in-the-middle/": {
+        "posicao": 620,
+        "nome": "Stuck In The Middle",
+        "artista": "BABYMONSTER",
+        "url": "https://www.letras.mus.br/babymonster/stuck-in-the-middle/"
     },
     "/jisoo/your-love/": {
         "posicao": 621,
@@ -3737,47 +3737,47 @@
         "artista": "EXO",
         "url": "https://www.letras.mus.br/exo/tempo/"
     },
-    "/loona-k-pop/heart-attack/": {
-        "posicao": 624,
-        "nome": "Heart Attack (Chuu)",
-        "artista": "LOONA",
-        "url": "https://www.letras.mus.br/loona-k-pop/heart-attack/"
-    },
     "/le-sserafim/come-over/": {
-        "posicao": 625,
+        "posicao": 624,
         "nome": "Come Over",
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/come-over/"
     },
     "/bangtan-boys/if-i-ruled-the-world/": {
-        "posicao": 626,
+        "posicao": 625,
         "nome": "If I Ruled The World",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/if-i-ruled-the-world/"
     },
     "/rap-monster/moonchild/": {
-        "posicao": 627,
+        "posicao": 626,
         "nome": "moonchild",
         "artista": "RM",
         "url": "https://www.letras.mus.br/rap-monster/moonchild/"
     },
     "/bangtan-boys/dream-glow-feat-charli-xcx/": {
-        "posicao": 628,
+        "posicao": 627,
         "nome": "Dream Glow (feat. Charli XCX)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/dream-glow-feat-charli-xcx/"
     },
     "/bangtan-boys/move/": {
-        "posicao": 629,
+        "posicao": 628,
         "nome": "Moving On (이사)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/move/"
     },
     "/girls-generation-hrs/skibidi/": {
-        "posicao": 630,
+        "posicao": 629,
         "nome": "Skibidi",
         "artista": "Girls' Generation-HRS",
         "url": "https://www.letras.mus.br/girls-generation-hrs/skibidi/"
+    },
+    "/loona-k-pop/heart-attack/": {
+        "posicao": 630,
+        "nome": "Heart Attack (Chuu)",
+        "artista": "LOONA",
+        "url": "https://www.letras.mus.br/loona-k-pop/heart-attack/"
     },
     "/kim-dong-ryul/should-i-say-i-love-you-again/": {
         "posicao": 631,
@@ -3821,41 +3821,41 @@
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/chill/"
     },
-    "/xg/gala/": {
-        "posicao": 638,
-        "nome": "GALA",
-        "artista": "XG",
-        "url": "https://www.letras.mus.br/xg/gala/"
-    },
     "/bl8m/ruler-of-my-heart-feat-rubyeye/": {
-        "posicao": 639,
+        "posicao": 638,
         "nome": "Ruler Of My Heart (feat. Rubyeye)",
         "artista": "BL8M",
         "url": "https://www.letras.mus.br/bl8m/ruler-of-my-heart-feat-rubyeye/"
     },
     "/stray-kids/sorry-i-love-you/": {
-        "posicao": 640,
+        "posicao": 639,
         "nome": "Sorry, I Love You (좋아해서 미안)",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/sorry-i-love-you/"
     },
     "/car-the-garden/scars-leave-beautiful-trace/": {
-        "posicao": 641,
+        "posicao": 640,
         "nome": "Scars leave beautiful trace (상처는 아름다운 흔적이 되어)",
         "artista": "Car, The Garden",
         "url": "https://www.letras.mus.br/car-the-garden/scars-leave-beautiful-trace/"
     },
     "/le-sserafim/unforgiven-feat-nile-rodgers/": {
-        "posicao": 642,
+        "posicao": 641,
         "nome": "UNFORGIVEN (feat. Nile Rodgers)",
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/unforgiven-feat-nile-rodgers/"
     },
     "/bangtan-boys/ddaeng/": {
-        "posicao": 643,
+        "posicao": 642,
         "nome": "DDAENG (땡)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/ddaeng/"
+    },
+    "/xg/gala/": {
+        "posicao": 643,
+        "nome": "GALA",
+        "artista": "XG",
+        "url": "https://www.letras.mus.br/xg/gala/"
     },
     "/han-jisung/volcano/": {
         "posicao": 644,
@@ -4229,59 +4229,59 @@
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/shout-out/"
     },
-    "/zico/spot-feat-jennie/": {
-        "posicao": 706,
-        "nome": "SPOT! (feat. JENNIE)",
-        "artista": "ZICO",
-        "url": "https://www.letras.mus.br/zico/spot-feat-jennie/"
-    },
-    "/big-bang/1318663/": {
-        "posicao": 707,
-        "nome": "Haru Haru (하루 하루)",
-        "artista": "BIGBANG",
-        "url": "https://www.letras.mus.br/big-bang/1318663/"
-    },
     "/got7/stop-stop-it/": {
-        "posicao": 708,
+        "posicao": 706,
         "nome": "Stop Stop It (하지하지마)",
         "artista": "GOT7",
         "url": "https://www.letras.mus.br/got7/stop-stop-it/"
     },
     "/bangtan-boys/converse-high/": {
-        "posicao": 709,
+        "posicao": 707,
         "nome": "Converse High",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/converse-high/"
     },
     "/le-sserafim/fearless/": {
-        "posicao": 710,
+        "posicao": 708,
         "nome": "FEARLESS",
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/fearless/"
     },
     "/eunha/ottoke-song/": {
-        "posicao": 711,
+        "posicao": 709,
         "nome": "Ottoke Song (오또케송)",
         "artista": "Eunha",
         "url": "https://www.letras.mus.br/eunha/ottoke-song/"
     },
     "/blackpink/fxxxboy/": {
-        "posicao": 712,
+        "posicao": 710,
         "nome": "Fxxxboy",
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/fxxxboy/"
     },
     "/han-jisung/raining-stars-yuseongu/": {
-        "posicao": 713,
+        "posicao": 711,
         "nome": "Raining Stars (유성우)",
         "artista": "HAN",
         "url": "https://www.letras.mus.br/han-jisung/raining-stars-yuseongu/"
     },
     "/seo-ji-won/with-my-tears/": {
-        "posicao": 714,
+        "posicao": 712,
         "nome": "Gather My Tears (내 눈물 모아)",
         "artista": "Seo Ji-won",
         "url": "https://www.letras.mus.br/seo-ji-won/with-my-tears/"
+    },
+    "/zico/spot-feat-jennie/": {
+        "posicao": 713,
+        "nome": "SPOT! (feat. JENNIE)",
+        "artista": "ZICO",
+        "url": "https://www.letras.mus.br/zico/spot-feat-jennie/"
+    },
+    "/big-bang/1318663/": {
+        "posicao": 714,
+        "nome": "Haru Haru (하루 하루)",
+        "artista": "BIGBANG",
+        "url": "https://www.letras.mus.br/big-bang/1318663/"
     },
     "/bangtan-boys/ugh/": {
         "posicao": 715,
@@ -4403,41 +4403,41 @@
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/the-happiest-girl/"
     },
-    "/nayeon/pop/": {
-        "posicao": 735,
-        "nome": "POP!",
-        "artista": "NAYEON",
-        "url": "https://www.letras.mus.br/nayeon/pop/"
-    },
     "/aespa/flowers/": {
-        "posicao": 736,
+        "posicao": 735,
         "nome": "Flowers",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/flowers/"
     },
     "/stray-kids/silent-cry/": {
-        "posicao": 737,
+        "posicao": 736,
         "nome": "Silent Cry",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/silent-cry/"
     },
     "/stray-kids/circus/": {
-        "posicao": 738,
+        "posicao": 737,
         "nome": "CIRCUS",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/circus/"
     },
     "/kpop-demon-hunters-cast/brilho/": {
-        "posicao": 739,
+        "posicao": 738,
         "nome": "Brilho (HUNTR/X)",
         "artista": "Kpop Demon Hunters Cast",
         "url": "https://www.letras.mus.br/kpop-demon-hunters-cast/brilho/"
     },
     "/ive/blackhole/": {
-        "posicao": 740,
+        "posicao": 739,
         "nome": "BLACKHOLE",
         "artista": "IVE",
         "url": "https://www.letras.mus.br/ive/blackhole/"
+    },
+    "/nayeon/pop/": {
+        "posicao": 740,
+        "nome": "POP!",
+        "artista": "NAYEON",
+        "url": "https://www.letras.mus.br/nayeon/pop/"
     },
     "/babymonster/love-maybe/": {
         "posicao": 741,
@@ -4463,101 +4463,101 @@
         "artista": "TOMORROW X TOGETHER (TXT)",
         "url": "https://www.letras.mus.br/txt-tomorrow-x-together/ill-see-you-there-tomorrow-naeileseo-gidarilge/"
     },
-    "/stray-kids/november-11th-11weol-11il/": {
-        "posicao": 745,
-        "nome": "November 11th (11월 11일)",
-        "artista": "Stray Kids",
-        "url": "https://www.letras.mus.br/stray-kids/november-11th-11weol-11il/"
-    },
     "/lisa-blackpink/thunder/": {
-        "posicao": 746,
+        "posicao": 745,
         "nome": "Thunder",
         "artista": "LISA",
         "url": "https://www.letras.mus.br/lisa-blackpink/thunder/"
     },
     "/babymonster/love-in-my-heart/": {
-        "posicao": 747,
+        "posicao": 746,
         "nome": "Love In My Heart",
         "artista": "BABYMONSTER",
         "url": "https://www.letras.mus.br/babymonster/love-in-my-heart/"
     },
     "/stray-kids/phoenix/": {
-        "posicao": 748,
+        "posicao": 747,
         "nome": "Phoenix",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/phoenix/"
     },
     "/ill-it/grwm-get-ready-with-me/": {
-        "posicao": 749,
+        "posicao": 748,
         "nome": "GRWM (Get Ready With Me)",
         "artista": "ILLIT",
         "url": "https://www.letras.mus.br/ill-it/grwm-get-ready-with-me/"
     },
     "/lyn/my-destiny/": {
-        "posicao": 750,
+        "posicao": 749,
         "nome": "My Destiny",
         "artista": "LYn",
         "url": "https://www.letras.mus.br/lyn/my-destiny/"
     },
     "/bibi-kpop/bibi-vengeance/": {
-        "posicao": 751,
+        "posicao": 750,
         "nome": "BIBI Vengeance (나쁜년)",
         "artista": "BIBI",
         "url": "https://www.letras.mus.br/bibi-kpop/bibi-vengeance/"
     },
     "/twice-k-pop/the-feels-ian-asher-remix/": {
-        "posicao": 752,
+        "posicao": 751,
         "nome": "The Feels (Ian Asher Remix)",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/the-feels-ian-asher-remix/"
     },
     "/aespa/savage/": {
-        "posicao": 753,
+        "posicao": 752,
         "nome": "Savage",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/savage/"
     },
     "/cortis/lullaby/": {
-        "posicao": 754,
+        "posicao": 753,
         "nome": "Lullaby",
         "artista": "CORTIS",
         "url": "https://www.letras.mus.br/cortis/lullaby/"
     },
     "/bangtan-boys/the-rise-of-bangtan-2/": {
-        "posicao": 755,
+        "posicao": 754,
         "nome": "Attack On Bangtan (진격의 방탄)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/the-rise-of-bangtan-2/"
     },
-    "/stray-kids/grow-up/": {
-        "posicao": 756,
-        "nome": "Grow Up (넌 잘 하고 있어)",
+    "/stray-kids/november-11th-11weol-11il/": {
+        "posicao": 755,
+        "nome": "November 11th (11월 11일)",
         "artista": "Stray Kids",
-        "url": "https://www.letras.mus.br/stray-kids/grow-up/"
+        "url": "https://www.letras.mus.br/stray-kids/november-11th-11weol-11il/"
     },
     "/stray-kids/deep-end-felix/": {
-        "posicao": 757,
+        "posicao": 756,
         "nome": "Deep End (Felix)",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/deep-end-felix/"
     },
     "/hwasa/twit/": {
-        "posicao": 758,
+        "posicao": 757,
         "nome": "TWIT",
         "artista": "HWASA",
         "url": "https://www.letras.mus.br/hwasa/twit/"
     },
     "/enhypen/sacrifice-eat-me-up/": {
-        "posicao": 759,
+        "posicao": 758,
         "nome": "Sacrifice (Eat Me Up)",
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/sacrifice-eat-me-up/"
     },
     "/twice-k-pop/i-got-you/": {
-        "posicao": 760,
+        "posicao": 759,
         "nome": "I GOT YOU",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/i-got-you/"
+    },
+    "/stray-kids/grow-up/": {
+        "posicao": 760,
+        "nome": "Grow Up (넌 잘 하고 있어)",
+        "artista": "Stray Kids",
+        "url": "https://www.letras.mus.br/stray-kids/grow-up/"
     },
     "/rain/1678015/": {
         "posicao": 761,
@@ -4583,161 +4583,161 @@
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/nasa/"
     },
-    "/agust-d/the-last/": {
-        "posicao": 765,
-        "nome": "The Last (마지막) [explicit]",
-        "artista": "Agust D",
-        "url": "https://www.letras.mus.br/agust-d/the-last/"
-    },
-    "/the-rose/slowly/": {
-        "posicao": 766,
-        "nome": "Slowly",
-        "artista": "The Rose",
-        "url": "https://www.letras.mus.br/the-rose/slowly/"
-    },
     "/i-dle/allergy/": {
-        "posicao": 767,
+        "posicao": 765,
         "nome": "Allergy",
         "artista": "i-dle",
         "url": "https://www.letras.mus.br/i-dle/allergy/"
     },
     "/blackpink/see-u-later/": {
-        "posicao": 768,
+        "posicao": 766,
         "nome": "SEE U LATER",
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/see-u-later/"
     },
     "/ateez/wonderland/": {
-        "posicao": 769,
+        "posicao": 767,
         "nome": "WONDERLAND",
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/wonderland/"
     },
     "/twice-k-pop/takedown/": {
-        "posicao": 770,
+        "posicao": 768,
         "nome": "TAKEDOWN (JEONGYEON, JIHYO & CHAEYOUNG)",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/takedown/"
     },
     "/boynextdoor/viral/": {
-        "posicao": 771,
+        "posicao": 769,
         "nome": "VIRAL",
         "artista": "BOYNEXTDOOR",
         "url": "https://www.letras.mus.br/boynextdoor/viral/"
     },
     "/jin-bts/ill-be-there/": {
-        "posicao": 772,
+        "posicao": 770,
         "nome": "I'll Be There",
         "artista": "Jin",
         "url": "https://www.letras.mus.br/jin-bts/ill-be-there/"
     },
     "/bangtan-boys/a-supplementary-story-you-never-walk-alone/": {
-        "posicao": 773,
+        "posicao": 771,
         "nome": "A Supplementary Story: You Never Walk Alone",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/a-supplementary-story-you-never-walk-alone/"
     },
-    "/iu/lilac/": {
-        "posicao": 774,
-        "nome": "LILAC",
-        "artista": "IU",
-        "url": "https://www.letras.mus.br/iu/lilac/"
+    "/agust-d/the-last/": {
+        "posicao": 772,
+        "nome": "The Last (마지막) [explicit]",
+        "artista": "Agust D",
+        "url": "https://www.letras.mus.br/agust-d/the-last/"
     },
-    "/jimin-bts/slow-dance-feat-sofia-carson/": {
-        "posicao": 775,
-        "nome": "Slow Dance (feat. Sofia Carson)",
-        "artista": "Jimin",
-        "url": "https://www.letras.mus.br/jimin-bts/slow-dance-feat-sofia-carson/"
+    "/the-rose/slowly/": {
+        "posicao": 773,
+        "nome": "Slowly",
+        "artista": "The Rose",
+        "url": "https://www.letras.mus.br/the-rose/slowly/"
     },
     "/jannabi/for-those-who-hesitate/": {
-        "posicao": 776,
+        "posicao": 774,
         "nome": "For Lovers Who Hesitate",
         "artista": "JANNABI",
         "url": "https://www.letras.mus.br/jannabi/for-those-who-hesitate/"
     },
     "/stray-kids/secret-secret/": {
-        "posicao": 777,
+        "posicao": 775,
         "nome": "Secret Secret (말할 수 없는 비밀)",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/secret-secret/"
     },
     "/rose/vampire-hollie/": {
-        "posicao": 778,
+        "posicao": 776,
         "nome": "vampire hollie",
         "artista": "ROSÉ",
         "url": "https://www.letras.mus.br/rose/vampire-hollie/"
     },
     "/mamamoo/hip/": {
-        "posicao": 779,
+        "posicao": 777,
         "nome": "HIP",
         "artista": "MAMAMOO",
         "url": "https://www.letras.mus.br/mamamoo/hip/"
     },
     "/enhypen/your-eyes-only/": {
-        "posicao": 780,
+        "posicao": 778,
         "nome": "Your Eyes Only",
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/your-eyes-only/"
     },
     "/xg/shooting-star/": {
-        "posicao": 781,
+        "posicao": 779,
         "nome": "SHOOTING STAR",
         "artista": "XG",
         "url": "https://www.letras.mus.br/xg/shooting-star/"
     },
     "/boynextdoor/123-78/": {
-        "posicao": 782,
+        "posicao": 780,
         "nome": "123-78",
         "artista": "BOYNEXTDOOR",
         "url": "https://www.letras.mus.br/boynextdoor/123-78/"
     },
     "/bangtan-boys/outro-ego/": {
-        "posicao": 783,
+        "posicao": 781,
         "nome": "Outro: Ego",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/outro-ego/"
     },
-    "/bangtan-boys/fly-to-my-room/": {
-        "posicao": 784,
-        "nome": "Fly To My Room",
-        "artista": "BTS",
-        "url": "https://www.letras.mus.br/bangtan-boys/fly-to-my-room/"
+    "/iu/lilac/": {
+        "posicao": 782,
+        "nome": "LILAC",
+        "artista": "IU",
+        "url": "https://www.letras.mus.br/iu/lilac/"
+    },
+    "/jimin-bts/slow-dance-feat-sofia-carson/": {
+        "posicao": 783,
+        "nome": "Slow Dance (feat. Sofia Carson)",
+        "artista": "Jimin",
+        "url": "https://www.letras.mus.br/jimin-bts/slow-dance-feat-sofia-carson/"
     },
     "/twice-k-pop/doughnut/": {
-        "posicao": 785,
+        "posicao": 784,
         "nome": "Doughnut",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/doughnut/"
     },
     "/seulgi/28-reasons/": {
-        "posicao": 786,
+        "posicao": 785,
         "nome": "28 Reasons",
         "artista": "SEULGI",
         "url": "https://www.letras.mus.br/seulgi/28-reasons/"
     },
     "/g-friend/ave-maria/": {
-        "posicao": 787,
+        "posicao": 786,
         "nome": "Ave Maria",
         "artista": "GFRIEND",
         "url": "https://www.letras.mus.br/g-friend/ave-maria/"
     },
     "/le-sserafim/unforgiven-feat-ado-e-nile-rodgers-japanese-version/": {
-        "posicao": 788,
+        "posicao": 787,
         "nome": "UNFORGIVEN (feat. Ado & Nile Rodgers) (Japanese Version)",
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/unforgiven-feat-ado-e-nile-rodgers-japanese-version/"
     },
     "/ateez/enough/": {
-        "posicao": 789,
+        "posicao": 788,
         "nome": "Enough",
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/enough/"
     },
     "/jungkook/too-much-feat-the-kid-laroi-e-central-cee/": {
-        "posicao": 790,
+        "posicao": 789,
         "nome": "TOO MUCH (feat. The Kid LAROI & Central Cee)",
         "artista": "Jung Kook",
         "url": "https://www.letras.mus.br/jungkook/too-much-feat-the-kid-laroi-e-central-cee/"
+    },
+    "/seventeen/super/": {
+        "posicao": 790,
+        "nome": "Super (손오공)",
+        "artista": "SEVENTEEN",
+        "url": "https://www.letras.mus.br/seventeen/super/"
     },
     "/triples/are-you-alive-ggaeeo/": {
         "posicao": 791,
@@ -4745,59 +4745,59 @@
         "artista": "tripleS",
         "url": "https://www.letras.mus.br/triples/are-you-alive-ggaeeo/"
     },
-    "/seventeen/super/": {
+    "/bangtan-boys/fly-to-my-room/": {
         "posicao": 792,
-        "nome": "Super (손오공)",
-        "artista": "SEVENTEEN",
-        "url": "https://www.letras.mus.br/seventeen/super/"
-    },
-    "/big-bang/if-you/": {
-        "posicao": 793,
-        "nome": "If You",
-        "artista": "BIGBANG",
-        "url": "https://www.letras.mus.br/big-bang/if-you/"
+        "nome": "Fly To My Room",
+        "artista": "BTS",
+        "url": "https://www.letras.mus.br/bangtan-boys/fly-to-my-room/"
     },
     "/seventeen/dont-wanna-cry/": {
-        "posicao": 794,
+        "posicao": 793,
         "nome": "Don't Wanna Cry (울고 싶지 않아)",
         "artista": "SEVENTEEN",
         "url": "https://www.letras.mus.br/seventeen/dont-wanna-cry/"
     },
     "/bangtan-boys/lost/": {
-        "posicao": 795,
+        "posicao": 794,
         "nome": "Lost",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/lost/"
     },
     "/baekhyun/cry-for-love/": {
-        "posicao": 796,
+        "posicao": 795,
         "nome": "Cry For Love",
         "artista": "BAEKHYUN",
         "url": "https://www.letras.mus.br/baekhyun/cry-for-love/"
     },
     "/ill-it/little-monster/": {
-        "posicao": 797,
+        "posicao": 796,
         "nome": "little monster",
         "artista": "ILLIT",
         "url": "https://www.letras.mus.br/ill-it/little-monster/"
     },
     "/xlov/scent/": {
-        "posicao": 798,
+        "posicao": 797,
         "nome": "Scent",
         "artista": "XLOV",
         "url": "https://www.letras.mus.br/xlov/scent/"
     },
     "/stray-kids/fam/": {
-        "posicao": 799,
+        "posicao": 798,
         "nome": "FAM",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/fam/"
     },
     "/stray-kids/leave/": {
-        "posicao": 800,
+        "posicao": 799,
         "nome": "Leave",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/leave/"
+    },
+    "/big-bang/if-you/": {
+        "posicao": 800,
+        "nome": "If You",
+        "artista": "BIGBANG",
+        "url": "https://www.letras.mus.br/big-bang/if-you/"
     },
     "/the-rose/nebula/": {
         "posicao": 801,
@@ -4853,29 +4853,29 @@
         "artista": "XLOV",
         "url": "https://www.letras.mus.br/xlov/rizz/"
     },
-    "/txt-tomorrow-x-together/anti-romantic/": {
-        "posicao": 810,
-        "nome": "Anti-Romantic",
-        "artista": "TOMORROW X TOGETHER (TXT)",
-        "url": "https://www.letras.mus.br/txt-tomorrow-x-together/anti-romantic/"
-    },
     "/enhypen/checkmate/": {
-        "posicao": 811,
+        "posicao": 810,
         "nome": "Checkmate",
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/checkmate/"
     },
     "/exo/call-me-baby/": {
-        "posicao": 812,
+        "posicao": 811,
         "nome": "Call Me Baby",
         "artista": "EXO",
         "url": "https://www.letras.mus.br/exo/call-me-baby/"
     },
     "/nmixx/tic-tic-feat-pabllo-vittar/": {
-        "posicao": 813,
+        "posicao": 812,
         "nome": "TIC TIC (feat. Pabllo Vittar)",
         "artista": "NMIXX",
         "url": "https://www.letras.mus.br/nmixx/tic-tic-feat-pabllo-vittar/"
+    },
+    "/txt-tomorrow-x-together/anti-romantic/": {
+        "posicao": 813,
+        "nome": "Anti-Romantic",
+        "artista": "TOMORROW X TOGETHER (TXT)",
+        "url": "https://www.letras.mus.br/txt-tomorrow-x-together/anti-romantic/"
     },
     "/stray-kids/district-9/": {
         "posicao": 814,
@@ -4895,17 +4895,17 @@
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/next-level/"
     },
-    "/twice-k-pop/yes-or-yes/": {
-        "posicao": 817,
-        "nome": "YES or YES",
-        "artista": "TWICE",
-        "url": "https://www.letras.mus.br/twice-k-pop/yes-or-yes/"
-    },
     "/big-bang/fantastic-baby/": {
-        "posicao": 818,
+        "posicao": 817,
         "nome": "Fantastic Baby",
         "artista": "BIGBANG",
         "url": "https://www.letras.mus.br/big-bang/fantastic-baby/"
+    },
+    "/twice-k-pop/yes-or-yes/": {
+        "posicao": 818,
+        "nome": "YES or YES",
+        "artista": "TWICE",
+        "url": "https://www.letras.mus.br/twice-k-pop/yes-or-yes/"
     },
     "/meovv/burning-up/": {
         "posicao": 819,
@@ -4949,83 +4949,83 @@
         "artista": "K/DA",
         "url": "https://www.letras.mus.br/kda-league-of-legends/popstars-2/"
     },
-    "/xg/is-this-love/": {
-        "posicao": 826,
-        "nome": "IS THIS LOVE",
-        "artista": "XG",
-        "url": "https://www.letras.mus.br/xg/is-this-love/"
-    },
     "/enhypen/daydream/": {
-        "posicao": 827,
+        "posicao": 826,
         "nome": "Daydream",
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/daydream/"
     },
     "/agust-d/people-pt2-pt2-feat-iu/": {
-        "posicao": 828,
+        "posicao": 827,
         "nome": "People Pt.2 (사람 Pt.2) (feat. IU)",
         "artista": "Agust D",
         "url": "https://www.letras.mus.br/agust-d/people-pt2-pt2-feat-iu/"
     },
     "/insooni/biniljangpanwiyi-ddagjeongbeolre/": {
-        "posicao": 829,
+        "posicao": 828,
         "nome": "Beetle on vinyl (비닐장판위의 딱정벌레)",
         "artista": "Insooni",
         "url": "https://www.letras.mus.br/insooni/biniljangpanwiyi-ddagjeongbeolre/"
     },
     "/blackpink/kick-it/": {
-        "posicao": 830,
+        "posicao": 829,
         "nome": "Kick It",
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/kick-it/"
     },
     "/ateez/halazia/": {
-        "posicao": 831,
+        "posicao": 830,
         "nome": "HALAZIA",
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/halazia/"
     },
     "/aespa/i-love-you-but-i-gotta-let-you-go/": {
-        "posicao": 832,
+        "posicao": 831,
         "nome": "I Love You But I Gotta Let You Go",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/i-love-you-but-i-gotta-let-you-go/"
     },
     "/bangtan-boys/look-here/": {
-        "posicao": 833,
+        "posicao": 832,
         "nome": "Look Here (여기 봐)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/look-here/"
     },
     "/jimin-bts/smeraldo-garden-marching-band-feat-loco/": {
-        "posicao": 834,
+        "posicao": 833,
         "nome": "Smeraldo Garden Marching Band (feat. Loco)",
         "artista": "Jimin",
         "url": "https://www.letras.mus.br/jimin-bts/smeraldo-garden-marching-band-feat-loco/"
     },
     "/rap-monster/bicycle/": {
-        "posicao": 835,
+        "posicao": 834,
         "nome": "Bicycle",
         "artista": "RM",
         "url": "https://www.letras.mus.br/rap-monster/bicycle/"
     },
     "/stray-kids/ghost/": {
-        "posicao": 836,
+        "posicao": 835,
         "nome": "Ghost",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/ghost/"
     },
     "/bangtan-boys/outro-her/": {
-        "posicao": 837,
+        "posicao": 836,
         "nome": "Outro: Her",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/outro-her/"
     },
     "/girls-generation/1624322/": {
-        "posicao": 838,
+        "posicao": 837,
         "nome": "Oh!",
         "artista": "Girls' Generation",
         "url": "https://www.letras.mus.br/girls-generation/1624322/"
+    },
+    "/xg/is-this-love/": {
+        "posicao": 838,
+        "nome": "IS THIS LOVE",
+        "artista": "XG",
+        "url": "https://www.letras.mus.br/xg/is-this-love/"
     },
     "/hwasa/i-love-my-body/": {
         "posicao": 839,
@@ -5213,131 +5213,131 @@
         "artista": "Red Velvet",
         "url": "https://www.letras.mus.br/red-velvet/red-flavor/"
     },
-    "/p1harmony/fall-in-love-again/": {
-        "posicao": 870,
-        "nome": "Fall In Love Again",
-        "artista": "P1Harmony",
-        "url": "https://www.letras.mus.br/p1harmony/fall-in-love-again/"
-    },
     "/ateez/inception-preview/": {
-        "posicao": 871,
+        "posicao": 870,
         "nome": "INCEPTION",
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/inception-preview/"
     },
-    "/park-byeong-hoon/paratise/": {
-        "posicao": 872,
-        "nome": "Paratise",
-        "artista": "PARK BYEONG HOON",
-        "url": "https://www.letras.mus.br/park-byeong-hoon/paratise/"
-    },
-    "/ive/baddie/": {
-        "posicao": 873,
-        "nome": "Baddie",
-        "artista": "IVE",
-        "url": "https://www.letras.mus.br/ive/baddie/"
+    "/p1harmony/fall-in-love-again/": {
+        "posicao": 871,
+        "nome": "Fall In Love Again",
+        "artista": "P1Harmony",
+        "url": "https://www.letras.mus.br/p1harmony/fall-in-love-again/"
     },
     "/stray-kids/geubryu-into-the-current-seungmin/": {
-        "posicao": 874,
+        "posicao": 872,
         "nome": "급류 (Into The Current) (Seungmin)",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/geubryu-into-the-current-seungmin/"
     },
     "/rap-monster/lost/": {
-        "posicao": 875,
+        "posicao": 873,
         "nome": "LOST!",
         "artista": "RM",
         "url": "https://www.letras.mus.br/rap-monster/lost/"
     },
     "/le-sserafim/eve-psyche-e-the-bluebeards-wife/": {
-        "posicao": 876,
+        "posicao": 874,
         "nome": "Eve, Psyche & The Bluebeard's wife (이브, 프시케 그리고 푸른 수염의 아내)",
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/eve-psyche-e-the-bluebeards-wife/"
     },
     "/the-rose/blue-moon/": {
-        "posicao": 877,
+        "posicao": 875,
         "nome": "Blue Moon",
         "artista": "The Rose",
         "url": "https://www.letras.mus.br/the-rose/blue-moon/"
     },
     "/blackpink/the-girls/": {
-        "posicao": 878,
+        "posicao": 876,
         "nome": "THE GIRLS",
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/the-girls/"
     },
     "/v/snow-flower-feat-peakboy/": {
-        "posicao": 879,
+        "posicao": 877,
         "nome": "Snow Flower (feat. Peakboy)",
         "artista": "V",
         "url": "https://www.letras.mus.br/v/snow-flower-feat-peakboy/"
     },
     "/taemin/float/": {
-        "posicao": 880,
+        "posicao": 878,
         "nome": "FLOAT",
         "artista": "TAEMIN",
         "url": "https://www.letras.mus.br/taemin/float/"
     },
     "/enhypen/hey-tayo-feat-tayo/": {
-        "posicao": 881,
+        "posicao": 879,
         "nome": "HEY TAYO (feat. TAYO)",
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/hey-tayo-feat-tayo/"
     },
     "/everglow/la-di-da/": {
-        "posicao": 882,
+        "posicao": 880,
         "nome": "LA DI DA",
         "artista": "EVERGLOW",
         "url": "https://www.letras.mus.br/everglow/la-di-da/"
     },
     "/bangtan-boys/blanket-kick/": {
-        "posicao": 883,
+        "posicao": 881,
         "nome": "Embarrassed (이불킥)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/blanket-kick/"
     },
-    "/meovv/meow/": {
-        "posicao": 884,
-        "nome": "MEOW",
-        "artista": "MEOVV",
-        "url": "https://www.letras.mus.br/meovv/meow/"
+    "/park-byeong-hoon/paratise/": {
+        "posicao": 882,
+        "nome": "Paratise",
+        "artista": "PARK BYEONG HOON",
+        "url": "https://www.letras.mus.br/park-byeong-hoon/paratise/"
+    },
+    "/ive/baddie/": {
+        "posicao": 883,
+        "nome": "Baddie",
+        "artista": "IVE",
+        "url": "https://www.letras.mus.br/ive/baddie/"
     },
     "/txt-tomorrow-x-together/cat-e-dog/": {
-        "posicao": 885,
+        "posicao": 884,
         "nome": "Cat & Dog",
         "artista": "TOMORROW X TOGETHER (TXT)",
         "url": "https://www.letras.mus.br/txt-tomorrow-x-together/cat-e-dog/"
     },
     "/kim-taeyeon/invu/": {
-        "posicao": 886,
+        "posicao": 885,
         "nome": "INVU",
         "artista": "TAEYEON",
         "url": "https://www.letras.mus.br/kim-taeyeon/invu/"
     },
     "/twice-k-pop/perfect-world/": {
-        "posicao": 887,
+        "posicao": 886,
         "nome": "Perfect World",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/perfect-world/"
     },
     "/boynextdoor/400-years/": {
-        "posicao": 888,
+        "posicao": 887,
         "nome": "400 Years",
         "artista": "BOYNEXTDOOR",
         "url": "https://www.letras.mus.br/boynextdoor/400-years/"
     },
     "/kiiikiii/sweet-sour/": {
-        "posicao": 889,
+        "posicao": 888,
         "nome": "SWEET SOUR",
         "artista": "KiiiKiii",
         "url": "https://www.letras.mus.br/kiiikiii/sweet-sour/"
     },
     "/g-friend/rough/": {
-        "posicao": 890,
+        "posicao": 889,
         "nome": "Rough (시간을 달려서)",
         "artista": "GFRIEND",
         "url": "https://www.letras.mus.br/g-friend/rough/"
+    },
+    "/meovv/meow/": {
+        "posicao": 890,
+        "nome": "MEOW",
+        "artista": "MEOVV",
+        "url": "https://www.letras.mus.br/meovv/meow/"
     },
     "/park-jin-young/wet/": {
         "posicao": 891,
@@ -5471,101 +5471,101 @@
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/good-day/"
     },
-    "/kda-league-of-legends/the-baddest-feat-gi-dle-wolftyla-e-bea-miller/": {
-        "posicao": 913,
-        "nome": "THE BADDEST (feat. Bea Miller, (G)I-DLE & Wolftyla)",
-        "artista": "K/DA",
-        "url": "https://www.letras.mus.br/kda-league-of-legends/the-baddest-feat-gi-dle-wolftyla-e-bea-miller/"
-    },
     "/babymonster/locked-in/": {
-        "posicao": 914,
+        "posicao": 913,
         "nome": "LOCKED IN",
         "artista": "BABYMONSTER",
         "url": "https://www.letras.mus.br/babymonster/locked-in/"
     },
     "/enhypen/echoes/": {
-        "posicao": 915,
+        "posicao": 914,
         "nome": "Echoes",
         "artista": "ENHYPEN",
         "url": "https://www.letras.mus.br/enhypen/echoes/"
     },
     "/shaun/way-back-home-feat-conor-maynard/": {
-        "posicao": 916,
+        "posicao": 915,
         "nome": "Way Back Home (feat. Conor Maynard)",
         "artista": "SHAUN",
         "url": "https://www.letras.mus.br/shaun/way-back-home-feat-conor-maynard/"
     },
     "/kiss-of-life-k-pop/midas-touch/": {
-        "posicao": 917,
+        "posicao": 916,
         "nome": "Midas Touch",
         "artista": "KISS OF LIFE",
         "url": "https://www.letras.mus.br/kiss-of-life-k-pop/midas-touch/"
     },
     "/momoland/wrap-me-in-plastic/": {
-        "posicao": 918,
+        "posicao": 917,
         "nome": "Wrap Me In Plastic",
         "artista": "MOMOLAND",
         "url": "https://www.letras.mus.br/momoland/wrap-me-in-plastic/"
     },
     "/exo-cbx/paper-cuts/": {
-        "posicao": 919,
+        "posicao": 918,
         "nome": "Paper Cuts",
         "artista": "EXO-CBX",
         "url": "https://www.letras.mus.br/exo-cbx/paper-cuts/"
     },
     "/kiss-of-life-k-pop/sticky/": {
-        "posicao": 920,
+        "posicao": 919,
         "nome": "Sticky",
         "artista": "KISS OF LIFE",
         "url": "https://www.letras.mus.br/kiss-of-life-k-pop/sticky/"
     },
     "/xg/left-right/": {
-        "posicao": 921,
+        "posicao": 920,
         "nome": "LEFT RIGHT",
         "artista": "XG",
         "url": "https://www.letras.mus.br/xg/left-right/"
     },
     "/rain/1374016/": {
-        "posicao": 922,
+        "posicao": 921,
         "nome": "RAINISM",
         "artista": "Rain (K-pop)",
         "url": "https://www.letras.mus.br/rain/1374016/"
     },
     "/twice-k-pop/rewind/": {
-        "posicao": 923,
+        "posicao": 922,
         "nome": "REWIND (알고 싶지 않아)",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/rewind/"
     },
     "/stray-kids/connected-bang-chan/": {
-        "posicao": 924,
+        "posicao": 923,
         "nome": "Connected (Bang Chan)",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/connected-bang-chan/"
     },
     "/bangtan-boys/persona/": {
-        "posicao": 925,
+        "posicao": 924,
         "nome": "Intro: Persona",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/persona/"
     },
-    "/twice-k-pop/dance-the-night-away/": {
-        "posicao": 926,
-        "nome": "Dance The Night Away",
-        "artista": "TWICE",
-        "url": "https://www.letras.mus.br/twice-k-pop/dance-the-night-away/"
-    },
     "/twice-k-pop/meeeeee-nayeon/": {
-        "posicao": 927,
+        "posicao": 925,
         "nome": "MEEEEEE (NAYEON)",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/meeeeee-nayeon/"
     },
     "/the-rose/shes-in-the-rain/": {
-        "posicao": 928,
+        "posicao": 926,
         "nome": "She's In The Rain",
         "artista": "The Rose",
         "url": "https://www.letras.mus.br/the-rose/shes-in-the-rain/"
+    },
+    "/twice-k-pop/dance-the-night-away/": {
+        "posicao": 927,
+        "nome": "Dance The Night Away",
+        "artista": "TWICE",
+        "url": "https://www.letras.mus.br/twice-k-pop/dance-the-night-away/"
+    },
+    "/kda-league-of-legends/the-baddest-feat-gi-dle-wolftyla-e-bea-miller/": {
+        "posicao": 928,
+        "nome": "THE BADDEST (feat. Bea Miller, (G)I-DLE & Wolftyla)",
+        "artista": "K/DA",
+        "url": "https://www.letras.mus.br/kda-league-of-legends/the-baddest-feat-gi-dle-wolftyla-e-bea-miller/"
     },
     "/txt-tomorrow-x-together/ghost-girl/": {
         "posicao": 929,
@@ -5657,209 +5657,209 @@
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/impurities/"
     },
-    "/le-sserafim/ash/": {
-        "posicao": 944,
-        "nome": "Ash",
-        "artista": "LE SSERAFIM",
-        "url": "https://www.letras.mus.br/le-sserafim/ash/"
-    },
     "/twice-k-pop/talk-that-talk/": {
-        "posicao": 945,
+        "posicao": 944,
         "nome": "Talk That Talk",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/talk-that-talk/"
     },
     "/i-dle/crow/": {
-        "posicao": 946,
+        "posicao": 945,
         "nome": "Crow",
         "artista": "i-dle",
         "url": "https://www.letras.mus.br/i-dle/crow/"
     },
     "/taemin/frankenstein/": {
-        "posicao": 947,
+        "posicao": 946,
         "nome": "Frankenstein",
         "artista": "TAEMIN",
         "url": "https://www.letras.mus.br/taemin/frankenstein/"
     },
     "/ateez/deja-vu/": {
-        "posicao": 948,
+        "posicao": 947,
         "nome": "Déjà Vu",
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/deja-vu/"
     },
     "/bangtan-boys/boy-meets-evil/": {
-        "posicao": 949,
+        "posicao": 948,
         "nome": "Intro: Boy Meets Evil",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/boy-meets-evil/"
     },
     "/stray-kids/get-cool/": {
-        "posicao": 950,
+        "posicao": 949,
         "nome": "Get Cool",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/get-cool/"
     },
     "/seventeen/to-you/": {
-        "posicao": 951,
+        "posicao": 950,
         "nome": "To You (소용돌이)",
         "artista": "SEVENTEEN",
         "url": "https://www.letras.mus.br/seventeen/to-you/"
     },
     "/the-rose/youre-beautiful/": {
-        "posicao": 952,
+        "posicao": 951,
         "nome": "You're Beautiful",
         "artista": "The Rose",
         "url": "https://www.letras.mus.br/the-rose/youre-beautiful/"
     },
     "/stray-kids/alien/": {
-        "posicao": 953,
+        "posicao": 952,
         "nome": "Alien (외계인) (HAN)",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/alien/"
     },
     "/jay-park/mcnasty/": {
-        "posicao": 954,
+        "posicao": 953,
         "nome": "McNasty",
         "artista": "Jay Park",
         "url": "https://www.letras.mus.br/jay-park/mcnasty/"
     },
     "/agust-d/polar-night/": {
-        "posicao": 955,
+        "posicao": 954,
         "nome": "Polar Night (극야)",
         "artista": "Agust D",
         "url": "https://www.letras.mus.br/agust-d/polar-night/"
     },
     "/wayv/love-talk-english-version/": {
-        "posicao": 956,
+        "posicao": 955,
         "nome": "Love Talk (English Version)",
         "artista": "WayV",
         "url": "https://www.letras.mus.br/wayv/love-talk-english-version/"
     },
     "/gaho/start/": {
-        "posicao": 957,
+        "posicao": 956,
         "nome": "Start Over (시작)",
         "artista": "Gaho",
         "url": "https://www.letras.mus.br/gaho/start/"
     },
     "/t-ara/1646030/": {
-        "posicao": 958,
+        "posicao": 957,
         "nome": "You drive me crazy (너 때문에 미쳐)",
         "artista": "T-ARA",
         "url": "https://www.letras.mus.br/t-ara/1646030/"
     },
     "/the-rose/sorry/": {
-        "posicao": 959,
+        "posicao": 958,
         "nome": "Sorry",
         "artista": "The Rose",
         "url": "https://www.letras.mus.br/the-rose/sorry/"
     },
     "/bangtan-boys/airplane-pt-2-live/": {
-        "posicao": 960,
+        "posicao": 959,
         "nome": "Airplane pt.2 (Live)",
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/airplane-pt-2-live/"
     },
     "/stray-kids/mixtape-oh/": {
-        "posicao": 961,
+        "posicao": 960,
         "nome": "Mixtape: OH (애)",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/mixtape-oh/"
     },
     "/winter-aespa/saddle-up-winter-solo/": {
-        "posicao": 962,
+        "posicao": 961,
         "nome": "Saddle Up (WINTER Solo)",
         "artista": "WINTER",
         "url": "https://www.letras.mus.br/winter-aespa/saddle-up-winter-solo/"
     },
     "/nct-127/blingy/": {
-        "posicao": 963,
+        "posicao": 962,
         "nome": "Blingy",
         "artista": "NCT 127",
         "url": "https://www.letras.mus.br/nct-127/blingy/"
     },
     "/txt-tomorrow-x-together/blue-hour/": {
-        "posicao": 964,
+        "posicao": 963,
         "nome": "Blue Hour (5시 53분의 하늘에서 발견한 너와 나)",
         "artista": "TOMORROW X TOGETHER (TXT)",
         "url": "https://www.letras.mus.br/txt-tomorrow-x-together/blue-hour/"
     },
     "/ateez/lemon-drop/": {
-        "posicao": 965,
+        "posicao": 964,
         "nome": "Lemon Drop",
         "artista": "ATEEZ",
         "url": "https://www.letras.mus.br/ateez/lemon-drop/"
     },
-    "/aespa/better-things/": {
-        "posicao": 966,
-        "nome": "Better Things",
-        "artista": "aespa",
-        "url": "https://www.letras.mus.br/aespa/better-things/"
-    },
-    "/itzy/dalla-dalla/": {
-        "posicao": 967,
-        "nome": "DALLA DALLA (달라달라)",
-        "artista": "ITZY",
-        "url": "https://www.letras.mus.br/itzy/dalla-dalla/"
+    "/le-sserafim/ash/": {
+        "posicao": 965,
+        "nome": "Ash",
+        "artista": "LE SSERAFIM",
+        "url": "https://www.letras.mus.br/le-sserafim/ash/"
     },
     "/big-bang/sober/": {
-        "posicao": 968,
+        "posicao": 966,
         "nome": "SOBER (맨정신)",
         "artista": "BIGBANG",
         "url": "https://www.letras.mus.br/big-bang/sober/"
     },
     "/ill-it/ill-like-you/": {
-        "posicao": 969,
+        "posicao": 967,
         "nome": "I'll Like You",
         "artista": "ILLIT",
         "url": "https://www.letras.mus.br/ill-it/ill-like-you/"
     },
     "/allday-project/up-all-night/": {
-        "posicao": 970,
+        "posicao": 968,
         "nome": "UP ALL NIGHT",
         "artista": "ALLDAY PROJECT",
         "url": "https://www.letras.mus.br/allday-project/up-all-night/"
     },
     "/twice-k-pop/up-no-more/": {
-        "posicao": 971,
+        "posicao": 969,
         "nome": "UP NO MORE",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/up-no-more/"
     },
     "/aoa/excuse-me/": {
-        "posicao": 972,
+        "posicao": 970,
         "nome": "Excuse Me",
         "artista": "AOA",
         "url": "https://www.letras.mus.br/aoa/excuse-me/"
     },
     "/wonstein/leave-it-all-behind/": {
-        "posicao": 973,
+        "posicao": 971,
         "nome": "Leave it all behind (나의 밤)",
         "artista": "Wonstein",
         "url": "https://www.letras.mus.br/wonstein/leave-it-all-behind/"
     },
     "/g-friend/me-gustas-tu/": {
-        "posicao": 974,
+        "posicao": 972,
         "nome": "Me Gustas Tu (오늘부터 우리는)",
         "artista": "GFRIEND",
         "url": "https://www.letras.mus.br/g-friend/me-gustas-tu/"
     },
     "/boynextdoor/adios/": {
-        "posicao": 975,
+        "posicao": 973,
         "nome": "ADIOS!",
         "artista": "BOYNEXTDOOR",
         "url": "https://www.letras.mus.br/boynextdoor/adios/"
     },
     "/stray-kids/haven/": {
-        "posicao": 976,
+        "posicao": 974,
         "nome": "Haven",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/haven/"
     },
     "/le-sserafim/blue-flame/": {
-        "posicao": 977,
+        "posicao": 975,
         "nome": "Blue Flame",
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/blue-flame/"
+    },
+    "/txt-tomorrow-x-together/sugar-rush-ride/": {
+        "posicao": 976,
+        "nome": "Sugar Rush Ride",
+        "artista": "TOMORROW X TOGETHER (TXT)",
+        "url": "https://www.letras.mus.br/txt-tomorrow-x-together/sugar-rush-ride/"
+    },
+    "/jisoo/hugs-e-kisses/": {
+        "posicao": 977,
+        "nome": "Hugs & Kisses",
+        "artista": "JISOO",
+        "url": "https://www.letras.mus.br/jisoo/hugs-e-kisses/"
     },
     "/twice-k-pop/heart-shaker/": {
         "posicao": 978,
@@ -5867,107 +5867,107 @@
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/heart-shaker/"
     },
-    "/txt-tomorrow-x-together/sugar-rush-ride/": {
+    "/aespa/better-things/": {
         "posicao": 979,
-        "nome": "Sugar Rush Ride",
-        "artista": "TOMORROW X TOGETHER (TXT)",
-        "url": "https://www.letras.mus.br/txt-tomorrow-x-together/sugar-rush-ride/"
+        "nome": "Better Things",
+        "artista": "aespa",
+        "url": "https://www.letras.mus.br/aespa/better-things/"
     },
-    "/jisoo/hugs-e-kisses/": {
+    "/itzy/dalla-dalla/": {
         "posicao": 980,
-        "nome": "Hugs & Kisses",
-        "artista": "JISOO",
-        "url": "https://www.letras.mus.br/jisoo/hugs-e-kisses/"
-    },
-    "/j-hope/more/": {
-        "posicao": 981,
-        "nome": "MORE",
-        "artista": "j-hope",
-        "url": "https://www.letras.mus.br/j-hope/more/"
-    },
-    "/seventeen/very-nice/": {
-        "posicao": 982,
-        "nome": "Very Nice",
-        "artista": "SEVENTEEN",
-        "url": "https://www.letras.mus.br/seventeen/very-nice/"
-    },
-    "/boa/72281/": {
-        "posicao": 983,
-        "nome": "My Sweetie",
-        "artista": "BoA",
-        "url": "https://www.letras.mus.br/boa/72281/"
+        "nome": "DALLA DALLA (달라달라)",
+        "artista": "ITZY",
+        "url": "https://www.letras.mus.br/itzy/dalla-dalla/"
     },
     "/aespa/illusion/": {
-        "posicao": 984,
+        "posicao": 981,
         "nome": "Illusion (도깨비불)",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/illusion/"
     },
     "/red-velvet/ice-cream-cake/": {
-        "posicao": 985,
+        "posicao": 982,
         "nome": "Ice Cream Cake",
         "artista": "Red Velvet",
         "url": "https://www.letras.mus.br/red-velvet/ice-cream-cake/"
     },
     "/got7/you-calling-my-name/": {
-        "posicao": 986,
+        "posicao": 983,
         "nome": "You Calling My Name (니가 부르는 나의 이름)",
         "artista": "GOT7",
         "url": "https://www.letras.mus.br/got7/you-calling-my-name/"
     },
     "/blackpink/ready-for-love/": {
-        "posicao": 987,
+        "posicao": 984,
         "nome": "Ready For Love",
         "artista": "BLACKPINK",
         "url": "https://www.letras.mus.br/blackpink/ready-for-love/"
     },
     "/seventeen/maestro/": {
-        "posicao": 988,
+        "posicao": 985,
         "nome": "MAESTRO",
         "artista": "SEVENTEEN",
         "url": "https://www.letras.mus.br/seventeen/maestro/"
     },
     "/misamo/do-not-touch/": {
-        "posicao": 989,
+        "posicao": 986,
         "nome": "Do Not Touch",
         "artista": "MISAMO",
         "url": "https://www.letras.mus.br/misamo/do-not-touch/"
     },
     "/stray-kids/waiting-for-us-bang-chan-lee-know-seungmin-in/": {
-        "posicao": 990,
+        "posicao": 987,
         "nome": "Waiting For Us (피어난다) (Bang Chan, Lee Know, Seungmin & I.N)",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/waiting-for-us-bang-chan-lee-know-seungmin-in/"
     },
     "/babymonster/woke-up-in-tokyo/": {
-        "posicao": 991,
+        "posicao": 988,
         "nome": "Woke Up In Tokyo (RUKA & ASA)",
         "artista": "BABYMONSTER",
         "url": "https://www.letras.mus.br/babymonster/woke-up-in-tokyo/"
     },
     "/soyoon/smoke-sprite-feat-rm/": {
-        "posicao": 992,
+        "posicao": 989,
         "nome": "Smoke Sprite (feat. RM)",
         "artista": "So!YoON!",
         "url": "https://www.letras.mus.br/soyoon/smoke-sprite-feat-rm/"
     },
     "/nexz/mmchk/": {
-        "posicao": 993,
+        "posicao": 990,
         "nome": "Mmchk",
         "artista": "NEXZ",
         "url": "https://www.letras.mus.br/nexz/mmchk/"
     },
     "/ill-it/oops/": {
-        "posicao": 994,
+        "posicao": 991,
         "nome": "oops!",
         "artista": "ILLIT",
         "url": "https://www.letras.mus.br/ill-it/oops/"
     },
     "/stray-kids/mixtape-2/": {
-        "posicao": 995,
+        "posicao": 992,
         "nome": "Mixtape #2",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/mixtape-2/"
+    },
+    "/j-hope/more/": {
+        "posicao": 993,
+        "nome": "MORE",
+        "artista": "j-hope",
+        "url": "https://www.letras.mus.br/j-hope/more/"
+    },
+    "/seventeen/very-nice/": {
+        "posicao": 994,
+        "nome": "Very Nice",
+        "artista": "SEVENTEEN",
+        "url": "https://www.letras.mus.br/seventeen/very-nice/"
+    },
+    "/boa/72281/": {
+        "posicao": 995,
+        "nome": "My Sweetie",
+        "artista": "BoA",
+        "url": "https://www.letras.mus.br/boa/72281/"
     },
     "/boynextdoor/if-i-say-i-love-you-oneulman-i-love-you/": {
         "posicao": 996,
