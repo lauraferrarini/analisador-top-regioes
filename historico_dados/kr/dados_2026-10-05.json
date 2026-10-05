@@ -3437,17 +3437,17 @@
         "artista": "KiiiKiii",
         "url": "https://www.letras.mus.br/kiiikiii/delulu/"
     },
-    "/stella-jang/colors/": {
-        "posicao": 574,
-        "nome": "Colors",
-        "artista": "Stella Jang",
-        "url": "https://www.letras.mus.br/stella-jang/colors/"
-    },
     "/stray-kids/my-pace/": {
-        "posicao": 575,
+        "posicao": 574,
         "nome": "My Pace",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/my-pace/"
+    },
+    "/stella-jang/colors/": {
+        "posicao": 575,
+        "nome": "Colors",
+        "artista": "Stella Jang",
+        "url": "https://www.letras.mus.br/stella-jang/colors/"
     },
     "/aespa/byeb4hello/": {
         "posicao": 576,
@@ -3605,17 +3605,17 @@
         "artista": "Agust D",
         "url": "https://www.letras.mus.br/agust-d/dear-my-friend-feat-kim-jong-wan/"
     },
-    "/i-dle/mono/": {
-        "posicao": 602,
-        "nome": "Mono (feat. skaiwater)",
-        "artista": "i-dle",
-        "url": "https://www.letras.mus.br/i-dle/mono/"
-    },
     "/jimin-bts/face-off/": {
-        "posicao": 603,
+        "posicao": 602,
         "nome": "Face-off",
         "artista": "Jimin",
         "url": "https://www.letras.mus.br/jimin-bts/face-off/"
+    },
+    "/i-dle/mono/": {
+        "posicao": 603,
+        "nome": "Mono (feat. skaiwater)",
+        "artista": "i-dle",
+        "url": "https://www.letras.mus.br/i-dle/mono/"
     },
     "/blackpink/you-never-know/": {
         "posicao": 604,
@@ -3995,17 +3995,17 @@
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/ma-city/"
     },
-    "/ive/supernova-love-feat-david-guetta/": {
-        "posicao": 667,
-        "nome": "Supernova Love (feat. David Guetta)",
-        "artista": "IVE",
-        "url": "https://www.letras.mus.br/ive/supernova-love-feat-david-guetta/"
-    },
     "/aespa/dreams-come-true/": {
-        "posicao": 668,
+        "posicao": 667,
         "nome": "Dreams Come True",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/dreams-come-true/"
+    },
+    "/ive/supernova-love-feat-david-guetta/": {
+        "posicao": 668,
+        "nome": "Supernova Love (feat. David Guetta)",
+        "artista": "IVE",
+        "url": "https://www.letras.mus.br/ive/supernova-love-feat-david-guetta/"
     },
     "/baek-yerin/here-i-am-again/": {
         "posicao": 669,
@@ -4205,17 +4205,17 @@
         "artista": "LE SSERAFIM",
         "url": "https://www.letras.mus.br/le-sserafim/unforgiven-feat-nile-rodgers/"
     },
-    "/ive/blackhole/": {
-        "posicao": 702,
-        "nome": "BLACKHOLE",
-        "artista": "IVE",
-        "url": "https://www.letras.mus.br/ive/blackhole/"
-    },
     "/boynextdoor/123-78/": {
-        "posicao": 703,
+        "posicao": 702,
         "nome": "123-78",
         "artista": "BOYNEXTDOOR",
         "url": "https://www.letras.mus.br/boynextdoor/123-78/"
+    },
+    "/ive/blackhole/": {
+        "posicao": 703,
+        "nome": "BLACKHOLE",
+        "artista": "IVE",
+        "url": "https://www.letras.mus.br/ive/blackhole/"
     },
     "/ateez/inception-preview/": {
         "posicao": 704,
@@ -4253,17 +4253,17 @@
         "artista": "BL8M",
         "url": "https://www.letras.mus.br/bl8m/ruler-of-my-heart-feat-rubyeye/"
     },
-    "/i-dle/good-thing/": {
-        "posicao": 710,
-        "nome": "Good Thing",
-        "artista": "i-dle",
-        "url": "https://www.letras.mus.br/i-dle/good-thing/"
-    },
     "/txt-tomorrow-x-together/love-language/": {
-        "posicao": 711,
+        "posicao": 710,
         "nome": "Love Language",
         "artista": "TOMORROW X TOGETHER (TXT)",
         "url": "https://www.letras.mus.br/txt-tomorrow-x-together/love-language/"
+    },
+    "/i-dle/good-thing/": {
+        "posicao": 711,
+        "nome": "Good Thing",
+        "artista": "i-dle",
+        "url": "https://www.letras.mus.br/i-dle/good-thing/"
     },
     "/triples/are-you-alive-ggaeeo/": {
         "posicao": 712,
@@ -4451,23 +4451,23 @@
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/circus/"
     },
-    "/alien-stage/witch/": {
-        "posicao": 743,
-        "nome": "witch",
-        "artista": "Alien Stage",
-        "url": "https://www.letras.mus.br/alien-stage/witch/"
-    },
     "/stray-kids/giant/": {
-        "posicao": 744,
+        "posicao": 743,
         "nome": "GIANT",
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/giant/"
     },
     "/i-dle/allergy/": {
-        "posicao": 745,
+        "posicao": 744,
         "nome": "Allergy",
         "artista": "i-dle",
         "url": "https://www.letras.mus.br/i-dle/allergy/"
+    },
+    "/alien-stage/witch/": {
+        "posicao": 745,
+        "nome": "witch",
+        "artista": "Alien Stage",
+        "url": "https://www.letras.mus.br/alien-stage/witch/"
     },
     "/rap-monster/still-life-feat-anderson-paak/": {
         "posicao": 746,
@@ -4775,17 +4775,17 @@
         "artista": "Stray Kids",
         "url": "https://www.letras.mus.br/stray-kids/secret-secret/"
     },
-    "/meovv/hands-up/": {
-        "posicao": 797,
-        "nome": "HANDS UP",
-        "artista": "MEOVV",
-        "url": "https://www.letras.mus.br/meovv/hands-up/"
-    },
     "/saint-satine/we-ride/": {
-        "posicao": 798,
+        "posicao": 797,
         "nome": "WE RIDE",
         "artista": "SAINT SATINE",
         "url": "https://www.letras.mus.br/saint-satine/we-ride/"
+    },
+    "/meovv/hands-up/": {
+        "posicao": 798,
+        "nome": "HANDS UP",
+        "artista": "MEOVV",
+        "url": "https://www.letras.mus.br/meovv/hands-up/"
     },
     "/bangtan-boys/love-is-not-over-full-length-edition/": {
         "posicao": 799,
@@ -5177,41 +5177,41 @@
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/look-at-me/"
     },
-    "/i-dle/super-lady/": {
-        "posicao": 864,
-        "nome": "Super Lady",
-        "artista": "i-dle",
-        "url": "https://www.letras.mus.br/i-dle/super-lady/"
-    },
-    "/ive/xoxz/": {
-        "posicao": 865,
-        "nome": "XOXZ",
-        "artista": "IVE",
-        "url": "https://www.letras.mus.br/ive/xoxz/"
-    },
     "/twice-k-pop/yes-or-yes/": {
-        "posicao": 866,
+        "posicao": 864,
         "nome": "YES or YES",
         "artista": "TWICE",
         "url": "https://www.letras.mus.br/twice-k-pop/yes-or-yes/"
     },
     "/aespa/serenade-karina-e-winter/": {
-        "posicao": 867,
+        "posicao": 865,
         "nome": "Serenade (KARINA & WINTER)",
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/serenade-karina-e-winter/"
     },
     "/agust-d/huh-feat-j-hope/": {
-        "posicao": 868,
+        "posicao": 866,
         "nome": "HUH?! (feat. j-hope)",
         "artista": "Agust D",
         "url": "https://www.letras.mus.br/agust-d/huh-feat-j-hope/"
     },
     "/ill-it/ill-like-you/": {
-        "posicao": 869,
+        "posicao": 867,
         "nome": "I'll Like You",
         "artista": "ILLIT",
         "url": "https://www.letras.mus.br/ill-it/ill-like-you/"
+    },
+    "/i-dle/super-lady/": {
+        "posicao": 868,
+        "nome": "Super Lady",
+        "artista": "i-dle",
+        "url": "https://www.letras.mus.br/i-dle/super-lady/"
+    },
+    "/ive/xoxz/": {
+        "posicao": 869,
+        "nome": "XOXZ",
+        "artista": "IVE",
+        "url": "https://www.letras.mus.br/ive/xoxz/"
     },
     "/aespa/i-love-you-but-i-gotta-let-you-go/": {
         "posicao": 870,
@@ -5597,17 +5597,17 @@
         "artista": "BTS",
         "url": "https://www.letras.mus.br/bangtan-boys/outro-love-is-not-over/"
     },
-    "/meovv/burning-up/": {
-        "posicao": 934,
-        "nome": "BURNING UP",
-        "artista": "MEOVV",
-        "url": "https://www.letras.mus.br/meovv/burning-up/"
-    },
     "/the-rose/home/": {
-        "posicao": 935,
+        "posicao": 934,
         "nome": "Home",
         "artista": "The Rose",
         "url": "https://www.letras.mus.br/the-rose/home/"
+    },
+    "/meovv/burning-up/": {
+        "posicao": 935,
+        "nome": "BURNING UP",
+        "artista": "MEOVV",
+        "url": "https://www.letras.mus.br/meovv/burning-up/"
     },
     "/v/snow-flower-feat-peakboy/": {
         "posicao": 936,
@@ -5933,17 +5933,17 @@
         "artista": "aespa",
         "url": "https://www.letras.mus.br/aespa/lucid-dream/"
     },
-    "/pentagon/shine/": {
-        "posicao": 990,
-        "nome": "Shine (빛나리)",
-        "artista": "PENTAGON",
-        "url": "https://www.letras.mus.br/pentagon/shine/"
-    },
     "/the-rose/chemical/": {
-        "posicao": 991,
+        "posicao": 990,
         "nome": "CHEMICAL",
         "artista": "The Rose",
         "url": "https://www.letras.mus.br/the-rose/chemical/"
+    },
+    "/pentagon/shine/": {
+        "posicao": 991,
+        "nome": "Shine (빛나리)",
+        "artista": "PENTAGON",
+        "url": "https://www.letras.mus.br/pentagon/shine/"
     },
     "/bangtan-boys/look-here/": {
         "posicao": 992,
