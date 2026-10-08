@@ -4,6 +4,7 @@ import json
 import os
 import glob
 import sys
+import time
 import traceback
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
@@ -13,25 +14,48 @@ PASTA_DADOS = "historico_dados"
 PASTA_RELATORIOS = "historico_relatorios"
 MARGEM_OSCILACAO = 2 
 
-# Mapeamento de Regiões, URLs e seus respectivos Cookies de controle
+# Mapeamento de Regiões.
+# "fonte" diz de onde vem a lista de cada região:
+#   - "scraping": lê o HTML do site (br e es — continuam como sempre foram);
+#   - "api": usa a API do Letras (https://api.letras.mus.br/v3/top/songs/), que
+#     recebe a região num HEADER (X-Region-SID) e por isso NÃO depende de cookie
+#     nem de User-Agent liberado pra escolher a região — que era o que fazia
+#     ar/co/sp/mx virem duplicados do hispam (es) no scraping.
+# Para a API: "api_sid" é o valor do header (es, pt, sp, mx, ar, co), "genero"
+# filtra por gênero (K-pop) e "dominio" é o domínio usado pra montar o link
+# (mesmo domínio que o scraping dessa região sempre gravou). "ordenar_por_hits"
+# reordena a lista por hits semanais (desempate: nome), em vez de usar a ordem
+# que a API devolve.
 REGIOES = {
-    "br": {"nome": "Brasil", "url": "https://www.letras.mus.br/mais-acessadas/", "cookies": {}},
-    "kr": {"nome": "Top Coreano", "url": "https://www.letras.mus.br/mais-acessadas/k-pop/", "cookies": {}},
-    "ar": {"nome": "Argentina", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "ar"}},
-    "co": {"nome": "Colômbia", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "co"}},
-    "sp": {"nome": "Espanha", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "sp"}},
-    "es": {"nome": "Hispanoamérica", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "es"}},
-    "mx": {"nome": "México", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "mx"}}
+    "br": {"nome": "Brasil", "fonte": "scraping", "url": "https://www.letras.mus.br/mais-acessadas/", "cookies": {}},
+    "kr": {"nome": "Top Coreano", "fonte": "api", "api_sid": "pt", "genero": "k-pop",
+           "dominio": "https://www.letras.mus.br", "ordenar_por_hits": True},
+    "ar": {"nome": "Argentina", "fonte": "api", "api_sid": "ar", "dominio": "https://www.letras.com"},
+    "co": {"nome": "Colômbia", "fonte": "api", "api_sid": "co", "dominio": "https://www.letras.com"},
+    "sp": {"nome": "Espanha", "fonte": "api", "api_sid": "sp", "dominio": "https://www.letras.com"},
+    "es": {"nome": "Hispanoamérica", "fonte": "scraping", "url": "https://www.letras.com/mais-acessadas/", "cookies": {"content": "es"}},
+    "mx": {"nome": "México", "fonte": "api", "api_sid": "mx", "dominio": "https://www.letras.com"}
 }
 
+API_TOP_URL = "https://api.letras.mus.br/v3/top/songs/"
+MIN_MUSICAS = 1000             # toda região deve devolver SEMPRE pelo menos 1000 músicas; menos que isso = coleta incompleta, não grava
+TAMANHO_ASSINATURA = 30        # nº de músicas do topo comparadas pra detectar região duplicada
+
+# Guarda, durante UMA execução, o topo de cada região já coletada. Se duas
+# regiões diferentes saírem com o mesmo topo (mesmas músicas, mesma ordem), é
+# o bug de "região duplicada" — a coleta é abortada em vez de gravar errado.
+_ASSINATURAS_DA_RODADA = {}
+
+def _user_agent():
+    # ⚡ O User-Agent vem da secret SCRAPER_USER_AGENT. O "or" cobre o caso da
+    # secret existir mas estar vazia (os.environ.get devolveria "" e o
+    # fallback nunca seria usado).
+    return os.environ.get('SCRAPER_USER_AGENT') or 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+
 def extrair_musicas(url, cookies):
-    # ⚡ O User-Agent vem da secret SCRAPER_USER_AGENT (configurada em Settings →
-    # Secrets and variables → Actions do repositório). Isso evita deixar esse
-    # valor exposto em texto puro no código, que é público. Se a secret não
-    # estiver definida (ex.: rodando local sem configurar a env var), cai no
-    # valor genérico de sempre, só pra não quebrar a execução.
-    user_agent = os.environ.get('SCRAPER_USER_AGENT', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)')
-    headers = {'User-Agent': user_agent}
+    # ⚡ O User-Agent vem da secret SCRAPER_USER_AGENT (Settings → Secrets and
+    # variables → Actions), pra não ficar exposto no código público.
+    headers = {'User-Agent': _user_agent()}
     response = requests.get(url, headers=headers, cookies=cookies, timeout=15)
     response.raise_for_status()
     
@@ -75,6 +99,78 @@ def extrair_musicas(url, cookies):
         }
             
     return musicas_atuais
+
+def extrair_musicas_api(config):
+    """Busca o top 1000 na API do Letras. Devolve o mesmo formato do scraping:
+    {chave: {"posicao", "nome", "artista", "url"}}, com a chave sendo o CAMINHO
+    do link (/<artista>/<musica>/) — idêntico ao que o site usa e ao que já está
+    nos arquivos históricos."""
+    sid = config["api_sid"]
+    headers = {
+        "User-Agent": _user_agent(),
+        "Accept": "application/json",
+        "X-Region-SID": sid,
+        # A resposta da API é cacheável (max-age ~10h) e o Vary dela NÃO inclui o
+        # header de região. Pede sem cache + parâmetro único na URL pra nenhum
+        # cache intermediário servir a lista de OUTRA região.
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+    }
+    params = {"json": 1, "_": int(time.time() * 1000)}
+    if config.get("genero"):
+        params["genre"] = config["genero"]
+
+    ultimo_erro = None
+    for tentativa in range(1, 4):
+        try:
+            response = requests.get(API_TOP_URL, params=params, headers=headers, timeout=30)
+            response.raise_for_status()
+            eco = (response.headers.get("X-Region-SID") or "").strip().lower()
+            if eco and eco != sid:
+                raise RuntimeError(f"API respondeu com a região '{eco}' em vez de '{sid}'.")
+            lista = response.json().get("list") or []
+            break
+        except Exception as e:
+            ultimo_erro = e
+            print(f"⚠️ API ({sid}) falhou na tentativa {tentativa}/3: {e}")
+            time.sleep(3 * tentativa)
+    else:
+        raise RuntimeError(f"API do Letras indisponível para a região '{sid}': {ultimo_erro}")
+
+    itens = []
+    for s in lista:
+        artista_obj = s.get("artist") or {}
+        dns, slug = artista_obj.get("dns"), s.get("url")
+        nome = (s.get("name") or "").strip() or "Desconhecido"
+        artista = (artista_obj.get("name") or "").strip() or "Desconhecido"
+        caminho = f"/{dns}/{slug}/" if dns and slug else ""
+        itens.append({
+            "caminho": caminho, "nome": nome, "artista": artista,
+            "link": f"{config['dominio']}{caminho}" if caminho else "",
+            "hits": s.get("hits") or 0,
+        })
+
+    if config.get("ordenar_por_hits"):
+        # Hits semanais (decrescente); empate -> nome (A-Z, sem diferenciar
+        # maiúsculas); último recurso -> caminho, só pra ordem ser sempre a mesma.
+        itens.sort(key=lambda m: (-m["hits"], m["nome"].casefold(), m["caminho"]))
+
+    musicas = {}
+    for rank, m in enumerate(itens, start=1):
+        chave = m["caminho"] if m["caminho"] else f"{m['nome']} - {m['artista']}"
+        musicas[chave] = {"posicao": rank, "nome": m["nome"], "artista": m["artista"], "url": m["link"]}
+    return musicas
+
+def validar_regiao_distinta(regiao, musicas):
+    """Aborta se esta região saiu igual a outra já coletada nesta rodada."""
+    assinatura = tuple(list(musicas.keys())[:TAMANHO_ASSINATURA])
+    for outra, assin_outra in _ASSINATURAS_DA_RODADA.items():
+        if assin_outra == assinatura:
+            raise RuntimeError(
+                f"A região {regiao.upper()} saiu IDÊNTICA à {outra.upper()} (mesmo topo, mesma ordem). "
+                "Isso é o bug de região duplicada — nada foi gravado."
+            )
+    _ASSINATURAS_DA_RODADA[regiao] = assinatura
 
 def buscar_dados_anteriores(regiao):
     data_hoje_iso = datetime.now().strftime("%Y-%m-%d")
@@ -185,10 +281,18 @@ def processar_regiao(regiao, config):
     os.makedirs(pasta_dados_regiao, exist_ok=True)
     os.makedirs(pasta_relatorios_regiao, exist_ok=True)
     
-    atuais = extrair_musicas(config['url'], config['cookies'])
+    if config.get("fonte") == "api":
+        atuais = extrair_musicas_api(config)
+    else:
+        atuais = extrair_musicas(config['url'], config['cookies'])
     if not atuais:
         print(f"⚠️ Alerta: Nenhuma música coletada para {config['nome']}. Estrutura mudou ou bloqueio.")
         return False
+    if len(atuais) < MIN_MUSICAS:
+        print(f"⚠️ Alerta: {config['nome']} veio com só {len(atuais)} músicas (esperado pelo menos {MIN_MUSICAS}). Coleta incompleta — nada foi gravado.")
+        return False
+
+    validar_regiao_distinta(regiao, atuais)
         
     anteriores = buscar_dados_anteriores(regiao)
     
@@ -328,8 +432,13 @@ if __name__ == "__main__":
             regioes_para_processar = ["br", "kr"]
         elif alvo == "latam":
             regioes_para_processar = ["ar", "co", "sp", "es", "mx"]
-        else:
+        elif alvo in REGIOES:
+            regioes_para_processar = [alvo]
+        elif alvo == "all":
             regioes_para_processar = list(REGIOES.keys())
+        else:
+            print(f"❌ Alvo desconhecido: '{alvo}'. Use all, br, latam ou uma região: {', '.join(REGIOES)}.")
+            sys.exit(1)
 
         print(f"🚀 Iniciando módulo de análise para o alvo: {alvo.upper()}")
 
