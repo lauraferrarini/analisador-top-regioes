@@ -116,14 +116,19 @@ def extrair_musicas_api(config):
         "Cache-Control": "no-cache",
         "Pragma": "no-cache",
     }
-    params = {"json": 1, "_": int(time.time() * 1000)}
-    if config.get("genero"):
-        params["genre"] = config["genero"]
+    TENTATIVAS_API = 4
 
     ultimo_erro = None
-    for tentativa in range(1, 4):
+    for tentativa in range(1, TENTATIVAS_API + 1):
         try:
-            response = requests.get(API_TOP_URL, params=params, headers=headers, timeout=30)
+            # Parâmetro único NOVO a cada tentativa: se uma tentativa tomou erro
+            # (404/timeout) e ficou guardado em algum cache/gateway, a próxima
+            # vai por uma URL diferente em vez de bater no mesmo erro.
+            params = {"json": 1, "_": int(time.time() * 1000)}
+            if config.get("genero"):
+                params["genre"] = config["genero"]
+            # timeout=(conexão, leitura): a API às vezes demora mais de 30s
+            response = requests.get(API_TOP_URL, params=params, headers=headers, timeout=(10, 60))
             response.raise_for_status()
             eco = (response.headers.get("X-Region-SID") or "").strip().lower()
             if eco and eco != sid:
@@ -132,8 +137,9 @@ def extrair_musicas_api(config):
             break
         except Exception as e:
             ultimo_erro = e
-            print(f"⚠️ API ({sid}) falhou na tentativa {tentativa}/3: {e}")
-            time.sleep(3 * tentativa)
+            print(f"⚠️ API ({sid}) falhou na tentativa {tentativa}/{TENTATIVAS_API}: {e}")
+            if tentativa < TENTATIVAS_API:
+                time.sleep(5 * tentativa)
     else:
         raise RuntimeError(f"API do Letras indisponível para a região '{sid}': {ultimo_erro}")
 
