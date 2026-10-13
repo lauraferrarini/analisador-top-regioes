@@ -423,12 +423,68 @@ def processar_regiao(regiao, config):
         
     return True
 
+# ---------------------------------------------------------------------------
+# NOVAS TENTATIVAS ATÉ O SITE ATUALIZAR
+# O Letras às vezes serve a lista de ontem como se fosse a de hoje (cache do
+# site/API). Quando isso acontece o relatório do dia sai "zerado" (ninguém mudou
+# de posição, nenhuma música nova). Pra cobrir isso, o robô roda de hora em hora
+# (ver o workflow) e, a cada rodada, só mexe nas regiões "pendentes":
+#   - as que ainda NÃO têm arquivo de hoje; ou
+#   - as que têm, mas com as MESMAS músicas nas MESMAS posições do dia anterior
+#     (sinal de que o site ainda não atualizou).
+# Região que já tem dados de hoje diferentes dos de ontem (do robô OU subidos por
+# você na mão) fica quieta, então esse mecanismo também protege o que você subir.
+# ---------------------------------------------------------------------------
+def _posicoes(dados):
+    return {chave: info.get("posicao") for chave, info in dados.items()}
+
+def regiao_pendente(regiao):
+    """True se a região ainda precisa ser (re)coletada hoje."""
+    data_hoje_iso = datetime.now().strftime("%Y-%m-%d")
+    pasta_regiao = os.path.join(PASTA_DADOS, regiao)
+    arq_hoje = os.path.join(pasta_regiao, f"dados_{data_hoje_iso}.json")
+
+    if not os.path.exists(arq_hoje):
+        return True
+
+    anteriores = sorted(
+        f for f in os.listdir(pasta_regiao)
+        if f.startswith("dados_") and f.endswith(".json") and f < f"dados_{data_hoje_iso}.json"
+    )
+    if not anteriores:
+        return False  # não há dia anterior pra comparar: não dá pra dizer que está parado
+
+    try:
+        with open(arq_hoje, "r", encoding="utf-8") as f:
+            hoje = json.load(f)
+        with open(os.path.join(pasta_regiao, anteriores[-1]), "r", encoding="utf-8") as f:
+            ontem = json.load(f)
+    except Exception:
+        return True  # arquivo ilegível: melhor coletar de novo
+
+    return _posicoes(hoje) == _posicoes(ontem)
+
+def regioes_pendentes():
+    return [r for r in REGIOES if regiao_pendente(r)]
+
 if __name__ == "__main__":
     try:
         # Define o alvo baseado no argumento do terminal (ex: "br", "latam", ou "all")
         alvo = sys.argv[1].lower() if len(sys.argv) > 1 else "all"
-        
-        if alvo == "br":
+
+        # Só lista quais regiões ainda estão pendentes hoje (sem coletar nada).
+        # É o que o workflow usa pra decidir se vale rodar nesta hora.
+        if alvo == "listar-pendentes":
+            print(" ".join(regioes_pendentes()))
+            sys.exit(0)
+
+        if alvo == "pendentes":
+            regioes_para_processar = regioes_pendentes()
+            if not regioes_para_processar:
+                print("✅ Todas as regiões já têm dados de hoje diferentes dos de ontem. Nada a fazer.")
+                sys.exit(0)
+            print(f"🔁 Regiões pendentes hoje: {', '.join(regioes_para_processar)}")
+        elif alvo == "br":
             regioes_para_processar = ["br", "kr"]
         elif alvo == "latam":
             regioes_para_processar = ["ar", "co", "sp", "es", "mx"]
@@ -437,7 +493,7 @@ if __name__ == "__main__":
         elif alvo == "all":
             regioes_para_processar = list(REGIOES.keys())
         else:
-            print(f"❌ Alvo desconhecido: '{alvo}'. Use all, br, latam ou uma região: {', '.join(REGIOES)}.")
+            print(f"❌ Alvo desconhecido: '{alvo}'. Use all, br, latam, pendentes ou uma região: {', '.join(REGIOES)}.")
             sys.exit(1)
 
         print(f"🚀 Iniciando módulo de análise para o alvo: {alvo.upper()}")
