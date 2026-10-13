@@ -2,15 +2,20 @@ name: Analisador Diário de Músicas
 
 on:
   schedule:
-    # Roda às 11:30 UTC (08:30 no Horário de Brasília) para o Brasil
-    - cron: '30 09 * * *'
-    # Roda às 13:11 UTC (10:11 no Horário de Brasília) para as outras regiões
-    - cron: '30 09 * * *'
+    # ⏰ A primeira rodada do dia é às 09:27 (Horário de Brasília), e depois roda de
+    # hora em hora (10:27, 11:27...) até 21:27 — a última antes das 22h.
+    # (UTC: 12:27 às 23:27 + 00:27 do dia seguinte.)
+    # A cada hora o robô só mexe no que ainda estiver "pendente": região sem dados
+    # de hoje, ou com dados IGUAIS aos de ontem (o site às vezes demora a
+    # atualizar a lista). Quando tudo já estiver atualizado, as rodadas seguintes
+    # terminam em segundos sem fazer nada. A partir das 22h BRT não roda mais.
+    - cron: '27 12-23 * * *'
+    - cron: '27 0 * * *'
   workflow_dispatch:
     # Adicionamos uma opção para você escolher o que rodar se apertar o botão manual
     inputs:
       regiao:
-        description: 'Qual bloco processar? (all, br, latam, ou uma região específica: br, kr, ar, co, sp, es, mx)'
+        description: 'Qual bloco processar? (all, pendentes, br, latam, ou uma região específica: br, kr, ar, co, sp, es, mx)'
         required: true
         default: 'all'
 
@@ -52,59 +57,50 @@ jobs:
       - name: Definir Alvo da Análise
         id: set_target
         run: |
-          # Checa qual foi o gatilho que iniciou o robô e define o alvo
+          # Manual ("Run workflow"): usa o que você escolheu (all força tudo).
+          # Agendado: só as regiões pendentes (sem dados de hoje ou iguais às de ontem).
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             echo "TARGET=${{ github.event.inputs.regiao }}" >> $GITHUB_ENV
-          elif [[ "${{ github.event.schedule }}" == "30 11 * * *" ]]; then
-            echo "TARGET=br" >> $GITHUB_ENV
-          elif [[ "${{ github.event.schedule }}" == "11 13 * * *" ]]; then
-            echo "TARGET=latam" >> $GITHUB_ENV
           else
-            echo "TARGET=all" >> $GITHUB_ENV
+            echo "TARGET=pendentes" >> $GITHUB_ENV
           fi
 
-      - name: Verificar se já rodou hoje (trava contra rodada manual)
+      - name: Verificar se vale rodar agora (trava)
         id: check_ja_rodou
         run: |
-          # ⚡ Se você já processou o dia de hoje na mão (subindo os arquivos
-          # coletados pela extensão via "Add files via upload", por exemplo,
-          # depois de um scrape automático ter vindo errado), esse robô não
-          # deve rodar sozinho no horário programado e pisar em cima do que
-          # você já corrigiu. Só vale pra disparo AGENDADO — se você aperta
-          # "Run workflow" na mão, sempre roda, sem essa trava (é o seu botão
-          # de forçar).
-          HOJE=$(date +%F)
-
-          case "${{ env.TARGET }}" in
-            br) REGIOES="br" ;;
-            latam) REGIOES="ar co sp es mx" ;;
-            all) REGIOES="br kr ar co sp es mx" ;;
-            *) REGIOES="${{ env.TARGET }}" ;;
-          esac
-
+          # ⚡ Só vale pra disparo AGENDADO. Se você aperta "Run workflow" na mão,
+          # sempre roda (é o seu botão de forçar).
+          #
+          # No agendado, o robô roda de hora em hora e pula quando:
+          #   1) está fora da janela das 09h às 22h (Horário de Brasília) — a partir das
+          #      22h não tenta mais; ou
+          #   2) NÃO há nenhuma região pendente. "Pendente" = sem dados de hoje, ou
+          #      com dados idênticos aos de ontem (site ainda não atualizou).
+          #      Região que você subiu na mão com dados diferentes dos de ontem
+          #      conta como resolvida e não é tocada.
           PULAR=false
           if [[ "${{ github.event_name }}" == "schedule" ]]; then
-            TODAS_JA_EXISTEM=true
-            for r in $REGIOES; do
-              if [[ ! -f "historico_dados/$r/dados_${HOJE}.json" ]]; then
-                TODAS_JA_EXISTEM=false
-                break
-              fi
-            done
-            if [[ "$TODAS_JA_EXISTEM" == "true" ]]; then
+            HORA=$((10#$(date +%H)))
+            if (( HORA >= 22 || HORA < 9 )); then
               PULAR=true
+              echo "⏭️  Fora da janela de tentativas (09h às 21h59 de Brasília; agora: ${HORA}h)."
+            else
+              PENDENTES=$(python analisador.py listar-pendentes)
+              if [[ -z "$PENDENTES" ]]; then
+                PULAR=true
+                echo "⏭️  Todas as regiões já têm dados de hoje diferentes dos de ontem. Nada a fazer."
+              else
+                echo "▶️  Regiões pendentes: $PENDENTES"
+              fi
             fi
+          else
+            echo "▶️  Rodada manual: $TARGET"
           fi
 
           echo "PULAR=$PULAR" >> $GITHUB_ENV
-          if [[ "$PULAR" == "true" ]]; then
-            echo "⏭️  Dia $HOJE já tem dados pra [$REGIOES] (rodada manual anterior). Pulando a rodada agendada."
-          else
-            echo "▶️  Seguindo com a rodada normal pra [$REGIOES]."
-          fi
 
       - name: Rodar script de análise
-        # Repassa o alvo (br, latam ou all) para o Python, e o User-Agent
+        # Repassa o alvo (pendentes, br, latam, all...) para o Python, e o User-Agent
         # via secret (Settings → Secrets and variables → Actions) — nunca
         # fica em texto puro no código nem aparece nos logs da run.
         if: env.PULAR != 'true'
