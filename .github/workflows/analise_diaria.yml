@@ -109,7 +109,9 @@ jobs:
         run: python analisador.py ${{ env.TARGET }}
 
       - name: Salvar alterações no GitHub (Git Puro)
-        if: env.PULAR != 'true'
+        # !cancelled(): salva mesmo se alguma região falhou (o job fica vermelho,
+        # mas as regiões que deram certo não se perdem)
+        if: ${{ !cancelled() && env.PULAR != 'true' }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
