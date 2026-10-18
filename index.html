@@ -257,9 +257,9 @@
         .clickable-row:hover { background-color: #fcfde7 !important; }
         .clickable-row.active-track { background-color: #f9fbc5; font-weight: 600; }
 
-        /* LINK "POR QUE AS POSIÇÕES SÃO DIFERENTES" — flutua sobre o <th> Artista, sem ocupar espaço no fluxo */
+        /* AVISO "POSIÇÕES PODEM DIVERGIR" — flutua logo abaixo da última célula da coluna Artista, sem ocupar espaço no fluxo */
         #tabela-wrap { position: relative; }
-        #link-explicacao-posicoes { position: absolute; bottom: calc(100% + 4px); left: 0; white-space: nowrap; font-size: 10px; font-style: italic; color: #888; cursor: pointer; line-height: 1; border-bottom: 1px dotted transparent; }
+        #link-explicacao-posicoes { position: absolute; top: calc(100% + 5px); left: 0; white-space: nowrap; font-size: 10px; font-style: italic; color: #888; cursor: pointer; line-height: 1; border-bottom: 1px dotted transparent; }
         #link-explicacao-posicoes:hover { color: #555; border-bottom-color: #888; }
         #modal-explicacao { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,0.45); align-items: center; justify-content: center; padding: 16px; }
         #modal-explicacao.aberto { display: flex; }
