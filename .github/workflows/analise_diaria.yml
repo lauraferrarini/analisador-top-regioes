@@ -2,14 +2,14 @@ name: Analisador Diário de Músicas
 
 on:
   schedule:
-    # ⏰ A primeira rodada do dia é às 09:00 (Horário de Brasília), e depois roda de
+    # ⏰ A primeira rodada do dia é às 07:00 (Horário de Brasília), e depois roda de
     # hora em hora (10:00, 11:00...) até 21:00 — a última antes das 22h.
     # (UTC: 12:00 às 23:00 + 00:00 do dia seguinte.)
     # A cada hora o robô só mexe no que ainda estiver "pendente": região sem dados
     # de hoje, ou com dados IGUAIS aos de ontem (o site às vezes demora a
     # atualizar a lista). Quando tudo já estiver atualizado, as rodadas seguintes
     # terminam em segundos sem fazer nada. A partir das 22h BRT não roda mais.
-    - cron: '0 12-23 * * *'
+    - cron: '0 10-23 * * *'
     - cron: '0 0 * * *'
   workflow_dispatch:
     # Adicionamos uma opção para você escolher o que rodar se apertar o botão manual
